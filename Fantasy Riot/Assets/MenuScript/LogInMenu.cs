@@ -24,7 +24,7 @@ public class LogInMenu : MonoBehaviour
         yield return www;                                               //return the www info page but continue the program
         if (www.text[0] == '0')                                        //if the contact with the page was succesfull
         {
-            DBManager.username = insertname.text;                    //nel file DVManager insert the username and the score
+            DBManager.username = insertname.text;                    //in the file DVManager insert the username and the score
             DBManager.score = int.Parse(www.text.Split('\t')[1]);
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }

@@ -7,13 +7,13 @@ public class RegisterMenu : MonoBehaviour
 {
     public InputField insertname;                 //User name
     public InputField insertpassword;         //user password
-    
+    public InputField insertpassword2;      //for password check
+
     public Button submitButton;             //Submit button
 
     public void CallRegister()              //function that call the function Register
     {
         StartCoroutine(Register());              //StarCoroutine make sure that the user cant change page when the botton is clicked
-        //CallLogin();
     }
     IEnumerator Register()                       //this function Register the account in the DB
     {
@@ -26,6 +26,10 @@ public class RegisterMenu : MonoBehaviour
         if (www.text == "0")                                        //if the contact with the page was succesfull
         {
             Debug.Log("User created.");
+            //log the user
+            DBManager.username = insertname.text;
+            DBManager.score = 0;
+            Debug.Log("User logged");
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
         else //if it was not
@@ -36,7 +40,9 @@ public class RegisterMenu : MonoBehaviour
     }
     public void VerifyInputs() //check if the information are accceptable
     {
-        submitButton.interactable = (insertname.text.Length >= 8 && insertpassword.text.Length >= 8);
+        submitButton.interactable = ((insertname.text.Length >= 8 && insertpassword.text.Length >= 8 && insertpassword.text.Length >=8) 
+                                    && insertpassword.text == insertpassword2.text);
+
     }
-    
+
 }

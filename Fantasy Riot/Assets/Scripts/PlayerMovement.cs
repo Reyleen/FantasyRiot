@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public Rigidbody2D rb;
-    private Joystick joystick;
+    public Joystick joystick;
     private Animator anim;
     private bool playerMoving;
     private Vector2 lastMove;
@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        joystick = FindObjectOfType<FixedJoystick>();
 
         if (!playerExists)
         {

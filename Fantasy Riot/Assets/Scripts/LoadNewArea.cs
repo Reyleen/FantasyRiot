@@ -5,12 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoadNewArea : MonoBehaviour
 {
-    private int newScene;
 
     // Start is called before the first frame update
     void Start()
     {
-        newScene = SceneManager.GetActiveScene().buildIndex + 1;
+        
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class LoadNewArea : MonoBehaviour
         
         if(other.gameObject.name == "Player")
         {
-            SceneManager.LoadScene(newScene);
+            SceneManager.LoadScene("CaveTutorial");
         }
     
     }

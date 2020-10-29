@@ -82,12 +82,14 @@ public class PlayerMovement : MonoBehaviour
         botAnim.SetBool("PlayerMoving", playerMoving);
         botAnim.SetFloat("LastMoveX", lastMove.x);
         botAnim.SetFloat("LastMoveY", lastMove.y);
+        botAnim.SetFloat("AimX", aim.x);
+        botAnim.SetFloat("AimY", aim.y);
+        botAnim.SetBool("IsShooting", isShooting);
+
 
         topAnim.SetFloat("MoveX", move.x);
         topAnim.SetFloat("MoveY", move.y);
         topAnim.SetBool("PlayerMoving", playerMoving);
-        topAnim.SetFloat("LastMoveX", lastMove.x);
-        topAnim.SetFloat("LastMoveY", lastMove.y);
 
         topAnim.SetFloat("AimX", aim.x);
         topAnim.SetFloat("AimY", aim.y);

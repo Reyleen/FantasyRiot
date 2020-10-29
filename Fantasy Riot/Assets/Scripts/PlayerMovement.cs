@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public Rigidbody2D rb;
     public Joystick joystick;
-    private Animator anim;
+    public Animator topAnim;
+    public Animator botAnim;
     private bool playerMoving;
     private Vector2 lastMove;
     Vector2 move;
@@ -25,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
 
         if (!playerExists)
         {
@@ -72,11 +72,16 @@ public class PlayerMovement : MonoBehaviour
             Destroy(arrow, 2.0f);
         }
 
-        anim.SetFloat("MoveX", move.x);
-        anim.SetFloat("MoveY", move.y);
-        anim.SetBool("PlayerMoving", playerMoving);
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
+        botAnim.SetFloat("MoveX", move.x);
+        botAnim.SetFloat("MoveY", move.y);
+        botAnim.SetBool("PlayerMoving", playerMoving);
+        botAnim.SetFloat("LastMoveX", lastMove.x);
+        botAnim.SetFloat("LastMoveY", lastMove.y);
 
+        topAnim.SetFloat("MoveX", move.x);
+        topAnim.SetFloat("MoveY", move.y);
+        topAnim.SetBool("PlayerMoving", playerMoving);
+        topAnim.SetFloat("LastMoveX", lastMove.x);
+        topAnim.SetFloat("LastMoveY", lastMove.y);
     }
 }

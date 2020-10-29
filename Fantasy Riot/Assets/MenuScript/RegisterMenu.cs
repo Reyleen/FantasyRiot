@@ -17,15 +17,19 @@ public class RegisterMenu : MonoBehaviour
     }
     IEnumerator Register()                       //this function Register the account in the DB
     {
-        //WWWForm create an object "form" that can be used to interact whit DB
+        //WWWForm create an object "form" that can be used to interact whit the DB
         WWWForm form = new WWWForm();
         form.AddField("name", insertname.text);                               //adding the name field
         form.AddField("password", insertpassword.text);                           //adding the password field
-        WWW www = new WWW("http://localhost/sqlconnect/register.php",form);                      //WWW create a connection with the page wher the php page is
-        yield return www;                                               //return the www info page but continue the program
+        WWW www = new WWW("http://localhost/sqlconnect/register.php",form);                      //WWW create a connection with the page where the php page is located
+        Debug.Log("insert name =" + insertname.text);
+        Debug.Log("insert password =" + insertpassword.text);
+        yield return www;
+        Debug.Log("error =" + www.text);
+        //return the www info page but continue the program
         if (www.text == "0")                                        //if the contact with the page was succesfull
         {
-            Debug.Log("User created.");
+            Debug.Log("User created."); 
             //log the user
             DBManager.username = insertname.text;
             DBManager.score = 0;
@@ -38,6 +42,7 @@ public class RegisterMenu : MonoBehaviour
         }
 
     }
+
     public void VerifyInputs() //check if the information are accceptable
     {
         submitButton.interactable = ((insertname.text.Length >= 8 && insertpassword.text.Length >= 8 && insertpassword.text.Length >=8) 

@@ -21,7 +21,10 @@ public class LogInMenu : MonoBehaviour
         form.AddField("name", insertname.text);                               //adding the name field
         form.AddField("password", insertpassword.text);                           //adding the password field
         WWW www = new WWW("http://localhost/sqlconnect/login.php", form);     //WWW create a connection with the page wher the php page is
+        Debug.Log("insert name =" + insertname.text);
+        Debug.Log("insert password =" + insertpassword.text);
         yield return www;                                               //return the www info page but continue the program
+        Debug.Log("error =" + www.text[0]);
         if (www.text[0] == '0')                                        //if the contact with the page was succesfull
         {
             DBManager.username = insertname.text;                    //in the file DVManager insert the username and the score

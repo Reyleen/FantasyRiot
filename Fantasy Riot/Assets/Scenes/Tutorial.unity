@@ -1194,7 +1194,7 @@ PrefabInstance:
     - target: {fileID: 7845198018459084995, guid: 7aafe8cdb64455c439f5231793921c3c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7845198018459084995, guid: 7aafe8cdb64455c439f5231793921c3c,
         type: 3}
@@ -1498,7 +1498,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -1999507926866156949, guid: f32772fe659e8b64f88e4fc271b5c0e9,
+  m_Sprite: {fileID: 6367827985848267350, guid: 9aaa9a9fbeac62f498fd7066ee4bffc2,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   joystick: {fileID: 1047008376}
   topAnim: {fileID: 817775612}
   botAnim: {fileID: 1164296610}
-  arrowPrefab: {fileID: 2744840275060577320, guid: e654fd6a680aedf49bcdee43d199bd31,
+  arrowPrefab: {fileID: 6928633610588005725, guid: e654fd6a680aedf49bcdee43d199bd31,
     type: 3}
   aimStick: {fileID: 92078886}
   fireRate: 0.5

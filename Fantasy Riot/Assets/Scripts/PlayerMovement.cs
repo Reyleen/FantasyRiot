@@ -69,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
 
         if((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
         {
-            isShooting = true;
             nextFire = Time.time + fireRate;
             GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
             arrow.GetComponent<Rigidbody2D>().velocity = aim * 10;
@@ -77,11 +76,17 @@ public class PlayerMovement : MonoBehaviour
             Destroy(arrow, 2.0f);
         }
 
+        if (aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f)
+        {
+            isShooting = true;
+        }
+
         botAnim.SetFloat("MoveX", move.x);
         botAnim.SetFloat("MoveY", move.y);
         botAnim.SetBool("PlayerMoving", playerMoving);
         botAnim.SetFloat("LastMoveX", lastMove.x);
         botAnim.SetFloat("LastMoveY", lastMove.y);
+
         botAnim.SetFloat("AimX", aim.x);
         botAnim.SetFloat("AimY", aim.y);
         botAnim.SetBool("IsShooting", isShooting);
@@ -90,6 +95,8 @@ public class PlayerMovement : MonoBehaviour
         topAnim.SetFloat("MoveX", move.x);
         topAnim.SetFloat("MoveY", move.y);
         topAnim.SetBool("PlayerMoving", playerMoving);
+        topAnim.SetFloat("LastMoveX", lastMove.x);
+        topAnim.SetFloat("LastMoveY", lastMove.y);
 
         topAnim.SetFloat("AimX", aim.x);
         topAnim.SetFloat("AimY", aim.y);

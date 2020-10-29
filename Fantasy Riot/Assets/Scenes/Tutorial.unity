@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1488fa19ca2ab3c458b007ed4448cfe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 817775608}
+  player: {fileID: 2079201756}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -941,7 +941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817775608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1367.908}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2079201757}
@@ -1407,7 +1407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 194721390}
   HPText: {fileID: 1998607107}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 2079201761}
 --- !u!1 &1164296607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164296607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1367.908}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2079201757}
@@ -1933,6 +1933,7 @@ GameObject:
   - component: {fileID: 2079201760}
   - component: {fileID: 2079201759}
   - component: {fileID: 2079201758}
+  - component: {fileID: 2079201761}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1948,7 +1949,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079201756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7478306, y: -1.6488084, z: -1367.908}
+  m_LocalPosition: {x: -1.7478306, y: -1.6488084, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 817775609}
@@ -1971,6 +1972,8 @@ MonoBehaviour:
   speed: 5
   rb: {fileID: 2079201759}
   joystick: {fileID: 1047008376}
+  topAnim: {fileID: 817775612}
+  botAnim: {fileID: 1164296610}
   arrowPrefab: {fileID: 2744840275060577320, guid: e654fd6a680aedf49bcdee43d199bd31,
     type: 3}
   aimStick: {fileID: 92078886}
@@ -2022,3 +2025,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5658132, y: 0.57742655}
   m_EdgeRadius: 0
+--- !u!114 &2079201761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079201756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b394f4b74bbb345bcee3752bead714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMaxHealth: 50
+  playerCurrentHealth: 0

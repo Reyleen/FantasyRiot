@@ -13,9 +13,11 @@ public class PlayerMovement : MonoBehaviour
     public Animator topAnim;
     public Animator botAnim;
     private bool playerMoving;
+    private bool isShooting;
     private Vector2 lastMove;
     Vector2 move;
     private static bool playerExists;
+
 
     public GameObject arrowPrefab;
     public Joystick aimStick;
@@ -49,6 +51,8 @@ public class PlayerMovement : MonoBehaviour
     
     void FixedUpdate() {
         playerMoving = false;
+        isShooting = false;
+
         if (move.x > 0.5f || move.x < -0.5f )
         {
             rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
@@ -65,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
         if((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
         {
+            isShooting = true;
             nextFire = Time.time + fireRate;
             GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
             arrow.GetComponent<Rigidbody2D>().velocity = aim * 10;
@@ -83,5 +88,9 @@ public class PlayerMovement : MonoBehaviour
         topAnim.SetBool("PlayerMoving", playerMoving);
         topAnim.SetFloat("LastMoveX", lastMove.x);
         topAnim.SetFloat("LastMoveY", lastMove.y);
+
+        topAnim.SetFloat("AimX", aim.x);
+        topAnim.SetFloat("AimY", aim.y);
+        topAnim.SetBool("IsShooting", isShooting);
     }
 }

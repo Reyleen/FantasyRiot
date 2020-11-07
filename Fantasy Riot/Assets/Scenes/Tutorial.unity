@@ -1586,10 +1586,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8355547531806405103, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: -8286770758860180944, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: -4877128448726509252, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: -3261249087769788112, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
+      objectReference: {fileID: 0}
     - target: {fileID: -2584353391407832932, guid: c8f268cd8ffefec41bd526ed8d825f0f,
         type: 3}
       propertyPath: m_Name
       value: TutorialMap
+      objectReference: {fileID: 0}
+    - target: {fileID: -2584353391407832932, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 7845198018459084995, guid: c8f268cd8ffefec41bd526ed8d825f0f,
         type: 3}
@@ -1655,6 +1680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212469488359595842, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: c8f268cd8ffefec41bd526ed8d825f0f,

@@ -27,7 +27,17 @@ public class HurtEnemy : MonoBehaviour
             Destroy(gameObject);
 
         } 
+        
+        if(other.gameObject.tag == "Player")
+        {
+
+        } else
+        {
+            Destroy(gameObject);
+        }
 
         
+
+
     }
 }

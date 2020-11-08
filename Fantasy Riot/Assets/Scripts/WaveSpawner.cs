@@ -4,10 +4,10 @@ using System.Security.Cryptography;
 using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
-{ 
-    public enum SpawnState (SPAWNING, WAITING, COUNTING);
+{
+    public enum SpawnState { SPAWNING, WAITING, COUNTING };
 
-    [System Serializable]
+    [System.Serializable]
     public class Wave
     {
         public string name;
@@ -21,8 +21,8 @@ public class WaveSpawner : MonoBehaviour
 
     public Transform[] spawnPoints;
 
-    public float timeBetweenWaves = 10f;
-    private float waveCountdown;
+    public float timeBetweenWaves = 5f;
+    public float waveCountdown;
 
     private float searchCountdown = 1f;
 
@@ -51,11 +51,11 @@ public class WaveSpawner : MonoBehaviour
         {
             if(state != SpawnState.SPAWNING)
             {
-                startCoroutine(SpawnWave(waves[nextWave]));
+                StartCoroutine(SpawnWave(waves[nextWave]));
             } 
     } else
         {
-            waveCountdown == timeBetweenWaves.deltaTime;
+            waveCountdown -= Time.deltaTime;
         }
     }
 
@@ -77,8 +77,10 @@ public class WaveSpawner : MonoBehaviour
     bool EnemyIsAlive()
     {
         searchCountdown -= Time.deltaTime;
+
         if (searchCountdown <= 0f)
         {
+            searchCountdown = 2f;
             if (GameObject.FindGameObjectWithTag("Enemy") == null)
             {
                 return false;
@@ -91,10 +93,10 @@ public class WaveSpawner : MonoBehaviour
     {
         state = SpawnState.SPAWNING;
 
-        for(int i = 0; i< _wave.count; i++)
+        for(int i = 0; i < _wave.count; i++)
         {
             SpawnEnemy(_wave.enemy);
-            yield return new WaitForSeconds(1f / _wave.rate);
+            yield return new WaitForSeconds(1f /_wave.rate);
         }
 
         state = SpawnState.WAITING;
@@ -104,7 +106,7 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnEnemy (Transform _enemy)
     {
-        Transform _sp = spawnPoint[Random.Range(0, spawnPoints.length)];
+        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(_enemy, _sp.transform.position, _sp.transform.rotation);
     }
 }

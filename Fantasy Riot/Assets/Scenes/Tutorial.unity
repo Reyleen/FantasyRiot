@@ -187,6 +187,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &94253649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+    type: 3}
+  m_PrefabInstance: {fileID: 496477256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &135159955
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +547,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 427416160}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1581772057}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
@@ -694,7 +700,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 496477256}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 94253649}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
@@ -1661,6 +1667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1360957107}
   PauseButton: {fileID: 135159955}
+  MoveJoystick: {fileID: 94253649}
+  AimJoystik: {fileID: 1581772057}
 --- !u!114 &1128714190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,6 +2132,12 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: c8f268cd8ffefec41bd526ed8d825f0f,
     type: 3}
+--- !u!1 &1581772057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+    type: 3}
+  m_PrefabInstance: {fileID: 427416160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1601262666
 GameObject:
   m_ObjectHideFlags: 0

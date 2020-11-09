@@ -24,6 +24,7 @@ public class PickUpGold : MonoBehaviour
         if(other.gameObject.name == "Player")
         {
             theGM.AddMoney(value);
+            SoundsManager.PlaySound("coinSound");
             Destroy(gameObject);
         }
     }

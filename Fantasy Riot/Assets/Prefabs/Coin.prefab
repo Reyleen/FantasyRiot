@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 631694930291664573}
   - component: {fileID: 631694930904801400}
   m_Layer: 0
-  m_Name: Coin 1
+  m_Name: Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   theGM: {fileID: 0}
+  coin: {fileID: 8300000, guid: 3904be9a7484c52438942df96eddc27a, type: 3}
 --- !u!95 &631694930904801400
 Animator:
   serializedVersion: 3

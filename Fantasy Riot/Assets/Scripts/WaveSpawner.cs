@@ -39,6 +39,7 @@ public class WaveSpawner : MonoBehaviour
         {
             if (!EnemyIsAlive())
             {
+                WaveCompleted();
                 return;
             }
             else
@@ -47,16 +48,18 @@ public class WaveSpawner : MonoBehaviour
             }
         }
 
-        if(waveCountdown <= 0)
-        {
-            if(state != SpawnState.SPAWNING)
+
+            if (waveCountdown <= 0)
             {
-                StartCoroutine(SpawnWave(waves[nextWave]));
-            } 
-    } else
-        {
-            waveCountdown -= Time.deltaTime;
-        }
+                if (state != SpawnState.SPAWNING)
+                {
+                    StartCoroutine(SpawnWave(waves[nextWave]));
+                }
+            }
+            else
+            {
+                waveCountdown -= Time.deltaTime;
+            }
     }
 
     void WaveCompleted()

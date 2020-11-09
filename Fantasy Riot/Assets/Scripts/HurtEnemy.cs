@@ -7,10 +7,12 @@ public class HurtEnemy : MonoBehaviour
 {
     public int damageToGive;
     public Rigidbody2D rb;
+    private bool hasHit = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,8 +26,9 @@ public class HurtEnemy : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
-            Destroy(gameObject);
-
+            hasHit = true;
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
         } 
         
         if(other.gameObject.tag == "Player")
@@ -33,11 +36,13 @@ public class HurtEnemy : MonoBehaviour
 
         } else
         {
-            Destroy(gameObject);
-        }
-
-        
+            hasHit = true;
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
+        }  
 
 
     }
+
 }
+

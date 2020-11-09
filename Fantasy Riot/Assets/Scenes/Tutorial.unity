@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 135159958}
   - component: {fileID: 135159957}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PauseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 194721389}
   - component: {fileID: 194721390}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1163,7 +1163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 70}
+  m_AnchoredPosition: {x: -221, y: 141}
   m_SizeDelta: {x: 198.84988, y: 54.871063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811433549
@@ -1958,7 +1958,7 @@ GameObject:
   - component: {fileID: 1360957110}
   - component: {fileID: 1360957109}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PausePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1982,8 +1982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.5, y: 0.79000854}
+  m_SizeDelta: {x: 10.068054, y: 8.833252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1360957109
 MonoBehaviour:
@@ -2358,7 +2358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.8, y: -66}
+  m_AnchoredPosition: {x: 163, y: 140}
   m_SizeDelta: {x: 255.51373, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805853075

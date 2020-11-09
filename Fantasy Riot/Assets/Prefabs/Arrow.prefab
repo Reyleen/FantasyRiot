@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageToGive: 5
   rb: {fileID: -1197479298552521542}
+  depth: 1
 --- !u!61 &736743180130446620
 BoxCollider2D:
   m_ObjectHideFlags: 0

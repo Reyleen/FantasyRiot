@@ -7,12 +7,12 @@ public class HurtEnemy : MonoBehaviour
 {
     public int damageToGive;
     public Rigidbody2D rb;
-    private bool hasHit = false;
+    private bool hasHit;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        hasHit = false;
     }
 
     // Update is called once per frame
@@ -29,9 +29,10 @@ public class HurtEnemy : MonoBehaviour
             hasHit = true;
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
+            this.transform.parent = other.transform;
         } 
         
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin")
         {
 
         } else

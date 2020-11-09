@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour
 {
     public int MaxHealth;
     public int CurrentHealth;
+    public GameObject coin;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +21,7 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (CurrentHealth <= 0)
         {
+            Instantiate(coin, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

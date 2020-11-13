@@ -48,12 +48,14 @@ public class PlayerMovement : MonoBehaviour
         aim.x = aimStick.Horizontal;
         aim.y = aimStick.Vertical;
     }
-    
-    void FixedUpdate() {
+
+
+    void FixedUpdate()
+    {
         playerMoving = false;
         isShooting = false;
 
-        if (move.x > 0.5f || move.x < -0.5f )
+        if (move.x > 0.5f || move.x < -0.5f)
         {
             rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
             playerMoving = true;
@@ -67,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
             lastMove = new Vector2(0f, move.y);
         }
 
-        if((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
+        if ((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
@@ -104,5 +106,4 @@ public class PlayerMovement : MonoBehaviour
         topAnim.SetFloat("AimY", aim.y);
         topAnim.SetBool("IsShooting", isShooting);
     }
-
 }

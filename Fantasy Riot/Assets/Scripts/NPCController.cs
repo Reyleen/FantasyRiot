@@ -19,6 +19,10 @@ public class NPCController : MonoBehaviour
     public bool shouldMove = false;
     public bool tackled = false;
 
+    public Animator anim;
+    private Vector2 lastMove;
+    public bool isMoving = false;
+
     [Header("References:")]
     [Space]
     public Rigidbody2D npcRB;
@@ -33,14 +37,19 @@ public class NPCController : MonoBehaviour
                 Move();
             }
             else
+            {
                 movementSpeed = 0.0f;
+                isMoving = false;
+            }
         }
         else
         {
             movementSpeed = 0.0f;
             movementDirection = Vector2.zero;
             npcRB.velocity = Vector2.zero;
+            isMoving = false;
         }
+        anim.SetBool("IsMoving", isMoving);
     }
 
     void ProcessAutoMovement()
@@ -57,20 +66,33 @@ public class NPCController : MonoBehaviour
                 {
                     case 0:
                         movementDirection.x += 1.0f;
+                        lastMove = new Vector2(movementDirection.x, 0f);
+                        isMoving = true;
                         break;
                     case 1:
                         movementDirection.x -= 1.0f;
+                        lastMove = new Vector2(movementDirection.x, 0f);
+                        isMoving = true;
                         break;
                     case 2:
                         movementDirection.y += 1.0f;
+                        lastMove = new Vector2(0f, movementDirection.y);
+                        isMoving = true;
                         break;
                     case 3:
                         movementDirection.y -= 1.0f;
+                        lastMove = new Vector2(0f, movementDirection.y);
+                        isMoving = true;
                         break;
                     default:
                         movementDirection = Vector2.zero;
+                        isMoving = false;
                         break;
                 }
+                anim.SetFloat("MoveX", movementDirection.x);
+                anim.SetFloat("MoveY", movementDirection.y);
+                anim.SetFloat("LastmoveX", lastMove.x);
+                anim.SetFloat("LastmoveY", lastMove.y);
             }
 
             movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
@@ -78,6 +100,7 @@ public class NPCController : MonoBehaviour
         }
         else
             movementFrequenceCounter += movementFrequence;
+
     }
 
     void Move()
@@ -108,6 +131,7 @@ public class NPCController : MonoBehaviour
         {
             Vector2 positionRelative = transform.InverseTransformPoint(collision.transform.position);
             movementDirection = positionRelative;
+            isMoving = false;
         }
     }
 

@@ -18,7 +18,7 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   // If the distance from the target is more than 2 reach him until you are in that distance
-        if(Vector2.Distance(transform.position, target.position) > 2)
+        if(Vector2.Distance(transform.position, target.position) > 0)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }

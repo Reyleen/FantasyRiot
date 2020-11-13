@@ -81,6 +81,8 @@ public class PlayerMovement : MonoBehaviour
             isShooting = true;
         }
 
+
+
         botAnim.SetFloat("MoveX", move.x);
         botAnim.SetFloat("MoveY", move.y);
         botAnim.SetBool("PlayerMoving", playerMoving);

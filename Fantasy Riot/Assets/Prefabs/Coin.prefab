@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -3042775341902697147, guid: 081f8fd9403686f489536fa76ea5f603,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -137,7 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   theGM: {fileID: 0}
-  coin: {fileID: 8300000, guid: 3904be9a7484c52438942df96eddc27a, type: 3}
 --- !u!95 &631694930904801400
 Animator:
   serializedVersion: 3

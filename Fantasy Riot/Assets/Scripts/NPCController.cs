@@ -93,10 +93,11 @@ public class NPCController : MonoBehaviour
                 anim.SetFloat("MoveY", movementDirection.y);
                 anim.SetFloat("LastmoveX", lastMove.x);
                 anim.SetFloat("LastmoveY", lastMove.y);
+                anim.SetBool("IsMoving", isMoving);
             }
 
             movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
-            movementDirection.Normalize();
+            movementDirection.Normalize(); 
         }
         else
             movementFrequenceCounter += movementFrequence;
@@ -118,6 +119,7 @@ public class NPCController : MonoBehaviour
                 shouldMove = false;
                 npcRB.velocity = Vector2.zero;
                 movementSpeed = 0.0f;
+                isMoving = false;
             }
         }
     }

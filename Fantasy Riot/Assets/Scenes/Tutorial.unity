@@ -2051,7 +2051,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2544473475222147465, guid: 9efc17173decaf0488bcec0113b0f228,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2246,7 +2246,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008101314, y: -0.030186702}
+  m_Offset: {x: 0.008101314, y: -0.098662905}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2257,7 +2257,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19848031, y: 0.2596266}
+  m_Size: {x: 0.19848031, y: 0.12267418}
   m_EdgeRadius: 0
 --- !u!50 &1358240440
 Rigidbody2D:
@@ -2271,7 +2271,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -2293,10 +2293,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freeMoving: 1
-  movementFrequenceThreshold: 50
+  movementFrequenceThreshold: 500
   movementFrequence: 1
   movementBaseSpeed: 1
-  movementDuration: 4
+  movementDuration: 1
   movementDirection: {x: 0, y: 0}
   movementSpeed: 0
   movementFrequenceCounter: 0
@@ -2344,7 +2344,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 6177166511900065722, guid: db9b79877132fe24382fe6b3c7d75317,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

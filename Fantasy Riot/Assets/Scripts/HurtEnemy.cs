@@ -31,7 +31,7 @@ public class HurtEnemy : MonoBehaviour
             this.transform.parent = other.transform;
         } 
         
-        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin")
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC")
         {
 
         } else

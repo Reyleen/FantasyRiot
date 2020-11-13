@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1360957107}
-  PauseButton: {fileID: 135159955}
+  UHD: {fileID: 102817866}
   MoveJoystick: {fileID: 94253649}
   AimJoystik: {fileID: 1581772057}
 --- !u!114 &1128714190
@@ -2051,7 +2051,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2544473475222147465, guid: 9efc17173decaf0488bcec0113b0f228,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2224,8 +2224,8 @@ GameObject:
   - component: {fileID: 1358240442}
   - component: {fileID: 1358240441}
   - component: {fileID: 1358240440}
-  - component: {fileID: 1358240439}
   - component: {fileID: 1358240444}
+  - component: {fileID: 1358240439}
   m_Layer: 0
   m_Name: Pipo
   m_TagString: NPC
@@ -2244,9 +2244,9 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008101314, y: -0.098662905}
+  m_Offset: {x: 0.0036994405, y: -0.087886065}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2257,7 +2257,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19848031, y: 0.12267418}
+  m_Size: {x: 0.1720232, y: 0.129426}
   m_EdgeRadius: 0
 --- !u!50 &1358240440
 Rigidbody2D:
@@ -2365,7 +2365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358240438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35040164, y: -0.8971733, z: 0}
+  m_LocalPosition: {x: -0.289, y: -0.712, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2567,6 +2567,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251951257646001591, guid: c8f268cd8ffefec41bd526ed8d825f0f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9212469488359595842, guid: c8f268cd8ffefec41bd526ed8d825f0f,
         type: 3}

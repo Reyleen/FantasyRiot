@@ -6,17 +6,23 @@ public class PickUpGold : MonoBehaviour
 {
     public int value;
     public GoldManager theGM;
+    private Transform target;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
     {
         theGM = FindObjectOfType<GoldManager>();
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Vector2.Distance(transform.position, target.position) < 3)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

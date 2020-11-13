@@ -8,7 +8,7 @@ public class ZProvaEnemy : MonoBehaviour
 
     private Transform target;
     private int wavepointIndex = 0;
-
+    public Rigidbody2D rb;
     private Transform player;
 
     // Start is called before the first frame update
@@ -22,6 +22,14 @@ public class ZProvaEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rb.velocity = Vector2.zero;
+
+        if (Vector2.Distance(transform.position, player.position) < 3)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        }
+        else
+        {
             Vector2 dir = target.position - transform.position;
             transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
@@ -29,7 +37,7 @@ public class ZProvaEnemy : MonoBehaviour
             {
                 GetNextWaypoint();
             }
-
+        }
     }
 
     void GetNextWaypoint()

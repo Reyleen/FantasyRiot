@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   theGM: {fileID: 0}
+  speed: 4
 --- !u!95 &631694930904801400
 Animator:
   serializedVersion: 3

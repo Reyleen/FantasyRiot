@@ -54,36 +54,35 @@ public class PlayerMovement : MonoBehaviour
     {
         playerMoving = false;
         isShooting = false;
+        rb.velocity = Vector2.zero;
 
-        if (move.x > 0.5f || move.x < -0.5f)
-        {
-            rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
-            playerMoving = true;
-            lastMove = new Vector2(move.x, 0f);
-        }
+            if (move.x > 0.5f || move.x < -0.5f)
+            {
+                rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
+                playerMoving = true;
+                lastMove = new Vector2(move.x, 0f);
+            }
 
-        if (move.y > 0.5f || move.y < -0.5f)
-        {
-            rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
-            playerMoving = true;
-            lastMove = new Vector2(0f, move.y);
-        }
+            if (move.y > 0.5f || move.y < -0.5f)
+            {
+                rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
+                playerMoving = true;
+                lastMove = new Vector2(0f, move.y);
+            }
 
-        if ((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
-        {
-            nextFire = Time.time + fireRate;
-            GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
-            arrow.GetComponent<Rigidbody2D>().velocity = aim * 10;
-            arrow.transform.Rotate(0.0f, 0.0f, Mathf.Atan2(aim.y, aim.x) * Mathf.Rad2Deg);
-            Destroy(arrow, 2.0f);
-        }
+            if ((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+                GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
+                arrow.GetComponent<Rigidbody2D>().velocity = aim * 10;
+                arrow.transform.Rotate(0.0f, 0.0f, Mathf.Atan2(aim.y, aim.x) * Mathf.Rad2Deg);
+                Destroy(arrow, 2.0f);
+            }
 
-        if (aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f)
-        {
-            isShooting = true;
-        }
-
-
+            if (aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f)
+            {
+                isShooting = true;
+            }         
 
         botAnim.SetFloat("MoveX", move.x);
         botAnim.SetFloat("MoveY", move.y);

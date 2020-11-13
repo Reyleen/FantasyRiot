@@ -12,7 +12,7 @@ public class GoldManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(PlayerPrefs.HasKey("CurrentMoney"))
+        if (PlayerPrefs.HasKey("CurrentMoney"))
         {
             currentGold = PlayerPrefs.GetInt("CurrentMoney");
         } else

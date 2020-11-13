@@ -104,4 +104,5 @@ public class PlayerMovement : MonoBehaviour
         topAnim.SetFloat("AimY", aim.y);
         topAnim.SetBool("IsShooting", isShooting);
     }
+
 }

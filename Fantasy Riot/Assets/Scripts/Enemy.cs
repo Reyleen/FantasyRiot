@@ -13,7 +13,6 @@ public class Enemy : MonoBehaviour
     private Animator anim;
 
     public bool isAttacking = false;
-    public float attackRange;
     private float lastAttackTime;
     public float attackDelay;
 
@@ -31,12 +30,12 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         rb.velocity = Vector2.zero;
-        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-        isAttacking = false;
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (Vector2.Distance(transform.position, player.position) < 3)
         {
-            if (distanceToPlayer < attackRange)
+            isAttacking = false;
+            if (distanceToPlayer < 1)
             {
                 Vector2 dir = player.position - transform.position;
                 if (Time.time > lastAttackTime + attackDelay)

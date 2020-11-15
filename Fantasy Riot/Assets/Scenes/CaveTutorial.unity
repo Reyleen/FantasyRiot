@@ -257,7 +257,7 @@ Transform:
   - {fileID: 128369682}
   - {fileID: 667984522}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &660396699
 PrefabInstance:
@@ -304,7 +304,7 @@ PrefabInstance:
     - target: {fileID: -109832423787976917, guid: 802b9fd0d97597244bf9c230ca63c6e5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -109832423787976917, guid: 802b9fd0d97597244bf9c230ca63c6e5,
         type: 3}
@@ -430,17 +430,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - name: Wave 1
-    enemy: {fileID: 5127042976511034227, guid: 436350c27e413024090d61e114d99deb, type: 3}
+    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
     count: 2
     rate: 3
   - name: Wave 2
-    enemy: {fileID: 5127042976511034227, guid: 436350c27e413024090d61e114d99deb, type: 3}
+    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
     count: 4
     rate: 2
   - name: Wave 3
-    enemy: {fileID: 5127042976511034227, guid: 436350c27e413024090d61e114d99deb, type: 3}
+    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
     count: 6
     rate: 2
+  nextWave: 0
   spawnPoints:
   - {fileID: 115111370}
   - {fileID: 1341736268}
@@ -460,7 +461,7 @@ Transform:
   - {fileID: 115111370}
   - {fileID: 1341736268}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994017756
 GameObject:
@@ -586,7 +587,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617575665
 GameObject:
@@ -629,5 +630,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

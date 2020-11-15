@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueHolder : MonoBehaviour
 {
-    public string dialogue;
+    private string dialogue;
     private DialogueManager dMan;
     public bool click = false;
 
@@ -12,6 +12,7 @@ public class DialogueHolder : MonoBehaviour
     void Start()
     {
         dMan = FindObjectOfType<DialogueManager>();
+        dialogue = "MEOW!!!\n \nHi human, welcome in the tutorial. You know how to interact and move!!\nI- I hear strange noises in the cave, I feel there is something creepy in there..";
     }
 
     // Update is called once per frame

@@ -12,6 +12,13 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private Animator anim;
 
+    public bool isAttacking = false;
+    public float attackRange;
+    private float lastAttackTime;
+    public float attackDelay;
+
+    public int damageToGive;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +31,33 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         rb.velocity = Vector2.zero;
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        isAttacking = false;
 
         if (Vector2.Distance(transform.position, player.position) < 3)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            if (distanceToPlayer < attackRange)
+            {
+                Vector2 dir = player.position - transform.position;
+                if (Time.time > lastAttackTime + attackDelay)
+                {
+                    rb.velocity = Vector2.zero;
+                    lastAttackTime = Time.time;
+                    player.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+                    isAttacking = true;
+                }
+                anim.SetFloat("AttX", dir.x);
+                anim.SetFloat("AttY", dir.y);
+                anim.SetBool("isAttacking", isAttacking);
+            }
+            else
+            {
+                transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+                Vector2 dir = player.position - transform.position;
+
+                anim.SetFloat("AngleX", dir.x);
+                anim.SetFloat("AngleY", dir.y);
+            }
         }
         else
         {
@@ -50,7 +80,7 @@ public class Enemy : MonoBehaviour
 
     void GetNextWaypoint()
     {
-        if (wavepointIndex >= Waypoints.points.Length -1)
+        if (wavepointIndex >= Waypoints.points.Length - 1)
         {
             return;
         }

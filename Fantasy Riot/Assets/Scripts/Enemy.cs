@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZProvaEnemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public float speed = 2f;
 
@@ -10,13 +10,14 @@ public class ZProvaEnemy : MonoBehaviour
     private int wavepointIndex = 0;
     public Rigidbody2D rb;
     private Transform player;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         target = Waypoints.points[0];
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,11 +34,18 @@ public class ZProvaEnemy : MonoBehaviour
             Vector2 dir = target.position - transform.position;
             transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
             if (Vector2.Distance(transform.position, target.position) <= 0.4f)
             {
                 GetNextWaypoint();
             }
+
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
         }
+
+
     }
 
     void GetNextWaypoint()

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -1197479298552521542}
   - component: {fileID: 2906529865827936692}
   - component: {fileID: 736743180130446620}
+  - component: {fileID: -1639407736535449463}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Weapon
@@ -118,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b654563ffe55a5e4bb526da477de37b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToGive: 50
+  damageToGive: 5
   rb: {fileID: -1197479298552521542}
 --- !u!61 &736743180130446620
 BoxCollider2D:
@@ -146,3 +147,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.03180954, y: 0.14}
   m_EdgeRadius: 0
+--- !u!114 &-1639407736535449463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928633610588005725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a9c4fc27f75a7418bc6684b457fb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackTime: 0.5

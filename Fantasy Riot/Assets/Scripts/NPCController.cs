@@ -29,6 +29,8 @@ public class NPCController : MonoBehaviour
 
     void Update()
     {
+        npcRB.velocity = Vector2.zero;
+
         if (!tackled)
         {
             if (freeMoving)

@@ -12,11 +12,10 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private Animator anim;
 
-    public bool isAttacking = false;
     private float lastAttackTime;
+    public bool isAttacking;
     public float attackDelay;
-
-    public int damageToGive;
+    public float attackRange;
 
     // Start is called before the first frame update
     void Start()
@@ -32,24 +31,24 @@ public class Enemy : MonoBehaviour
         rb.velocity = Vector2.zero;
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
+
         if (Vector2.Distance(transform.position, player.position) < 3)
         {
-            isAttacking = false;
-            if (distanceToPlayer < 1)
+            if (distanceToPlayer < attackRange)
             {
+                isAttacking = false;
                 Vector2 dir = player.position - transform.position;
+
                 if (Time.time > lastAttackTime + attackDelay)
                 {
-                    rb.velocity = Vector2.zero;
                     lastAttackTime = Time.time;
-                    player.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
                     isAttacking = true;
+                    rb.velocity = Vector2.zero;
                 }
                 anim.SetFloat("AttX", dir.x);
                 anim.SetFloat("AttY", dir.y);
                 anim.SetBool("isAttacking", isAttacking);
-            }
-            else
+            } else
             {
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
                 Vector2 dir = player.position - transform.position;

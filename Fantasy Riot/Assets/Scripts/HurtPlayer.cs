@@ -5,6 +5,8 @@ using UnityEngine;
 public class HurtPlayer : MonoBehaviour
 {
     public int damageToGive;
+    public float hitDelay;
+    private float nextHitAllowed;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +20,15 @@ public class HurtPlayer : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.name == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+            if (Time.time > nextHitAllowed)
+            {
+                nextHitAllowed = Time.time + hitDelay;
+                other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+            }
         }
     }
 }

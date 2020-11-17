@@ -9,6 +9,9 @@ public class EnemyHealthManager : MonoBehaviour
     public int MaxHealth;
     public int CurrentHealth;
     public GameObject coin;
+    public Animator anim;
+    public Rigidbody2D rb;
+    public float drop;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +24,13 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (CurrentHealth <= 0)
         {
-            Instantiate(coin, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            anim.SetBool("IsDead", true);
+            Destroy(gameObject, 1f);
+            if (Time.time >= drop)
+            {
+                drop = Time.time + 2;
+                Instantiate(coin, transform.position, Quaternion.identity);
+            }
         }
     }
 

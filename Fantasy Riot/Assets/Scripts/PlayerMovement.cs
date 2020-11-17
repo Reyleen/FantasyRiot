@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     Vector2 move;
     private static bool playerExists;
 
-
     public GameObject arrowPrefab;
     public Joystick aimStick;
     Vector2 aim;
@@ -38,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
     void Update()
@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
             if (aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f)
             {
                 isShooting = true;
-            }         
+            }
 
         botAnim.SetFloat("MoveX", move.x);
         botAnim.SetFloat("MoveY", move.y);

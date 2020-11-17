@@ -125,6 +125,8 @@ MonoBehaviour:
   isAttacking: 0
   attackDelay: 1
   attackRange: 1
+  enHea: {fileID: 4814754647123309576}
+  isAlive: 1
 --- !u!50 &2498900396213128308
 Rigidbody2D:
   serializedVersion: 4
@@ -161,6 +163,9 @@ MonoBehaviour:
   MaxHealth: 30
   CurrentHealth: 0
   coin: {fileID: 631694930291664572, guid: 7b781fd1f727831419f8b1ccec84db69, type: 3}
+  anim: {fileID: 2498900396213128310}
+  rb: {fileID: 2498900396213128308}
+  drop: 1
 --- !u!58 &8630535104023846149
 CircleCollider2D:
   m_ObjectHideFlags: 0

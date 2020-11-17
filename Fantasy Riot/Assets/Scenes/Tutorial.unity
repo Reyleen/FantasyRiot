@@ -519,6 +519,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97dc390c578b9b34ca00d5e23773d7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1178831079 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8611908973325318875, guid: a667ad0072c883a4abd0398d8d6a54a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 8611908973604616487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1315682393 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8611908972583483525, guid: a667ad0072c883a4abd0398d8d6a54a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 8611908973604616487}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358240438
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +907,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1980656533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7454508659380838000, guid: 7b8f094eeb9c9204c9cb98983edde605,
+    type: 3}
+  m_PrefabInstance: {fileID: 7454508658319233464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2079201756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8611908972139356411, guid: a667ad0072c883a4abd0398d8d6a54a9,
@@ -1143,6 +1161,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8611908972139356358, guid: a667ad0072c883a4abd0398d8d6a54a9,
+        type: 3}
+      propertyPath: playerCurrentHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8611908972139356358, guid: a667ad0072c883a4abd0398d8d6a54a9,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1178831079}
+    - target: {fileID: 8611908972139356358, guid: a667ad0072c883a4abd0398d8d6a54a9,
+        type: 3}
+      propertyPath: anim1
+      value: 
+      objectReference: {fileID: 1315682393}
+    - target: {fileID: 8611908972139356358, guid: a667ad0072c883a4abd0398d8d6a54a9,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1980656533}
     - target: {fileID: 8611908972139356409, guid: a667ad0072c883a4abd0398d8d6a54a9,
         type: 3}
       propertyPath: joystick
@@ -1153,6 +1191,11 @@ PrefabInstance:
       propertyPath: aimStick
       value: 
       objectReference: {fileID: 427416161}
+    - target: {fileID: 8611908972139356409, guid: a667ad0072c883a4abd0398d8d6a54a9,
+        type: 3}
+      propertyPath: plaHea
+      value: 
+      objectReference: {fileID: 2079201761}
     - target: {fileID: 8611908972139356410, guid: a667ad0072c883a4abd0398d8d6a54a9,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -92,6 +92,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMaxHealth: 50
   playerCurrentHealth: 0
+  anim: {fileID: 8611908973325318875}
+  anim1: {fileID: 8611908972583483525}
+  aim: {fileID: 0}
+  walk: {fileID: 0}
+  deathMenu: {fileID: 0}
 --- !u!61 &8611908972139356359
 BoxCollider2D:
   m_ObjectHideFlags: 0

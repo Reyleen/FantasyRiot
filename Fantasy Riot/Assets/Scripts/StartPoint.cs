@@ -8,20 +8,21 @@ public class StartPoint : MonoBehaviour
 {
     private PlayerMovement thePlayer;
     private PlayerFollow theCamera;
-    public WaveSpawner wave;
+    private WaveSpawner wave;
     private Text waveCounter;
 
     // Start is called before the first frame update
     void Start()
     {
-        waveCounter = GameObject.Find("WaveCounter").GetComponent<Text>();
+         wave = FindObjectOfType<WaveSpawner>();
+         waveCounter = GameObject.Find("WaveCounter").GetComponent<Text>();
 
-        thePlayer = FindObjectOfType<PlayerMovement>();
-        thePlayer.transform.position = transform.position;
+         thePlayer = FindObjectOfType<PlayerMovement>();
+         thePlayer.transform.position = transform.position;
 
-        theCamera = FindObjectOfType<PlayerFollow>();
-        theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
-        
+         theCamera = FindObjectOfType<PlayerFollow>();
+         theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z); 
+
     }
 
     // Update is called once per frame

@@ -10,7 +10,9 @@ public class PlayerHealthManager : MonoBehaviour
     public int playerCurrentHealth;
     public Animator anim;
     public Animator anim1;
-    public GameObject canvas;
+    public GameObject aim, walk;
+
+    public DeathMenu deathMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +27,10 @@ public class PlayerHealthManager : MonoBehaviour
         {
             anim.SetBool("IsDead", true);
             anim1.SetBool("IsDead", true);
-            canvas.SetActive(false);
-            //gameObject.SetActive(false);
+            //canvas.SetActive(false);
+            aim.SetActive(false);
+            walk.SetActive(false);
+            deathMenu.ToggleEndMenu ();
             Destroy(gameObject, 5f);
 
         }

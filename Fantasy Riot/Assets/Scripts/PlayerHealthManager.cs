@@ -29,7 +29,7 @@ public class PlayerHealthManager : MonoBehaviour
             anim.SetBool("IsDead", true);
             anim1.SetBool("IsDead", true);
             deathMenu.ToggleEndMenu ();
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, 0.8f);
         }
     }
 

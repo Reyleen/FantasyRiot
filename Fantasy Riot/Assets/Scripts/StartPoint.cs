@@ -10,6 +10,7 @@ public class StartPoint : MonoBehaviour
     private PlayerFollow theCamera;
     private WaveSpawner wave;
     private Text waveCounter;
+    private PlayerHealthManager plaHea;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,15 @@ public class StartPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        plaHea = FindObjectOfType<PlayerHealthManager>();
         waveCounter.text = "Wave: " + (wave.nextWave + 1);
+
+        if(plaHea.playerCurrentHealth <= 0)
+        {
+            waveCounter.enabled = false;
+        } else
+        {
+            waveCounter.enabled = true;
+        }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dBox, talkButton;
+    public GameObject dBox, talkButton, stick1, stick2;
     public Text dText;
 
     public bool dialogActive;
@@ -24,6 +24,8 @@ public class DialogueManager : MonoBehaviour
             {
                 if (touch.fingerId == 0)
                 {
+                    stick1.SetActive(true);
+                    stick2.SetActive(true);
                     talkButton.SetActive(true);
                     dBox.SetActive(false);
                     dialogActive = false;
@@ -34,6 +36,8 @@ public class DialogueManager : MonoBehaviour
 
    public void ShowBox(string dialogue)
     {
+        stick2.SetActive(false);
+        stick1.SetActive(false);
         talkButton.SetActive(false);
         dialogActive = true;
         dBox.SetActive(true);

@@ -8,25 +8,33 @@ public class GoldManager : MonoBehaviour
 {
     public Text moneyText;
     public int currentGold;
+    private PlayerHealthManager plaHea;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.HasKey("CurrentMoney"))
+        /*if (PlayerPrefs.HasKey("CurrentMoney"))
         {
             currentGold = PlayerPrefs.GetInt("CurrentMoney");
-        } else
-        {
+        } else*/
+        //{
             currentGold = 0;
-            PlayerPrefs.SetInt("CurrentMoney", 0);
-        }
+
+        //}
         moneyText.text = "Gold: " + currentGold;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        plaHea = FindObjectOfType<PlayerHealthManager>();
+
+        if(plaHea.playerCurrentHealth <= 0)
+        {
+            currentGold = 0;
+            PlayerPrefs.SetInt("CurrentMoney", 0);
+            moneyText.text = "Gold: " + currentGold;
+        }
     }
 
     public void AddMoney(int goldToAdd)

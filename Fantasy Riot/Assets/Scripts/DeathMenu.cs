@@ -8,9 +8,8 @@ public class DeathMenu : MonoBehaviour
 {
     private bool isShowned = false;
     public Image backgroundImg;
-    public GameObject player;
     public GameObject retry, quit;
-
+    private SpawnPoint spwn;
     private float transition = 0.0f;
 
     // Start is called before the first frame update
@@ -22,12 +21,20 @@ public class DeathMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isShowned)
-            return;
+        spwn = FindObjectOfType<SpawnPoint>();
 
-        transition += Time.deltaTime;
-        backgroundImg.color = Color.Lerp(new Color(0, 0, 0, 0), Color.black, transition);
-        
+        if (!isShowned)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+        else
+        {
+
+
+            transition += Time.deltaTime;
+            backgroundImg.color = Color.Lerp(new Color(0, 0, 0, 0), Color.black, transition);
+        }
     }
 
     public void ToggleEndMenu()
@@ -38,10 +45,13 @@ public class DeathMenu : MonoBehaviour
 
     public void Retry()
     {
-        retry.SetActive(false);
-        quit.SetActive(false);
-        backgroundImg.enabled = false;
-        SceneManager.LoadScene("Tutorial");        
+        
+       /* retry.SetActive(false);
+        quit.SetActive(false); 
+        backgroundImg.enabled = false; */
+        SceneManager.LoadScene("Tutorial");
+        gameObject.SetActive(false);
+        isShowned = false;
     }
 
     public void ToMenu()

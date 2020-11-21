@@ -10,29 +10,26 @@ public class PlayerHealthManager : MonoBehaviour
     public int playerCurrentHealth;
     public Animator anim;
     public Animator anim1;
-    public GameObject aim, walk;
-
-    public DeathMenu deathMenu;
+    private DeathMenu deathMenu;
 
     // Start is called before the first frame update
     void Start()
     {
+        deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
         playerCurrentHealth = playerMaxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
+        deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+
         if (playerCurrentHealth <= 0)
         {
             anim.SetBool("IsDead", true);
             anim1.SetBool("IsDead", true);
-            //canvas.SetActive(false);
-            aim.SetActive(false);
-            walk.SetActive(false);
             deathMenu.ToggleEndMenu ();
-            Destroy(gameObject, 5f);
-
+            Destroy(gameObject, 0.5f);
         }
     }
 

@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMaxHealth: 50
-  playerCurrentHealth: 0
+  playerCurrentHealth: 50
   anim: {fileID: 8611908973325318875}
   anim1: {fileID: 8611908972583483525}
   aim: {fileID: 0}
@@ -110,7 +110,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010388136, y: -0.32212055}
+  m_Offset: {x: -0.010388136, y: -0.31243324}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -121,7 +121,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5637016, y: 0.54972386}
+  m_Size: {x: 0.5637016, y: 0.5690985}
   m_EdgeRadius: 0
 --- !u!1 &8611908972583483576
 GameObject:
@@ -193,7 +193,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2544473475222147465, guid: 9efc17173decaf0488bcec0113b0f228,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -295,7 +295,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 3747468507704965766, guid: 5c8eacd20b76afe4f9525d08dac390d4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

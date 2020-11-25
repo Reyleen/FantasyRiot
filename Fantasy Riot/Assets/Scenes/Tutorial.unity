@@ -264,6 +264,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &306436164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 306436164, guid: 7b8f094eeb9c9204c9cb98983edde605,
+    type: 3}
+  m_PrefabInstance: {fileID: 7454508658319233464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &496477258 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5752635282750866447, guid: 7b8f094eeb9c9204c9cb98983edde605,
@@ -384,6 +390,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 903d45196af56634aa844f14722e6d84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &651946902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2644780796570025261, guid: 7b8f094eeb9c9204c9cb98983edde605,
+    type: 3}
+  m_PrefabInstance: {fileID: 7454508658319233464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &651946903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2644780796570025263, guid: 7b8f094eeb9c9204c9cb98983edde605,
+    type: 3}
+  m_PrefabInstance: {fileID: 7454508658319233464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651946902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42844a4fccbd54746b90cade4ff70f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &702378358
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +482,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c1496053d7188174e9d2ab6f6d3e9b42, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.013
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -568,6 +592,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97dc390c578b9b34ca00d5e23773d7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1071966828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071966830}
+  - component: {fileID: 1071966829}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1071966829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071966828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967e170f576470e4fbf815ffd39c4316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 496477258}
+  aimStick: {fileID: 651946903}
+  stick: {fileID: 651946902}
+  popUps:
+  - {fileID: 306436164}
+  - {fileID: 1248499305}
+--- !u!4 &1071966830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071966828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 121.68114, y: 170.76921, z: -1079.2389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1248499305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1248499305, guid: 7b8f094eeb9c9204c9cb98983edde605,
+    type: 3}
+  m_PrefabInstance: {fileID: 7454508658319233464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358240438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1198,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 306436164, guid: 7b8f094eeb9c9204c9cb98983edde605, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306436166, guid: 7b8f094eeb9c9204c9cb98983edde605, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248499305, guid: 7b8f094eeb9c9204c9cb98983edde605, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248499307, guid: 7b8f094eeb9c9204c9cb98983edde605, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7454508659228403763, guid: 7b8f094eeb9c9204c9cb98983edde605,
         type: 3}
       propertyPath: m_AnchorMax.x

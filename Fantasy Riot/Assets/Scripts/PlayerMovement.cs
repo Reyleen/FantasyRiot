@@ -27,13 +27,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        joystick = FindObjectOfType<FixedJoystick>();
-        aimStick = FindObjectOfType<VariableJoystick>();
+        //joystick = FindObjectOfType<FixedJoystick>();
+        //aimStick = FindObjectOfType<VariableJoystick>();
        
     }
 
     void Update()
     {
+        joystick = FindObjectOfType<FixedJoystick>();
+        aimStick = FindObjectOfType<VariableJoystick>();
+
         move.x = joystick.Horizontal;
         move.y = joystick.Vertical;
 

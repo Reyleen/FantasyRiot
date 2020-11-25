@@ -13,14 +13,12 @@ public class SoundsManager : MonoBehaviour
     void Start()
     {
         coinSound = Resources.Load<AudioClip>("monei");
-
-        audioSrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        audioSrc = GetComponent<AudioSource>();
     }
 
     public static void PlaySound (string clip)

@@ -494,7 +494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867e68e8bdd9b6447b517590ffedc7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wave: {fileID: 1841322946}
 --- !u!4 &1617575667
 Transform:
   m_ObjectHideFlags: 0
@@ -571,6 +570,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8977001056765497015, guid: 7845075d4738ec046900d2a9cd035998,
+        type: 3}
+      propertyPath: timeBetweenWaves
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8977001056765497016, guid: 7845075d4738ec046900d2a9cd035998,
         type: 3}
       propertyPath: m_Name
@@ -578,15 +582,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7845075d4738ec046900d2a9cd035998, type: 3}
---- !u!114 &1841322946 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8977001056765497015, guid: 7845075d4738ec046900d2a9cd035998,
-    type: 3}
-  m_PrefabInstance: {fileID: 1841322945}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b4c998541781ad4bad765195fc594be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

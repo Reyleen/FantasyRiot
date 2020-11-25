@@ -11,14 +11,13 @@ public class DialogueHolder : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dMan = FindObjectOfType<DialogueManager>();
         dialogue = "MEOW!!!\n \nHi human, welcome in the tutorial. You know how to interact and move!!\nI- I hear strange noises in the cave, I feel there is something creepy in there..";
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        dMan = FindObjectOfType<DialogueManager>();
     }
 
     void OnTriggerStay2D(Collider2D other)

@@ -71,12 +71,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   rb: {fileID: 8611908972139356408}
-  joystick: {fileID: 0}
   topAnim: {fileID: 8611908973325318875}
   botAnim: {fileID: 8611908972583483525}
   arrowPrefab: {fileID: 6928633610588005725, guid: c20636b897000844486e7227264430d8,
     type: 3}
-  aimStick: {fileID: 0}
   fireRate: 0.5
 --- !u!114 &8611908972139356358
 MonoBehaviour:
@@ -94,9 +92,6 @@ MonoBehaviour:
   playerCurrentHealth: 50
   anim: {fileID: 8611908973325318875}
   anim1: {fileID: 8611908972583483525}
-  aim: {fileID: 0}
-  walk: {fileID: 0}
-  deathMenu: {fileID: 0}
 --- !u!61 &8611908972139356359
 BoxCollider2D:
   m_ObjectHideFlags: 0

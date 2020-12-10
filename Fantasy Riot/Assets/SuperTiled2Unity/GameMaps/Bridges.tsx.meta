@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 44cfd2f40d2fe6b49a39cb82c354fff2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 02295ba2734de6f488b1ad31e1ea4ab9, type: 3}
+  missingFiles:
+  - Assets/SuperTiled2Unity/GameMaps/Bridges.png
+  errors:
+  - 'Missing texture asset: Bridges.png'
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 11
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: f9dd96910254f1949affc0151ce39cc5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 02295ba2734de6f488b1ad31e1ea4ab9, type: 3}
+  missingFiles:
+  - Assets/SuperTiled2Unity/GameMaps/WaterGrass.png
+  errors:
+  - 'Missing texture asset: WaterGrass.png'
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 11
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048

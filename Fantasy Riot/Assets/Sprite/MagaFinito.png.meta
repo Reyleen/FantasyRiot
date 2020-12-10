@@ -1,0 +1,3872 @@
+fileFormatVersion: 2
+guid: d1cb742393b9aa44ebe70031a5564d39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8162949114423588736
+    second: MagaFinito_0
+  - first:
+      213: 2443961743698192209
+    second: MagaFinito_1
+  - first:
+      213: -7828870105353832192
+    second: MagaFinito_2
+  - first:
+      213: -3875593330466073002
+    second: MagaFinito_3
+  - first:
+      213: 5582634191432535945
+    second: MagaFinito_4
+  - first:
+      213: -739915640798576678
+    second: MagaFinito_5
+  - first:
+      213: -5474032113684737053
+    second: MagaFinito_6
+  - first:
+      213: -4223770066631165973
+    second: MagaFinito_7
+  - first:
+      213: 4749536139191055644
+    second: MagaFinito_8
+  - first:
+      213: -8639417691189663360
+    second: MagaFinito_9
+  - first:
+      213: -836856777956157456
+    second: MagaFinito_10
+  - first:
+      213: -7531002113881597691
+    second: MagaFinito_11
+  - first:
+      213: -4421488953463049658
+    second: MagaFinito_12
+  - first:
+      213: 818461447364953835
+    second: MagaFinito_13
+  - first:
+      213: 6718277472405557903
+    second: MagaFinito_14
+  - first:
+      213: 7561676922624295320
+    second: MagaFinito_15
+  - first:
+      213: -2231724640538850554
+    second: MagaFinito_16
+  - first:
+      213: 290853984183164324
+    second: MagaFinito_17
+  - first:
+      213: -8399146708767881225
+    second: MagaFinito_18
+  - first:
+      213: -1895515787224361242
+    second: MagaFinito_19
+  - first:
+      213: 1835072000206918263
+    second: MagaFinito_20
+  - first:
+      213: 5819705588656508538
+    second: MagaFinito_21
+  - first:
+      213: -248135327263574004
+    second: MagaFinito_22
+  - first:
+      213: -6057201441168645045
+    second: MagaFinito_23
+  - first:
+      213: 433801881595223435
+    second: MagaFinito_24
+  - first:
+      213: 7973797236955722567
+    second: MagaFinito_25
+  - first:
+      213: 9032782588785565153
+    second: MagaFinito_26
+  - first:
+      213: -4965706142682756783
+    second: MagaFinito_27
+  - first:
+      213: 1538763477095160026
+    second: MagaFinito_28
+  - first:
+      213: -1454080286250046598
+    second: MagaFinito_29
+  - first:
+      213: 5458080984681242665
+    second: MagaFinito_30
+  - first:
+      213: 2917120391750986806
+    second: MagaFinito_31
+  - first:
+      213: 4954834674907994973
+    second: MagaFinito_32
+  - first:
+      213: 8423465175138636218
+    second: MagaFinito_33
+  - first:
+      213: 890367861475957016
+    second: MagaFinito_34
+  - first:
+      213: -3816198096868230306
+    second: MagaFinito_35
+  - first:
+      213: 2722571344321518591
+    second: MagaFinito_36
+  - first:
+      213: 998401197659273347
+    second: MagaFinito_37
+  - first:
+      213: -4069916457163500694
+    second: MagaFinito_38
+  - first:
+      213: 3374326797669738850
+    second: MagaFinito_39
+  - first:
+      213: -9145773948421802860
+    second: MagaFinito_40
+  - first:
+      213: 8407166696266036341
+    second: MagaFinito_41
+  - first:
+      213: -8206019543322242083
+    second: MagaFinito_42
+  - first:
+      213: 2134473416613734863
+    second: MagaFinito_43
+  - first:
+      213: 5624887229320220931
+    second: MagaFinito_44
+  - first:
+      213: -5592657816115416742
+    second: MagaFinito_45
+  - first:
+      213: -6616205136758736228
+    second: MagaFinito_46
+  - first:
+      213: 5692175663279169669
+    second: MagaFinito_47
+  - first:
+      213: 2801219803217982334
+    second: MagaFinito_48
+  - first:
+      213: -3315490881904803834
+    second: MagaFinito_49
+  - first:
+      213: -1364443433117158189
+    second: MagaFinito_50
+  - first:
+      213: 6713622673437617620
+    second: MagaFinito_51
+  - first:
+      213: -8669570332416165935
+    second: MagaFinito_52
+  - first:
+      213: 248658657644836047
+    second: MagaFinito_53
+  - first:
+      213: 233960252037781308
+    second: MagaFinito_54
+  - first:
+      213: -8750473804540534170
+    second: MagaFinito_55
+  - first:
+      213: -2036031204757137536
+    second: MagaFinito_56
+  - first:
+      213: 6838123740323623447
+    second: MagaFinito_57
+  - first:
+      213: -2984795971935590857
+    second: MagaFinito_58
+  - first:
+      213: -7247847771708046213
+    second: MagaFinito_59
+  - first:
+      213: 2649692711394363486
+    second: MagaFinito_60
+  - first:
+      213: -4369550768017770674
+    second: MagaFinito_61
+  - first:
+      213: -628072672429028643
+    second: MagaFinito_62
+  - first:
+      213: -5470603279273884819
+    second: MagaFinito_63
+  - first:
+      213: 6296480463473962412
+    second: MagaFinito_64
+  - first:
+      213: -1904140408884970484
+    second: MagaFinito_65
+  - first:
+      213: -3376436234372475588
+    second: MagaFinito_66
+  - first:
+      213: 6186016059898713291
+    second: MagaFinito_67
+  - first:
+      213: 7524183155127287403
+    second: MagaFinito_68
+  - first:
+      213: -4323354772528261292
+    second: MagaFinito_69
+  - first:
+      213: 3918865738136627016
+    second: MagaFinito_70
+  - first:
+      213: -2675744961808015470
+    second: MagaFinito_71
+  - first:
+      213: -3749422041345942014
+    second: MagaFinito_72
+  - first:
+      213: -8404731724660987752
+    second: MagaFinito_73
+  - first:
+      213: 6576733633083689027
+    second: MagaFinito_74
+  - first:
+      213: 4076369617688662750
+    second: MagaFinito_75
+  - first:
+      213: -5704524125421832938
+    second: MagaFinito_76
+  - first:
+      213: 961192349059161210
+    second: MagaFinito_77
+  - first:
+      213: -669366849401913172
+    second: MagaFinito_78
+  - first:
+      213: 979797125747201100
+    second: MagaFinito_79
+  - first:
+      213: -7339417894629084238
+    second: MagaFinito_80
+  - first:
+      213: 4902214233910463968
+    second: MagaFinito_81
+  - first:
+      213: -3744321998040117049
+    second: MagaFinito_82
+  - first:
+      213: -5013503840603027471
+    second: MagaFinito_83
+  - first:
+      213: 3504569522786949999
+    second: MagaFinito_84
+  - first:
+      213: 8528519210096938266
+    second: MagaFinito_85
+  - first:
+      213: 4548213692260827695
+    second: MagaFinito_86
+  - first:
+      213: -7499068750864841221
+    second: MagaFinito_87
+  - first:
+      213: 6566493467413290337
+    second: MagaFinito_88
+  - first:
+      213: 6506870139665591761
+    second: MagaFinito_89
+  - first:
+      213: -8310895358158145957
+    second: MagaFinito_90
+  - first:
+      213: 3188007306656878801
+    second: MagaFinito_91
+  - first:
+      213: -3457821710461365172
+    second: MagaFinito_92
+  - first:
+      213: 2566066758673796780
+    second: MagaFinito_93
+  - first:
+      213: 7597558606355259029
+    second: MagaFinito_94
+  - first:
+      213: 3419627916069795124
+    second: MagaFinito_95
+  - first:
+      213: 8277103689152988377
+    second: MagaFinito_96
+  - first:
+      213: -4526510708532675308
+    second: MagaFinito_97
+  - first:
+      213: 1785081296247117780
+    second: MagaFinito_98
+  - first:
+      213: -8625198010327521783
+    second: MagaFinito_99
+  - first:
+      213: 7554780877618286039
+    second: MagaFinito_100
+  - first:
+      213: 6920916735480598316
+    second: MagaFinito_101
+  - first:
+      213: -5026797209662112085
+    second: MagaFinito_102
+  - first:
+      213: 8458699916398295517
+    second: MagaFinito_103
+  - first:
+      213: -7234528237463423942
+    second: MagaFinito_104
+  - first:
+      213: 3254456059070251706
+    second: MagaFinito_105
+  - first:
+      213: 5451800071655489349
+    second: MagaFinito_106
+  - first:
+      213: -7069921192934519331
+    second: MagaFinito_107
+  - first:
+      213: -545329481476248817
+    second: MagaFinito_108
+  - first:
+      213: 3471282414773003378
+    second: MagaFinito_109
+  - first:
+      213: -9095868016661898419
+    second: MagaFinito_110
+  - first:
+      213: 6536730306197296820
+    second: MagaFinito_111
+  - first:
+      213: 5021884688584727978
+    second: MagaFinito_112
+  - first:
+      213: -4058170754502909437
+    second: MagaFinito_113
+  - first:
+      213: 8157046165457086385
+    second: MagaFinito_114
+  - first:
+      213: -8838342151396450383
+    second: MagaFinito_115
+  - first:
+      213: -4425251438743191515
+    second: MagaFinito_116
+  - first:
+      213: 5006673294862502415
+    second: MagaFinito_117
+  - first:
+      213: -6791467417572610759
+    second: MagaFinito_118
+  - first:
+      213: -21692185107557827
+    second: MagaFinito_119
+  - first:
+      213: -7169987917689085099
+    second: MagaFinito_120
+  - first:
+      213: 2329131725420076680
+    second: MagaFinito_121
+  - first:
+      213: 4573218798100531406
+    second: MagaFinito_122
+  - first:
+      213: 7623997531312349836
+    second: MagaFinito_123
+  - first:
+      213: 3292957349727041994
+    second: MagaFinito_124
+  - first:
+      213: 3485758463480206806
+    second: MagaFinito_125
+  - first:
+      213: 41228958204433642
+    second: MagaFinito_126
+  - first:
+      213: -2959627054584665644
+    second: MagaFinito_127
+  - first:
+      213: 7657175990584755410
+    second: MagaFinito_128
+  - first:
+      213: 2762402808894844405
+    second: MagaFinito_129
+  - first:
+      213: 3866207701671904164
+    second: MagaFinito_130
+  - first:
+      213: -4262992776314136495
+    second: MagaFinito_131
+  - first:
+      213: -5975572023074482169
+    second: MagaFinito_132
+  - first:
+      213: -3633771055711142654
+    second: MagaFinito_133
+  - first:
+      213: -1238043302586613346
+    second: MagaFinito_134
+  - first:
+      213: 6823025821997558330
+    second: MagaFinito_135
+  - first:
+      213: -475938626941646062
+    second: MagaFinito_136
+  - first:
+      213: 3969800242314465453
+    second: MagaFinito_137
+  - first:
+      213: -6876047311425837309
+    second: MagaFinito_138
+  - first:
+      213: -2587872746548321720
+    second: MagaFinito_139
+  - first:
+      213: -7886107470210077205
+    second: MagaFinito_140
+  - first:
+      213: -1957389671290959327
+    second: MagaFinito_141
+  - first:
+      213: 7162360766858324694
+    second: MagaFinito_142
+  - first:
+      213: 7883451139019951003
+    second: MagaFinito_143
+  - first:
+      213: 3659508001807431165
+    second: MagaFinito_144
+  - first:
+      213: 5461593657666950246
+    second: MagaFinito_145
+  - first:
+      213: -4100003588150227883
+    second: MagaFinito_146
+  - first:
+      213: 833987793389620585
+    second: MagaFinito_147
+  - first:
+      213: 3184395692952723209
+    second: MagaFinito_148
+  - first:
+      213: -2408406399000995463
+    second: MagaFinito_149
+  - first:
+      213: -338091589139291096
+    second: MagaFinito_150
+  - first:
+      213: 1100208089258307387
+    second: MagaFinito_151
+  - first:
+      213: 6423184369658372844
+    second: MagaFinito_152
+  - first:
+      213: -4604130789027011258
+    second: MagaFinito_153
+  - first:
+      213: -2024230771684623889
+    second: MagaFinito_154
+  - first:
+      213: -8641019635269594378
+    second: MagaFinito_155
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagaFinito_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1220
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0884133970167be80800000000000000
+      internalID: -8162949114423588736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1220
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15766c9d142bae120800000000000000
+      internalID: 2443961743698192209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1220
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009b5b94e144a5390800000000000000
+      internalID: -7828870105353832192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1221
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65652b35660273ac0800000000000000
+      internalID: -3875593330466073002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1221
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f49431830897d40800000000000000
+      internalID: 5582634191432535945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1221
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adff17a15aa4bb5f0800000000000000
+      internalID: -739915640798576678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1156
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39db69bc45804b0800000000000000
+      internalID: -5474032113684737053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1155
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7758db0872265c0800000000000000
+      internalID: -4223770066631165973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1155
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15fc5854fdb9e140800000000000000
+      internalID: 4749536139191055644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_9
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1156
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0892a6a226f9a1880800000000000000
+      internalID: -8639417691189663360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1156
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f79b0eb133e264f0800000000000000
+      internalID: -836856777956157456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1156
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091f577a718c7790800000000000000
+      internalID: -7531002113881597691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1092
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642758e0937b3a2c0800000000000000
+      internalID: -4421488953463049658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1091
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be64a889952cb5b00800000000000000
+      internalID: 818461447364953835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1091
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f821e3524cd1c3d50800000000000000
+      internalID: 6718277472405557903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_15
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1092
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8914a4ff81970f860800000000000000
+      internalID: 7561676922624295320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1092
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b023c73425701e0800000000000000
+      internalID: -2231724640538850554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_17
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1092
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad9eb85822590400800000000000000
+      internalID: 290853984183164324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1028
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7cf77a19c307b80800000000000000
+      internalID: -8399146708767881225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1027
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d8543f66c1b5e0800000000000000
+      internalID: -1895515787224361242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1027
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7725995f24c777910800000000000000
+      internalID: 1835072000206918263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1028
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e0a35166fb3c050800000000000000
+      internalID: 5819705588656508538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1028
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ba3a0c327e8cf0800000000000000
+      internalID: -248135327263574004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1028
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44a826b16f70fba0800000000000000
+      internalID: -6057201441168645045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 952
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d116f438c250600800000000000000
+      internalID: 433801881595223435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 952
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743bcbb075e98ae60800000000000000
+      internalID: 7973797236955722567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 951
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed95e128e3ea5d70800000000000000
+      internalID: 9032782588785565153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 950
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1594b6a9294461bb0800000000000000
+      internalID: -4965706142682756783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 951
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81a9dca39ca5510800000000000000
+      internalID: 1538763477095160026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_29
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 952
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bea270fa112dbe0800000000000000
+      internalID: -1454080286250046598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_30
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 951
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9206d37ccbffebb40800000000000000
+      internalID: 5458080984681242665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 950
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cad5d6a81bb7820800000000000000
+      internalID: 2917120391750986806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_32
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 951
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bddae82eb13c440800000000000000
+      internalID: 4954834674907994973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 887
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1130682f826e470800000000000000
+      internalID: 8423465175138636218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 887
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d2b64ad83b5c00800000000000000
+      internalID: 890367861475957016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 887
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bb5abcc042a0bc0800000000000000
+      internalID: -3816198096868230306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_36
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 888
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb11fd763488c520800000000000000
+      internalID: 2722571344321518591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 887
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3883ec979980bdd00800000000000000
+      internalID: 998401197659273347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 886
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d049ab80c487c0800000000000000
+      internalID: -4069916457163500694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_39
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 886
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269af23385404de20800000000000000
+      internalID: 3374326797669738850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 887
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494fb40ec0fa31180800000000000000
+      internalID: -9145773948421802860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_41
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 887
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747e6231914ca470800000000000000
+      internalID: 8407166696266036341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 823
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd35d54e3bc5e1e80800000000000000
+      internalID: -8206019543322242083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 823
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a6c3734c2f9d10800000000000000
+      internalID: 2134473416613734863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 823
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3015345122d9f0e40800000000000000
+      internalID: 5624887229320220931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 822
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51f020f853e262b0800000000000000
+      internalID: -5592657816115416742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 823
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a71667b748e24a0800000000000000
+      internalID: -6616205136758736228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 823
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580e0e87b9baefe40800000000000000
+      internalID: 5692175663279169669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 823
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f89cc19eefd620800000000000000
+      internalID: 2801219803217982334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_49
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 822
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6008400fb920df1d0800000000000000
+      internalID: -3315490881904803834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_50
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 823
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4ffec3de5801de0800000000000000
+      internalID: -1364443433117158189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 759
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde14e40449b2d50800000000000000
+      internalID: 6713622673437617620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 759
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7b11d47bf7fa780800000000000000
+      internalID: -8669570332416165935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_53
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 759
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4fe3f4bb9637300800000000000000
+      internalID: 248658657644836047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_54
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 760
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37d5421c913f3300800000000000000
+      internalID: 233960252037781308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_55
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 759
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6622000df62109680800000000000000
+      internalID: -8750473804540534170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 758
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08717d818609eb3e0800000000000000
+      internalID: -2036031204757137536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_57
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 758
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712b728df45e5ee50800000000000000
+      internalID: 6838123740323623447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_58
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 759
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73623cda0efd396d0800000000000000
+      internalID: -2984795971935590857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_59
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 759
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b744c353ad87a6b90800000000000000
+      internalID: -7247847771708046213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 682
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584a9a7b7995c420800000000000000
+      internalID: 2649692711394363486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 683
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f3443abc3c53c0800000000000000
+      internalID: -4369550768017770674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 683
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaccba6b33a847f0800000000000000
+      internalID: -628072672429028643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_63
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 684
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d630bcf4d438414b0800000000000000
+      internalID: -5470603279273884819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_64
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 683
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad6d801f97916750800000000000000
+      internalID: 6296480463473962412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 684
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cb1fdf2622395e0800000000000000
+      internalID: -1904140408884970484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_66
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 624
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35987b422d7421d0800000000000000
+      internalID: -3376436234372475588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_67
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 627
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4df11e4d429d550800000000000000
+      internalID: 6186016059898713291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_68
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 625
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ef65af6b44b6860800000000000000
+      internalID: 7524183155127287403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 626
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45796719dbb5004c0800000000000000
+      internalID: -4323354772528261292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_70
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 627
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847251430ab926630800000000000000
+      internalID: 3918865738136627016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_71
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 628
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f54e94228dddad0800000000000000
+      internalID: -2675744961808015470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 562
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e1e88c48067fbc0800000000000000
+      internalID: -3749422041345942014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 566
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898202fc6056c5b80800000000000000
+      internalID: -8404731724660987752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_74
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 567
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348415ee460454b50800000000000000
+      internalID: 6576733633083689027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_75
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 566
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2178bd19c229830800000000000000
+      internalID: 4076369617688662750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_76
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 558
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f593288575d0b0800000000000000
+      internalID: -5704524125421832938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_77
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 561
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c9e7e4957d65d00800000000000000
+      internalID: 961192349059161210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_78
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 506
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00afc956ee5b6f0800000000000000
+      internalID: -669366849401913172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_79
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 509
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445c107b40f89d00800000000000000
+      internalID: 979797125747201100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_80
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 507
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3fc7c8f46252a90800000000000000
+      internalID: -7339417894629084238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_81
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 508
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edc8196fd9280440800000000000000
+      internalID: 4902214233910463968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_82
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 509
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c053262bfe790cc0800000000000000
+      internalID: -3744321998040117049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_83
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 510
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7ccc4d1d47c6ab0800000000000000
+      internalID: -5013503840603027471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_84
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 465
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b5068b96bb2a030800000000000000
+      internalID: 3504569522786949999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_85
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 466
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d4ce919036b5670800000000000000
+      internalID: 8528519210096938266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_86
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 465
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2246c171408e1f30800000000000000
+      internalID: 4548213692260827695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 464
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5087ee3b4fde790800000000000000
+      internalID: -7499068750864841221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_88
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 465
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d9711940fd02b50800000000000000
+      internalID: 6566493467413290337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_89
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 466
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd2d5acaeb0d4a50800000000000000
+      internalID: 6506870139665591761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_90
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 465
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b567a8b64b4c9ac80800000000000000
+      internalID: -8310895358158145957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_91
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 464
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d012ae21c31e3c20800000000000000
+      internalID: 3188007306656878801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_92
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 465
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44115389795300d0800000000000000
+      internalID: -3457821710461365172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_93
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae80b41f108c9320800000000000000
+      internalID: 2566066758673796780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_94
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e54048c43ff6960800000000000000
+      internalID: 7597558606355259029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4357951c875f47f20800000000000000
+      internalID: 3419627916069795124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_96
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 410
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d40a0983fd2ed270800000000000000
+      internalID: 8277103689152988377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_97
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d78e93e7a9e21c0800000000000000
+      internalID: -4526510708532675308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_98
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 408
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7d00e2bf1e5c810800000000000000
+      internalID: 1785081296247117780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_99
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 408
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a50d9b142d4880800000000000000
+      internalID: -8625198010327521783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_100
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd0a566e29f7d860800000000000000
+      internalID: 7554780877618286039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_101
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 409
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f80623a190c0060800000000000000
+      internalID: 6920916735480598316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 345
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae3a28229a3d3ab0800000000000000
+      internalID: -5026797209662112085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_103
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 344
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9fb8202c6536570800000000000000
+      internalID: 8458699916398295517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_104
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 344
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34b570f5eac99b90800000000000000
+      internalID: -7234528237463423942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_105
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 344
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2000afa862a2d20800000000000000
+      internalID: 3254456059070251706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_106
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 344
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f7971c74fa8ab40800000000000000
+      internalID: 5451800071655489349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_107
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 344
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddc121122892ed90800000000000000
+      internalID: -7069921192934519331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_108
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 344
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b6f03d9b99e68f0800000000000000
+      internalID: -545329481476248817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_109
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 343
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274ea9fe6f87c2030800000000000000
+      internalID: 3471282414773003378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_110
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 344
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bd7071b3cf4c180800000000000000
+      internalID: -9095868016661898419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_111
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 291
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69b65949127ba50800000000000000
+      internalID: 6536730306197296820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_112
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 291
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadd016648151b540800000000000000
+      internalID: 5021884688584727978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_113
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 291
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302a9fb233b7ea7c0800000000000000
+      internalID: -4058170754502909437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_114
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 291
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b728840546a33170800000000000000
+      internalID: 8157046165457086385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_115
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 290
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf17ae04a6e75580800000000000000
+      internalID: -8838342151396450383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_116
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 290
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200def23495692c0800000000000000
+      internalID: -4425251438743191515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_117
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 291
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ac6bec5d64b7540800000000000000
+      internalID: 5006673294862502415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_118
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 291
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93de1ffcd5cdfb1a0800000000000000
+      internalID: -6791467417572610759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_119
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 290
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d321344921fe2bff0800000000000000
+      internalID: -21692185107557827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_120
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 225
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ac422af51f7c90800000000000000
+      internalID: -7169987917689085099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_121
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 226
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e91c8c6fcb25020800000000000000
+      internalID: 2329131725420076680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_122
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 224
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8cbe45446577f30800000000000000
+      internalID: 4573218798100531406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_123
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 224
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82e35e6c51edc960800000000000000
+      internalID: 7623997531312349836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_124
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 224
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9fdf2434fe2bd20800000000000000
+      internalID: 3292957349727041994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_125
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 225
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d59c8caad6ef5030800000000000000
+      internalID: 3485758463480206806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_126
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 225
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41c30e489729000800000000000000
+      internalID: 41228958204433642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_127
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 224
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d968d7efda4de6d0800000000000000
+      internalID: -2959627054584665644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_128
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 224
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d444757ef0c34a60800000000000000
+      internalID: 7657175990584755410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_129
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 166
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fde7b608b6065620800000000000000
+      internalID: 2762402808894844405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_130
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 167
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3880eab6787a530800000000000000
+      internalID: 3866207701671904164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_131
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 166
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1585dbff7aec6d4c0800000000000000
+      internalID: -4262992776314136495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_132
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 165
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70812eaa7e0821da0800000000000000
+      internalID: -5975572023074482169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_133
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 167
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dbd353a70429dc0800000000000000
+      internalID: -3633771055711142654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_134
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 167
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9106ccfc2691dee0800000000000000
+      internalID: -1238043302586613346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_135
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 165
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a6b7dc5d140be50800000000000000
+      internalID: 6823025821997558330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_136
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 165
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b814627502569f0800000000000000
+      internalID: -475938626941646062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_137
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 166
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d9689940971730800000000000000
+      internalID: 3969800242314465453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_138
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307eeafa66f5390a0800000000000000
+      internalID: -6876047311425837309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_139
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 104
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a21ab277061cd0800000000000000
+      internalID: -2587872746548321720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_140
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 104
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede299c90bee8290800000000000000
+      internalID: -7886107470210077205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 104
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a0fa3f674f5d4e0800000000000000
+      internalID: -1957389671290959327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_142
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 104
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dae8cd6b21d56360800000000000000
+      internalID: 7162360766858324694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_143
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 104
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bce69ea05a76d60800000000000000
+      internalID: 7883451139019951003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_144
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 104
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df57e64832f29c230800000000000000
+      internalID: 3659508001807431165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_145
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 102
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664d3c0be7a7bcb40800000000000000
+      internalID: 5461593657666950246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_146
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 103
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c8a76957cd917c0800000000000000
+      internalID: -4100003588150227883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_147
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d000cba7be29b00800000000000000
+      internalID: 833987793389620585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_148
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 47
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f1bb6d20f313c20800000000000000
+      internalID: 3184395692952723209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_149
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97994c0f32f939ed0800000000000000
+      internalID: -2408406399000995463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_150
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 45
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8242ecfad7bde4bf0800000000000000
+      internalID: -338091589139291096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_151
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 47
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa0439d69b44f00800000000000000
+      internalID: 1100208089258307387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_152
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 47
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce22458172cb32950800000000000000
+      internalID: 6423184369658372844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_153
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6452b9ce077da10c0800000000000000
+      internalID: -4604130789027011258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_154
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b25686dc78e3e0800000000000000
+      internalID: -2024230771684623889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagaFinito_155
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 45
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2949e7c6ee41880800000000000000
+      internalID: -8641019635269594378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

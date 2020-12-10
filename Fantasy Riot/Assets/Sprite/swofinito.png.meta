@@ -1,0 +1,4688 @@
+fileFormatVersion: 2
+guid: af7a5236fd4529048b63fc708ce2e606
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1789431753322738354
+    second: swofinito_0
+  - first:
+      213: -2959880969697709150
+    second: swofinito_1
+  - first:
+      213: -2797434236208413866
+    second: swofinito_2
+  - first:
+      213: -7761555589565453042
+    second: swofinito_3
+  - first:
+      213: 8356947806185057015
+    second: swofinito_4
+  - first:
+      213: -1431597883630136213
+    second: swofinito_5
+  - first:
+      213: 6751202202593690982
+    second: swofinito_6
+  - first:
+      213: -7579346032106033226
+    second: swofinito_7
+  - first:
+      213: 7426108332024107888
+    second: swofinito_8
+  - first:
+      213: -5651567586087707836
+    second: swofinito_9
+  - first:
+      213: -1283872942528703336
+    second: swofinito_10
+  - first:
+      213: -5226293769043508362
+    second: swofinito_11
+  - first:
+      213: -4540871758365515176
+    second: swofinito_12
+  - first:
+      213: 6544338275084841705
+    second: swofinito_13
+  - first:
+      213: 4271620504058084312
+    second: swofinito_14
+  - first:
+      213: -254029891576305641
+    second: swofinito_15
+  - first:
+      213: 956987756302248662
+    second: swofinito_16
+  - first:
+      213: 6356984752097172945
+    second: swofinito_17
+  - first:
+      213: 6600950597921183451
+    second: swofinito_18
+  - first:
+      213: -2070566245660351956
+    second: swofinito_19
+  - first:
+      213: 5860241594994031467
+    second: swofinito_20
+  - first:
+      213: -2953566818098930340
+    second: swofinito_21
+  - first:
+      213: 4372358872804433077
+    second: swofinito_22
+  - first:
+      213: -2107211659247478453
+    second: swofinito_23
+  - first:
+      213: 3552522058964198459
+    second: swofinito_24
+  - first:
+      213: -5040892543941563614
+    second: swofinito_25
+  - first:
+      213: -5830019167986578106
+    second: swofinito_26
+  - first:
+      213: 7849350489649473398
+    second: swofinito_27
+  - first:
+      213: -8655590244116918221
+    second: swofinito_28
+  - first:
+      213: 6431280276420483909
+    second: swofinito_29
+  - first:
+      213: 8135744829623595289
+    second: swofinito_30
+  - first:
+      213: -5855026609873463378
+    second: swofinito_31
+  - first:
+      213: -3060341680540039495
+    second: swofinito_32
+  - first:
+      213: -7690275563181265086
+    second: swofinito_33
+  - first:
+      213: -4522195317311051111
+    second: swofinito_34
+  - first:
+      213: 884063247197121604
+    second: swofinito_35
+  - first:
+      213: 7315953412947540620
+    second: swofinito_36
+  - first:
+      213: -2905797409892247394
+    second: swofinito_37
+  - first:
+      213: 1299747863541503144
+    second: swofinito_38
+  - first:
+      213: 2404975946796576232
+    second: swofinito_39
+  - first:
+      213: -162385643585970027
+    second: swofinito_40
+  - first:
+      213: -4005645517407598223
+    second: swofinito_41
+  - first:
+      213: 3075673975971559635
+    second: swofinito_42
+  - first:
+      213: 7729763630142960001
+    second: swofinito_43
+  - first:
+      213: 7587046865731613593
+    second: swofinito_44
+  - first:
+      213: -4589823409991597282
+    second: swofinito_45
+  - first:
+      213: 5585924557957586489
+    second: swofinito_46
+  - first:
+      213: 8469672722886923555
+    second: swofinito_47
+  - first:
+      213: -4834520751917466502
+    second: swofinito_48
+  - first:
+      213: -4934235984588222960
+    second: swofinito_49
+  - first:
+      213: -7806377370463950132
+    second: swofinito_50
+  - first:
+      213: -2902325796291791840
+    second: swofinito_51
+  - first:
+      213: -1828731052055975058
+    second: swofinito_52
+  - first:
+      213: -9139687242279187450
+    second: swofinito_53
+  - first:
+      213: 8482520677601818572
+    second: swofinito_54
+  - first:
+      213: 5387911078902219008
+    second: swofinito_55
+  - first:
+      213: 4384371349495232182
+    second: swofinito_56
+  - first:
+      213: 4776431705646587584
+    second: swofinito_57
+  - first:
+      213: 6296865940820205613
+    second: swofinito_58
+  - first:
+      213: -2692194639670243372
+    second: swofinito_59
+  - first:
+      213: 6265477955637332936
+    second: swofinito_60
+  - first:
+      213: 6303282263581551993
+    second: swofinito_61
+  - first:
+      213: -1464022666420696234
+    second: swofinito_62
+  - first:
+      213: -4642978732200491576
+    second: swofinito_63
+  - first:
+      213: -7001652040540539891
+    second: swofinito_64
+  - first:
+      213: -8316467055765165555
+    second: swofinito_65
+  - first:
+      213: 3264980617451858302
+    second: swofinito_66
+  - first:
+      213: 7500038226294833450
+    second: swofinito_67
+  - first:
+      213: 1988685200656097864
+    second: swofinito_68
+  - first:
+      213: -6241512202293295423
+    second: swofinito_69
+  - first:
+      213: -938469892414482115
+    second: swofinito_70
+  - first:
+      213: -7335591392045740479
+    second: swofinito_71
+  - first:
+      213: -4593675670604322375
+    second: swofinito_72
+  - first:
+      213: 6360127320822116951
+    second: swofinito_73
+  - first:
+      213: -3569486483196143136
+    second: swofinito_74
+  - first:
+      213: 8055592995681414098
+    second: swofinito_75
+  - first:
+      213: -3882890927492264527
+    second: swofinito_76
+  - first:
+      213: 5075184868446398670
+    second: swofinito_77
+  - first:
+      213: 4582605442231137083
+    second: swofinito_78
+  - first:
+      213: -764517290020564834
+    second: swofinito_79
+  - first:
+      213: -7895626286796164577
+    second: swofinito_80
+  - first:
+      213: -9045495835976621706
+    second: swofinito_81
+  - first:
+      213: -2426029770358329843
+    second: swofinito_82
+  - first:
+      213: 6988171146416698266
+    second: swofinito_83
+  - first:
+      213: -5613816319880773697
+    second: swofinito_84
+  - first:
+      213: 5463909406090164270
+    second: swofinito_85
+  - first:
+      213: 1585717869520948930
+    second: swofinito_86
+  - first:
+      213: -5221632493563558971
+    second: swofinito_87
+  - first:
+      213: 5318155827063508291
+    second: swofinito_88
+  - first:
+      213: -2174297321312200780
+    second: swofinito_89
+  - first:
+      213: 7392629092025857954
+    second: swofinito_90
+  - first:
+      213: 3941056263695519892
+    second: swofinito_91
+  - first:
+      213: -558803184424663812
+    second: swofinito_92
+  - first:
+      213: 6395692399115860159
+    second: swofinito_93
+  - first:
+      213: 3856489310751351161
+    second: swofinito_94
+  - first:
+      213: -2088903994099484847
+    second: swofinito_95
+  - first:
+      213: 6377483902893454924
+    second: swofinito_96
+  - first:
+      213: 3970558291648533590
+    second: swofinito_97
+  - first:
+      213: 6812732062573875616
+    second: swofinito_98
+  - first:
+      213: 8837541817556698056
+    second: swofinito_99
+  - first:
+      213: -11648595364478676
+    second: swofinito_100
+  - first:
+      213: 8503200786843304976
+    second: swofinito_101
+  - first:
+      213: 7326769236822623683
+    second: swofinito_102
+  - first:
+      213: -1998050263448244951
+    second: swofinito_103
+  - first:
+      213: 6904627033474089760
+    second: swofinito_104
+  - first:
+      213: -2019842991735805049
+    second: swofinito_105
+  - first:
+      213: 3097454068229630345
+    second: swofinito_106
+  - first:
+      213: -7762024234846529594
+    second: swofinito_107
+  - first:
+      213: -3101040447804383233
+    second: swofinito_108
+  - first:
+      213: 594558354270375025
+    second: swofinito_109
+  - first:
+      213: 1625531750515853956
+    second: swofinito_110
+  - first:
+      213: 3417855396783073972
+    second: swofinito_111
+  - first:
+      213: -7724963318081161616
+    second: swofinito_112
+  - first:
+      213: -8687453742581864469
+    second: swofinito_113
+  - first:
+      213: 4929211899094002146
+    second: swofinito_114
+  - first:
+      213: -2231792297562061616
+    second: swofinito_115
+  - first:
+      213: -1916230248159420081
+    second: swofinito_116
+  - first:
+      213: -3983355419445570400
+    second: swofinito_117
+  - first:
+      213: 5637604113948858185
+    second: swofinito_118
+  - first:
+      213: 3582187637962540920
+    second: swofinito_119
+  - first:
+      213: -4999429557136198059
+    second: swofinito_120
+  - first:
+      213: 4835832768076654770
+    second: swofinito_121
+  - first:
+      213: 7423037073834109753
+    second: swofinito_122
+  - first:
+      213: 6439511997622419082
+    second: swofinito_123
+  - first:
+      213: 3279047527316412269
+    second: swofinito_124
+  - first:
+      213: 1739330449419941797
+    second: swofinito_125
+  - first:
+      213: -1268653971773982223
+    second: swofinito_126
+  - first:
+      213: -3375400119090568485
+    second: swofinito_127
+  - first:
+      213: -4675406747212315772
+    second: swofinito_128
+  - first:
+      213: -8686477392155988332
+    second: swofinito_129
+  - first:
+      213: 4594465637094841128
+    second: swofinito_130
+  - first:
+      213: -567225239207656478
+    second: swofinito_131
+  - first:
+      213: -7414487579796734113
+    second: swofinito_132
+  - first:
+      213: -7707360857806684666
+    second: swofinito_133
+  - first:
+      213: 8412322553975976962
+    second: swofinito_134
+  - first:
+      213: 3446697973918873876
+    second: swofinito_135
+  - first:
+      213: -4723603419992540109
+    second: swofinito_136
+  - first:
+      213: 9134807437812195397
+    second: swofinito_137
+  - first:
+      213: -5158603828255861249
+    second: swofinito_138
+  - first:
+      213: 4049901051593312535
+    second: swofinito_139
+  - first:
+      213: -8620310653617101225
+    second: swofinito_140
+  - first:
+      213: 8827722327344233522
+    second: swofinito_141
+  - first:
+      213: -4980213001922406767
+    second: swofinito_142
+  - first:
+      213: 2147878089175767485
+    second: swofinito_143
+  - first:
+      213: 916689791090589294
+    second: swofinito_144
+  - first:
+      213: 924732277297053319
+    second: swofinito_145
+  - first:
+      213: 7008354704838634761
+    second: swofinito_146
+  - first:
+      213: -8319048243351547570
+    second: swofinito_147
+  - first:
+      213: 2268081496534080213
+    second: swofinito_148
+  - first:
+      213: -3487879293947615611
+    second: swofinito_149
+  - first:
+      213: -7265759025867111957
+    second: swofinito_150
+  - first:
+      213: 6696896494015221742
+    second: swofinito_151
+  - first:
+      213: -9189480828905123890
+    second: swofinito_152
+  - first:
+      213: 7693481155212575405
+    second: swofinito_153
+  - first:
+      213: -480601692571788343
+    second: swofinito_154
+  - first:
+      213: -7086782108680196373
+    second: swofinito_155
+  - first:
+      213: -4848202270267350331
+    second: swofinito_156
+  - first:
+      213: -2165068674863291913
+    second: swofinito_157
+  - first:
+      213: -2711560976479224106
+    second: swofinito_158
+  - first:
+      213: 1245199416024463839
+    second: swofinito_159
+  - first:
+      213: 4692234264666695971
+    second: swofinito_160
+  - first:
+      213: 545682748714605703
+    second: swofinito_161
+  - first:
+      213: 5648750973904962525
+    second: swofinito_162
+  - first:
+      213: 3896286189898466235
+    second: swofinito_163
+  - first:
+      213: -7905953377715854824
+    second: swofinito_164
+  - first:
+      213: -3471633043338709634
+    second: swofinito_165
+  - first:
+      213: 5321397535043931226
+    second: swofinito_166
+  - first:
+      213: -8125537897856256051
+    second: swofinito_167
+  - first:
+      213: -4704957901749967086
+    second: swofinito_168
+  - first:
+      213: -3089016351515890082
+    second: swofinito_169
+  - first:
+      213: -5638027315309252704
+    second: swofinito_170
+  - first:
+      213: -8036435639988506000
+    second: swofinito_171
+  - first:
+      213: 8510837727272237060
+    second: swofinito_172
+  - first:
+      213: -2448264706812468762
+    second: swofinito_173
+  - first:
+      213: -7123253251544415593
+    second: swofinito_174
+  - first:
+      213: -5798923176820726558
+    second: swofinito_175
+  - first:
+      213: -6536084936067636051
+    second: swofinito_176
+  - first:
+      213: -4434294823162322626
+    second: swofinito_177
+  - first:
+      213: -3776032017964333144
+    second: swofinito_178
+  - first:
+      213: -7187511919356845147
+    second: swofinito_179
+  - first:
+      213: -5063175524668116243
+    second: swofinito_180
+  - first:
+      213: 6569028362658211633
+    second: swofinito_181
+  - first:
+      213: -850198303228730339
+    second: swofinito_182
+  - first:
+      213: 6912236485136823142
+    second: swofinito_183
+  - first:
+      213: -7419624722879417302
+    second: swofinito_184
+  - first:
+      213: -2549679354221648416
+    second: swofinito_185
+  - first:
+      213: 1132632638941671930
+    second: swofinito_186
+  - first:
+      213: -8375293978389765676
+    second: swofinito_187
+  - first:
+      213: 221275316858120029
+    second: swofinito_188
+  - first:
+      213: 8300612570517124748
+    second: swofinito_189
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swofinito_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2049
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc4691d49aa27e0800000000000000
+      internalID: -1789431753322738354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3babfa0f36ce6d0800000000000000
+      internalID: -2959880969697709150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653084432648d29d0800000000000000
+      internalID: -2797434236208413866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0de083505a694490800000000000000
+      internalID: -7761555589565453042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae322b0c7d9f370800000000000000
+      internalID: 8356947806185057015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64560d4f41f12ce0800000000000000
+      internalID: -1431597883630136213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6658e6442a611bd50800000000000000
+      internalID: 6751202202593690982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfad8ed0f0c0d690800000000000000
+      internalID: -7579346032106033226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1985
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0739dd9ce26de0760800000000000000
+      internalID: 7426108332024107888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b512749399191b0800000000000000
+      internalID: -5651567586087707836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1985
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89457db6c54ce2ee0800000000000000
+      internalID: -1283872942528703336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6730354d1897877b0800000000000000
+      internalID: -5226293769043508362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522500c1359bf0c0800000000000000
+      internalID: -4540871758365515176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1985
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2bc60ecf822da50800000000000000
+      internalID: 6544338275084841705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1921
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db38a76738d74b30800000000000000
+      internalID: 4271620504058084312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186346d821897cf0800000000000000
+      internalID: -254029891576305641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da2bc44b47e74d00800000000000000
+      internalID: 956987756302248662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd935783fb883850800000000000000
+      internalID: 6356984752097172945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd69ef078994b9b50800000000000000
+      internalID: 6600950597921183451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22208b48fed343e0800000000000000
+      internalID: -2070566245660351956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b76978ea2c35150800000000000000
+      internalID: 5860241594994031467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d15daa0a2d207d0800000000000000
+      internalID: -2953566818098930340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1857
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1904aa3dbdac30800000000000000
+      internalID: 4372358872804433077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1857
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b491eff092ea1c2e0800000000000000
+      internalID: -2107211659247478453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1857
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ec459df71d4130800000000000000
+      internalID: 3552522058964198459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ba27760f62b0ab0800000000000000
+      internalID: -5040892543941563614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d017a947c971fa0800000000000000
+      internalID: -5830019167986578106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6776815ceae7eec60800000000000000
+      internalID: 7849350489649473398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1778
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301312488a21e780800000000000000
+      internalID: -8655590244116918221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1778
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bd407465f704950800000000000000
+      internalID: 6431280276420483909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1777
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9117fe841d8f7e070800000000000000
+      internalID: 8135744829623595289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1777
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea75800d154cebea0800000000000000
+      internalID: -5855026609873463378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1777
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c618b47b7785d0800000000000000
+      internalID: -3060341680540039495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1778
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fa6bfbe17a64590800000000000000
+      internalID: -7690275563181265086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1777
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a6dba815fed31c0800000000000000
+      internalID: -4522195317311051111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1777
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca920e6d2d44c00800000000000000
+      internalID: 884063247197121604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1777
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a7b041edc778560800000000000000
+      internalID: 7315953412947540620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1713
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e985f1ab6a88ca7d0800000000000000
+      internalID: -2905797409892247394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1713
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4d6f7abc1a90210800000000000000
+      internalID: 1299747863541503144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1714
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed2b2aa1e0306120800000000000000
+      internalID: 2404975946796576232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_40
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5906f651e171fbdf0800000000000000
+      internalID: -162385643585970027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1713
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c8ceef961968c0800000000000000
+      internalID: -4005645517407598223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1713
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b2be7f2dfeaa20800000000000000
+      internalID: 3075673975971559635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_43
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1713
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181b76c4113a54b60800000000000000
+      internalID: 7729763630142960001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_44
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1713
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9937c2e2dea9a4960800000000000000
+      internalID: 7587046865731613593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_45
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1713
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13cda13debad40c0800000000000000
+      internalID: -4589823409991597282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1649
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e513b3ac0358d40800000000000000
+      internalID: 5585924557957586489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1649
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3259d7b97725a8570800000000000000
+      internalID: 8469672722886923555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1648
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c74b29df458ecb0800000000000000
+      internalID: -4834520751917466502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_49
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1648
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e4ba4c382168bb0800000000000000
+      internalID: -4934235984588222960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1648
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca29da342d2aa390800000000000000
+      internalID: -7806377370463950132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1649
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0243391c01ed8b7d0800000000000000
+      internalID: -2902325796291791840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1648
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b2a741cca0f96e0800000000000000
+      internalID: -1828731052055975058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1648
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c87c590ee492180800000000000000
+      internalID: -9139687242279187450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1648
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7bc5c2d97f7b570800000000000000
+      internalID: 8482520677601818572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1585
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001cb537494b5ca40800000000000000
+      internalID: 5387911078902219008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_56
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1585
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b63012538a68dc30800000000000000
+      internalID: 4384371349495232182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_57
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1586
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce5af4645b494240800000000000000
+      internalID: 4776431705646587584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_58
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1586
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2028d00636f26750800000000000000
+      internalID: 6296865940820205613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_59
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1585
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df8e343d3763aad0800000000000000
+      internalID: -2692194639670243372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_60
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1585
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbcdc5310373f650800000000000000
+      internalID: 6265477955637332936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_61
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1585
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d6ccf82d1c97750800000000000000
+      internalID: 6303282263581551993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_62
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1585
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bcfd0442fbeabe0800000000000000
+      internalID: -1464022666420696234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_63
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1585
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c50f7f4173d09fb0800000000000000
+      internalID: -4642978732200491576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1503
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0431b2c09225de90800000000000000
+      internalID: -7001652040540539891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1503
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ae0ea7649f59c80800000000000000
+      internalID: -8316467055765165555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_66
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1503
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79e0cda29a8f4d20800000000000000
+      internalID: 3264980617451858302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_67
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1504
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a218728a70d751860800000000000000
+      internalID: 7500038226294833450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_68
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1504
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842ee2b47aa399b10800000000000000
+      internalID: 1988685200656097864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_69
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1501
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6ca0198b1b169a0800000000000000
+      internalID: -6241512202293295423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_70
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1375
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d395c36ea92e9f2f0800000000000000
+      internalID: -938469892414482115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_71
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1374
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e43bb9e7eb23a90800000000000000
+      internalID: -7335591392045740479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1374
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b96640e05cff30c0800000000000000
+      internalID: -4593675670604322375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_73
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1374
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752fbd3d916b34850800000000000000
+      internalID: 6360127320822116951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_74
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1374
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9198a94f2a67ec0800000000000000
+      internalID: -3569486483196143136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_75
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1374
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db27b236273bcf60800000000000000
+      internalID: 8055592995681414098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1181
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8c3d16433d1ac0800000000000000
+      internalID: -3882890927492264527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_77
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1183
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec86f259fbdae6640800000000000000
+      internalID: 5075184868446398670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_78
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1183
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3375f9be5fa89f30800000000000000
+      internalID: 4582605442231137083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_79
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1183
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e901ea74393e365f0800000000000000
+      internalID: -764517290020564834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_80
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1183
+        width: 95
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12374899b91d6290800000000000000
+      internalID: -7895626286796164577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_81
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1183
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a6575671f77280800000000000000
+      internalID: -9045495835976621706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_82
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 987
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ee44b07c2055ed0800000000000000
+      internalID: -2426029770358329843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 990
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933dcbf1a8faf060800000000000000
+      internalID: 6988171146416698266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 990
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf3733ecc7b712b0800000000000000
+      internalID: -5613816319880773697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_85
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 990
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287be2e7a4b3db40800000000000000
+      internalID: 5463909406090164270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_86
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 971
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce09c6300a910610800000000000000
+      internalID: 1585717869520948930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_87
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 975
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3c18999e80987b0800000000000000
+      internalID: -5221632493563558971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 796
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d4b444c82edc940800000000000000
+      internalID: 5318155827063508291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_89
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 798
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b75a1f2b1853d1e0800000000000000
+      internalID: -2174297321312200780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_90
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 798
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a77b6acdf4e79660800000000000000
+      internalID: 7392629092025857954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_91
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 798
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490566d8ac171b630800000000000000
+      internalID: 3941056263695519892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_92
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 798
+        width: 95
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c205e67bbe38f0800000000000000
+      internalID: -558803184424663812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_93
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 798
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb877f5e95012c850800000000000000
+      internalID: 6395692399115860159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_94
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 666
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971ec677890058530800000000000000
+      internalID: 3856489310751351161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 664
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1573ec582e8b203e0800000000000000
+      internalID: -2088903994099484847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_96
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 658
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c467cb002df518850800000000000000
+      internalID: 6377483902893454924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_97
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 663
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65451b5bab14a1730800000000000000
+      internalID: 3970558291648533590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_98
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 666
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a151ab27bfab8e50800000000000000
+      internalID: 6812732062573875616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_99
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 668
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38023b57145aa70800000000000000
+      internalID: 8837541817556698056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_100
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 539
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c210b2b0aad96dff0800000000000000
+      internalID: -11648595364478676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_101
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 550
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0140e915010710670800000000000000
+      internalID: 8503200786843304976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_102
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 550
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c582105dc9eda560800000000000000
+      internalID: 7326769236822623683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_103
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 551
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92daacb1fdf7544e0800000000000000
+      internalID: -1998050263448244951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_104
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 552
+        width: 94
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02348c464b922df50800000000000000
+      internalID: 6904627033474089760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_105
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 551
+        width: 92
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b6687208318f3e0800000000000000
+      internalID: -2019842991735805049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_106
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 438
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896ae4601e5cfa20800000000000000
+      internalID: 3097454068229630345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_107
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 449
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7dff75510c74490800000000000000
+      internalID: -7762024234846529594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_108
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 451
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff508a8424e6f4d0800000000000000
+      internalID: -3101040447804383233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_109
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 450
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cc6805cab404800800000000000000
+      internalID: 594558354270375025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_110
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 423
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48acd90c38c0f8610800000000000000
+      internalID: 1625531750515853956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_111
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 425
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba28e2ff59ae6f20800000000000000
+      internalID: 3417855396783073972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_112
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 343
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07679d27aca6bc490800000000000000
+      internalID: -7724963318081161616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_113
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 344
+        width: 94
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be725c669d6ff6780800000000000000
+      internalID: -8687453742581864469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_114
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 343
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9602c2b14186440800000000000000
+      internalID: 4929211899094002146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_115
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 342
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d44c5bdab41701e0800000000000000
+      internalID: -2231792297562061616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_116
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 342
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41699eedbe2865e0800000000000000
+      internalID: -1916230248159420081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_117
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 332
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4d1d9c95748b8c0800000000000000
+      internalID: -3983355419445570400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_118
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 244
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d334821bcc3e40800000000000000
+      internalID: 5637604113948858185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_119
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 244
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8778d8f6dac76b130800000000000000
+      internalID: 3582187637962540920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_120
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 240
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556fe4f4e457e9ab0800000000000000
+      internalID: -4999429557136198059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_121
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 242
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8276ef7445c1340800000000000000
+      internalID: 4835832768076654770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_122
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 242
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bef64c3ece30760800000000000000
+      internalID: 7423037073834109753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_123
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 241
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e76293b0ebd5950800000000000000
+      internalID: 6439511997622419082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_124
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 242
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67515b5a54818d20800000000000000
+      internalID: 3279047527316412269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_125
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 242
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a732b014d7532810800000000000000
+      internalID: 1739330449419941797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_126
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 241
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f58d2fe5d46ee0800000000000000
+      internalID: -1268653971773982223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_127
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 257
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2abcea97b2821d0800000000000000
+      internalID: -3375400119090568485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_128
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 255
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48302f3b55e9d1fb0800000000000000
+      internalID: -4675406747212315772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_129
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 257
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ea413b5de637780800000000000000
+      internalID: -8686477392155988332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_130
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 256
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd6c78722d2cf30800000000000000
+      internalID: 4594465637094841128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_131
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 254
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3446576afc028f0800000000000000
+      internalID: -567225239207656478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_132
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 257
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f7bae64d27a1990800000000000000
+      internalID: -7414487579796734113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_133
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 256
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ebeaa9224f90590800000000000000
+      internalID: -7707360857806684666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_134
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 253
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204bebddac29eb470800000000000000
+      internalID: 8412322553975976962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_135
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 256
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4193e7fbb8125df20800000000000000
+      internalID: 3446697973918873876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 179
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c368b57b3627eb0800000000000000
+      internalID: -4723603419992540109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_137
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 178
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540646667fa55ce70800000000000000
+      internalID: 9134807437812195397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_138
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 180
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5d6df4625f868b0800000000000000
+      internalID: -5158603828255861249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_139
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 180
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71943b39c83243830800000000000000
+      internalID: 4049901051593312535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_140
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 179
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75623a502218e5880800000000000000
+      internalID: -8620310653617101225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_141
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 179
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c33297fae528a70800000000000000
+      internalID: 8827722327344233522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_142
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 180
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19612aa39aab2eab0800000000000000
+      internalID: -4980213001922406767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_143
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 181
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db99a2efdbbcecd10800000000000000
+      internalID: 2147878089175767485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_144
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 180
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7e27128cb8bc00800000000000000
+      internalID: 916689791090589294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_145
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 193
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ef0a45b1f45dc00800000000000000
+      internalID: 924732277297053319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_146
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 193
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d28d1e87da24160800000000000000
+      internalID: 7008354704838634761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_147
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 193
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4191b9e2bdcc8c80800000000000000
+      internalID: -8319048243351547570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_148
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 193
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadc82ba18d97f10800000000000000
+      internalID: 2268081496534080213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_149
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 192
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586efc00340989fc0800000000000000
+      internalID: -3487879293947615611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_150
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 193
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14a9f59a6da2b90800000000000000
+      internalID: -7265759025867111957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_151
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 192
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef065f21e720fc50800000000000000
+      internalID: 6696896494015221742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_152
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 193
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf09d2cfd7687080800000000000000
+      internalID: -9189480828905123890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_153
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 193
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da28b9e495cb4ca60800000000000000
+      internalID: 7693481155212575405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_154
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 112
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb9ec39e4f8459f0800000000000000
+      internalID: -480601692571788343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_155
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 112
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee5833831b6ad90800000000000000
+      internalID: -7086782108680196373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_156
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 113
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2e879d8b9b7bcb0800000000000000
+      internalID: -4848202270267350331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_157
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 110
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a270e28124f1e0800000000000000
+      internalID: -2165068674863291913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_158
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 111
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def42a88a99e5ad0800000000000000
+      internalID: -2711560976479224106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_159
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 111
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd979a28546d74110800000000000000
+      internalID: 1245199416024463839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_160
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 110
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329ef54043a2e1140800000000000000
+      internalID: 4692234264666695971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_161
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 111
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c513d9197a29700800000000000000
+      internalID: 545682748714605703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_162
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 111
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd34f381515646e40800000000000000
+      internalID: 5648750973904962525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_163
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 126
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3882475a3621630800000000000000
+      internalID: 3896286189898466235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_164
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 126
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812627e5a49684290800000000000000
+      internalID: -7905953377715854824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_165
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 124
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b94df32842dfc0800000000000000
+      internalID: -3471633043338709634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_166
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 123
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ccee83dd669d940800000000000000
+      internalID: 5321397535043931226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_167
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 124
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7bd45355a4c3f80800000000000000
+      internalID: -8125537897856256051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_168
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 125
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217a60f57b1a4beb0800000000000000
+      internalID: -4704957901749967086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_169
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 123
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea58e9efb9125d0800000000000000
+      internalID: -3089016351515890082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_170
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 123
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afea0d3704b1c1b0800000000000000
+      internalID: -5638027315309252704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_171
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 124
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07232324d58d87090800000000000000
+      internalID: -8036435639988506000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_172
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 51
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408fd0312d19c1670800000000000000
+      internalID: 8510837727272237060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_173
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 52
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1215a7834060ed0800000000000000
+      internalID: -2448264706812468762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_174
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 51
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7928c8888ee152d90800000000000000
+      internalID: -7123253251544415593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_175
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 49
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e422dd3816168fa0800000000000000
+      internalID: -5798923176820726558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_176
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 49
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da428eb51692b45a0800000000000000
+      internalID: -6536084936067636051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_177
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 51
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e316e0c2a583672c0800000000000000
+      internalID: -4434294823162322626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_178
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 51
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a70cbcc2e6d89bc0800000000000000
+      internalID: -3776032017964333144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_179
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 48
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a369db8df3d04c90800000000000000
+      internalID: -7187511919356845147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_180
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 49
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de274b8afacfbb9b0800000000000000
+      internalID: -5063175524668116243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_181
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 57
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13765bbdd70e92b50800000000000000
+      internalID: 6569028362658211633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_182
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 57
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d146963d52d7334f0800000000000000
+      internalID: -850198303228730339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_183
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 56
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663331ce5723def50800000000000000
+      internalID: 6912236485136823142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_184
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 57
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f01a10a2380990800000000000000
+      internalID: -7419624722879417302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_185
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 56
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5a878d228bd9cd0800000000000000
+      internalID: -2549679354221648416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_186
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 57
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1b129526be7bf00800000000000000
+      internalID: 1132632638941671930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_187
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 58
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d12c98308af4cb80800000000000000
+      internalID: -8375293978389765676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_188
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 57
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57e3e27ab0221300800000000000000
+      internalID: 221275316858120029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swofinito_189
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 57
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86b0d38723b13370800000000000000
+      internalID: 8300612570517124748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

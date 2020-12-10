@@ -30,8 +30,6 @@ public class DeathMenu : MonoBehaviour
         }
         else
         {
-
-
             transition += Time.deltaTime;
             backgroundImg.color = Color.Lerp(new Color(0, 0, 0, 0), Color.black, transition);
         }
@@ -45,13 +43,9 @@ public class DeathMenu : MonoBehaviour
 
     public void Retry()
     {
-        
-       /* retry.SetActive(false);
-        quit.SetActive(false); 
-        backgroundImg.enabled = false; */
         SceneManager.LoadScene("Tutorial");
         gameObject.SetActive(false);
-        isShowned = false;
+
     }
 
     public void ToMenu()

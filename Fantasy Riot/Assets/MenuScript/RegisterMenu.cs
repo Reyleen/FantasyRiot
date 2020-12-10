@@ -34,6 +34,10 @@ public class RegisterMenu : MonoBehaviour
             DBManager.username = insertname.text;
             DBManager.score = 0;
             Debug.Log("User logged");
+            Player player = new Player();
+            player.name= insertname.text;
+            player.password = insertpassword.text;
+            player.SavePlayer();
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
         else //if it was not
@@ -43,7 +47,7 @@ public class RegisterMenu : MonoBehaviour
 
     }
 
-    public void VerifyInputs() //check if the information are accceptable
+    public void VerifyInputs() //check if the information are acceptable
     {
         submitButton.interactable = ((insertname.text.Length >= 8 && insertpassword.text.Length >= 8 && insertpassword.text.Length >= 8)
                                     && insertpassword.text == insertpassword2.text);

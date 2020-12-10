@@ -77,13 +77,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -5163845800513967921, guid: b6730386c72c79d469c697234f62c63b,
+  m_Sprite: {fileID: -5163845800513967921, guid: 18d9fbd26c980e94c9306244f602dd05,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.29999998, y: 0.47014347}
+  m_Size: {x: 0.64, y: 0.64019537}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 2498900396213128309}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b5c23622b064ef544be7872ecda5cbcd, type: 2}
+  m_Controller: {fileID: 9100000, guid: d60ac5fdb2c3b574da4f59e5e29573ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -117,13 +117,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2498900396213128309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6df58f007587b0a488c3f7a70b6c245f, type: 3}
+  m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
   rb: {fileID: 2498900396213128308}
   isAttacking: 0
-  attackDelay: 1
+  attackDelay: 2
   attackRange: 1
   enHea: {fileID: 4814754647123309576}
   isAlive: 1
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 30
   CurrentHealth: 0
-  coin: {fileID: 631694930291664572, guid: 7b781fd1f727831419f8b1ccec84db69, type: 3}
+  coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
   anim: {fileID: 2498900396213128310}
   rb: {fileID: 2498900396213128308}
   drop: 1
@@ -184,7 +184,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.64, y: 0.64019537}
-    newSize: {x: 0.29999998, y: 0.47014347}
+    newSize: {x: 0.64, y: 0.64019537}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

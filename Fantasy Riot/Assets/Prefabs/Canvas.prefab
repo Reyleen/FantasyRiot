@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 9157169393256507383}
   - component: {fileID: 6478286732858855680}
   - component: {fileID: 1191309560991048130}
-  - component: {fileID: 1846660356991702195}
+  - component: {fileID: 821611816159629802}
   m_Layer: 5
   m_Name: DeathMenu
   m_TagString: Untagged
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1846660356991702195
+--- !u!114 &821611816159629802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1366069663781429094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903d45196af56634aa844f14722e6d84, type: 3}
+  m_Script: {fileID: 11500000, guid: 6531fd09f1ca38e489921195402f37a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundImg: {fileID: 1191309560991048130}
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1846660356991702195}
+      - m_Target: {fileID: 0}
         m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1846660356991702195}
+      - m_Target: {fileID: 0}
         m_MethodName: ToMenu
         m_Mode: 1
         m_Arguments:
@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7454508658350748146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c8eef0ea22bcf14aba7e3041babbce5, type: 3}
+  m_Script: {fileID: 11500000, guid: 06af85efb9a448a4abf6b5082c0515aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 7454508658304146848}
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7454508658430934410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 763d37b9e3d7b09409ce0ccb89e5a616, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e486b9a69943344eb2315d944afb8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dBox: {fileID: 7454508659889832675}
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7454508659207258723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cac73276b548f747934c7ae8bc7b4f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8604f2e0eac89504094e8f6556a0c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7454508659218745429

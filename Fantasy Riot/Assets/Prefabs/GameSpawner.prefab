@@ -72,26 +72,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 8977001056765497016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b4c998541781ad4bad765195fc594be, type: 3}
+  m_Script: {fileID: 11500000, guid: 45b3b7a41c2cb284f831edca86b5be73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - name: Wave 1
-    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
+  - name: WAVE 1
+    enemy: {fileID: 0}
     count: 2
-    rate: 3
-  - name: Wave 2
-    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
+    rate: 2
+  - name: WAVE 2
+    enemy: {fileID: 0}
     count: 4
     rate: 2
-  - name: Wave 3
-    enemy: {fileID: 2498900396213128312, guid: b96cd4c9d5d25e644b6646ec6319f56b, type: 3}
+  - name: WAVE 3
+    enemy: {fileID: 0}
     count: 6
     rate: 2
   nextWave: 0
   spawnPoints:
-  - {fileID: 8977001056436393429}
-  - {fileID: 8977001057357374803}
+  - {fileID: 0}
+  - {fileID: 0}
   timeBetweenWaves: 5
   waveCountdown: 0
 --- !u!1 &8977001057357374804

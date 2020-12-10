@@ -1093,7 +1093,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 87806884}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3530857
+  m_Size: 0.35308573
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4115,7 +4115,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 827448746}
   m_HandleRect: {fileID: 827448745}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4951,8 +4951,8 @@ MonoBehaviour:
     vectorial image:\n Guglietta Stefano\n\nCharacters:\nUniversal LPC Spritesheet
     Character Generator\n\nMusic:\n\n\nEffects:\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ce1f75db9d20f544b80018a708380cd9, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: ce1f75db9d20f544b80018a708380cd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10463,7 +10463,7 @@ PrefabInstance:
     - target: {fileID: 971743952919787549, guid: da735d6423abe504bb02810475797c34,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 971743952919787549, guid: da735d6423abe504bb02810475797c34,
         type: 3}

@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadNewArea : MonoBehaviour
 {
-
+    public GameObject WaveUI;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class LoadNewArea : MonoBehaviour
         if(other.gameObject.name == "Player")
         {
             SceneManager.LoadScene("CaveTutorial");
+            WaveUI.SetActive(true);
         }
     
     }

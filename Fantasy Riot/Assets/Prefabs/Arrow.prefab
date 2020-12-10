@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 6973708334280957338}
   - component: {fileID: 4908904769069510642}
   - component: {fileID: -1197479298552521542}
+  - component: {fileID: 2906529865827936692}
+  - component: {fileID: 736743180130446620}
+  - component: {fileID: -1639407736535449463}
   m_Layer: 0
-  m_Name: arrow
-  m_TagString: Untagged
+  m_Name: Arrow
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,8 +73,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 5946551882310926714, guid: 2d09e6b6cd84214438ff288ca44e178c,
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 5946551882310926714, guid: 77cde7a4d5457d74681c90d3d249a69e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -104,3 +107,56 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2906529865827936692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928633610588005725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654563ffe55a5e4bb526da477de37b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 5
+  rb: {fileID: -1197479298552521542}
+--- !u!61 &736743180130446620
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928633610588005725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.29, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.66, y: 0.14}
+    newSize: {x: 0.66, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.03180954, y: 0.14}
+  m_EdgeRadius: 0
+--- !u!114 &-1639407736535449463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928633610588005725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a9c4fc27f75a7418bc6684b457fb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackTime: 1

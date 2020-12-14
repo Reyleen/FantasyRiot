@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public Rigidbody2D rb;
-    private Joystick joystick;
+    public Joystick joystick;
     public Animator topAnim;
     public Animator botAnim;
     private bool playerMoving;
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private static bool playerExists;
 
     public GameObject arrowPrefab;
-    private Joystick aimStick;
+    public Joystick aimStick;
     Vector2 aim;
 
     public float fireRate = 0.5F;
@@ -27,9 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        //joystick = FindObjectOfType<FixedJoystick>();
-        //aimStick = FindObjectOfType<VariableJoystick>();
-       
+        joystick = FindObjectOfType<FixedJoystick>();
+        aimStick = FindObjectOfType<VariableJoystick>();
+        DontDestroyOnLoad(transform.gameObject);
     }
 
     void Update()

@@ -7,8 +7,8 @@ public class Tower : MonoBehaviour
     /*[SerializeField]
     private string projectileType; */
     private SpriteRenderer mySpriteRenderer;
-    private Monster target;
-    private Queue<Monster> monsters = new Queue<Monster>();
+    private Enemy target;
+    private Queue<Enemy> monsters = new Queue<Enemy>();
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +43,7 @@ public class Tower : MonoBehaviour
     {
         if (other.tag == "Monster")
         {
-            monsters.Enqueue(other.GetComponent<Monster>());
+            monsters.Enqueue(other.GetComponent<Enemy>());
         }
     }
 

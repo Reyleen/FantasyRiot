@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class DetectTouchIntro : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class DetectTouchIntro : MonoBehaviour
         if (Input.touchCount > 0) 
         { 
              Debug.Log("entrato");
-             //wrap.GetComponent<LoadLevel>().LoadScreen("Menu");
+             wrap.GetComponent<LoadLevel>().LoadScreen("Menu");
         }
     }
 }

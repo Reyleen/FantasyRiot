@@ -3,7 +3,14 @@ guid: 0b173b031ef5e474d87363018dde201f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - joystick: {instanceID: 0}
+  - topAnim: {instanceID: 0}
+  - botAnim: {instanceID: 0}
+  - arrowPrefab: {fileID: 6928633610588005725, guid: c20636b897000844486e7227264430d8,
+      type: 3}
+  - aimStick: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

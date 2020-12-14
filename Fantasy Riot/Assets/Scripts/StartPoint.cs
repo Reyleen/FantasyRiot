@@ -29,6 +29,12 @@ public class StartPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        wave = FindObjectOfType<WaveSpawner>();
+
+        thePlayer = FindObjectOfType<PlayerMovement>();
+
+        theCamera = FindObjectOfType<PlayerFollow>();
+
         plaHea = FindObjectOfType<PlayerHealthManager>();
         waveCounter.text = "Wave: " + (wave.nextWave + 1);
 

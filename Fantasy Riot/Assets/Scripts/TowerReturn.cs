@@ -38,7 +38,7 @@ public class TowerReturn : MonoBehaviour
                 rb.velocity = Vector2.zero;
                 foreach (Transform place in Placement.Placements)
                 {
-                    if (Mathf.Abs(transform.position.x - place.position.x) <= 1.5f && Mathf.Abs(transform.position.y - place.position.y) <= 1.5f)
+                    if (Mathf.Abs(transform.position.x - place.position.x) <= 1.5f && Mathf.Abs(transform.position.y - place.position.y) <= 4.7f)
                     {
                         Locked = true;
                         Debug.Log("PLACED");

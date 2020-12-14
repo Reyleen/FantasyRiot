@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnATurret : MonoBehaviour
 {
-    public Transform PlayerPosition;
+    private Transform PlayerPosition;
     public GameObject InfernalTower;
     public GameObject GolemTower;
     public GameObject IceTower;
@@ -12,6 +12,7 @@ public class SpawnATurret : MonoBehaviour
 
    public void Update()
     {
+        PlayerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         PlayerPosition.position = new Vector3(PlayerPosition.position.x, PlayerPosition.position.y, PlayerPosition.position.z);
     } 
     public void PurchaseInfernalTower()

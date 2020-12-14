@@ -41,7 +41,7 @@ public class Tower : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Monster")
+        if (other.tag == "Enemy")
         {
             monsters.Enqueue(other.GetComponent<Monster>());
         }
@@ -49,7 +49,7 @@ public class Tower : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Monster")
+        if (other.tag == "Enemy")
         {
             target = null;
             Debug.Log("No Enemy In Range");

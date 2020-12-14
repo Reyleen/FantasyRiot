@@ -20,6 +20,9 @@ public class Enemy : MonoBehaviour
     public EnemyHealthManager enHea;
     public bool isAlive = true;
 
+    private Transform MonsterPosition;
+    public Point GridPosition { get; set; }
+
     // Start is called before the first frame update
     void Start()
     {

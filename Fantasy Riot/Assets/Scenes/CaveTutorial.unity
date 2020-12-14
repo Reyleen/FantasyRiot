@@ -224,8 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811e3014a03b43946b7400a8cfc1c0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPosition: {fileID: 8611908972139356410, guid: 8fcc006925f7d6341af3cc27e4a8eeab,
-    type: 3}
   InfernalTower: {fileID: 8907366300788112933, guid: 4cbc2a1f90e532b449eacf52b1f26424,
     type: 3}
   GolemTower: {fileID: 6134797277603510831, guid: 9cd07b87d96b5dc4e8bacc8d63b651c9,
@@ -311,7 +309,7 @@ Animator:
   m_GameObject: {fileID: 407588865}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fcc9a71d78d34ff41b622095b648866f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8ef10809587298b43a42dc4e4982c498, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -745,6 +743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}

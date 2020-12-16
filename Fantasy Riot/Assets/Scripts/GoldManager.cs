@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GoldManager : MonoBehaviour
 {
     public Text moneyText;
-    public int currentGold;
+    public int currentGold { get; set; }
     private PlayerHealthManager plaHea;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class GoldManager : MonoBehaviour
             currentGold = PlayerPrefs.GetInt("CurrentMoney");
         } else*/
         //{
-            currentGold = 0;
+            currentGold = 40;
 
         //}
         moneyText.text = "Gold: " + currentGold;

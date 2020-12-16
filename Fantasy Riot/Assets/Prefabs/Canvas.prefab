@@ -220,14 +220,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1861,8 +1861,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811e3014a03b43946b7400a8cfc1c0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPosition: {fileID: 8611908972139356410, guid: 8fcc006925f7d6341af3cc27e4a8eeab,
-    type: 3}
   InfernalTower: {fileID: 8907366300788112933, guid: 4cbc2a1f90e532b449eacf52b1f26424,
     type: 3}
   GolemTower: {fileID: 6134797277603510831, guid: 9cd07b87d96b5dc4e8bacc8d63b651c9,
@@ -1871,6 +1869,7 @@ MonoBehaviour:
     type: 3}
   AirTower: {fileID: 2276250498638129101, guid: 74caec56f595f2140a3a3e545fb6c187,
     type: 3}
+  gold: {fileID: 0}
 --- !u!1 &7454508658176174036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,7 +2218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 7454508658304146848}
-  currentGold: 0
 --- !u!1 &7454508658430934410
 GameObject:
   m_ObjectHideFlags: 0

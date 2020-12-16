@@ -1554,12 +1554,12 @@ PrefabInstance:
     - target: {fileID: 3174996740842506383, guid: 4cbc2a1f90e532b449eacf52b1f26424,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.90738326
+      value: 2.24
       objectReference: {fileID: 0}
     - target: {fileID: 3174996740842506383, guid: 4cbc2a1f90e532b449eacf52b1f26424,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6273355
+      value: -1.37
       objectReference: {fileID: 0}
     - target: {fileID: 3174996740842506383, guid: 4cbc2a1f90e532b449eacf52b1f26424,
         type: 3}
@@ -2546,12 +2546,12 @@ PrefabInstance:
     - target: {fileID: 8293939926155058381, guid: 04dfb6e96f002714dab1481fe59b1f39,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.61
+      value: 5.44
       objectReference: {fileID: 0}
     - target: {fileID: 8293939926155058381, guid: 04dfb6e96f002714dab1481fe59b1f39,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 8293939926155058381, guid: 04dfb6e96f002714dab1481fe59b1f39,
         type: 3}
@@ -3347,7 +3347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811e3014a03b43946b7400a8cfc1c0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPosition: {fileID: 5604624636788946123}
   InfernalTower: {fileID: 8907366300788112933, guid: 4cbc2a1f90e532b449eacf52b1f26424,
     type: 3}
   GolemTower: {fileID: 6134797277603510831, guid: 9cd07b87d96b5dc4e8bacc8d63b651c9,
@@ -5190,9 +5189,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!4 &5604624636788946123 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 478484059350467216, guid: 9fb09123b1be6084f9c26348a6d9c70e,
-    type: 3}
-  m_PrefabInstance: {fileID: 5604624636788946117}
-  m_PrefabAsset: {fileID: 0}

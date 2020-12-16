@@ -9,30 +9,55 @@ public class SpawnATurret : MonoBehaviour
     public GameObject GolemTower;
     public GameObject IceTower;
     public GameObject AirTower;
+    public GoldManager gold;
 
-   public void Update()
+    void Start()
+    {
+        gold = FindObjectOfType<GoldManager>();
+    }
+
+    public void Update()
     {
         PlayerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         PlayerPosition.position = new Vector3(PlayerPosition.position.x, PlayerPosition.position.y, PlayerPosition.position.z);
     } 
     public void PurchaseInfernalTower()
     {
-        Instantiate(InfernalTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+        if (gold.currentGold >= 10)
+        {
+            Instantiate(InfernalTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+            gold.AddMoney(-10);
+        }
+        
     }
 
     public void PurchaseGolemTower()
     {
-        Instantiate(GolemTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+        if (gold.currentGold >= 10)
+        {
+            Instantiate(GolemTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+            gold.AddMoney(-10);
+        }
+        
     }
 
     public void PurchaseIceTower()
     {
-        Instantiate(IceTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+        if(gold.currentGold >=10)
+        {
+            Instantiate(IceTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+            gold.AddMoney(-10);
+        }
+        
     }
 
     public void PurchaseAirTower()
     {
-        Instantiate(AirTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+        if (gold.currentGold >= 10)
+        {
+            Instantiate(AirTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
+            gold.AddMoney(-10);
+        }
     }
 
 }

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadNewArea : MonoBehaviour
 {
     public GameObject WaveUI;
+    public GameObject Torrette;
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class LoadNewArea : MonoBehaviour
         {
             SceneManager.LoadScene("CaveTutorial");
             WaveUI.SetActive(true);
+            Torrette.SetActive(true);
         }
     
     }

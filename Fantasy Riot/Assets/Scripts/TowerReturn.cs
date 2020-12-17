@@ -15,12 +15,16 @@ public class TowerReturn : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 direction;
     private float moveSpeed = 10f;
+    private GoldManager gold;
+    [SerializeField]
+    private int costTower;
 
     public bool Locked { get => locked; set => locked = value; }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        gold = FindObjectOfType<GoldManager>();
     }
 
     private void Update()
@@ -47,6 +51,8 @@ public class TowerReturn : MonoBehaviour
                     {
                         Debug.Log("DESTROYED");
                         Destroy(gameObject);
+                        gold.AddMoney(+costTower);
+
                     }
                 }
                 

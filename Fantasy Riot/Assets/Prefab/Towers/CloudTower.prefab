@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
+  costTower: 3
 --- !u!95 &2276250498638129099
 Animator:
   serializedVersion: 3

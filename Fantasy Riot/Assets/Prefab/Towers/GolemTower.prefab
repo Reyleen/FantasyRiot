@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
+  costTower: 2
 --- !u!114 &8859158553956288152
 MonoBehaviour:
   m_ObjectHideFlags: 0

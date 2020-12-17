@@ -9,8 +9,7 @@ public class SpawnATurret : MonoBehaviour
     public GameObject GolemTower;
     public GameObject IceTower;
     public GameObject AirTower;
-    public GoldManager gold;
-
+    private GoldManager gold;
     void Start()
     {
         gold = FindObjectOfType<GoldManager>();
@@ -23,40 +22,40 @@ public class SpawnATurret : MonoBehaviour
     } 
     public void PurchaseInfernalTower()
     {
-        if (gold.currentGold >= 10)
+        if (gold.currentGold >= 3)
         {
             Instantiate(InfernalTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-10);
+            gold.AddMoney(-3);
         }
         
     }
 
     public void PurchaseGolemTower()
     {
-        if (gold.currentGold >= 10)
+        if (gold.currentGold >= 2)
         {
             Instantiate(GolemTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-10);
+            gold.AddMoney(-2);
         }
         
     }
 
     public void PurchaseIceTower()
     {
-        if(gold.currentGold >=10)
+        if(gold.currentGold >=5)
         {
             Instantiate(IceTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-10);
+            gold.AddMoney(-5);
         }
         
     }
 
     public void PurchaseAirTower()
     {
-        if (gold.currentGold >= 10)
+        if (gold.currentGold >= 3)
         {
             Instantiate(AirTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-10);
+            gold.AddMoney(-3);
         }
     }
 

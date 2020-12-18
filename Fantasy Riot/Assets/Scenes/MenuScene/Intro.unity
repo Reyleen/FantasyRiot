@@ -1298,6 +1298,8 @@ PlayableDirector:
     value: {fileID: 1352869955}
   - key: {fileID: 153022095790382090, guid: 194ac7b35b8b02a43a086d72f3665aa0, type: 2}
     value: {fileID: 1716424685}
+  - key: {fileID: 6570233522040105840, guid: 194ac7b35b8b02a43a086d72f3665aa0, type: 2}
+    value: {fileID: 1494123232}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1448894773
@@ -1477,7 +1479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.700012, y: 10.100006}
+  m_AnchoredPosition: {x: -8.700073, y: 10.099976}
   m_SizeDelta: {x: 181.37744, y: 143.64996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1494123234
@@ -1643,7 +1645,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8602dc44e46c4e543b6ee698474b9dda, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.091
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2187,7 +2189,7 @@ PrefabInstance:
     - target: {fileID: 8445670782479754820, guid: 61e1578391daa944ca8a6d9569ac65e5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 10.100006
+      value: 10.099976
       objectReference: {fileID: 0}
     - target: {fileID: 8445670782479754820, guid: 61e1578391daa944ca8a6d9569ac65e5,
         type: 3}

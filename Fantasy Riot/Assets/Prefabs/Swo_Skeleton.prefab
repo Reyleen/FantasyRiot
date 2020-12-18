@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4814754647123309576}
   - component: {fileID: 4435891234175133082}
   - component: {fileID: 667671725961252284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Swo_Skeleton
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5382736601617122379}
   - component: {fileID: 594502926023075261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

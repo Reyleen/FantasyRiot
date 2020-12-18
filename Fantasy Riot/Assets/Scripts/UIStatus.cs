@@ -22,7 +22,7 @@ public class UIStatus : MonoBehaviour
         nameText.text = playerStatus.playerName;
         hpText.text = "" + playerStatus.currentHp;
         levelText.text = playerStatus.playerLevel.ToString();
-        nextLevelGems.text = "" + playerStatus.nextLevelGems[playerStatus.playerLevel + 1];
+        nextLevelGems.text = "" + playerStatus.nextLevelGems[playerStatus.playerLevel];
         attackText.text = "" + playerStatus.attack;
     }
 }

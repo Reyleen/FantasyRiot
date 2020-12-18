@@ -1,0 +1,5072 @@
+fileFormatVersion: 2
+guid: df9d127198d209a4fa98319b3e2ae388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4207686412796373944
+    second: Paladino_0
+  - first:
+      213: -504030052138420751
+    second: Paladino_1
+  - first:
+      213: 469087752627943341
+    second: Paladino_2
+  - first:
+      213: 2035009528482574132
+    second: Paladino_3
+  - first:
+      213: -6399691387524408246
+    second: Paladino_4
+  - first:
+      213: -6240594800706270292
+    second: Paladino_5
+  - first:
+      213: 2909169758355926525
+    second: Paladino_6
+  - first:
+      213: 3164434250307922993
+    second: Paladino_7
+  - first:
+      213: 6805670328442512010
+    second: Paladino_8
+  - first:
+      213: 5735549321207615187
+    second: Paladino_9
+  - first:
+      213: -464880236474309373
+    second: Paladino_10
+  - first:
+      213: 4030443878405876149
+    second: Paladino_11
+  - first:
+      213: -295294668943752693
+    second: Paladino_12
+  - first:
+      213: 7301695717696318728
+    second: Paladino_13
+  - first:
+      213: 4726512103375228162
+    second: Paladino_14
+  - first:
+      213: -3689583371055270072
+    second: Paladino_15
+  - first:
+      213: 3894027587080717376
+    second: Paladino_16
+  - first:
+      213: -1446469558481892309
+    second: Paladino_17
+  - first:
+      213: -3151333353375511246
+    second: Paladino_18
+  - first:
+      213: 2097287565741991033
+    second: Paladino_19
+  - first:
+      213: -8690288058372744544
+    second: Paladino_20
+  - first:
+      213: -2911534779463550582
+    second: Paladino_21
+  - first:
+      213: 5553174723878320927
+    second: Paladino_22
+  - first:
+      213: 8838841356625907665
+    second: Paladino_23
+  - first:
+      213: -3897784764877463491
+    second: Paladino_24
+  - first:
+      213: 6366383835184551099
+    second: Paladino_25
+  - first:
+      213: -4300861651796411415
+    second: Paladino_26
+  - first:
+      213: -6544932867040346314
+    second: Paladino_27
+  - first:
+      213: 8709644027620102139
+    second: Paladino_28
+  - first:
+      213: -1490192021268986518
+    second: Paladino_29
+  - first:
+      213: -2703982521319733117
+    second: Paladino_30
+  - first:
+      213: 1311983827956177867
+    second: Paladino_31
+  - first:
+      213: 4672836186725731027
+    second: Paladino_32
+  - first:
+      213: -7282788129284147569
+    second: Paladino_33
+  - first:
+      213: -8869378352957558375
+    second: Paladino_34
+  - first:
+      213: -4366121520924537844
+    second: Paladino_35
+  - first:
+      213: 1251794157445632174
+    second: Paladino_36
+  - first:
+      213: 8337313559138250091
+    second: Paladino_37
+  - first:
+      213: 8779769169490269528
+    second: Paladino_38
+  - first:
+      213: 3705811443048692450
+    second: Paladino_39
+  - first:
+      213: 1357838979734228946
+    second: Paladino_40
+  - first:
+      213: -3707638891799870139
+    second: Paladino_41
+  - first:
+      213: -6109849340723976025
+    second: Paladino_42
+  - first:
+      213: 2796246054309120123
+    second: Paladino_43
+  - first:
+      213: 272652563899099340
+    second: Paladino_44
+  - first:
+      213: -7820099270068804666
+    second: Paladino_45
+  - first:
+      213: -3161990568420186670
+    second: Paladino_46
+  - first:
+      213: 6547415002389364983
+    second: Paladino_47
+  - first:
+      213: -4386748994710214742
+    second: Paladino_48
+  - first:
+      213: 6508638563412532801
+    second: Paladino_49
+  - first:
+      213: -4672767585175914893
+    second: Paladino_50
+  - first:
+      213: 438061945477468867
+    second: Paladino_51
+  - first:
+      213: -4897600596009734921
+    second: Paladino_52
+  - first:
+      213: 4084431720352467074
+    second: Paladino_53
+  - first:
+      213: -4775146545466024337
+    second: Paladino_54
+  - first:
+      213: -2534256043525268643
+    second: Paladino_55
+  - first:
+      213: -8024786941171239191
+    second: Paladino_56
+  - first:
+      213: -4029001505818603002
+    second: Paladino_57
+  - first:
+      213: 1496618613848316105
+    second: Paladino_58
+  - first:
+      213: 5498643645241210575
+    second: Paladino_59
+  - first:
+      213: 8692620377069501133
+    second: Paladino_60
+  - first:
+      213: -1121690473312011726
+    second: Paladino_61
+  - first:
+      213: -1948277035119859739
+    second: Paladino_62
+  - first:
+      213: 258632432439023146
+    second: Paladino_63
+  - first:
+      213: -361368427298760856
+    second: Paladino_64
+  - first:
+      213: -6867607139355235905
+    second: Paladino_65
+  - first:
+      213: -3740764354621832677
+    second: Paladino_66
+  - first:
+      213: -5810563848193867885
+    second: Paladino_67
+  - first:
+      213: 2117233403390117810
+    second: Paladino_68
+  - first:
+      213: -5104623148770750455
+    second: Paladino_69
+  - first:
+      213: 6410241049800164447
+    second: Paladino_70
+  - first:
+      213: 5149107191289043844
+    second: Paladino_71
+  - first:
+      213: 1759218782276946224
+    second: Paladino_72
+  - first:
+      213: -2698726851048779093
+    second: Paladino_73
+  - first:
+      213: -5754004371879700851
+    second: Paladino_74
+  - first:
+      213: 8479305682524596820
+    second: Paladino_75
+  - first:
+      213: -8980035183746953817
+    second: Paladino_76
+  - first:
+      213: -4035959198478411696
+    second: Paladino_77
+  - first:
+      213: 7411840505337413428
+    second: Paladino_78
+  - first:
+      213: 4607122475149359401
+    second: Paladino_79
+  - first:
+      213: 3440761350988556461
+    second: Paladino_80
+  - first:
+      213: -8787650004020813218
+    second: Paladino_81
+  - first:
+      213: 3216717842756328910
+    second: Paladino_82
+  - first:
+      213: 7021281457598223237
+    second: Paladino_83
+  - first:
+      213: -755211639729897183
+    second: Paladino_84
+  - first:
+      213: 2831283562624652877
+    second: Paladino_85
+  - first:
+      213: -5887746293859622139
+    second: Paladino_86
+  - first:
+      213: -7470955396838288569
+    second: Paladino_87
+  - first:
+      213: 6188169329024958673
+    second: Paladino_88
+  - first:
+      213: -3031283668323435436
+    second: Paladino_89
+  - first:
+      213: 449514211283673243
+    second: Paladino_90
+  - first:
+      213: 7885180335578578702
+    second: Paladino_91
+  - first:
+      213: 4328001346778070315
+    second: Paladino_92
+  - first:
+      213: -8470352279418705159
+    second: Paladino_93
+  - first:
+      213: 3996536573484146018
+    second: Paladino_94
+  - first:
+      213: 451291492349495283
+    second: Paladino_95
+  - first:
+      213: -6085846591724803321
+    second: Paladino_96
+  - first:
+      213: 6874833719559393508
+    second: Paladino_97
+  - first:
+      213: -5380108672207637158
+    second: Paladino_98
+  - first:
+      213: 5670980594562972195
+    second: Paladino_99
+  - first:
+      213: 2258283426349711794
+    second: Paladino_100
+  - first:
+      213: -1365492232799056918
+    second: Paladino_101
+  - first:
+      213: -2860985690688382963
+    second: Paladino_102
+  - first:
+      213: 1197863220232343754
+    second: Paladino_103
+  - first:
+      213: -971146401473531337
+    second: Paladino_104
+  - first:
+      213: 576144312475654303
+    second: Paladino_105
+  - first:
+      213: 5486814548838898920
+    second: Paladino_106
+  - first:
+      213: 6381304986875842964
+    second: Paladino_107
+  - first:
+      213: 3156482915046083724
+    second: Paladino_108
+  - first:
+      213: -6094220390808764390
+    second: Paladino_109
+  - first:
+      213: -3144106275677870763
+    second: Paladino_110
+  - first:
+      213: 5114781150095533706
+    second: Paladino_111
+  - first:
+      213: 1528352853422032570
+    second: Paladino_112
+  - first:
+      213: -8579712862268255216
+    second: Paladino_113
+  - first:
+      213: 8692728701279522080
+    second: Paladino_114
+  - first:
+      213: -2825665721518685097
+    second: Paladino_115
+  - first:
+      213: -8535797497743552470
+    second: Paladino_116
+  - first:
+      213: 289691122092873364
+    second: Paladino_117
+  - first:
+      213: -6566498484878786875
+    second: Paladino_118
+  - first:
+      213: 7834251002141337827
+    second: Paladino_119
+  - first:
+      213: -6134102356664940938
+    second: Paladino_120
+  - first:
+      213: -7289257925625952118
+    second: Paladino_121
+  - first:
+      213: -1317275031221458028
+    second: Paladino_122
+  - first:
+      213: 8264098543682517888
+    second: Paladino_123
+  - first:
+      213: 401908917783184447
+    second: Paladino_124
+  - first:
+      213: -7739160979039738003
+    second: Paladino_125
+  - first:
+      213: -1101657249282479767
+    second: Paladino_126
+  - first:
+      213: 1616369698312237110
+    second: Paladino_127
+  - first:
+      213: 2110764305318031833
+    second: Paladino_128
+  - first:
+      213: -615889567024841718
+    second: Paladino_129
+  - first:
+      213: 3307391813859537870
+    second: Paladino_130
+  - first:
+      213: -314590176328747499
+    second: Paladino_131
+  - first:
+      213: 551829104355682586
+    second: Paladino_132
+  - first:
+      213: -5790712876844477926
+    second: Paladino_133
+  - first:
+      213: -3590886901118057941
+    second: Paladino_134
+  - first:
+      213: 3414967317886026197
+    second: Paladino_135
+  - first:
+      213: 6807299573173933636
+    second: Paladino_136
+  - first:
+      213: 7125846621758936092
+    second: Paladino_137
+  - first:
+      213: -5035363442534485277
+    second: Paladino_138
+  - first:
+      213: 3770918870965936583
+    second: Paladino_139
+  - first:
+      213: 8599539776888288421
+    second: Paladino_140
+  - first:
+      213: 1622619985605024558
+    second: Paladino_141
+  - first:
+      213: 4615235731168674621
+    second: Paladino_142
+  - first:
+      213: -6180032355905301640
+    second: Paladino_143
+  - first:
+      213: 4714857768623713482
+    second: Paladino_144
+  - first:
+      213: 7596439192854176878
+    second: Paladino_145
+  - first:
+      213: -2064351394956053149
+    second: Paladino_146
+  - first:
+      213: 416650783802466616
+    second: Paladino_147
+  - first:
+      213: -1619978279119925207
+    second: Paladino_148
+  - first:
+      213: -2488959820359042467
+    second: Paladino_149
+  - first:
+      213: 8085697017868777614
+    second: Paladino_150
+  - first:
+      213: -619223931389417318
+    second: Paladino_151
+  - first:
+      213: 1285561303516721010
+    second: Paladino_152
+  - first:
+      213: -3886897782182900129
+    second: Paladino_153
+  - first:
+      213: -7413912749390702003
+    second: Paladino_154
+  - first:
+      213: 1170611132333686927
+    second: Paladino_155
+  - first:
+      213: -1594510599564651771
+    second: Paladino_156
+  - first:
+      213: -396049521110724936
+    second: Paladino_157
+  - first:
+      213: 1187353267130336516
+    second: Paladino_158
+  - first:
+      213: -1636992793778816819
+    second: Paladino_159
+  - first:
+      213: 5339310917513720186
+    second: Paladino_160
+  - first:
+      213: 3305679474473307605
+    second: Paladino_161
+  - first:
+      213: 4828155086925586255
+    second: Paladino_162
+  - first:
+      213: 6257080785012396948
+    second: Paladino_163
+  - first:
+      213: 3859221648493914518
+    second: Paladino_164
+  - first:
+      213: 4986649706006428870
+    second: Paladino_165
+  - first:
+      213: 337304363055370986
+    second: Paladino_166
+  - first:
+      213: 802533410934884684
+    second: Paladino_167
+  - first:
+      213: 2890323660869556813
+    second: Paladino_168
+  - first:
+      213: -2991475235009598067
+    second: Paladino_169
+  - first:
+      213: -6313646875402101228
+    second: Paladino_170
+  - first:
+      213: 7985422438888892893
+    second: Paladino_171
+  - first:
+      213: 7501673967018368681
+    second: Paladino_172
+  - first:
+      213: 3637181749256198339
+    second: Paladino_173
+  - first:
+      213: 5277199292136491215
+    second: Paladino_174
+  - first:
+      213: 1670270324790420407
+    second: Paladino_175
+  - first:
+      213: 8576852611154082027
+    second: Paladino_176
+  - first:
+      213: 7186676837354126219
+    second: Paladino_177
+  - first:
+      213: 5901646941644134671
+    second: Paladino_178
+  - first:
+      213: 7024211547584676708
+    second: Paladino_179
+  - first:
+      213: -6621618997571256488
+    second: Paladino_180
+  - first:
+      213: -7825194800281623448
+    second: Paladino_181
+  - first:
+      213: -5312541523310515228
+    second: Paladino_182
+  - first:
+      213: 1347202074805902720
+    second: Paladino_183
+  - first:
+      213: -6995444445191132822
+    second: Paladino_184
+  - first:
+      213: 5858651627774678459
+    second: Paladino_185
+  - first:
+      213: 6997783211368870480
+    second: Paladino_186
+  - first:
+      213: 5880678713970731734
+    second: Paladino_187
+  - first:
+      213: 6123462831798262854
+    second: Paladino_188
+  - first:
+      213: -6939749305074951710
+    second: Paladino_189
+  - first:
+      213: -6338721310472806790
+    second: Paladino_190
+  - first:
+      213: 6683622925591419560
+    second: Paladino_191
+  - first:
+      213: -5459281729800188820
+    second: Paladino_192
+  - first:
+      213: 4946720999269068513
+    second: Paladino_193
+  - first:
+      213: 8230782981790863974
+    second: Paladino_194
+  - first:
+      213: -9144133469639049566
+    second: Paladino_195
+  - first:
+      213: 4365669054291965597
+    second: Paladino_196
+  - first:
+      213: 7213684108775310665
+    second: Paladino_197
+  - first:
+      213: 1938722165247039328
+    second: Paladino_198
+  - first:
+      213: 5550695841756472346
+    second: Paladino_199
+  - first:
+      213: 486164904023542109
+    second: Paladino_200
+  - first:
+      213: -5665949691894573091
+    second: Paladino_201
+  - first:
+      213: -6600289227918096134
+    second: Paladino_202
+  - first:
+      213: -5403456251443288700
+    second: Paladino_203
+  - first:
+      213: 1317340534106126513
+    second: Paladino_204
+  - first:
+      213: -8838527194771103291
+    second: Paladino_205
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paladino_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2320
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb27f8cf74b46a30800000000000000
+      internalID: 4207686412796373944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2320
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5fa2a86535109f0800000000000000
+      internalID: -504030052138420751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2320
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7ffdf53d8828600800000000000000
+      internalID: 469087752627943341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2320
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f2dbb526ecd3c10800000000000000
+      internalID: 2035009528482574132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2320
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c1b7e079abf27a0800000000000000
+      internalID: -6399691387524408246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2320
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc0c4c714f469a0800000000000000
+      internalID: -6240594800706270292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2320
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd2d165b727f5820800000000000000
+      internalID: 2909169758355926525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2255
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ceeac4f245aeb20800000000000000
+      internalID: 3164434250307922993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2255
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826b311b19927e50800000000000000
+      internalID: 6805670328442512010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2255
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de005a28b3c89f40800000000000000
+      internalID: 5735549321207615187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2255
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30569d153e96c89f0800000000000000
+      internalID: -464880236474309373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2255
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9a78b6a530fe730800000000000000
+      internalID: 4030443878405876149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2255
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b028a892017e6ebf0800000000000000
+      internalID: -295294668943752693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2255
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da747b195d45560800000000000000
+      internalID: 7301695717696318728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2190
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dc34447b1f79140800000000000000
+      internalID: 4726512103375228162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2190
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847ff07e877fbccc0800000000000000
+      internalID: -3689583371055270072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2190
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0448481857d5a0630800000000000000
+      internalID: 3894027587080717376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2190
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c454ca99b1debe0800000000000000
+      internalID: -1446469558481892309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2190
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d4637f2073444d0800000000000000
+      internalID: -3151333353375511246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2190
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97425ebddef0b1d10800000000000000
+      internalID: 2097287565741991033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2190
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa9fd4dd05e56780800000000000000
+      internalID: -8690288058372744544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2127
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8931e64b862897d0800000000000000
+      internalID: -2911534779463550582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2127
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bf1784df6d01d40800000000000000
+      internalID: 5553174723878320927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_23
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2127
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df08b7326fd9aa70800000000000000
+      internalID: 8838841356625907665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_24
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2127
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ac8e586948e9c0800000000000000
+      internalID: -3897784764877463491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_25
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2127
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4d6f71e50f95850800000000000000
+      internalID: 6366383835184551099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_26
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 2127
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb33985d154054c0800000000000000
+      internalID: -4300861651796411415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2127
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ff745eb3abb25a0800000000000000
+      internalID: -6544932867040346314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2067
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff0662f81fded870800000000000000
+      internalID: 8709644027620102139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_29
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2067
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6504258046c15be0800000000000000
+      internalID: -1490192021268986518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_30
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2066
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3884fd12936897ad0800000000000000
+      internalID: -2703982521319733117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2065
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9260275a153210800000000000000
+      internalID: 1311983827956177867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_32
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2066
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac06b01cf39d040800000000000000
+      internalID: 4672836186725731027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2067
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86369348c65eea90800000000000000
+      internalID: -7282788129284147569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_34
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2066
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fc654163a9e480800000000000000
+      internalID: -8869378352957558375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_35
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2065
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cca130c9b6863c0800000000000000
+      internalID: -4366121520924537844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_36
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2066
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0d47667244f5110800000000000000
+      internalID: 1251794157445632174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2001
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dab71528614b370800000000000000
+      internalID: 8337313559138250091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2002
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855d46dda8108d970800000000000000
+      internalID: 8779769169490269528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2003
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eabe7b8fdfad6330800000000000000
+      internalID: 3705811443048692450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2003
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfcc31ab5308d210800000000000000
+      internalID: 1357838979734228946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2002
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54588d26212db8cc0800000000000000
+      internalID: -3707638891799870139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_42
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2002
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a82efe5564753ba0800000000000000
+      internalID: -6109849340723976025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_43
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2002
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78cea3a8f24ec620800000000000000
+      internalID: 2796246054309120123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2002
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc82e42ff08a8c300800000000000000
+      internalID: 272652563899099340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_45
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 2002
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3e143852d697390800000000000000
+      internalID: -7820099270068804666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_46
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1936
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5ed2ab45a5e14d0800000000000000
+      internalID: -3161990568420186670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_47
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1936
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f04b7641471dda50800000000000000
+      internalID: 6547415002389364983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1937
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ee7308032f13c0800000000000000
+      internalID: -4386748994710214742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1937
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14edc970a44535a50800000000000000
+      internalID: 6508638563412532801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1936
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37631af73aef62fb0800000000000000
+      internalID: -4672767585175914893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_51
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1936
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21dc9b40f441600800000000000000
+      internalID: 438061945477468867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_52
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1937
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc291fd43a380cb0800000000000000
+      internalID: -4897600596009734921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_53
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1937
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28842f86201dea830800000000000000
+      internalID: 4084431720352467074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_54
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1936
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e501744854bbdb0800000000000000
+      internalID: -4775146545466024337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_55
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1873
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b1ac33e8384dcd0800000000000000
+      internalID: -2534256043525268643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_56
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1874
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e67b4d4bca32a090800000000000000
+      internalID: -8024786941171239191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1875
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6021b2e1a7c1618c0800000000000000
+      internalID: -4029001505818603002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_58
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1875
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c89aaa23be05c410800000000000000
+      internalID: 1496618613848316105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_59
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1874
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6bf05234b1f4c40800000000000000
+      internalID: 5498643645241210575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_60
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1874
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcabc8e6d2462a870800000000000000
+      internalID: 8692620377069501133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_61
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1874
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a3c4e1574fe60f0800000000000000
+      internalID: -1121690473312011726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_62
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1874
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e721a5eb5456f4e0800000000000000
+      internalID: -1948277035119859739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_63
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1874
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265ce6b3d8d69300800000000000000
+      internalID: 258632432439023146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_64
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1810
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867d0d974592cfaf0800000000000000
+      internalID: -361368427298760856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_65
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1810
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb96bc161bb51b0a0800000000000000
+      internalID: -6867607139355235905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_66
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1810
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12825e83a2261cc0800000000000000
+      internalID: -3740764354621832677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_67
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1813
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f7dab37fabc5fa0800000000000000
+      internalID: -5810563848193867885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_68
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1813
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c8a3109ce16d10800000000000000
+      internalID: 2117233403390117810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_69
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1811
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9009849aa4cb829b0800000000000000
+      internalID: -5104623148770750455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_70
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1756
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5447f99540c5f850800000000000000
+      internalID: 6410241049800164447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_71
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1755
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b513795bd457740800000000000000
+      internalID: 5149107191289043844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_72
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1754
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03900d769200a6810800000000000000
+      internalID: 1759218782276946224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_73
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1753
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2dd693a323c8ad0800000000000000
+      internalID: -2698726851048779093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1754
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86d012828ba520b0800000000000000
+      internalID: -5754004371879700851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1754
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a64dcc79b8ca570800000000000000
+      internalID: 8479305682524596820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_76
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1754
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adc0422491806380800000000000000
+      internalID: -8980035183746953817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_77
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1754
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05859be0e746df7c0800000000000000
+      internalID: -4035959198478411696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_78
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1755
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ffc748ba52cd660800000000000000
+      internalID: 7411840505337413428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_79
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1725
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929fef74b79cfef30800000000000000
+      internalID: 4607122475149359401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_80
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8e092083a00cf20800000000000000
+      internalID: 3440761350988556461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_81
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5221eb51eefb0680800000000000000
+      internalID: -8787650004020813218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_82
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd628c5d314ac20800000000000000
+      internalID: 3216717842756328910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_83
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583dd2c094a907160800000000000000
+      internalID: 7021281457598223237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_84
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121c8a3d303f485f0800000000000000
+      internalID: -755211639729897183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_85
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1725
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4615a0466dba4720800000000000000
+      internalID: 2831283562624652877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_86
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503efdab0f58a4ea0800000000000000
+      internalID: -5887746293859622139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_87
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1725
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7439aae36a5d15890800000000000000
+      internalID: -7470955396838288569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_88
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1662
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0008ae73bc0e550800000000000000
+      internalID: 6188169329024958673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_89
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1661
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c73286097bee5d0800000000000000
+      internalID: -3031283668323435436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_90
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1662
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90ad052bcefc3600800000000000000
+      internalID: 449514211283673243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_91
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1660
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7e0cdcb9cd6d60800000000000000
+      internalID: 7885180335578578702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_92
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1662
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d7e1e4b46201c30800000000000000
+      internalID: 4328001346778070315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_93
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1663
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fae3deca73437a80800000000000000
+      internalID: -8470352279418705159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_94
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1659
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d116ac6dc867730800000000000000
+      internalID: 3996536573484146018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_95
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1661
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c5a3a83f434600800000000000000
+      internalID: 451291492349495283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_96
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1661
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba8bed4caba8ba0800000000000000
+      internalID: -6085846591724803321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_97
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1616
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e01730f7d0586f50800000000000000
+      internalID: 6874833719559393508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_98
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1616
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55b01ceaa30655b0800000000000000
+      internalID: -5380108672207637158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_99
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1616
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a3f0bfdce53be40800000000000000
+      internalID: 5670980594562972195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_100
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1616
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b10ab5bfc8075f10800000000000000
+      internalID: 2258283426349711794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_101
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1616
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb05788c0ccc0de0800000000000000
+      internalID: -1365492232799056918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_102
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1616
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d081b072cacbb48d0800000000000000
+      internalID: -2860985690688382963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1616
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac05473904aaf9010800000000000000
+      internalID: 1197863220232343754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_104
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1616
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73275434e7bc582f0800000000000000
+      internalID: -971146401473531337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_105
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1616
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98197c1330eef700800000000000000
+      internalID: 576144312475654303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_106
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1555
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecdcf303c4152c40800000000000000
+      internalID: 5486814548838898920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_107
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1554
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d9227313fe8850800000000000000
+      internalID: 6381304986875842964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_108
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1555
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c49eacc741ecb20800000000000000
+      internalID: 3156482915046083724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_109
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1551
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c6e6d7dafc6ba0800000000000000
+      internalID: -6094220390808764390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_110
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1554
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555e42e1004ed54d0800000000000000
+      internalID: -3144106275677870763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_111
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1554
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86ee435b5a5bf640800000000000000
+      internalID: 5114781150095533706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_112
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1554
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6cca792dcc53510800000000000000
+      internalID: 1528352853422032570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_113
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1552
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01496a9eb9cbee880800000000000000
+      internalID: -8579712862268255216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_114
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1554
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dcb90a2b6c2a870800000000000000
+      internalID: 8692728701279522080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_115
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1508
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75481ee4ff739c8d0800000000000000
+      internalID: -2825665721518685097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_116
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1508
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d3508661ca8980800000000000000
+      internalID: -8535797497743552470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1508
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4961eea6a80350400800000000000000
+      internalID: 289691122092873364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_118
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1508
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb8a63b6c1fd4a0800000000000000
+      internalID: -6566498484878786875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_119
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1508
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8e1ef57c9d8bc60800000000000000
+      internalID: 7834251002141337827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_120
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1508
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676891f086a4fdaa0800000000000000
+      internalID: -6134102356664940938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_121
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1509
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a884dda698a57da90800000000000000
+      internalID: -7289257925625952118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_122
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1507
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bad8c965918bde0800000000000000
+      internalID: -1317275031221458028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_123
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1509
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf40527d9ffa270800000000000000
+      internalID: 8264098543682517888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_124
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1449
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f344784080ed39500800000000000000
+      internalID: 401908917783184447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_125
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1451
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67a5c8e71af89490800000000000000
+      internalID: -7739160979039738003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_126
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1450
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a840919026b0f0800000000000000
+      internalID: -1101657249282479767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_127
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1448
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6303b9d3daf7e6610800000000000000
+      internalID: 1616369698312237110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_128
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1448
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d13e0fc3f0fa4d10800000000000000
+      internalID: 2110764305318031833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_129
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1450
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c7d90b3bbe377f0800000000000000
+      internalID: -615889567024841718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_130
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1448
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3f126d45736ed20800000000000000
+      internalID: 3307391813859537870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_131
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1450
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516f812c6e952abf0800000000000000
+      internalID: -314590176328747499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_132
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1450
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19a7dd85ad78a700800000000000000
+      internalID: 551829104355682586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_133
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1403
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12976ba15143afa0800000000000000
+      internalID: -5790712876844477926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_134
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1406
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b224146836b9a2ec0800000000000000
+      internalID: -3590886901118057941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_135
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1404
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d14a2eaea6646f20800000000000000
+      internalID: 3414967317886026197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_136
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1404
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44653ba25e2687e50800000000000000
+      internalID: 6807299573173933636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_137
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1402
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14dbd58fb714e260800000000000000
+      internalID: 7125846621758936092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_138
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1403
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e27eb4a0abce1ab0800000000000000
+      internalID: -5035363442534485277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_139
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1405
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1edb4ebbef45430800000000000000
+      internalID: 3770918870965936583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_140
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1405
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b4416dd3b75770800000000000000
+      internalID: 8599539776888288421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_141
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1406
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bdf67a744b48610800000000000000
+      internalID: 1622619985605024558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_142
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1298
+        width: 104
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33cff6e17c9c0040800000000000000
+      internalID: 4615235731168674621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_143
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1290
+        width: 102
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87318d5c05d1c3aa0800000000000000
+      internalID: -6180032355905301640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_144
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1284
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accae41092a8e6140800000000000000
+      internalID: 4714857768623713482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_145
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1262
+        width: 30
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64adefb239fb6960800000000000000
+      internalID: 7596439192854176878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_146
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1252
+        width: 30
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365ff0cf753f953e0800000000000000
+      internalID: -2064351394956053149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_147
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1245
+        width: 30
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8312feb2ead38c500800000000000000
+      internalID: 416650783802466616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_148
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1253
+        width: 30
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9205531965ea489e0800000000000000
+      internalID: -1619978279119925207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_149
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1254
+        width: 30
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a774ffa30757dd0800000000000000
+      internalID: -2488959820359042467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_150
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1140
+        width: 107
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88f08f099a263070800000000000000
+      internalID: 8085697017868777614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_151
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1150
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98ec1d7d131867f0800000000000000
+      internalID: -619223931389417318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_152
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1150
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2a11c13b37d110800000000000000
+      internalID: 1285561303516721010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_153
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1149
+        width: 135
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0cbe8f07fe0ac0800000000000000
+      internalID: -3886897782182900129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_154
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1149
+        width: 147
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ad3d092ad7c1990800000000000000
+      internalID: -7413912749390702003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_155
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1150
+        width: 151
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f800ed86f98de3010800000000000000
+      internalID: 1170611132333686927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_156
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1149
+        width: 143
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5039a5ace092fd9e0800000000000000
+      internalID: -1594510599564651771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_157
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1150
+        width: 135
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be4bb41f03f08af0800000000000000
+      internalID: -396049521110724936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_158
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1010
+        width: 106
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405043e61835a7010800000000000000
+      internalID: 1187353267130336516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_159
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1024
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc870fa2abb3849e0800000000000000
+      internalID: -1636992793778816819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_160
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1024
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7135c79dfa091a40800000000000000
+      internalID: 5339310917513720186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_161
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1021
+        width: 135
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd0841c7f120ed20800000000000000
+      internalID: 3305679474473307605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_162
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1019
+        width: 147
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd1bc887d010340800000000000000
+      internalID: 4828155086925586255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_163
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1021
+        width: 151
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493169192dd95d650800000000000000
+      internalID: 6257080785012396948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_164
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1020
+        width: 143
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6992afb64a5be8530800000000000000
+      internalID: 3859221648493914518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_165
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1021
+        width: 135
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccb1d9bc73243540800000000000000
+      internalID: 4986649706006428870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_166
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 821
+        width: 93
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2da15f7885ea400800000000000000
+      internalID: 337304363055370986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_167
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 807
+        width: 114
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49082f92eb232b00800000000000000
+      internalID: 802533410934884684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_168
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 784
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a59045e0e7c1820800000000000000
+      internalID: 2890323660869556813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_169
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 782
+        width: 30
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8defde8f152c76d0800000000000000
+      internalID: -2991475235009598067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_170
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 774
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e17623e9b6168a0800000000000000
+      internalID: -6313646875402101228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_171
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 766
+        width: 30
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e76b466be1de60800000000000000
+      internalID: 7985422438888892893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_172
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 771
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aedce83abc4b1860800000000000000
+      internalID: 7501673967018368681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_173
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 782
+        width: 30
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c813f3c78dd97230800000000000000
+      internalID: 3637181749256198339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_174
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 611
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80db0ebc06c3940800000000000000
+      internalID: 5277199292136491215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_175
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 609
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3620cc20efd2710800000000000000
+      internalID: 1670270324790420407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_176
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 609
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be878baf10a170770800000000000000
+      internalID: 8576852611154082027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_177
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 607
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b3506c1843cb360800000000000000
+      internalID: 7186676837354126219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_178
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 609
+        width: 30
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09187a00acd6e150800000000000000
+      internalID: 5901646941644134671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_179
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 609
+        width: 30
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4634bf8cf230b7160800000000000000
+      internalID: 7024211547584676708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_180
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 609
+        width: 30
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f79c3ca984b14a0800000000000000
+      internalID: -6621618997571256488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_181
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 607
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864eafee9c2576390800000000000000
+      internalID: -7825194800281623448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_182
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 418
+        width: 88
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb6090b1af0646b0800000000000000
+      internalID: -5312541523310515228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_183
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 418
+        width: 91
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d9975362932b210800000000000000
+      internalID: 1347202074805902720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_184
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 418
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69276e27503bee90800000000000000
+      internalID: -6995444445191132822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_185
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 417
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb516407d9c1e4150800000000000000
+      internalID: 5858651627774678459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_186
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 417
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05275d041ce1d1160800000000000000
+      internalID: 6997783211368870480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_187
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 417
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da2d68122e5c9150800000000000000
+      internalID: 5880678713970731734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_188
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 417
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c94a48009eaf450800000000000000
+      internalID: 6123462831798262854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_189
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 417
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95eb086ce01bf90800000000000000
+      internalID: -6939749305074951710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_190
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 225
+        width: 93
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ed1175d865808a0800000000000000
+      internalID: -6338721310472806790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_191
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 221
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa9884b3aff0cc50800000000000000
+      internalID: 6683622925591419560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_192
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 197
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cca76f03cbc34b0800000000000000
+      internalID: -5459281729800188820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_193
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 196
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eee56c3a8846a440800000000000000
+      internalID: 4946720999269068513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_194
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 188
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66299fc638d993270800000000000000
+      internalID: 8230782981790863974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_195
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 180
+        width: 30
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae776b9e03891180800000000000000
+      internalID: -9144133469639049566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_196
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 188
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96fcf3efd8f59c30800000000000000
+      internalID: 4365669054291965597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_197
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 196
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ce692a772c1460800000000000000
+      internalID: 7213684108775310665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_198
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 34
+        width: 88
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067d9b99989b7ea10800000000000000
+      internalID: 1938722165247039328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_199
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 34
+        width: 91
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14e1209578080d40800000000000000
+      internalID: 5550695841756472346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_200
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 34
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59c59687643fb600800000000000000
+      internalID: 486164904023542109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_201
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 33
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7d36356c08e51b0800000000000000
+      internalID: -5665949691894573091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_202
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 33
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8ca13caef0764a0800000000000000
+      internalID: -6600289227918096134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_203
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 33
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485eb550b211305b0800000000000000
+      internalID: -5403456251443288700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_204
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 33
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b87e977c32284210800000000000000
+      internalID: 1317340534106126513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paladino_205
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 33
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1e90a485e375580800000000000000
+      internalID: -8838527194771103291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-    private PlayerMovement thePlayer;
+    private GameObject thePlayer;
     private PlayerFollow theCamera;
-
-    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-        thePlayer = FindObjectOfType<PlayerMovement>();
+        thePlayer = GameObject.FindGameObjectWithTag("Player");
         thePlayer.transform.position = transform.position;
 
         theCamera = FindObjectOfType<PlayerFollow>();
@@ -25,8 +23,4 @@ public class SpawnPoint : MonoBehaviour
         
     }
 
-    public void Respawn()
-    {
-        Instantiate(player, transform.position, Quaternion.identity);
-    }
 }

@@ -29,7 +29,7 @@ public class PickUpGold : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.name == "Player")
+        if(other.gameObject.tag == "Player")
         {
             theGM.AddMoney(value);
             SoundsManager.PlaySound("coinSound");

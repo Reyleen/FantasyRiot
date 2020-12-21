@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 4841506536352062764}
   - component: {fileID: 8703035543046277461}
   - component: {fileID: 3547291834372024130}
+  - component: {fileID: 946105608305717471}
   m_Layer: 0
   m_Name: arcPlayer
   m_TagString: Player
@@ -220,13 +221,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Rae
   description: Fearless Hunter
-  playerLevel: 5
+  playerLevel: 0
   maxLevel: 10
-  currentGems: 537272
-  nextLevelGems: 64000000fa000000900100005802000020030000e8030000b0040000dc050000d0070000d0070000d0070000
-  currentHp: 42
-  maxHp: 42
-  attack: 8
+  nextLevelGems: 64000000fa000000900100005802000020030000e8030000b0040000dc050000d0070000c4090000
+  currentHp: 36
+  maxHp: 36
+  attack: 6
+  gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
+--- !u!114 &946105608305717471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841506536352062766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70bc7e81d71a1643a75af7e66ea2927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMaxHealth: 0
+  playerCurrentHealth: 0
+  anim: {fileID: 4841506536331033103}
+  anim1: {fileID: 4841506537559657640}
+  plaSta: {fileID: 3547291834372024130}
 --- !u!1 &4841506537559657643
 GameObject:
   m_ObjectHideFlags: 0

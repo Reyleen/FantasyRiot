@@ -202,6 +202,7 @@ MonoBehaviour:
   playerCurrentHealth: 50
   anim: {fileID: 9022929352099579054}
   anim1: {fileID: 9022929352942706795}
+  plaSta: {fileID: 0}
 --- !u!114 &6983758052984696470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,13 +238,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Irya
   description: 
-  playerLevel: 10
+  playerLevel: 0
   maxLevel: 10
-  currentGems: 194400
-  nextLevelGems: 64000000c8000000900100005802000052030000b0040000dc050000d0070000c4090000b80b0000
-  currentHp: 154
-  maxHp: 154
-  attack: 33
+  nextLevelGems: 64000000fa000000900100005802000052030000b0040000dc050000d0070000c4090000b80b0000
+  currentHp: 24
+  maxHp: 24
+  attack: 6
+  gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
 --- !u!1 &9022929352942706788
 GameObject:
   m_ObjectHideFlags: 0

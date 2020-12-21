@@ -317,20 +317,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1eec386f11b064f899216819f2147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gemsMan: {fileID: 284652808}
+  gemsMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   value: 100
---- !u!114 &284652808 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30,
-    type: 3}
-  m_PrefabInstance: {fileID: 1719216931}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284652806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96091fbbad916604bb957f71cd317c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &418106526
 GameObject:
   m_ObjectHideFlags: 0

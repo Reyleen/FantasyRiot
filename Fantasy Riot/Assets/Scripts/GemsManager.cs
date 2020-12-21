@@ -6,21 +6,21 @@ using UnityEngine.UI;
 public class GemsManager : MonoBehaviour
 {
     public Text gemsText;
-    private int currentGems;
+    public int curGems;
 
     // Start is called before the first frame update
     void Start()
     {
         if(PlayerPrefs.HasKey("CurrentGems"))
         {
-            currentGems = PlayerPrefs.GetInt("CurrentGems");
+            curGems = PlayerPrefs.GetInt("CurrentGems");
         } else
         {
-            currentGems = 0;
+            curGems = 0;
             PlayerPrefs.SetInt("CurrentGems", 0);
         }
 
-        gemsText.text = "" + currentGems;
+        gemsText.text = "" + curGems;
     }
 
     // Update is called once per frame
@@ -31,9 +31,15 @@ public class GemsManager : MonoBehaviour
 
     public void AddGems(int gemsToAdd)
     {
-        currentGems += gemsToAdd;
-        PlayerPrefs.SetInt("CurrentGems", currentGems);
-        gemsText.text = "" + currentGems;
+        curGems += gemsToAdd;
+        PlayerPrefs.SetInt("CurrentGems", curGems);
+        gemsText.text = "" + curGems;
+    }
 
+    public void RemoveGems(int gemsToRemove)
+    {
+        curGems -= gemsToRemove;
+        PlayerPrefs.SetInt("CurrentGems", curGems);
+        gemsText.text = "" + curGems;
     }
 }

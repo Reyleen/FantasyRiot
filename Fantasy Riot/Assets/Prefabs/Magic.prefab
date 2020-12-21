@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageToGive: 10
   rb: {fileID: 2685822284803305072}
+  plaSta: {fileID: 2235477034654666874, guid: 65bc22c128de0164c82ceb0c3b6a884b, type: 3}
 --- !u!61 &4619910140961628118
 BoxCollider2D:
   m_ObjectHideFlags: 0

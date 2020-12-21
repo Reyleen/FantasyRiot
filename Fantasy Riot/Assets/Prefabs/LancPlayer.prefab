@@ -523,6 +523,7 @@ MonoBehaviour:
   playerCurrentHealth: 50
   anim: {fileID: 7793864128974716940}
   anim1: {fileID: 7793864128636694291}
+  plaSta: {fileID: 3117428463588801498}
 --- !u!114 &2270384678866692702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,13 +579,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Damian
   description: 
-  playerLevel: 3
+  playerLevel: 1
   maxLevel: 10
-  currentGems: 29900
-  nextLevelGems: 64000000000000000000000000000000000000000000000000000000000000000000000000000000
-  currentHp: 70
-  maxHp: 70
-  attack: 10
+  nextLevelGems: 64000000fa0000009001000000000000000000000000000000000000000000000000000000000000
+  currentHp: 72
+  maxHp: 72
+  attack: 12
+  gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
 --- !u!1 &9144520766621163432
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8611908972139356410
 Transform:
   m_ObjectHideFlags: 0
@@ -94,6 +94,7 @@ MonoBehaviour:
   playerCurrentHealth: 50
   anim: {fileID: 8611908973325318875}
   anim1: {fileID: 8611908972583483525}
+  plaSta: {fileID: 0}
 --- !u!61 &8611908972139356359
 BoxCollider2D:
   m_ObjectHideFlags: 0

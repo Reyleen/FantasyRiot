@@ -8,10 +8,11 @@ public class PlayerStatus : MonoBehaviour
 
     public int playerLevel, maxLevel;
 
-    public int currentGems;
+    private int currentGems;
     public int[] nextLevelGems;
 
     public int currentHp, maxHp, attack;
+    public GemsManager gemMan;
 
     // Start is called before the first frame update
     void Start()
@@ -34,9 +35,10 @@ public class PlayerStatus : MonoBehaviour
 
     public void LevelUp()
     {
-        if(currentGems >= nextLevelGems[playerLevel] && playerLevel < maxLevel)
+        currentGems = gemMan.curGems;
+        if (currentGems >= nextLevelGems[playerLevel] && playerLevel < maxLevel)
         {
-            currentGems -= nextLevelGems[playerLevel];
+            gemMan.RemoveGems(nextLevelGems[playerLevel]);
             playerLevel++;
 
             maxHp = Mathf.RoundToInt(maxHp * 1.2f);

@@ -12,10 +12,13 @@ public class PlayerHealthManager : MonoBehaviour
     public Animator anim1;
     private DeathMenu deathMenu;
 
+    public PlayerStatus plaSta;
+
     // Start is called before the first frame update
     void Start()
     {
         deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+        playerMaxHealth = plaSta.maxHp;
         playerCurrentHealth = playerMaxHealth;
     }
 

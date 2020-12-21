@@ -7,11 +7,12 @@ public class HurtEnemy : MonoBehaviour
 {
     public int damageToGive;
     public Rigidbody2D rb;
+    public PlayerStatus plaSta;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        damageToGive = plaSta.attack;
     }
 
     // Update is called once per frame

@@ -6,7 +6,7 @@ public class PlayerMovmentMelee : MonoBehaviour
 {
     public float speed = 5f;
     public Rigidbody2D rb;
-    public Joystick joystick;
+    private Joystick joystick;
     public Animator topAnim;
     public Animator botAnim;
     private bool playerMoving;
@@ -15,7 +15,7 @@ public class PlayerMovmentMelee : MonoBehaviour
     Vector2 move;
     private static bool playerExists;
     private MeleeAttack att;
-    public Joystick aimStick;
+    private Joystick aimStick;
     Vector2 aim;
 
     public float fireRate = 0.5F;
@@ -24,19 +24,19 @@ public class PlayerMovmentMelee : MonoBehaviour
     void Start()
     {
         att = this.GetComponent<MeleeAttack>();
-
+        joystick = FindObjectOfType<FixedJoystick>();
+        aimStick = FindObjectOfType<VariableJoystick>();
     }
 
     void Update()
     {
-
+        
 
         move.x = joystick.Horizontal;
         move.y = joystick.Vertical;
 
         aim.x = aimStick.Horizontal;
         aim.y = aimStick.Vertical;
-
     }
 
 

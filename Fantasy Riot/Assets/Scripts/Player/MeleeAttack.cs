@@ -51,7 +51,7 @@ public class MeleeAttack : MonoBehaviour
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
             }
         }
-
+        
     }
     
     private void OnDrawGizmosSelected()

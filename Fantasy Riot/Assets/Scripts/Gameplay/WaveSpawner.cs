@@ -12,7 +12,9 @@ public class WaveSpawner : MonoBehaviour
     {
         public string name;
         public Transform enemy;
+        public Transform enemy1;
         public int count;
+        public int count1;
         public float rate;
     }
 
@@ -104,6 +106,12 @@ public class WaveSpawner : MonoBehaviour
             yield return new WaitForSeconds(1f /_wave.rate);
         }
 
+        for (int i = 0; i < _wave.count1; i++)
+        {
+            SpawnEnemy1(_wave.enemy1);
+            yield return new WaitForSeconds(1f / _wave.rate);
+        }
+
         state = SpawnState.WAITING;
 
         yield break;
@@ -113,5 +121,11 @@ public class WaveSpawner : MonoBehaviour
     {
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(_enemy, _sp.transform.position, _sp.transform.rotation);
+    }
+
+    void SpawnEnemy1(Transform _enemy1)
+    {
+        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Instantiate(_enemy1, _sp.transform.position, _sp.transform.rotation);
     }
 }

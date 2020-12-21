@@ -23,7 +23,7 @@ public class HurtPlayer : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if(other.gameObject.name == "Player")
+        if(other.gameObject.tag == "Player")
         {
             if (Time.time > nextHitAllowed + hitDelay)
             {

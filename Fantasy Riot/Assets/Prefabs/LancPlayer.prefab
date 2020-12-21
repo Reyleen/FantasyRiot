@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 7793864128974716940}
   m_Layer: 0
   m_Name: lanTop
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,13 +428,14 @@ GameObject:
   - component: {fileID: 7793864130255458096}
   - component: {fileID: 2270384678866692702}
   - component: {fileID: 7557745484763418172}
+  - component: {fileID: 3117428463588801498}
   m_Layer: 0
   m_Name: LancPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7793864130255458100
 Transform:
   m_ObjectHideFlags: 0
@@ -522,6 +523,7 @@ MonoBehaviour:
   playerCurrentHealth: 50
   anim: {fileID: 7793864128974716940}
   anim1: {fileID: 7793864128636694291}
+  plaSta: {fileID: 3117428463588801498}
 --- !u!114 &2270384678866692702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,10 +538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rb: {fileID: 7793864130255458101}
-  joystick: {fileID: 0}
   topAnim: {fileID: 7793864128974716940}
   botAnim: {fileID: 7793864128636694291}
-  aimStick: {fileID: 0}
   fireRate: 0.7
 --- !u!114 &7557745484763418172
 MonoBehaviour:
@@ -565,6 +565,27 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &3117428463588801498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793864130255458097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6056d63c2b58f40afd50d0cc0d65cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: Damian
+  description: 
+  playerLevel: 1
+  maxLevel: 10
+  nextLevelGems: 64000000fa0000009001000000000000000000000000000000000000000000000000000000000000
+  currentHp: 72
+  maxHp: 72
+  attack: 12
+  gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
 --- !u!1 &9144520766621163432
 GameObject:
   m_ObjectHideFlags: 0

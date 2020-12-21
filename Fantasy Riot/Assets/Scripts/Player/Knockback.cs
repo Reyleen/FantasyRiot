@@ -34,7 +34,7 @@ public class Knockback : MonoBehaviour
         }
     }
 
-    private IEnumerator KnockbackCo(Rigidbody2D enemy)
+    public IEnumerator KnockbackCo(Rigidbody2D enemy)
     {
         if(enemy != null)
         {

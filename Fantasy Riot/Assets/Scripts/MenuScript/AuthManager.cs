@@ -32,7 +32,9 @@ public class AuthManager : MonoBehaviour
     //AfterLogged
     [Header("Other")]
     public TMP_Text Username;
-
+    public Player _player;
+    public SaveSystem a;
+    public SyncPlayerToSave a1;
 
     private void Awake()
     {
@@ -60,7 +62,6 @@ public class AuthManager : MonoBehaviour
         Debug.Log("Seting up Firebase Auth");
         //Set the Authentication instance object
         auth = FirebaseAuth.DefaultInstance;
-
     }
     public void LoginButton()
     {
@@ -110,8 +111,11 @@ public class AuthManager : MonoBehaviour
             //user is logged in
             User = LoginTask.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
+            Username.text = User.DisplayName;
             warningLoginText.text = "";
-            confirmLoginText.text="Logged In";
+            PanelManager.instance.UserScreen();
+            a.DB();
+            a1.SDB();
         }
     }
     private IEnumerator Register(string _email, string _password, string _username)
@@ -182,6 +186,7 @@ public class AuthManager : MonoBehaviour
                     {
                         //Username is now set
                         //Now return to login screeen
+                        PanelManager.instance.LoginScreen();
                         warningRegisterText.text = "";
                     }
                 }

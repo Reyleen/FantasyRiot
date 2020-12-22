@@ -12,7 +12,7 @@ public class SyncPlayerToSave : MonoBehaviour
     {
         _playerSaveManager = FindObjectOfType<SaveSystem>();
     }
-    private void Start()
+    public void SDB()
     {
         _playerSaveManager.OnPlayerUpdated.AddListener(HandlePlayerSaveUpdated);
         _player.OnPlayerUpdate.AddListener(HandlePlayerUpdate);

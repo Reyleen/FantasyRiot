@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "137205776144",
+    "firebase_url": "https://fantasyriot-ad7ab-default-rtdb.firebaseio.com",
+    "project_id": "fantasyriot-ad7ab",
+    "storage_bucket": "fantasyriot-ad7ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137205776144:android:dd01b38bf4fb238484af95",
+        "android_client_info": {
+          "package_name": "com.Requin.FantasyRiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137205776144-cnkimdgo2idm2i5s36fi8noqtapo2tej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHJJCVB82dFzjtOAKIpp2pp_cChxVEvyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137205776144-cnkimdgo2idm2i5s36fi8noqtapo2tej.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "137205776144-m1mri8h1n575l6ub5gc8ai8crua167u6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Requin.FantasyRiot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

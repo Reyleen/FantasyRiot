@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>137205776144-m1mri8h1n575l6ub5gc8ai8crua167u6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.137205776144-m1mri8h1n575l6ub5gc8ai8crua167u6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD1MVT_q24S51X1Hmmcy6vx462H7c2rMoM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>137205776144</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Requin.FantasyRiot</string>
+	<key>PROJECT_ID</key>
+	<string>fantasyriot-ad7ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fantasyriot-ad7ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:137205776144:ios:d19a15deefc7795984af95</string>
+	<key>DATABASE_URL</key>
+	<string>https://fantasyriot-ad7ab-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

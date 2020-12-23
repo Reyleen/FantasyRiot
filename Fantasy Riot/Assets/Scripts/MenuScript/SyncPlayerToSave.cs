@@ -26,6 +26,6 @@ public class SyncPlayerToSave : MonoBehaviour
 
     private void HandlePlayerUpdate()
     {
-        _playerSaveManager.SavePlayer(_player.PlayerData);
+        _playerSaveManager.SavePlayer(_player.PlayerData,false);
     }
 }

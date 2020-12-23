@@ -40,11 +40,13 @@ public class SaveSystem : MonoBehaviour
         }
     }
 
-    public void SavePlayer(PlayerData player)
+    public void SavePlayer(PlayerData player,bool a)
     {
         Debug.Log("e 1");
-        if (!player.Equals(LastPlayerData))
+        if (!player.Equals(LastPlayerData) || a)
         {
+            Debug.Log("e 2");
+            Debug.Log(PLAYER_KEY);
             _database.GetReference(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));
         }
     }
@@ -57,7 +59,7 @@ public class SaveSystem : MonoBehaviour
             return null;
         }
         
-        return JsonUtility.FromJson<PlayerData>(PlayerPrefs.GetString(PLAYER_KEY));
+        return JsonUtility.FromJson<PlayerData>(dataSnapshot.GetRawJsonValue());
     }
 
     public async Task<bool> SaveExists()

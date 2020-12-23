@@ -118,6 +118,8 @@ public class AuthManager : MonoBehaviour
             PanelManager.instance.UserScreen();
             a.DB();
             a1.SDB();
+            a.ChangePLAYER_KEY(User.DisplayName);
+            a.LoadPlayer();
             PlayerPrefs.SetString("Email", _email);
             PlayerPrefs.SetString("Password", _password);
         }
@@ -192,6 +194,10 @@ public class AuthManager : MonoBehaviour
                         //Now return to login screeen
                         PanelManager.instance.LoginScreen();
                         warningRegisterText.text = "";
+                        a.DB();
+                        a1.SDB();
+                        a.ChangePLAYER_KEY(usernameRegisterField.text);
+                        a.SavePlayer(_player.PlayerData,true);
                     }
                 }
             }

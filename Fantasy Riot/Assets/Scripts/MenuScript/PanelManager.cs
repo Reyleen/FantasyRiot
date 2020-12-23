@@ -44,7 +44,7 @@ public class PanelManager : MonoBehaviour
     }
     public void MenuToAccountScreen() // Account button
     {
-        if (_player.User != "")
+        if (_player.Email != "")
         {
             ALoginUI.SetActive(true);
         }

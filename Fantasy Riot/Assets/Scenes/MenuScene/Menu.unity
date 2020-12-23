@@ -5688,8 +5688,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerData:
-    User: 
-    Scritta: 
+    Email: 
+    Gemms: 0
+    lvlA: 0
+    HPA: 0
+    atkA: 0
+    lvlF: 0
+    HPF: 0
+    atkF: 0
+    lvlM: 0
+    HPM: 0
+    atkM: 0
+    lvlL: 0
+    HPL: 0
+    atkL: 0
+    L1: 0
+    L2: 0
+    L3: 0
+    L4: 0
   OnPlayerUpdate:
     m_PersistentCalls:
       m_Calls: []
@@ -12663,18 +12679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnPlayerUpdated:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!224 &1156307150
 RectTransform:
   m_ObjectHideFlags: 0

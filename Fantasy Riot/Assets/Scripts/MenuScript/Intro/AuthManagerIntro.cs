@@ -6,7 +6,7 @@ using Firebase.Auth;
 using TMPro;
 using Firebase.Database;
 
-public class AuthManager : MonoBehaviour
+public class AuthManagerIntro : MonoBehaviour
 {
     //Firebase variables
     [Header("Firebase")]
@@ -31,10 +31,10 @@ public class AuthManager : MonoBehaviour
 
     //AfterLogged
     [Header("Other")]
-    public TMP_Text Username;
     public Player _player;
     public SaveSystem a;
     public SyncPlayerToSave a1;
+    public DetectTouchIntro b;
 
     private void Awake()
     {
@@ -56,8 +56,6 @@ public class AuthManager : MonoBehaviour
     {
         auth.SignOut();
         Debug.Log("User SignOut");
-        PlayerPrefs.DeleteKey("Email");
-        PlayerPrefs.DeleteKey("Password");
     }
     private void InitializeFirebase()
     {
@@ -113,13 +111,12 @@ public class AuthManager : MonoBehaviour
             //user is logged in
             User = LoginTask.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
-            Username.text = User.DisplayName;
-            warningLoginText.text = "";
-            PanelManager.instance.UserScreen();
-            a.DB();
-            a1.SDB();
             PlayerPrefs.SetString("Email", _email);
             PlayerPrefs.SetString("Password", _password);
+            warningLoginText.text = "";;
+            a.DB();
+            a1.SDB();
+            b.changeLevel();
         }
     }
     private IEnumerator Register(string _email, string _password, string _username)
@@ -190,7 +187,7 @@ public class AuthManager : MonoBehaviour
                     {
                         //Username is now set
                         //Now return to login screeen
-                        PanelManager.instance.LoginScreen();
+                        PanelManager2.instance.LoginScreen();
                         warningRegisterText.text = "";
                     }
                 }

@@ -19,7 +19,7 @@ public class GoldManager : MonoBehaviour
         } else*/
         //{
             currentGold = 40;
-
+        plaHea = FindObjectOfType<PlayerHealthManager>();
         //}
         moneyText.text = "Gold: " + currentGold;
     }
@@ -27,7 +27,7 @@ public class GoldManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        plaHea = FindObjectOfType<PlayerHealthManager>();
+        
 
         if(plaHea.playerCurrentHealth <= 0)
         {

@@ -34,8 +34,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        joystick = FindObjectOfType<FixedJoystick>();
-        aimStick = FindObjectOfType<VariableJoystick>();
+        //joystick = FindObjectOfType<FixedJoystick>();
+        //aimStick = FindObjectOfType<VariableJoystick>();
 
         move.x = joystick.Horizontal;
         move.y = joystick.Vertical;
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         aim.x = aimStick.Horizontal;
         aim.y = aimStick.Vertical;
 
-        DontDestroyOnLoad(transform.gameObject);
+        //DontDestroyOnLoad(transform.gameObject);
     }
 
 

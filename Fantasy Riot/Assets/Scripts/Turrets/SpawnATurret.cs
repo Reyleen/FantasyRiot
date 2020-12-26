@@ -12,13 +12,14 @@ public class SpawnATurret : MonoBehaviour
     private GoldManager gold;
     void Start()
     {
+        PlayerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        PlayerPosition.position = new Vector3(PlayerPosition.position.x, PlayerPosition.position.y, PlayerPosition.position.z);
         gold = FindObjectOfType<GoldManager>();
     }
 
     public void Update()
     {
-        PlayerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        PlayerPosition.position = new Vector3(PlayerPosition.position.x, PlayerPosition.position.y, PlayerPosition.position.z);
+        
     } 
     public void PurchaseInfernalTower()
     {

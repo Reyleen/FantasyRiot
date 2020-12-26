@@ -11,13 +11,13 @@ public class PlayerHealthManager : MonoBehaviour
     public Animator anim;
     public Animator anim1;
     private DeathMenu deathMenu;
-
     public PlayerStatus plaSta;
 
     // Start is called before the first frame update
     void Start()
     {
         deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+        Debug.Log(plaSta.maxHp);
         playerMaxHealth = plaSta.maxHp;
         playerCurrentHealth = playerMaxHealth;
     }
@@ -25,7 +25,7 @@ public class PlayerHealthManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+        //deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
 
         if (playerCurrentHealth <= 0)
         {

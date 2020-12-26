@@ -13,13 +13,13 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        playerHealth = FindObjectOfType<PlayerHealthManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerHealth = FindObjectOfType<PlayerHealthManager>();
+        
 
         healthBar.maxValue = playerHealth.playerMaxHealth;
         healthBar.value = playerHealth.playerCurrentHealth;

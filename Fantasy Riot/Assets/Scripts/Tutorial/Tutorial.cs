@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public int Order;
+    [TextArea(3,10)]
+    public string Explanation;
+    void Awake()
     {
-        
+        TutorialManager.Instance.Tutorials.Add(this);
     }
+    
+    public virtual void CheckIfHappening() { }
 }

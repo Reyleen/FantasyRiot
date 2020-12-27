@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7749989162215535376}
   - component: {fileID: 7617660360589604221}
   - component: {fileID: 4329855321228550544}
-  - component: {fileID: 6674972494236545505}
+  - component: {fileID: 74613388135031110}
   m_Layer: 0
   m_Name: Range
   m_TagString: Tower
@@ -99,7 +99,7 @@ CircleCollider2D:
   m_Offset: {x: 0.000000014901161, y: 0}
   serializedVersion: 2
   m_Radius: 0.50000006
---- !u!114 &6674972494236545505
+--- !u!114 &74613388135031110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,6 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259969c2f32e6e744b9b38a7e4a54e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballPre: {fileID: 268806901485347876, guid: c2af78bfcf34bb8419705e176ec67392, type: 3}
+  cooldown: 2
+  projectileSpeed: 6
 --- !u!1 &8907366300788112933
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +128,7 @@ GameObject:
   - component: {fileID: 2119468807854848422}
   - component: {fileID: 6497662237232840969}
   - component: {fileID: 4495053741662781124}
+  - component: {fileID: -1118391709403136453}
   m_Layer: 0
   m_Name: InfernalTower
   m_TagString: Tower
@@ -265,3 +269,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   status: {fileID: 6497662237232840969}
+  anim: {fileID: 2119468807854848422}
+--- !u!114 &-1118391709403136453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8907366300788112933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bb016f22751944a838fc51fdbd48f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerHp: 50
+  CurrentTowerHp: 0

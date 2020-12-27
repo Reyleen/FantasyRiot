@@ -6,7 +6,10 @@ public class TowerAnimation : MonoBehaviour
 {
     [SerializeField]
     private TowerReturn status;
+    
+    [SerializeField]
     private Animator anim;
+    
     void Start()
     {
         status = gameObject.GetComponent<TowerReturn>();
@@ -18,12 +21,7 @@ public class TowerAnimation : MonoBehaviour
     {
         if (status.Locked == true)
         {
-            anim.Play("InfernalTowerIdle");
-        }
-
-        else
-        {
-            anim.Play("FileInfernalTower");
+            anim.SetBool("Locked", true);
         }
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class SaveSystem : MonoBehaviour
 {
-    private string PLAYER_KEY="MAURO";
+    private string PLAYER_KEY="User";
     private FirebaseDatabase _database;
     public PlayerData LastPlayerData { get;private set;}
     public PlayerUpdatedEvent OnPlayerUpdated = new PlayerUpdatedEvent();

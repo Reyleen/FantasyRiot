@@ -4,7 +4,7 @@ using UnityEngine;
 [Serializable]
 public struct PlayerData
 {
-    public string Email;
+    public string User;
     public int Gemms;
     public int lvlA;
     public int HPA;

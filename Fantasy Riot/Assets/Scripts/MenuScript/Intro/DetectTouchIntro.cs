@@ -19,7 +19,7 @@ public class DetectTouchIntro : MonoBehaviour
 
         if (Time.time > 5f)
         {
-            if (Input.touchCount > 0 || Input.GetMouseButtonDown(0) && clicked)
+            if ((Input.touchCount > 0 || Input.GetMouseButtonDown(0)) && clicked)
             {
                 clicked = false;
                 if (PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"))

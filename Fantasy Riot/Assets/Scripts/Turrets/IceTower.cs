@@ -2,33 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tower : MonoBehaviour
+public class IceTower : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
-    private Queue<Enemy> monsters = new Queue<Enemy>();
     private bool canAttack = true;
     private float timer;
-    private Projectile proj;
+    private List<Enemy> targets = new List<Enemy>();
+    //public LayerMask layerEnemy;
     private Enemy target;
-
-    public Enemy Target
-    {
-        get { return target; }
-    }
-
-    [SerializeField]
-    private GameObject ballPre;
+    public int damageField;
 
     [SerializeField]
     private float cooldown;
 
-    [SerializeField]
-    private float projectileSpeed;
-
-    public float ProjectileSpeed
-    {
-        get { return projectileSpeed; }
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -37,9 +23,23 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
+        TargetFinder();
         Attack();
-        Debug.Log(target);
     }
+
+    private void TargetFinder()
+    {
+        if (targets.Count > 0)
+        {
+            foreach (Enemy enemy in targets)
+            {
+                target = enemy;
+                Debug.Log(enemy);
+                
+            }
+        }
+    }
+
     public void Select()
     {
         mySpriteRenderer.enabled = !mySpriteRenderer.enabled;
@@ -58,11 +58,6 @@ public class Tower : MonoBehaviour
             }
         }
 
-        if (target == null && monsters.Count > 0)
-        {
-            target = monsters.Dequeue();
-        }
-
         if (target != null)
         {
             if (canAttack)
@@ -75,15 +70,15 @@ public class Tower : MonoBehaviour
 
     private void DamageAttack()
     {
-        GameObject fireBall = Instantiate(ballPre, new Vector3(transform.position.x, transform.position.y + 0.8f), Quaternion.identity);
-        Projectile proj = fireBall.GetComponent<Projectile>();
-        proj.Initialize(this);
+        target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
+        Debug.Log("Attacking?");
     }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Enemy")
         {
-            monsters.Enqueue(other.GetComponent<Enemy>());
+           targets.Add(other.GetComponent<Enemy>());
         }
     }
 
@@ -91,8 +86,10 @@ public class Tower : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            target = null;
-            Debug.Log("No Enemy In Range");
+           targets.Remove(other.GetComponent<Enemy>());
+           target = null;
+           Debug.Log("No Enemy/ Enemy died");
         }
     }
+
 }

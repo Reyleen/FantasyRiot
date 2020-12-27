@@ -29,6 +29,10 @@ public class AuthManagerIntro : MonoBehaviour
     public TMP_InputField passwordRegisterVerifyField;
     public TMP_Text warningRegisterText;
 
+    [Header("Recover")]
+    public TMP_InputField EmailRecoverField;
+    public TMP_Text warningRecoverText;
+
     //AfterLogged
     [Header("Other")]
     public Player _player;
@@ -56,6 +60,7 @@ public class AuthManagerIntro : MonoBehaviour
     {
         auth.SignOut();
         Debug.Log("User SignOut");
+        PlayerPrefs.SetInt("Joined", 0);
     }
     private void InitializeFirebase()
     {
@@ -113,9 +118,12 @@ public class AuthManagerIntro : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             PlayerPrefs.SetString("Email", _email);
             PlayerPrefs.SetString("Password", _password);
-            warningLoginText.text = "";;
+            PlayerPrefs.SetInt("Joined", 1);
+            PlayerPrefs.SetString("User", User.DisplayName);
+            PanelManager2.instance.CloseLogin();
+            a.ChangePLAYER_KEY(User.DisplayName);
             a.DB();
-            a1.SDB();
+            warningLoginText.text = "";
             b.changeLevel();
         }
     }
@@ -189,10 +197,39 @@ public class AuthManagerIntro : MonoBehaviour
                         //Now return to login screeen
                         PanelManager2.instance.LoginScreen();
                         warningRegisterText.text = "";
+                        a.ChangePLAYER_KEY(emailRegisterField.text.Replace(".", ","));
+                        string Register = usernameRegisterField.text;
+                        _player.Switch(Register);
+                        a.DB();
+                        a.SavePlayer(_player.PlayerData, true);
                     }
                 }
             }
         }
     }
-
+    public void RecoverPassword()
+    {
+        StartCoroutine(Recover(EmailRecoverField.text));
+    }
+    private IEnumerator Recover(string _email)
+    {
+        //Call the Firebase signin function (in auth)
+        var Task = auth.SendPasswordResetEmailAsync(_email);
+        //wait till it is finished
+        yield return new WaitUntil(predicate: () => Task.IsCompleted);
+        if (Task.Exception != null)
+        {
+            //if an error occourred
+            Debug.LogWarning(message: $"Failed to register task with {Task.Exception}");
+            FirebaseException firebaseEx = Task.Exception.GetBaseException() as FirebaseException;
+            AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
+            
+            warningRecoverText.text = "Wrong Email";
+        }
+        else
+        {
+            //email sent
+            warningRecoverText.text = "Email sent";
+        }
+    }
 }

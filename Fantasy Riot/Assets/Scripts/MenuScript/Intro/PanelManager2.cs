@@ -10,6 +10,7 @@ public class PanelManager2 : MonoBehaviour
     public GameObject loginUI;
     public GameObject registerUI;
     public GameObject FirstPanel;
+    public GameObject ResetPanel;
 
     private void Awake()
     {
@@ -41,5 +42,18 @@ public class PanelManager2 : MonoBehaviour
         loginUI.SetActive(false);
         FirstPanel.SetActive(true);
     }
-
+    public void CloseLogin()
+    {
+        loginUI.SetActive(false);
+    }
+    public void toResetPass()
+    {
+        loginUI.SetActive(false);
+        ResetPanel.SetActive(true);
+    }
+    public void FromResetPass()
+    {
+        loginUI.SetActive(true);
+        ResetPanel.SetActive(false);
+    }
 }

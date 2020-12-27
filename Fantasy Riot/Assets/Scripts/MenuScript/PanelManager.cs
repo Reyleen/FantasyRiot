@@ -11,7 +11,7 @@ public class PanelManager : MonoBehaviour
     public GameObject registerUI;
     public GameObject ALoginUI;
     public GameObject FirstPanel;
-    public Player _player;
+    public GameObject Recover;
 
     private void Awake()
     {
@@ -44,11 +44,12 @@ public class PanelManager : MonoBehaviour
     }
     public void MenuToAccountScreen() // Account button
     {
-        if (_player.Email != "")
+        if (PlayerPrefs.HasKey("Joined"))
         {
             ALoginUI.SetActive(true);
         }
-        else{
+        else
+        {
             loginUI.SetActive(true);
         }
         FirstPanel.SetActive(false);
@@ -58,5 +59,21 @@ public class PanelManager : MonoBehaviour
         ALoginUI.SetActive(false);
         loginUI.SetActive(false);
         FirstPanel.SetActive(true);
+    }
+    public void AccountScreenToLogin()
+    {
+        ALoginUI.SetActive(true);
+        loginUI.SetActive(false);
+        FirstPanel.SetActive(true);
+    }
+    public void ToPassRecover()
+    {
+        loginUI.SetActive(false);
+        Recover.SetActive(true);
+    }
+    public void FromPassRecover()
+    {
+        loginUI.SetActive(true);
+        Recover.SetActive(false);
     }
 }

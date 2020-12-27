@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
+using System;
 
 public class Player : MonoBehaviour
 {
@@ -9,7 +11,7 @@ public class Player : MonoBehaviour
     private PlayerData _playerData;
 
     public PlayerData PlayerData =>_playerData;
-    public string Email => _playerData.Email;
+    public string User => _playerData.User;
     public int Gemms => _playerData.Gemms;
     public int lvlA => _playerData.lvlA;
     public int HPA => _playerData.HPA;
@@ -29,6 +31,11 @@ public class Player : MonoBehaviour
     public bool L4 => _playerData.L4;
     public UnityEvent OnPlayerUpdate = new UnityEvent();
 
+    [Header("Info Chamge")]
+    public TMP_Text Users;
+    public TMP_Text Gems;
+    public TMP_Text other;
+
     public void SetThings(int val)
     {
         if (!val.Equals(Gemms))
@@ -39,8 +46,14 @@ public class Player : MonoBehaviour
     public void UpdateThings(PlayerData playerData)
     {
         if (!playerData.Equals(_playerData))
-            {
+        {
             _playerData = playerData;
+            Users.text = playerData.User;
+            Gems.text = playerData.Gemms.ToString();
         }
+    }
+    public void Switch(string stringa)
+    {
+        _playerData.User = stringa;
     }
 }

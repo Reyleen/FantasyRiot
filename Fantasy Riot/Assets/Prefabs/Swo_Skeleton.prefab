@@ -127,6 +127,8 @@ MonoBehaviour:
   attackRange: 1
   enHea: {fileID: 4814754647123309576}
   isAlive: 1
+  slowed: 0
+  SlowInput: 1.5
 --- !u!50 &2498900396213128308
 Rigidbody2D:
   serializedVersion: 4

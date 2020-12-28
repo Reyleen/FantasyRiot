@@ -8,6 +8,7 @@ public class IceTower : MonoBehaviour
     private bool canAttack = true;
     private float timer;
     private List<Enemy> targets = new List<Enemy>();
+    //public LayerMask layerEnemy;
     private Enemy target;
     public int damageField;
 
@@ -26,15 +27,15 @@ public class IceTower : MonoBehaviour
         Attack();
     }
 
-    public void TargetFinder()
+    private void TargetFinder()
     {
         if (targets.Count > 0)
         {
             foreach (Enemy enemy in targets)
             {
                 target = enemy;
-                Debug.Log(target);
-                Attack();
+                Debug.Log(enemy);
+                
             }
         }
     }
@@ -46,27 +47,31 @@ public class IceTower : MonoBehaviour
 
     private void Attack()
     {
-            if (!canAttack)
-            {
-                timer += Time.deltaTime;
+        if (!canAttack)
+        {
+            timer += Time.deltaTime;
 
-                if (timer >= cooldown)
-                {
-                    canAttack = true;
-                    timer = 0;
-                }
-            }
-
-            if (target != null)
+            if (timer >= cooldown)
             {
-                if (canAttack)
-                {
-                    target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
-                    Debug.Log("Attacking?");
-                    canAttack = false;
-                     
-                }
+                canAttack = true;
+                timer = 0;
             }
+        }
+
+        if (target != null)
+        {
+            if (canAttack)
+            {
+                DamageAttack();
+                canAttack = false;
+            }
+        }
+    }
+
+    private void DamageAttack()
+    {
+        target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
+        Debug.Log("Attacking?");
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -74,17 +79,17 @@ public class IceTower : MonoBehaviour
         if (other.tag == "Enemy")
         {
            targets.Add(other.GetComponent<Enemy>());
-           other.gameObject.GetComponent<Enemy>().DebuffSlow();
         }
     }
+
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Enemy")
         {
-           other.gameObject.GetComponent<Enemy>().RemoveBuff();
            targets.Remove(other.GetComponent<Enemy>());
            target = null;
            Debug.Log("No Enemy/ Enemy died");
         }
     }
+
 }

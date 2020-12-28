@@ -20,11 +20,8 @@ public class Enemy : MonoBehaviour
     public EnemyHealthManager enHea;
     public bool isAlive = true;
 
-    private Transform enemyPosition;
+    private Transform MonsterPosition;
     public Point GridPosition { get; set; }
-
-    public bool slowed = false;
-    public float SlowInput;
 
     // Start is called before the first frame update
     void Start()
@@ -108,21 +105,5 @@ public class Enemy : MonoBehaviour
 
         wavepointIndex++;
         target = Waypoints.points[wavepointIndex];
-    }
-
-    public void DebuffSlow()
-    {
-        if(slowed==false)
-        {
-            speed = speed - SlowInput;
-            slowed = true;
-            Debug.Log("Getting slowed");
-        }
-    }
-
-    public void RemoveBuff()
-    {
-        speed = speed + SlowInput;
-        slowed = false;
     }
 }

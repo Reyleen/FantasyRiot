@@ -165,8 +165,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6353992705971360876}
   - component: {fileID: 2305837036539161825}
-  - component: {fileID: 1552193943981996842}
-  - component: {fileID: 959341761}
+  - component: {fileID: 1522860688157017934}
+  - component: {fileID: 1675949809408774285}
+  - component: {fileID: 8490100616025657804}
   m_Layer: 0
   m_Name: Range
   m_TagString: Tower
@@ -238,7 +239,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1552193943981996842
+--- !u!114 &1522860688157017934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -247,12 +248,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 5875445030217025025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8b867c5e57c7c64ca167ff71ec19cb0, type: 3}
+  m_Script: {fileID: 11500000, guid: b8e21dcfca996594b9060e9bf4117eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageField: 10
-  cooldown: 1
---- !u!60 &959341761
+  damageField: 2
+  cooldown: 3
+--- !u!50 &1675949809408774285
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875445030217025025}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &8490100616025657804
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

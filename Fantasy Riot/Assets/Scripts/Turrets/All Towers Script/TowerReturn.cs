@@ -18,41 +18,26 @@ public class TowerReturn : MonoBehaviour
     private GoldManager gold;
     [SerializeField]
     private int costTower;
-    private Joystick joystick;
-    Vector2 move;
-    private Touch touch;
-    public bool mov = false;
+
     public bool Locked { get => locked; set => locked = value; }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gold = FindObjectOfType<GoldManager>();
-        joystick = FindObjectOfType<FixedJoystick>();
     }
 
     private void Update()
     {
-        move.x = joystick.Horizontal;
-        move.y = joystick.Vertical;
-
-        if (Input.touchCount > 0 && !Locked)
+        if (Input.touchCount>0 && !Locked)
         {
-            if ((move.x > 0 || move.x < 0 || move.y > 0 || move.y < 0) && !mov)
-            {
-                touch = Input.GetTouch(1);
-            }
-            else if ((move.x == 0 && move.y == 0) || mov)
-            {
-                touch = Input.GetTouch(0);
-                mov = true;
-            }
+            Touch touch = Input.GetTouch(0);
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             touchPos.z = 0;
             direction = (touchPos - transform.position);
             rb.velocity = new Vector2(direction.x, direction.y) * moveSpeed;
 
-            if (touch.phase == TouchPhase.Ended)
+            if(touch.phase == TouchPhase.Ended)
             {
                 rb.velocity = Vector2.zero;
                 foreach (Transform place in Placement.Placements)
@@ -70,9 +55,16 @@ public class TowerReturn : MonoBehaviour
 
                     }
                 }
-
-            }
+                
+            }        
         }
     }
 
 }
+
+
+
+
+
+
+

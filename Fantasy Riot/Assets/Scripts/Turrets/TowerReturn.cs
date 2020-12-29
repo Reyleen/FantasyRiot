@@ -10,19 +10,25 @@ public class TowerReturn : MonoBehaviour
 {
     [SerializeField]
     private bool locked;
+    
     private float deltaX, deltaY;
     private Vector3 touchPos;
     private Rigidbody2D rb;
     private Vector3 direction;
     private float moveSpeed = 10f;
     private GoldManager gold;
+    
     [SerializeField]
     private int costTower;
+
     private Joystick joystick;
     Vector2 move;
     private Touch touch;
     public bool mov = false;
     public bool Locked { get => locked; set => locked = value; }
+
+    private SpawnATurret ifSpawned;
+
 
     private void Start()
     {
@@ -61,13 +67,14 @@ public class TowerReturn : MonoBehaviour
                     {
                         Locked = true;
                         Debug.Log("PLACED");
+                        ifSpawned.Spawned();
                     }
                     else if (Locked == false)
                     {
                         Debug.Log("DESTROYED");
                         Destroy(gameObject);
                         gold.AddMoney(+costTower);
-
+                        ifSpawned.Spawned();
                     }
                 }
 

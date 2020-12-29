@@ -23,7 +23,6 @@ public class IceTower : MonoBehaviour
     void Update()
     {
         TargetFinder();
-        Attack();
     }
 
     public void TargetFinder()
@@ -62,7 +61,7 @@ public class IceTower : MonoBehaviour
                 if (canAttack)
                 {
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
-                    Debug.Log("Attacking?");
+                    Debug.Log("Attacking");
                     canAttack = false;
                      
                 }

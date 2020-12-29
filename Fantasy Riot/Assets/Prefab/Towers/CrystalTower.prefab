@@ -141,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locked: 0
   costTower: 5
+  mov: 0
 --- !u!114 &1647893927665603139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +168,6 @@ GameObject:
   - component: {fileID: 2305837036539161825}
   - component: {fileID: 1522860688157017934}
   - component: {fileID: 8490100616025657804}
-  - component: {fileID: 5235879393606817612}
   m_Layer: 0
   m_Name: Range
   m_TagString: Tower
@@ -406,24 +406,3 @@ PolygonCollider2D:
       - {x: 0.073363945, y: 0.49458843}
       - {x: 0.0490072, y: 0.4975925}
       - {x: 0.02453239, y: 0.49939778}
---- !u!50 &5235879393606817612
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5875445030217025025}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0

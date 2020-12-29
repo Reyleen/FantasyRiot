@@ -234,6 +234,7 @@ public class AuthManager : MonoBehaviour
         {
             //email sent
             warningRecoverText.text = "Email sent";
+            PanelManager.instance.FromPassRecover();
         }
     }
 }

@@ -12,7 +12,7 @@ public class PanelManager : MonoBehaviour
     public GameObject ALoginUI;
     public GameObject FirstPanel;
     public GameObject Recover;
-
+    public Player _player;
     private void Awake()
     {
         if (instance == null)
@@ -24,6 +24,10 @@ public class PanelManager : MonoBehaviour
             Debug.Log("Instance already exists, destroying object!");
             Destroy(this);
         }
+    }
+    private void Start()
+    {
+        _player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     //Functions to change the login screen UI
@@ -37,16 +41,23 @@ public class PanelManager : MonoBehaviour
         loginUI.SetActive(false);
         registerUI.SetActive(true);
     }
+    public void LoginScreenToMenu()
+    {
+        loginUI.SetActive(false);
+        FirstPanel.SetActive(true);
+    }
     public void UserScreen() // LogIn button
     {
         loginUI.SetActive(false);
         ALoginUI.SetActive(true);
+        _player.UpdateScreen();
     }
     public void MenuToAccountScreen() // Account button
     {
         if (PlayerPrefs.HasKey("Joined"))
         {
             ALoginUI.SetActive(true);
+            _player.UpdateScreen();
         }
         else
         {

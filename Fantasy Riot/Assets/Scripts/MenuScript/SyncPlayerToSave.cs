@@ -14,7 +14,7 @@ public class SyncPlayerToSave : MonoBehaviour
     {
         _playerSaveManager = FindObjectOfType<SaveSystem>();
     }
-    private void Start()//control if it's the first time the player joined the game
+    private void Awake()//control if it's the first time the player joined the game
     {
         if ((PlayerPrefs.HasKey("Joined")) && (SceneManager.GetActiveScene().name != "Intro"))
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+/*this script load new level Async, in this way the game don't need to load in run*/
 public class LoadLevel : MonoBehaviour
 {
     public GameObject loadingScreen;

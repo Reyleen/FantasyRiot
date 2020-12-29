@@ -5,25 +5,26 @@ using Firebase;
 using System.Threading.Tasks;
 using UnityEngine.Events;
 
+/*this script Save the data in the DB*/
 public class SaveSystem : MonoBehaviour
 {
-    private string PLAYER_KEY="User";
+    private string PLAYER_KEY="User"; //used for find player inf in the db
     private FirebaseDatabase _database;
     public PlayerData LastPlayerData { get;private set;}
     public PlayerUpdatedEvent OnPlayerUpdated = new PlayerUpdatedEvent();
     private DatabaseReference _ref;
 
-    public void DB()
+    public void DB()//initialize the DB if needed
     {
         _database = FirebaseDatabase.DefaultInstance;
         _ref = _database.GetReference(PLAYER_KEY);
         _ref.ValueChanged += HandleValueChanged;
     }
-    public void ChangePLAYER_KEY(string a)
+    public void ChangePLAYER_KEY(string a)//change the playerKey
     {
         PLAYER_KEY = a;
     }
-    private void OnDestory()
+    private void OnDestory()//destro player in case of deleting account
     {
         _ref.ValueChanged -= HandleValueChanged;
         _ref = null;
@@ -40,7 +41,7 @@ public class SaveSystem : MonoBehaviour
         }
     }
 
-    public void SavePlayer(PlayerData player,bool a)
+    public void SavePlayer(PlayerData player,bool a)//save player data in DB
     {
         Debug.Log("e 1");
         if (!player.Equals(LastPlayerData) || a)
@@ -51,7 +52,7 @@ public class SaveSystem : MonoBehaviour
         }
     }
 
-    public async Task<PlayerData?> LoadPlayer()
+    public async Task<PlayerData?> LoadPlayer()//load player data in DB
     {
         var dataSnapshot = await _database.GetReference(PLAYER_KEY).GetValueAsync();
         if (!dataSnapshot.Exists)
@@ -62,7 +63,7 @@ public class SaveSystem : MonoBehaviour
         return JsonUtility.FromJson<PlayerData>(dataSnapshot.GetRawJsonValue());
     }
 
-    public async Task<bool> SaveExists()
+    public async Task<bool> SaveExists()//check if the save exists
     {
         var dataSnapshot = await _database.GetReference(PLAYER_KEY).GetValueAsync();
         return dataSnapshot.Exists;

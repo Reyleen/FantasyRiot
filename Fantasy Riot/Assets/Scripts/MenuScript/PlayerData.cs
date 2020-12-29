@@ -1,11 +1,13 @@
 ﻿using System;
 using UnityEngine;
 
+/* structure of the player data*/
 [Serializable]
 public struct PlayerData
-{
+{//use info
     public string User;
     public int Gemms;
+    //Hero info
     public int lvlA;
     public int HPA;
     public int atkA;
@@ -18,6 +20,7 @@ public struct PlayerData
     public int lvlL;
     public int HPL;
     public int atkL;
+    //level unlocked
     public bool L1;
     public bool L2;
     public bool L3;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Movment system for Melee Hero*/
 public class PlayerMovmentMelee : MonoBehaviour
 {
     public float speed = 5f;
@@ -45,7 +45,7 @@ public class PlayerMovmentMelee : MonoBehaviour
         playerMoving = false;
         isShooting = false;
         rb.velocity = Vector2.zero;
-
+        //direction check
         if (move.x > 0.5f || move.x < -0.5f)
         {
             rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
@@ -59,7 +59,7 @@ public class PlayerMovmentMelee : MonoBehaviour
             playerMoving = true;
             lastMove = new Vector2(0f, move.y);
         }
-
+        //aiming check
         if ((aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
@@ -70,7 +70,7 @@ public class PlayerMovmentMelee : MonoBehaviour
         {
             isShooting = true;
         }
-
+        //animation set
         botAnim.SetFloat("MoveX", move.x);
         botAnim.SetFloat("MoveY", move.y);
         botAnim.SetBool("PlayerMoving", playerMoving);

@@ -62,9 +62,9 @@ public class PanelManager : MonoBehaviour
     }
     public void AccountScreenToLogin()
     {
-        ALoginUI.SetActive(true);
-        loginUI.SetActive(false);
-        FirstPanel.SetActive(true);
+        ALoginUI.SetActive(false);
+        loginUI.SetActive(true);
+        FirstPanel.SetActive(false);
     }
     public void ToPassRecover()
     {

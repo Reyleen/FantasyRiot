@@ -5,7 +5,7 @@ using Firebase;
 using Firebase.Auth;
 using TMPro;
 using Firebase.Database;
-
+/*same script oh AuthManager but with some variation in order to fit with the intro*/
 public class AuthManagerIntro : MonoBehaviour
 {
     //Firebase variables
@@ -39,7 +39,6 @@ public class AuthManagerIntro : MonoBehaviour
     public SaveSystem a;
     public SyncPlayerToSave a1;
     public DetectTouchIntro b;
-
     private void Awake()
     {
         //check dependencies for Firebase on the system
@@ -110,6 +109,7 @@ public class AuthManagerIntro : MonoBehaviour
                     break;
             }
             warningLoginText.text = message;
+            b.clicked = false;
         }
         else
         {

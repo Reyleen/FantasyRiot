@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 /*player class thet store information in game and change them if needed*/
 public class Player : MonoBehaviour
 {
@@ -48,12 +49,17 @@ public class Player : MonoBehaviour
         if (!playerData.Equals(_playerData))
         {
             _playerData = playerData;
-            Users.text = playerData.User;
-            Gems.text = playerData.Gemms.ToString();
         }
     }
     public void Switch(string stringa)
     {
         _playerData.User = stringa;
+    }
+    public void UpdateScreen()
+    {
+        Users = GameObject.Find("MenuCanvas/AccountMenuSignedIn/UserChange").GetComponent<TMP_Text>();
+        Gems= GameObject.Find("MenuCanvas/AccountMenuSignedIn/GemsChange").GetComponent<TMP_Text>();
+        Users.text = _playerData.User;
+        Gems.text = _playerData.Gemms.ToString();
     }
 }

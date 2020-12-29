@@ -10,6 +10,8 @@ TagManager:
   - Coin
   - NPC
   - Tower
+  - TowerManager
+  - Road1
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - 
   - 
   - Enemy
-  - 
+  - Obstacle
   - 
   - 
   - 

@@ -7,7 +7,7 @@ public class HurtPlayer : MonoBehaviour
     public int damageToGive;
     public float hitDelay;
     private float nextHitAllowed;
-
+    public Collider2D thisenemy;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +31,10 @@ public class HurtPlayer : MonoBehaviour
                 other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
 
             }
+        }
+        if (other.gameObject.tag == "Enemy")
+        {
+            Physics2D.IgnoreCollision(thisenemy,other,false);
         }
     }
 

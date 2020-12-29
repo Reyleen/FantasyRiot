@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Enemy : MonoBehaviour
 {
@@ -25,6 +26,13 @@ public class Enemy : MonoBehaviour
 
     public bool slowed = false;
     public float SlowInput;
+    public float nextWaypointDistance = 3f;
+
+    Path path;
+    int currentWaypoint = 0;
+    bool reachedEndOfPath = false;
+    Seeker seeker;
+    bool way = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +40,26 @@ public class Enemy : MonoBehaviour
         target = Waypoints.points[0];
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         anim = GetComponent<Animator>();
-    }
+        seeker = GetComponent<Seeker>();
+        rb = GetComponent<Rigidbody2D>();
 
+        InvokeRepeating("UpdatePath", 0f, .5f);
+    }
+    void UpdatePath()
+    {
+        if (seeker.IsDone())
+            seeker.StartPath(rb.position, target.position, OnPathComplete);
+    }
+    void OnPathComplete(Path p)
+    {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+        }
+    }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         rb.velocity = Vector2.zero;
         if (player != null)
@@ -44,6 +68,7 @@ public class Enemy : MonoBehaviour
             if (enHea.CurrentHealth <= 0)
             {
                 isAlive = false;
+                return;
             }
 
             if (isAlive)
@@ -76,18 +101,32 @@ public class Enemy : MonoBehaviour
                 }
                 else
                 {
-                    Vector2 dir = target.position - transform.position;
-                    transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-
-                    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-
-                    if (Vector2.Distance(transform.position, target.position) <= 0.4f)
+                    if (path == null)
+                        return;
+                    if (currentWaypoint >= path.vectorPath.Count)
                     {
-                        GetNextWaypoint();
+                        if (way)
+                            GetNextWaypoint();
+                        reachedEndOfPath = true;
+                        return;
                     }
-
+                    else
+                    {
+                        way = true;
+                        reachedEndOfPath = false;
+                    }
+                    Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+                    Vector2 force = direction * speed * Time.deltaTime;
+                    transform.Translate(force, Space.World);
+                    Vector2 dir = target.position - transform.position;
+                    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
                     anim.SetFloat("AngleX", dir.x);
                     anim.SetFloat("AngleY", dir.y);
+                    float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+                    if (distance < nextWaypointDistance)
+                    {
+                        currentWaypoint++;
+                    }
                 }
             }
             else
@@ -108,11 +147,12 @@ public class Enemy : MonoBehaviour
 
         wavepointIndex++;
         target = Waypoints.points[wavepointIndex];
+        way = false;
     }
 
     public void DebuffSlow()
     {
-        if(slowed==false)
+        if (slowed == false)
         {
             speed = speed - SlowInput;
             slowed = true;

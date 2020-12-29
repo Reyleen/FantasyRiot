@@ -43,9 +43,14 @@ public class DeathMenu : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene("Tutorial");
+        if (SceneManager.GetActiveScene().name=="CaveTutorial")
+        { 
+            SceneManager.LoadScene("Tutorial");
+            gameObject.SetActive(false);
+            return;
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         gameObject.SetActive(false);
-
     }
 
     public void ToMenu()

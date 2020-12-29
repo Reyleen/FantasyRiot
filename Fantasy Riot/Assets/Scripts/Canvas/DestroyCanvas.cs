@@ -5,13 +5,13 @@ using System.Threading;
 
 public class DestroyCanvas : MonoBehaviour
 {
-    public GameObject camera;
+    public GameObject pcamera;
     private GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        pcamera = GameObject.FindGameObjectWithTag("MainCamera");
         gameObject.SetActive(true);
         Time.timeScale = 1f;
         
@@ -26,7 +26,7 @@ public class DestroyCanvas : MonoBehaviour
     public void Destroy()
     {
         Destroy(gameObject);
-        Destroy(camera);
+        Destroy(pcamera);
         Destroy(player);
     }
 }

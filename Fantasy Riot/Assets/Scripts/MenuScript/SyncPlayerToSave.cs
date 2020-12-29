@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+/* Sync the player with the RealTime Database*/
 
 public class SyncPlayerToSave : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class SyncPlayerToSave : MonoBehaviour
     {
         _playerSaveManager = FindObjectOfType<SaveSystem>();
     }
-    private void Start()
+    private void Start()//control if it's the first time the player joined the game
     {
         if ((PlayerPrefs.HasKey("Joined")) && (SceneManager.GetActiveScene().name != "Intro"))
         {
@@ -26,7 +27,7 @@ public class SyncPlayerToSave : MonoBehaviour
             }
         }
     }
-    public void SDB()
+    public void SDB()//Sync data
     {
         _playerSaveManager.OnPlayerUpdated.AddListener(HandlePlayerSaveUpdated);
         _player.OnPlayerUpdate.AddListener(HandlePlayerUpdate);

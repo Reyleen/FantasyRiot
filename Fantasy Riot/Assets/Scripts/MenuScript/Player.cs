@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 using System;
-
+/*player class thet store information in game and change them if needed*/
 public class Player : MonoBehaviour
 {
     [SerializeField]

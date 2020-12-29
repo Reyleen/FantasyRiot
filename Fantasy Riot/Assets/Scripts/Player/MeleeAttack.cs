@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*melee attack for Fighter and Lancer*/
 public class MeleeAttack : MonoBehaviour
 {
     public Transform attackPointU;
@@ -18,7 +18,7 @@ public class MeleeAttack : MonoBehaviour
     // Update is called once per frame
     public void Attack(float x,float y)
     {
-        if ( x>=0.7f && (y<=0.7f && y>=-0.7f))
+        if ( x>=0.7f && (y<=0.7f && y>=-0.7f))//every if check the direction of the attack. this is Right
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointR.position, attackPointR2.position, enemyLayers);
 
@@ -26,7 +26,7 @@ public class MeleeAttack : MonoBehaviour
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
             }
-        }else if ((x < 0.7f && x>-0.7f) && y > 0.7f)
+        }else if ((x < 0.7f && x>-0.7f) && y > 0.7f)//Up
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointU.position, attackPointU2.position, enemyLayers);
 
@@ -34,7 +34,7 @@ public class MeleeAttack : MonoBehaviour
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
             }
-        }else if (x <= -0.7f && (y <= 0.7f && y >= -0.7f))
+        }else if (x <= -0.7f && (y <= 0.7f && y >= -0.7f))//Left
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointL.position, attackPointL2.position, enemyLayers);
 
@@ -42,7 +42,7 @@ public class MeleeAttack : MonoBehaviour
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
             }
-        }else if ((x < 0.7f && x > -0.7f) && y < -0.7f)
+        }else if ((x < 0.7f && x > -0.7f) && y < -0.7f)//Right
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointD.position, attackPointD2.position, enemyLayers);
 
@@ -54,7 +54,7 @@ public class MeleeAttack : MonoBehaviour
         
     }
     
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()//Draw Gizmo for Unity
     {
         if (attackPointD == null || attackPointD2==null)
             return;

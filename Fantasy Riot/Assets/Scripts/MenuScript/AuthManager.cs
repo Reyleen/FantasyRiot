@@ -5,7 +5,7 @@ using Firebase;
 using Firebase.Auth;
 using TMPro;
 using Firebase.Database;
-
+/* this is the authentication manager. It works with firebase Auth.*/
 public class AuthManager : MonoBehaviour
 {
     //Firebase variables
@@ -40,7 +40,7 @@ public class AuthManager : MonoBehaviour
     public SaveSystem a;
     public SyncPlayerToSave a1;
 
-    private void Awake()
+    private void Awake()//start auth
     {
         //check dependencies for Firebase on the system
         FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
@@ -56,7 +56,7 @@ public class AuthManager : MonoBehaviour
             }
         });
     }
-    public void LogOut()
+    public void LogOut()//logout function
     {
         auth.SignOut();
         Debug.Log("User SignOut");

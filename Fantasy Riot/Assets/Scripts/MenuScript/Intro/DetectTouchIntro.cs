@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/*This script detect touch and login the player if already entered in old session*/
 public class DetectTouchIntro : MonoBehaviour
 {
-    private bool clicked;
+    public bool clicked;
     private GameObject wrap;
+    public GameObject load;
     public AuthManagerIntro au;
+    public bool enter;
+    public bool una=true;
     // Update is called once per frame
     private void Start()
     {
@@ -21,7 +24,6 @@ public class DetectTouchIntro : MonoBehaviour
         {
             if ((Input.touchCount > 0 || Input.GetMouseButtonDown(0)) && clicked)
             {
-                clicked = false;
                 if (PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"))
                 {
                     au.emailLoginField.text = PlayerPrefs.GetString("Email");
@@ -31,11 +33,26 @@ public class DetectTouchIntro : MonoBehaviour
                 else
                 {
                     PanelManager2.instance.LoginScreen();
+                    clicked = false;
                 }
-            }  
+            }
+            else if (!clicked)
+            {
+                Debug.Log(load.activeSelf);
+                if (una)
+                {
+                    PanelManager2.instance.LoginScreen();
+                    una = false;
+                }
+                if (load.activeSelf == false)
+                { 
+                PlayerPrefs.DeleteKey("Email");
+                PlayerPrefs.DeleteKey("Password");
+                }
+            }
         }
     }
-    public void changeLevel()
+    public void changeLevel()//change the scene to the menu scene
     {
         Debug.Log("entrato");
         wrap.GetComponent<LoadLevel>().LoadScreen("Menu");

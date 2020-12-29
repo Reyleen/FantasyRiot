@@ -106,6 +106,11 @@ public class Infinitewaves : MonoBehaviour
             searchCountdown = 2f;
             if (GameObject.FindGameObjectWithTag("Enemy") == null)
             {
+                e.count += 2;
+                for(int i = 0; i < 2; i++)
+                {
+                    e.enemies[i].GetComponent<EnemyHealthManager>().MaxHealth += 10;
+                }
                 return false;
             }
         }

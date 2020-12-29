@@ -165,4 +165,17 @@ public class Enemy : MonoBehaviour
         speed = speed + SlowInput;
         slowed = false;
     }
+
+    public IEnumerator KnockUp(float knockDur, float knockPow, Vector3 knockDir)
+    {
+        float timerKnock = 0;
+
+        while (knockDur > timerKnock)
+        {
+            timerKnock += Time.deltaTime;
+            rb.AddForce(new Vector3(knockDir.x, knockDir.y * knockPow, transform.position.z));
+        }
+
+        yield return 0;
+    }
 }

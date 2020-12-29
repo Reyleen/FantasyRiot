@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3092315336867834924}
   - component: {fileID: 4943648291620573878}
-  - component: {fileID: 5934913251635964427}
   - component: {fileID: 2173294331065971196}
+  - component: {fileID: 3734539317373816334}
   m_Layer: 0
   m_Name: Range
   m_TagString: Tower
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2320755635363518126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1962, z: 0}
-  m_LocalScale: {x: 1.4372131, y: 0.40123233, z: 1}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
+  m_LocalScale: {x: 1.8686467, y: 0.6085881, z: 1}
   m_Children: []
   m_Father: {fileID: 4562003769846472594}
   m_RootOrder: 0
@@ -83,21 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5934913251635964427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2320755635363518126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 259969c2f32e6e744b9b38a7e4a54e19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ballPre: {fileID: 0}
-  cooldown: 0
-  projectileSpeed: 0
 --- !u!60 &2173294331065971196
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -108,7 +93,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -251,6 +236,22 @@ PolygonCollider2D:
       - {x: 0.073363945, y: 0.49458843}
       - {x: 0.0490072, y: 0.4975925}
       - {x: 0.02453239, y: 0.49939778}
+--- !u!114 &3734539317373816334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320755635363518126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1534501d7c744397b4d9ff93e6abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAttack: 10
+  attackDelay: 2.5
+  attacking: 0
+  cooldown: 6
 --- !u!1 &6134797277603510831
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +266,8 @@ GameObject:
   - component: {fileID: -1248935019688840352}
   - component: {fileID: 8904218023542784492}
   - component: {fileID: 1973949149363428019}
+  - component: {fileID: -8451778555139296402}
+  - component: {fileID: -7591254802600263414}
   m_Layer: 0
   m_Name: GolemTower
   m_TagString: Tower
@@ -371,6 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locked: 0
   costTower: 2
+  mov: 0
 --- !u!50 &8904218023542784492
 Rigidbody2D:
   serializedVersion: 4
@@ -406,3 +410,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerHp: 50
   CurrentTowerHp: 0
+--- !u!114 &-8451778555139296402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134797277603510831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d154d956a339743924a07af9025654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: {fileID: -1248935019688840352}
+  anim: {fileID: 8133594949992089986}
+--- !u!114 &-7591254802600263414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134797277603510831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a180d88c7faaa41ac0ab7a2c64cc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: {fileID: 3734539317373816334}

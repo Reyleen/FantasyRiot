@@ -13,12 +13,13 @@ GameObject:
   - component: {fileID: 8612506959681593204}
   - component: {fileID: 8734878753163631167}
   - component: {fileID: 6257238304259744256}
-  - component: {fileID: 6820648957067639760}
   - component: {fileID: 3123935420899292149}
+  - component: {fileID: 6820648957067639760}
   - component: {fileID: 3208805983755218785}
-  m_Layer: 0
+  - component: {fileID: 7506321557467056840}
+  m_Layer: 8
   m_Name: Orc
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,6 +108,9 @@ MonoBehaviour:
   attackRange: 1
   enHea: {fileID: 8734878753163631167}
   isAlive: 1
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 1
 --- !u!114 &8734878753163631167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,27 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageToGive: 5
   hitDelay: 1
---- !u!50 &6820648957067639760
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535412348711369848}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  thisenemy: {fileID: 3123935420899292149}
 --- !u!61 &3123935420899292149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -186,6 +170,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39928722, y: 0.4739424}
   m_EdgeRadius: 0
+--- !u!50 &6820648957067639760
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535412348711369848}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!95 &3208805983755218785
 Animator:
   serializedVersion: 3
@@ -205,3 +210,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7506321557467056840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535412348711369848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

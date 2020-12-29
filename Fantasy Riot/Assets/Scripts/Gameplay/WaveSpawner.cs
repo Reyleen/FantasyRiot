@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -17,33 +19,40 @@ public class WaveSpawner : MonoBehaviour
         public int count1;
         public float rate;
     }
-
+    public GameObject TowerUI;
     public Wave[] waves;
 
     public int nextWave = 0;
 
     public Transform[] spawnPoints;
 
-    public float timeBetweenWaves = 5f;
-    public float waveCountdown;
-
+    public float timeBetweenWaves = 60f;
+    public float waveCountdown = 0;
     private float searchCountdown = 1f;
 
     private SpawnState state = SpawnState.COUNTING;
+    public bool StarWaveSpowner;
+    public GameObject bottoneGo;
+    public GameObject bottoneNext;
+    public TMP_Text timer;
 
     void Start()
     {
-        waveCountdown = timeBetweenWaves;
+        TowerUI = GameObject.FindGameObjectWithTag("TowerManager");
+        StarWaveSpowner = false;
+        state = SpawnState.WAITING;
     }
 
     void Update()
     {
+        if (!StarWaveSpowner)
+            return;
         if (state == SpawnState.WAITING)
         {
             if (!EnemyIsAlive())
             {
                 WaveCompleted();
-
+                
                 return;
             }
             else
@@ -55,23 +64,40 @@ public class WaveSpawner : MonoBehaviour
 
             if (waveCountdown <= 0)
             {
+                TowerUI.SetActive(false);
                 if (state != SpawnState.SPAWNING)
                 {
                     StartCoroutine(SpawnWave(waves[nextWave]));
                 }
+                
             }
             else
             {
                 waveCountdown -= Time.deltaTime;
+            string minutes = ((int)waveCountdown / 60).ToString();
+            string seconds = (waveCountdown % 60).ToString("f0");
+            timer.text = minutes + ":" + seconds;
             }
     }
-
+    public void startWave()
+    {
+        StarWaveSpowner = true;
+        waveCountdown = timeBetweenWaves;
+        bottoneGo.SetActive(false);
+    }
+    public void NextWave()
+    {
+        bottoneNext.SetActive(false);
+        waveCountdown = 0;
+    }
     void WaveCompleted()
     {
         state = SpawnState.COUNTING;
         waveCountdown = timeBetweenWaves;
-
-        if(nextWave + 1 > waves.Length -1)
+        StarWaveSpowner = true;
+        TowerUI.SetActive(true);
+        bottoneGo.SetActive(true);
+        if (nextWave + 1 > waves.Length -1)
         {
             nextWave = 0;
         } else

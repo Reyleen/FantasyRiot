@@ -27,8 +27,6 @@ public class GoldManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
         if(plaHea.playerCurrentHealth <= 0)
         {
             currentGold = 0;

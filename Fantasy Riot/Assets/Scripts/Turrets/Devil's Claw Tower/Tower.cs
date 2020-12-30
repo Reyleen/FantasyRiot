@@ -25,6 +25,9 @@ public class Tower : MonoBehaviour
     [SerializeField]
     private float projectileSpeed;
 
+    [SerializeField]
+    private TowerReturn status;
+
     public float ProjectileSpeed
     {
         get { return projectileSpeed; }
@@ -40,6 +43,7 @@ public class Tower : MonoBehaviour
         Attack();
         Debug.Log(target);
     }
+
     public void Select()
     {
         mySpriteRenderer.enabled = !mySpriteRenderer.enabled;

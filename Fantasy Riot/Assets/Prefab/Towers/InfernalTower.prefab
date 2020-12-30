@@ -114,6 +114,7 @@ MonoBehaviour:
   ballPre: {fileID: 268806901485347876, guid: c2af78bfcf34bb8419705e176ec67392, type: 3}
   cooldown: 2
   projectileSpeed: 6
+  status: {fileID: 6497662237232840969}
 --- !u!1 &8907366300788112933
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +257,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locked: 0
   costTower: 3
+  mov: 0
+  spawned: 0
+  Fire: 1
+  Earth: 0
+  Water: 0
+  Air: 0
+  fireTw: {fileID: 74613388135031110}
+  earthTw: {fileID: 0}
+  waterTw: {fileID: 0}
 --- !u!114 &4495053741662781124
 MonoBehaviour:
   m_ObjectHideFlags: 0

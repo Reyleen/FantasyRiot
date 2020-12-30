@@ -250,8 +250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAttack: 10
   attackDelay: 2.5
-  attacking: 0
   cooldown: 6
+  status: {fileID: -1248935019688840352}
 --- !u!1 &6134797277603510831
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +375,14 @@ MonoBehaviour:
   locked: 0
   costTower: 2
   mov: 0
+  spawned: 0
+  Fire: 0
+  Earth: 1
+  Water: 0
+  Air: 0
+  fireTw: {fileID: 0}
+  earthTw: {fileID: 3734539317373816334}
+  waterTw: {fileID: 0}
 --- !u!50 &8904218023542784492
 Rigidbody2D:
   serializedVersion: 4

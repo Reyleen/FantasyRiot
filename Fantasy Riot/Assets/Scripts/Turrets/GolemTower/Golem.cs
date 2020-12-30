@@ -19,6 +19,9 @@ public class Golem : MonoBehaviour
     [SerializeField]
     private float cooldown;
 
+    [SerializeField]
+    private TowerReturn status;
+
     public bool Attacking 
     { 
         get { return attacking; }

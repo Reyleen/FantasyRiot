@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6741199717201889952}
   - component: {fileID: 2880227749996436058}
   - component: {fileID: 1647893927665603139}
+  - component: {fileID: -2924763585894956646}
   m_Layer: 0
   m_Name: CrystalTower
   m_TagString: Tower
@@ -142,6 +143,14 @@ MonoBehaviour:
   locked: 0
   costTower: 5
   mov: 0
+  spawned: 0
+  Fire: 0
+  Earth: 0
+  Water: 1
+  Air: 0
+  fireTw: {fileID: 0}
+  earthTw: {fileID: 0}
+  waterTw: {fileID: 1522860688157017934}
 --- !u!114 &1647893927665603139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +165,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerHp: 50
   CurrentTowerHp: 0
+--- !u!114 &-2924763585894956646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4804067659197904830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d154d956a339743924a07af9025654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: {fileID: 2880227749996436058}
+  anim: {fileID: 6741199717201889952}
 --- !u!1 &5875445030217025025
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageField: 2
   cooldown: 3
+  status: {fileID: 2880227749996436058}
 --- !u!60 &8490100616025657804
 PolygonCollider2D:
   m_ObjectHideFlags: 0

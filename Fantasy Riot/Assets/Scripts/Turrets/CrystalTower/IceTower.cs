@@ -14,6 +14,9 @@ public class IceTower : MonoBehaviour
     [SerializeField]
     private float cooldown;
 
+    [SerializeField]
+    private TowerReturn status;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +66,6 @@ public class IceTower : MonoBehaviour
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
                     Debug.Log("Attacking");
                     canAttack = false;
-                     
                 }
             }
     }

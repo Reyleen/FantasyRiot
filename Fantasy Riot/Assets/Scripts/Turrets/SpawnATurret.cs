@@ -10,7 +10,8 @@ public class SpawnATurret : MonoBehaviour
     public GameObject IceTower;
     public GameObject AirTower;
     private GoldManager gold;
-    public bool HasSpawned;
+    public bool HasSpawned = false;
+    private TowerReturn status;
 
     void Start()
     {
@@ -21,11 +22,17 @@ public class SpawnATurret : MonoBehaviour
 
     public void Update()
     {
-        
+        status = FindObjectOfType<TowerReturn>();
+
+        if (status.spawned == true)
+        {
+            Debug.Log("Spawned tower");
+            HasSpawned = false;
+        }
     } 
     public void PurchaseInfernalTower()
     {
-        if (gold.currentGold >= 3 && !HasSpawned)
+        if (gold.currentGold >= 3 && HasSpawned == false)
         {
             Instantiate(InfernalTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
             gold.AddMoney(-3);
@@ -36,7 +43,7 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseGolemTower()
     {
-        if (gold.currentGold >= 2 && !HasSpawned)
+        if (gold.currentGold >= 2 && HasSpawned == false)
         {
             Instantiate(GolemTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
             gold.AddMoney(-2);
@@ -47,7 +54,7 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseIceTower()
     {
-        if(gold.currentGold >=5 && !HasSpawned)
+        if(gold.currentGold >=5 && HasSpawned == false)
         {
             Instantiate(IceTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
             gold.AddMoney(-5);
@@ -58,17 +65,11 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseAirTower()
     {
-        if (gold.currentGold >= 3 && !HasSpawned)
+        if (gold.currentGold >= 3 && HasSpawned == false)
         {
             Instantiate(AirTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
             gold.AddMoney(-3);
             HasSpawned = true;
         }
     }
-
-    public void Spawned ()
-    {
-        HasSpawned = false;
-    }
-
 }

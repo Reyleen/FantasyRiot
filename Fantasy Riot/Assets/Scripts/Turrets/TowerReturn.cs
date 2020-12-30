@@ -26,9 +26,23 @@ public class TowerReturn : MonoBehaviour
     private Touch touch;
     public bool mov = false;
     public bool Locked { get => locked; set => locked = value; }
+    
+    public bool spawned;
+    public bool Fire;
+    public bool Earth;
+    public bool Water;
+    public bool Air;
 
-    private SpawnATurret ifSpawned;
+    [SerializeField]
+    private Tower fireTw;
 
+    [SerializeField]
+    private Golem earthTw;
+
+    [SerializeField]
+    private IceTower waterTw;
+
+    //[SerializeField]
 
     private void Start()
     {
@@ -66,18 +80,50 @@ public class TowerReturn : MonoBehaviour
                     if (Mathf.Abs(transform.position.x - place.position.x) <= 3f && Mathf.Abs(transform.position.y - place.position.y) <= 7.4f)
                     {
                         Locked = true;
-                        Debug.Log("PLACED");
-                        ifSpawned.Spawned();
+                        spawned = true;
+                        Debug.Log("SET SPAWNED");
+
                     }
+                    
                     else if (Locked == false)
                     {
-                        Debug.Log("DESTROYED");
                         Destroy(gameObject);
                         gold.AddMoney(+costTower);
-                        ifSpawned.Spawned();
+                        spawned = true;
+                        Debug.Log("SET SPAWNED");
                     }
                 }
 
+            }
+        }
+
+        if (Input.touchCount > 0 && Locked)
+        {
+            touch = Input.GetTouch(0);
+            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+            touchPos.z = 0;
+
+            if (touch.phase == TouchPhase.Ended)
+            {
+                if (Fire == true)
+                {
+                    fireTw.Select();
+                }
+
+                if (Earth == true)
+                {
+                    earthTw.Select();
+                }
+
+                if (Air == true)
+                {
+
+                }
+
+                if (Water == true)
+                {
+                    waterTw.Select();
+                }
             }
         }
     }

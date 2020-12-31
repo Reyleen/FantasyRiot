@@ -34,6 +34,8 @@ public class Enemy : MonoBehaviour
     Seeker seeker;
     bool way = false;
 
+    private bool stunned = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -179,18 +181,18 @@ public class Enemy : MonoBehaviour
         yield return 0;
     }
 
-    public void Stun(float StunDur, float AddStun)
+    public void Stun()
     {
-        float timerStun = 0;
-
-        while (StunDur + AddStun > timerStun)
+        if(stunned == false)
         {
-            timerStun += Time.deltaTime;
             speed = 0;
-            Debug.Log("Got Stunned");
         }
-
-        speed = 2f;
-        Debug.Log("Not stunned");
     }
+
+    public void NotStun()
+    {
+        speed = 2f;
+        stunned = false;
+    }
+
 }

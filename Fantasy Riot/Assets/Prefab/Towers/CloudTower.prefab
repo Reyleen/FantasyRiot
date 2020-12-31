@@ -292,5 +292,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitialDamage: 5
-  attackDelay: 0
+  StunDur: 2.5
+  attackDelay: 1.2
   cooldown: 5

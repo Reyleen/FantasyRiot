@@ -12,6 +12,8 @@ public class Air : MonoBehaviour
     public int InitialDamage;
     private bool attacking;
     private bool justAttacked;
+    private bool stunned;
+    public float StunDur;
 
     [SerializeField]
     private float attackDelay;
@@ -58,6 +60,16 @@ public class Air : MonoBehaviour
     {
         if (!canAttack)
         {
+            if(timer > StunDur && stunned)
+            {
+                foreach (Enemy enemy in targets)
+                {
+                    enemy.gameObject.GetComponent<Enemy>().NotStun();
+                }
+
+                stunned = false;
+            }
+
             if (justAttacked && timer > attackDelay + 0.2f)
             {
                 justAttacked = false;
@@ -90,8 +102,9 @@ public class Air : MonoBehaviour
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage);
                         Debug.Log("Damaging");
-                        enemy.gameObject.GetComponent<Enemy>().Stun(1.5f, 0);
+                        enemy.gameObject.GetComponent<Enemy>().Stun();
                         Debug.Log("Stunned");
+                        stunned = true;
                         canAttack = false;
                         justAttacked = true;
                     }

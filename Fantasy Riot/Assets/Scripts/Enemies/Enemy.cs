@@ -34,6 +34,8 @@ public class Enemy : MonoBehaviour
     Seeker seeker;
     bool way = false;
 
+    private bool stunned = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -178,4 +180,19 @@ public class Enemy : MonoBehaviour
 
         yield return 0;
     }
+
+    public void Stun()
+    {
+        if(stunned == false)
+        {
+            speed = 0;
+        }
+    }
+
+    public void NotStun()
+    {
+        speed = 2f;
+        stunned = false;
+    }
+
 }

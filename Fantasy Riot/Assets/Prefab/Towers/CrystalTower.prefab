@@ -151,6 +151,7 @@ MonoBehaviour:
   fireTw: {fileID: 0}
   earthTw: {fileID: 0}
   waterTw: {fileID: 1522860688157017934}
+  airTw: {fileID: 0}
 --- !u!114 &1647893927665603139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +277,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageField: 2
   cooldown: 3
-  status: {fileID: 2880227749996436058}
 --- !u!60 &8490100616025657804
 PolygonCollider2D:
   m_ObjectHideFlags: 0

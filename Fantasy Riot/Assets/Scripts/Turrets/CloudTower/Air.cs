@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Golem : MonoBehaviour
+public class Air : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
     private bool canAttack = true;
     private float timer;
     private List<Enemy> targets = new List<Enemy>();
     private Enemy target;
-    public int damageAttack;
+    public int InitialDamage;
     private bool attacking;
     private bool justAttacked;
+    private bool stunned;
+    public float StunDur;
 
     [SerializeField]
     private float attackDelay;
@@ -19,8 +21,8 @@ public class Golem : MonoBehaviour
     [SerializeField]
     private float cooldown;
 
-    public bool Attacking 
-    { 
+    public bool Attacking
+    {
         get { return attacking; }
     }
 
@@ -58,14 +60,19 @@ public class Golem : MonoBehaviour
     {
         if (!canAttack)
         {
-            if (justAttacked && timer > attackDelay+0.2f)
+            if(timer > StunDur && stunned)
             {
                 foreach (Enemy enemy in targets)
                 {
-                    StartCoroutine(enemy.KnockUp(0.1f, +10, enemy.transform.position));
-                    Debug.Log("down");
-                    justAttacked = false;
+                    enemy.gameObject.GetComponent<Enemy>().NotStun();
                 }
+
+                stunned = false;
+            }
+
+            if (justAttacked && timer > attackDelay + 0.2f)
+            {
+                justAttacked = false;
             }
 
             if (timer >= cooldown)
@@ -89,14 +96,15 @@ public class Golem : MonoBehaviour
                     Debug.Log("Starting Animation");
                 }
 
-                if(timer >= attackDelay)
+                if (timer >= attackDelay)
                 {
                     foreach (Enemy enemy in targets)
                     {
-                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack);
+                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage);
                         Debug.Log("Damaging");
-                        StartCoroutine(enemy.KnockUp(0.1f, -10, enemy.transform.position));
-                        Debug.Log("knock");
+                        enemy.gameObject.GetComponent<Enemy>().Stun();
+                        Debug.Log("Stunned");
+                        stunned = true;
                         canAttack = false;
                         justAttacked = true;
                     }

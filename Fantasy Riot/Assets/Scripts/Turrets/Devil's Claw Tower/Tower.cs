@@ -25,9 +25,6 @@ public class Tower : MonoBehaviour
     [SerializeField]
     private float projectileSpeed;
 
-    [SerializeField]
-    private TowerReturn status;
-
     public float ProjectileSpeed
     {
         get { return projectileSpeed; }

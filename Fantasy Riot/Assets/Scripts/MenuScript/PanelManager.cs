@@ -41,6 +41,12 @@ public class PanelManager : MonoBehaviour
         loginUI.SetActive(false);
         registerUI.SetActive(true);
     }
+    public void ToAccountScreenFromRegister() // Regester button
+    {
+        registerUI.SetActive(false);
+        ALoginUI.SetActive(true);
+        _player.UpdateScreen();
+    }
     public void LoginScreenToMenu()
     {
         loginUI.SetActive(false);

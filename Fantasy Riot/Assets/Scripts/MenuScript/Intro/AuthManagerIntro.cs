@@ -60,6 +60,7 @@ public class AuthManagerIntro : MonoBehaviour
         auth.SignOut();
         Debug.Log("User SignOut");
         PlayerPrefs.SetInt("Joined", 0);
+        PlayerPrefs.DeleteKey("ActualUser");
     }
     private void InitializeFirebase()
     {
@@ -120,10 +121,12 @@ public class AuthManagerIntro : MonoBehaviour
             PlayerPrefs.SetString("Password", _password);
             PlayerPrefs.SetInt("Joined", 1);
             PlayerPrefs.SetString("User", User.DisplayName);
-            PanelManager2.instance.CloseLogin();
-            a.ChangePLAYER_KEY(User.DisplayName);
+            PlayerPrefs.SetString("ActualUser", User.UserId);
+            Debug.Log(User.UserId);
             a.DB();
+            a1.SDB();
             warningLoginText.text = "";
+            PanelManager2.instance.CloseLogin();
             b.changeLevel();
         }
     }
@@ -195,13 +198,17 @@ public class AuthManagerIntro : MonoBehaviour
                     {
                         //Username is now set
                         //Now return to login screeen
-                        PanelManager2.instance.LoginScreen();
                         warningRegisterText.text = "";
-                        a.ChangePLAYER_KEY(emailRegisterField.text.Replace(".", ","));
+                        PlayerPrefs.SetString("ActualUser", User.UserId);
                         string Register = usernameRegisterField.text;
                         _player.Switch(Register);
                         a.DB();
                         a.SavePlayer(_player.PlayerData, true);
+                        PanelManager2.instance.CloseRegister();
+                        PlayerPrefs.SetString("Email", _email);
+                        PlayerPrefs.SetString("Password", _password);
+                        PlayerPrefs.SetInt("Joined", 1);
+                        b.changeLevel();
                     }
                 }
             }

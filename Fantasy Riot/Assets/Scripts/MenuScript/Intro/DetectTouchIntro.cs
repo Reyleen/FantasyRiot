@@ -38,7 +38,6 @@ public class DetectTouchIntro : MonoBehaviour
             }
             else if (!clicked)
             {
-                Debug.Log(load.activeSelf);
                 if (una)
                 {
                     PanelManager2.instance.LoginScreen();

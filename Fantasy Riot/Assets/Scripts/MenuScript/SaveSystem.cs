@@ -16,14 +16,15 @@ public class SaveSystem : MonoBehaviour
 
     public void DB()//initialize the DB if needed
     {
+        PLAYER_KEY = PlayerPrefs.GetString("ActualUser");
         _database = FirebaseDatabase.DefaultInstance;
-        _ref = _database.GetReference(PLAYER_KEY);
+        _ref = _database.GetReference("users").Child(PLAYER_KEY);
         _ref.ValueChanged += HandleValueChanged;
     }
-    public void ChangePLAYER_KEY(string a)//change the playerKey
+    /*public void ChangePLAYER_KEY(string a)//change the playerKey
     {
         PLAYER_KEY = a;
-    }
+    }*/
     private void OnDestory()//destro player in case of deleting account
     {
         _ref.ValueChanged -= HandleValueChanged;
@@ -43,18 +44,18 @@ public class SaveSystem : MonoBehaviour
 
     public void SavePlayer(PlayerData player,bool a)//save player data in DB
     {
-        Debug.Log("e 1");
+        Debug.Log("in save player");
         if (!player.Equals(LastPlayerData) || a)
         {
-            Debug.Log("e 2");
-            Debug.Log(PLAYER_KEY);
-            _database.GetReference(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));
+            Debug.Log("saving player");
+            Debug.Log(JsonUtility.ToJson(player));
+            _database.RootReference.Child("users").Child(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));
         }
     }
 
     public async Task<PlayerData?> LoadPlayer()//load player data in DB
     {
-        var dataSnapshot = await _database.GetReference(PLAYER_KEY).GetValueAsync();
+        var dataSnapshot = await _database.RootReference.Child("users").Child(PLAYER_KEY).GetValueAsync();
         if (!dataSnapshot.Exists)
         {
             return null;
@@ -65,12 +66,12 @@ public class SaveSystem : MonoBehaviour
 
     public async Task<bool> SaveExists()//check if the save exists
     {
-        var dataSnapshot = await _database.GetReference(PLAYER_KEY).GetValueAsync();
+        var dataSnapshot = await _database.RootReference.Child("users").Child(PLAYER_KEY).GetValueAsync();
         return dataSnapshot.Exists;
     }
     public void EraseSave()
     {
-        _database.GetReference(PLAYER_KEY).RemoveValueAsync();
+        _database.RootReference.Child("users").Child(PLAYER_KEY).RemoveValueAsync();
     }
 
     [System.Serializable]

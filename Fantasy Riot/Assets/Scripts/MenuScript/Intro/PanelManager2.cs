@@ -46,6 +46,10 @@ public class PanelManager2 : MonoBehaviour
     {
         loginUI.SetActive(false);
     }
+    public void CloseRegister()
+    {
+        ResetPanel.SetActive(false);
+    }
     public void toResetPass()
     {
         loginUI.SetActive(false);

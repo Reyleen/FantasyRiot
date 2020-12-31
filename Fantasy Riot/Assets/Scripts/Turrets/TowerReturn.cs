@@ -42,7 +42,8 @@ public class TowerReturn : MonoBehaviour
     [SerializeField]
     private IceTower waterTw;
 
-    //[SerializeField]
+    [SerializeField]
+    private Air airTw;
 
     private void Start()
     {
@@ -83,6 +84,25 @@ public class TowerReturn : MonoBehaviour
                         spawned = true;
                         Debug.Log("SET SPAWNED");
 
+                        if (Fire == true)
+                        {
+                            fireTw.Select();
+                        }
+
+                        if (Earth == true)
+                        {
+                            earthTw.Select();
+                        }
+
+                        if (Air == true)
+                        {
+                            airTw.Select();
+                        }
+
+                        if (Water == true)
+                        {
+                            waterTw.Select();
+                        }
                     }
                     
                     else if (Locked == false)
@@ -96,33 +116,37 @@ public class TowerReturn : MonoBehaviour
 
             }
         }
+    }
 
-        if (Input.touchCount > 0 && Locked)
+    private void FixedUpdate()
+    {
+        if (Input.touchCount == 1 && Locked)
         {
             touch = Input.GetTouch(0);
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             touchPos.z = 0;
+            RaycastHit2D hit = Physics2D.Raycast(touchPos, (Input.GetTouch(0).position));
 
-            if (touch.phase == TouchPhase.Ended)
+            if (hit.collider != null && hit.collider.tag == "Tower")
             {
                 if (Fire == true)
                 {
-                    fireTw.Select();
+                    hit.collider.GetComponent<Tower>().Select();
                 }
 
                 if (Earth == true)
                 {
-                    earthTw.Select();
+                    hit.collider.GetComponent<Golem>().Select();
                 }
 
                 if (Air == true)
                 {
-
+                    hit.collider.GetComponent<Air>().Select();
                 }
 
                 if (Water == true)
                 {
-                    waterTw.Select();
+                    hit.collider.GetComponent<IceTower>().Select();
                 }
             }
         }

@@ -125,6 +125,14 @@ MonoBehaviour:
   costTower: 3
   mov: 0
   spawned: 0
+  Fire: 0
+  Earth: 0
+  Water: 0
+  Air: 1
+  fireTw: {fileID: 0}
+  earthTw: {fileID: 0}
+  waterTw: {fileID: 0}
+  airTw: {fileID: 7758364354251448593}
 --- !u!95 &2276250498638129099
 Animator:
   serializedVersion: 3
@@ -182,8 +190,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2276250498846646501}
   - component: {fileID: 2276250498846646499}
-  - component: {fileID: 2276250498846646498}
   - component: {fileID: 2276250498846646496}
+  - component: {fileID: 7758364354251448593}
   m_Layer: 0
   m_Name: Range
   m_TagString: Tower
@@ -200,7 +208,7 @@ Transform:
   m_GameObject: {fileID: 2276250498846646500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_LocalScale: {x: 1.4461855, y: 1.4541438, z: 1}
   m_Children: []
   m_Father: {fileID: 2276250498638129111}
   m_RootOrder: 0
@@ -255,22 +263,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2276250498846646498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2276250498846646500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 259969c2f32e6e744b9b38a7e4a54e19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ballPre: {fileID: 0}
-  cooldown: 0
-  projectileSpeed: 0
-  status: {fileID: 2276250498638129096}
 --- !u!58 &2276250498846646496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -287,3 +279,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.000000014901161}
   serializedVersion: 2
   m_Radius: 0.50000006
+--- !u!114 &7758364354251448593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2276250498846646500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be6915f20019946b42d2570140f2d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialDamage: 5
+  attackDelay: 0
+  cooldown: 5

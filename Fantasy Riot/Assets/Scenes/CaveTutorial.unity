@@ -232,7 +232,7 @@ MonoBehaviour:
     type: 3}
   AirTower: {fileID: 2276250498638129101, guid: 74caec56f595f2140a3a3e545fb6c187,
     type: 3}
-  gold: {fileID: 0}
+  HasSpawned: 0
 --- !u!1 &303995988
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,19 +666,19 @@ PrefabInstance:
         type: 3}
       propertyPath: waves.Array.data[0].enemy
       value: 
-      objectReference: {fileID: 2498900396213128312, guid: 8b87b4315e1dada4c80885b4cd420b7c,
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
         type: 3}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: waves.Array.data[1].enemy
       value: 
-      objectReference: {fileID: 2498900396213128312, guid: 8b87b4315e1dada4c80885b4cd420b7c,
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
         type: 3}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: waves.Array.data[2].enemy
       value: 
-      objectReference: {fileID: 2498900396213128312, guid: 8b87b4315e1dada4c80885b4cd420b7c,
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
         type: 3}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
@@ -690,6 +690,24 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[1]
       value: 
       objectReference: {fileID: 1537933747}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: waves.Array.data[0].enemy1
+      value: 
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
+        type: 3}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: waves.Array.data[1].enemy1
+      value: 
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
+        type: 3}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: waves.Array.data[2].enemy1
+      value: 
+      objectReference: {fileID: 5378829859382424961, guid: dd295d06b64e56444bb738b68a7f5b11,
+        type: 3}
     - target: {fileID: 8977001056765497016, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: m_Name

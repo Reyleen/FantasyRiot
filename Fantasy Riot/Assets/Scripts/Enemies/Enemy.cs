@@ -178,4 +178,19 @@ public class Enemy : MonoBehaviour
 
         yield return 0;
     }
+
+    public void Stun(float StunDur, float AddStun)
+    {
+        float timerStun = 0;
+
+        while (StunDur + AddStun > timerStun)
+        {
+            timerStun += Time.deltaTime;
+            speed = 0;
+            Debug.Log("Got Stunned");
+        }
+
+        speed = 2f;
+        Debug.Log("Not stunned");
+    }
 }

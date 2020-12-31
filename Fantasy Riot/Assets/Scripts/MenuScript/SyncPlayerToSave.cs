@@ -16,16 +16,16 @@ public class SyncPlayerToSave : MonoBehaviour
     }
     private void Awake()//control if it's the first time the player joined the game
     {
-        if ((PlayerPrefs.HasKey("Joined")) && (SceneManager.GetActiveScene().name != "Intro"))
+        /*if ((PlayerPrefs.HasKey("Joined")) && (SceneManager.GetActiveScene().name != "Intro"))
         {
             if (PlayerPrefs.GetInt("Joined") == 1)
             {
-            _playerSaveManager.ChangePLAYER_KEY(PlayerPrefs.GetString("Email").Replace(".", ","));
+            //_playerSaveManager.ChangePLAYER_KEY(PlayerPrefs.GetString("Email").Replace(".", ","));
             _playerSaveManager.DB();
             SDB();
             PlayerPrefs.SetInt("Joined", 0);
             }
-        }
+        }*/
     }
     public void SDB()//Sync data
     {

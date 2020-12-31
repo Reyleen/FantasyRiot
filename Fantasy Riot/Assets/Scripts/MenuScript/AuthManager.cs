@@ -56,6 +56,14 @@ public class AuthManager : MonoBehaviour
             }
         });
     }
+    private void Start()
+    {
+        Debug.Log("startAuth");
+        GameObject s = GameObject.Find("PlayerThings/SaveManager");
+        _player = GameObject.Find("PlayerThings/Player").GetComponent<Player>();
+        a = s.GetComponent<SaveSystem>();
+        a1 = s.GetComponent<SyncPlayerToSave>();
+    }
     public void LogOut()//logout function
     {
         auth.SignOut();
@@ -63,6 +71,7 @@ public class AuthManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Email");
         PlayerPrefs.DeleteKey("Password");
         PlayerPrefs.DeleteKey("Joined");
+        PlayerPrefs.DeleteKey("ActualUser");
         PanelManager.instance.AccountScreenToLogin();
     }
     private void InitializeFirebase()
@@ -121,13 +130,14 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             Username.text = User.DisplayName;
             warningLoginText.text = "";
-            PanelManager.instance.UserScreen();
-            a.ChangePLAYER_KEY(emailLoginField.text.Replace(".", ","));
+            PlayerPrefs.SetString("ActualUser", User.UserId);
+            //a.ChangePLAYER_KEY(emailLoginField.text.Replace(".", ","));
             a.DB();
             a1.SDB();
             PlayerPrefs.SetString("Email", _email);
             PlayerPrefs.SetString("Password", _password);
             PlayerPrefs.SetInt("Joined", 0);
+            PanelManager.instance.UserScreen();
         }
     }
     private IEnumerator Register(string _email, string _password, string _username)
@@ -197,20 +207,69 @@ public class AuthManager : MonoBehaviour
                     else
                     {
                         //Username is now set
-                        //Now return to login screeen
-                        PanelManager.instance.LoginScreen();
                         warningRegisterText.text = "";
-                        a.ChangePLAYER_KEY(emailRegisterField.text.Replace(".", ","));
+                        PlayerPrefs.SetString("ActualUser", User.UserId);
                         string Register = usernameRegisterField.text;
                         _player.Switch(Register);
                         a.DB();
-                        Debug.Log(emailRegisterField.text.Replace(".", ","));
                         a.SavePlayer(_player.PlayerData, true);
+                        PanelManager.instance.ToAccountScreenFromRegister();
+                        PlayerPrefs.SetString("Email", _email);
+                        PlayerPrefs.SetString("Password", _password);
+                        PlayerPrefs.SetInt("Joined", 0);
                     }
                 }
             }
         }
     }
+    /*private IEnumerator LoginToSave(string _email, string _password)
+    {
+        //Call the Firebase signin function (in auth)
+        var LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
+        //wait till it is finished
+        yield return new WaitUntil(predicate: () => LoginTask.IsCompleted);
+
+        if (LoginTask.Exception != null)
+        {
+            //if an error occourred
+            Debug.LogWarning(message: $"Failed to register task with {LoginTask.Exception}");
+            FirebaseException firebaseEx = LoginTask.Exception.GetBaseException() as FirebaseException;
+            AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
+
+            string message = "Login Failed";
+            switch (errorCode)
+            {
+                case AuthError.MissingEmail:
+                    message = "Missing Email";
+                    break;
+                case AuthError.MissingPassword:
+                    message = "Missing Password";
+                    break;
+                case AuthError.WrongPassword:
+                    message = "Wrong Password";
+                    break;
+                case AuthError.UserNotFound:
+                    message = "Account does not exist";
+                    break;
+            }
+            warningLoginText.text = message;
+        }
+        else
+        {
+            //user is logged in
+            User = LoginTask.Result;
+            Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
+            PlayerPrefs.SetString("ActualUser", User.UserId);
+            Debug.Log(User.DisplayName);
+            _player.Switch(User.DisplayName);
+            Debug.Log(_player.User);
+            a.DB();
+            a.SavePlayer(_player.PlayerData, true);
+            Debug.Log("User SignOut");
+            PlayerPrefs.DeleteKey("ActualUser");
+            _player.Switch("");
+        }
+    }*/
     public void RecoverPassword()
     {
         StartCoroutine(Recover(EmailRecoverField.text));

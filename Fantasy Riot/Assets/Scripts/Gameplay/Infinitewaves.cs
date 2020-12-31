@@ -19,7 +19,7 @@ public class Infinitewaves : MonoBehaviour
     public GameObject TowerUI;
     public Enemies e;
 
-    public int nextWave = 0;
+    public int currentWave = 0;
 
     public Transform[] spawnPoints;
 
@@ -111,6 +111,7 @@ public class Infinitewaves : MonoBehaviour
                 {
                     e.enemies[i].GetComponent<EnemyHealthManager>().MaxHealth += 10;
                 }
+                currentWave++;
                 return false;
             }
         }

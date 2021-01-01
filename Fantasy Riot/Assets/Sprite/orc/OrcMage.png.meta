@@ -1,7 +1,637 @@
 fileFormatVersion: 2
 guid: 4a293831756130a40b2060f43a69f540
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1396937445460098266
+    second: OrcMage_0
+  - first:
+      213: -685774070334398592
+    second: OrcMage_1
+  - first:
+      213: -5465696906766499798
+    second: OrcMage_2
+  - first:
+      213: 7790891614666973362
+    second: OrcMage_3
+  - first:
+      213: -2095484807951646902
+    second: OrcMage_4
+  - first:
+      213: -56707186101558334
+    second: OrcMage_5
+  - first:
+      213: -4591371853842425365
+    second: OrcMage_6
+  - first:
+      213: 21517296932905903
+    second: OrcMage_7
+  - first:
+      213: -777140229068279867
+    second: OrcMage_8
+  - first:
+      213: -8194444248533730724
+    second: OrcMage_9
+  - first:
+      213: 1053786575088155749
+    second: OrcMage_10
+  - first:
+      213: -5639358093227790213
+    second: OrcMage_11
+  - first:
+      213: 3579147654496705796
+    second: OrcMage_12
+  - first:
+      213: -5740877437818449293
+    second: OrcMage_13
+  - first:
+      213: -594902601321506900
+    second: OrcMage_14
+  - first:
+      213: 2434296674844256390
+    second: OrcMage_15
+  - first:
+      213: 7452406319781355150
+    second: OrcMage_16
+  - first:
+      213: -8730707176218585132
+    second: OrcMage_17
+  - first:
+      213: -3298120103928395220
+    second: OrcMage_18
+  - first:
+      213: -7985819730812908963
+    second: OrcMage_19
+  - first:
+      213: 5393323633318244750
+    second: OrcMage_20
+  - first:
+      213: -5207534729187628935
+    second: OrcMage_21
+  - first:
+      213: -1898614431419136463
+    second: OrcMage_22
+  - first:
+      213: -4271856830253540272
+    second: OrcMage_23
+  - first:
+      213: -8220109984778075861
+    second: OrcMage_24
+  - first:
+      213: -26691103430145002
+    second: OrcMage_25
+  - first:
+      213: 5181879192006166887
+    second: OrcMage_26
+  - first:
+      213: -9100077838293201804
+    second: OrcMage_27
+  - first:
+      213: 8422365517556962173
+    second: OrcMage_28
+  - first:
+      213: 4051601139127520133
+    second: OrcMage_29
+  - first:
+      213: -2207227497518936622
+    second: OrcMage_30
+  - first:
+      213: 5007261976374717109
+    second: OrcMage_31
+  - first:
+      213: -4273516417892747632
+    second: OrcMage_32
+  - first:
+      213: 2805172764954135064
+    second: OrcMage_33
+  - first:
+      213: 2180716805985579730
+    second: OrcMage_34
+  - first:
+      213: 4656309110925932219
+    second: OrcMage_35
+  - first:
+      213: 3506478933652863397
+    second: OrcMage_36
+  - first:
+      213: -6216390713121072387
+    second: OrcMage_37
+  - first:
+      213: -4777247309901428222
+    second: OrcMage_38
+  - first:
+      213: 2470517444295238943
+    second: OrcMage_39
+  - first:
+      213: -2372802973764505039
+    second: OrcMage_40
+  - first:
+      213: -8138850034779963618
+    second: OrcMage_41
+  - first:
+      213: 8087528634179641577
+    second: OrcMage_42
+  - first:
+      213: 7389973248743343159
+    second: OrcMage_43
+  - first:
+      213: -8615961609749469634
+    second: OrcMage_44
+  - first:
+      213: -5768326755867106604
+    second: OrcMage_45
+  - first:
+      213: 6546314807253867900
+    second: OrcMage_46
+  - first:
+      213: -3483482389186836022
+    second: OrcMage_47
+  - first:
+      213: 706545997737029341
+    second: OrcMage_48
+  - first:
+      213: -764400047911070284
+    second: OrcMage_49
+  - first:
+      213: -1692612524407218525
+    second: OrcMage_50
+  - first:
+      213: 8537504491199166613
+    second: OrcMage_51
+  - first:
+      213: -1986341522609319353
+    second: OrcMage_52
+  - first:
+      213: 5320889532928117537
+    second: OrcMage_53
+  - first:
+      213: 7874098467053100207
+    second: OrcMage_54
+  - first:
+      213: 6822689573862809872
+    second: OrcMage_55
+  - first:
+      213: -6974376445974574037
+    second: OrcMage_56
+  - first:
+      213: 2611722105844364462
+    second: OrcMage_57
+  - first:
+      213: -5325442896528553967
+    second: OrcMage_58
+  - first:
+      213: -1639411552827422184
+    second: OrcMage_59
+  - first:
+      213: -7767591795799877302
+    second: OrcMage_60
+  - first:
+      213: -6975566083514287226
+    second: OrcMage_61
+  - first:
+      213: 4046323220597672328
+    second: OrcMage_62
+  - first:
+      213: -8112205997896499528
+    second: OrcMage_63
+  - first:
+      213: -1575921458855748658
+    second: OrcMage_64
+  - first:
+      213: 2374331767856960747
+    second: OrcMage_65
+  - first:
+      213: -8113528485227823985
+    second: OrcMage_66
+  - first:
+      213: 3325223760504767207
+    second: OrcMage_67
+  - first:
+      213: 7929999870074936550
+    second: OrcMage_68
+  - first:
+      213: -4690047852618753706
+    second: OrcMage_69
+  - first:
+      213: -4358377592265903652
+    second: OrcMage_70
+  - first:
+      213: -1662332752371036135
+    second: OrcMage_71
+  - first:
+      213: -3506457433208716061
+    second: OrcMage_72
+  - first:
+      213: -451554780320761331
+    second: OrcMage_73
+  - first:
+      213: -1990440114441231119
+    second: OrcMage_74
+  - first:
+      213: -4682949334838091702
+    second: OrcMage_75
+  - first:
+      213: -4664160862296824589
+    second: OrcMage_76
+  - first:
+      213: 2299965744416255984
+    second: OrcMage_77
+  - first:
+      213: -5157111274876568720
+    second: OrcMage_78
+  - first:
+      213: 6130942485279246754
+    second: OrcMage_79
+  - first:
+      213: -1720102932923931486
+    second: OrcMage_80
+  - first:
+      213: 7991004137783399777
+    second: OrcMage_81
+  - first:
+      213: -6294066956354365119
+    second: OrcMage_82
+  - first:
+      213: -4798495375736928413
+    second: OrcMage_83
+  - first:
+      213: 3788483041093467930
+    second: OrcMage_84
+  - first:
+      213: 1317397040337145518
+    second: OrcMage_85
+  - first:
+      213: 222154765232472533
+    second: OrcMage_86
+  - first:
+      213: -2899710754990652109
+    second: OrcMage_87
+  - first:
+      213: 6990514746867762157
+    second: OrcMage_88
+  - first:
+      213: 6642364172155588658
+    second: OrcMage_89
+  - first:
+      213: -3084681617886330503
+    second: OrcMage_90
+  - first:
+      213: -6117310420644568148
+    second: OrcMage_91
+  - first:
+      213: -375167738264447144
+    second: OrcMage_92
+  - first:
+      213: 18892084414252610
+    second: OrcMage_93
+  - first:
+      213: -7370539035970464319
+    second: OrcMage_94
+  - first:
+      213: -6561831084469783838
+    second: OrcMage_95
+  - first:
+      213: -5287789093101903682
+    second: OrcMage_96
+  - first:
+      213: -561148772683925291
+    second: OrcMage_97
+  - first:
+      213: -5960385849313280239
+    second: OrcMage_98
+  - first:
+      213: 1971249720831787469
+    second: OrcMage_99
+  - first:
+      213: -8188795497147391183
+    second: OrcMage_100
+  - first:
+      213: -7914720306266629312
+    second: OrcMage_101
+  - first:
+      213: -2625443580113526481
+    second: OrcMage_102
+  - first:
+      213: 2170701062037957248
+    second: OrcMage_103
+  - first:
+      213: 2782685553318608583
+    second: OrcMage_104
+  - first:
+      213: 2923640514608778879
+    second: OrcMage_105
+  - first:
+      213: 2031573138269414006
+    second: OrcMage_106
+  - first:
+      213: 2982902036136800841
+    second: OrcMage_107
+  - first:
+      213: 6295908529196280524
+    second: OrcMage_108
+  - first:
+      213: 65427665822490557
+    second: OrcMage_109
+  - first:
+      213: -3159274942420584136
+    second: OrcMage_110
+  - first:
+      213: -2145668962417124383
+    second: OrcMage_111
+  - first:
+      213: 2302504869928064320
+    second: OrcMage_112
+  - first:
+      213: 2609354336816449724
+    second: OrcMage_113
+  - first:
+      213: 7688374267414841875
+    second: OrcMage_114
+  - first:
+      213: -8930437330982814844
+    second: OrcMage_115
+  - first:
+      213: -5345144811764857124
+    second: OrcMage_116
+  - first:
+      213: -5906509198637996191
+    second: OrcMage_117
+  - first:
+      213: 8054507010148067555
+    second: OrcMage_118
+  - first:
+      213: 1269713666591066727
+    second: OrcMage_119
+  - first:
+      213: -5913917250044876564
+    second: OrcMage_120
+  - first:
+      213: -4457345486911561055
+    second: OrcMage_121
+  - first:
+      213: -960516253782820814
+    second: OrcMage_122
+  - first:
+      213: 920575432848810421
+    second: OrcMage_123
+  - first:
+      213: -5821555152288958681
+    second: OrcMage_124
+  - first:
+      213: 1434517404760539803
+    second: OrcMage_125
+  - first:
+      213: -6258443067361463431
+    second: OrcMage_126
+  - first:
+      213: 5837047045260864006
+    second: OrcMage_127
+  - first:
+      213: 6787537801729312400
+    second: OrcMage_128
+  - first:
+      213: 6886678929221383370
+    second: OrcMage_129
+  - first:
+      213: 6551607127684656002
+    second: OrcMage_130
+  - first:
+      213: -7702460120188074621
+    second: OrcMage_131
+  - first:
+      213: 6203612295961909821
+    second: OrcMage_132
+  - first:
+      213: 2340972640707590603
+    second: OrcMage_133
+  - first:
+      213: 2535611774832299129
+    second: OrcMage_134
+  - first:
+      213: 905425936548432266
+    second: OrcMage_135
+  - first:
+      213: 1977747305986462479
+    second: OrcMage_136
+  - first:
+      213: -6695802903227213167
+    second: OrcMage_137
+  - first:
+      213: 3894907559617846161
+    second: OrcMage_138
+  - first:
+      213: 299450343870494415
+    second: OrcMage_139
+  - first:
+      213: 1646194812181396283
+    second: OrcMage_140
+  - first:
+      213: -6221604456291710326
+    second: OrcMage_141
+  - first:
+      213: 9099651346152821001
+    second: OrcMage_142
+  - first:
+      213: 2436579902566347286
+    second: OrcMage_143
+  - first:
+      213: 4755275525564030354
+    second: OrcMage_144
+  - first:
+      213: -6970011150352346605
+    second: OrcMage_145
+  - first:
+      213: 6711715170621945240
+    second: OrcMage_146
+  - first:
+      213: 2860136877332674008
+    second: OrcMage_147
+  - first:
+      213: -5070012204343771839
+    second: OrcMage_148
+  - first:
+      213: 6393159047285659312
+    second: OrcMage_149
+  - first:
+      213: 5089361326286629085
+    second: OrcMage_150
+  - first:
+      213: -962710754272549936
+    second: OrcMage_151
+  - first:
+      213: -8591044338303372019
+    second: OrcMage_152
+  - first:
+      213: 2779189574777487586
+    second: OrcMage_153
+  - first:
+      213: -679199642374600471
+    second: OrcMage_154
+  - first:
+      213: 1338312772922827830
+    second: OrcMage_155
+  - first:
+      213: 4446471207149426822
+    second: OrcMage_156
+  - first:
+      213: -2223499868785279761
+    second: OrcMage_157
+  - first:
+      213: 6560943909620854095
+    second: OrcMage_158
+  - first:
+      213: 5405337594639257515
+    second: OrcMage_159
+  - first:
+      213: -6256958127546700338
+    second: OrcMage_160
+  - first:
+      213: 4350312462359413990
+    second: OrcMage_161
+  - first:
+      213: 8344868542161360011
+    second: OrcMage_162
+  - first:
+      213: -8614269975209137639
+    second: OrcMage_163
+  - first:
+      213: 3499136992628724482
+    second: OrcMage_164
+  - first:
+      213: -1738221541205805088
+    second: OrcMage_165
+  - first:
+      213: 6689877170680018609
+    second: OrcMage_166
+  - first:
+      213: -5026375739977796976
+    second: OrcMage_167
+  - first:
+      213: 8586237647201825311
+    second: OrcMage_168
+  - first:
+      213: -5172794195062135543
+    second: OrcMage_169
+  - first:
+      213: 1526214241460615431
+    second: OrcMage_170
+  - first:
+      213: 8830616117049130481
+    second: OrcMage_171
+  - first:
+      213: 3502076692607238361
+    second: OrcMage_172
+  - first:
+      213: 5010041498593302569
+    second: OrcMage_173
+  - first:
+      213: -6161642470491432815
+    second: OrcMage_174
+  - first:
+      213: 8386506105782652986
+    second: OrcMage_175
+  - first:
+      213: 5494821369650593027
+    second: OrcMage_176
+  - first:
+      213: 6552372725478832102
+    second: OrcMage_177
+  - first:
+      213: -4487285225905992214
+    second: OrcMage_178
+  - first:
+      213: 3935534091090232369
+    second: OrcMage_179
+  - first:
+      213: 4246023754535998183
+    second: OrcMage_180
+  - first:
+      213: -6957955940612027509
+    second: OrcMage_181
+  - first:
+      213: -8798392087365095748
+    second: OrcMage_182
+  - first:
+      213: -1994243258754109420
+    second: OrcMage_183
+  - first:
+      213: -6895494374482358361
+    second: OrcMage_184
+  - first:
+      213: -8533722677978123547
+    second: OrcMage_185
+  - first:
+      213: -6982625563688666043
+    second: OrcMage_186
+  - first:
+      213: -5239776728538084538
+    second: OrcMage_187
+  - first:
+      213: 5193217473377511091
+    second: OrcMage_188
+  - first:
+      213: 3969996335945805323
+    second: OrcMage_189
+  - first:
+      213: 7857552685526275232
+    second: OrcMage_190
+  - first:
+      213: 102977176549267598
+    second: OrcMage_191
+  - first:
+      213: -1197430696912732863
+    second: OrcMage_192
+  - first:
+      213: 8734545637756019386
+    second: OrcMage_193
+  - first:
+      213: 3595631957455171365
+    second: OrcMage_194
+  - first:
+      213: 2989349266947409245
+    second: OrcMage_195
+  - first:
+      213: 5818514521706575414
+    second: OrcMage_196
+  - first:
+      213: 6873406406845112974
+    second: OrcMage_197
+  - first:
+      213: 3866790959506987464
+    second: OrcMage_198
+  - first:
+      213: 3556394049463120284
+    second: OrcMage_199
+  - first:
+      213: -4547556386833564728
+    second: OrcMage_200
+  - first:
+      213: -1747384765368324191
+    second: OrcMage_201
+  - first:
+      213: -7821661651974005929
+    second: OrcMage_202
+  - first:
+      213: -6475780168918289980
+    second: OrcMage_203
+  - first:
+      213: -3812233169549981862
+    second: OrcMage_204
+  - first:
+      213: 668257488386682399
+    second: OrcMage_205
+  - first:
+      213: 6523991285079420603
+    second: OrcMage_206
+  - first:
+      213: -6457816060901150040
+    second: OrcMage_207
+  - first:
+      213: -5701651730721389463
+    second: OrcMage_208
+  - first:
+      213: 6235275144935158470
+    second: OrcMage_209
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +691,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -73,7 +703,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -85,7 +715,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,7 +727,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,7 +739,4417 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: OrcMage_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2049
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623c8ed6bc41d9ce0800000000000000
+      internalID: -1396937445460098266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2049
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5b8dcd14ab76f0800000000000000
+      internalID: -685774070334398592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2049
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a204b3e2f91f524b0800000000000000
+      internalID: -5465696906766499798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2049
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b06bc745aece1c60800000000000000
+      internalID: 7790891614666973362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2049
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f70d56ba75be2e0800000000000000
+      internalID: -2095484807951646902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2049
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3643c5d19863ff0800000000000000
+      internalID: -56707186101558334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2049
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9def300ab2840c0800000000000000
+      internalID: -4591371853842425365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1985
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa366381ed17c4000800000000000000
+      internalID: 21517296932905903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1985
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf28b1441b0735f0800000000000000
+      internalID: -777140229068279867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1985
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a776a3f5c774e80800000000000000
+      internalID: -8194444248533730724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1985
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c743d8e4dcf9e00800000000000000
+      internalID: 1053786575088155749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1985
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70feeb51b9fcb1b0800000000000000
+      internalID: -5639358093227790213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1985
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd2f024dfaba130800000000000000
+      internalID: 3579147654496705796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1985
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372d6c3036e4450b0800000000000000
+      internalID: -5740877437818449293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1921
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7964c6c3b7eb7f0800000000000000
+      internalID: -594902601321506900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688a106adeb58c120800000000000000
+      internalID: 2434296674844256390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1921
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e917430144c6760800000000000000
+      internalID: 7452406319781355150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1921
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7998b941c46d680800000000000000
+      internalID: -8730707176218585132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1921
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a06ca5d39ba32d0800000000000000
+      internalID: -3298120103928395220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1921
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4798f34bac2190800000000000000
+      internalID: -7985819730812908963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1921
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8137aaf44fe8da40800000000000000
+      internalID: 5393323633318244750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1857
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978e24721ce1bb7b0800000000000000
+      internalID: -5207534729187628935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1857
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13605d1eb34c6a5e0800000000000000
+      internalID: -1898614431419136463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1857
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c596d98d057b4c0800000000000000
+      internalID: -4271856830253540272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1857
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2149a6558d4ced80800000000000000
+      internalID: -8220109984778075861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1857
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c0265359c21aff0800000000000000
+      internalID: -26691103430145002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1857
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769048c9babb9e740800000000000000
+      internalID: 5181879192006166887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c012c9b6706b180800000000000000
+      internalID: -9100077838293201804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1792
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d735b7a80d042e470800000000000000
+      internalID: 8422365517556962173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1791
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b834d05cd2a3830800000000000000
+      internalID: 4051601139127520133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1791
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddc8ef094a5e51e0800000000000000
+      internalID: -2207227497518936622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1791
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa227ec3e5d7540800000000000000
+      internalID: 5007261976374717109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1791
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096f3b1c57b61b4c0800000000000000
+      internalID: -4273516417892747632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1791
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a01bc64c9fde620800000000000000
+      internalID: 2805172764954135064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1791
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2be709166734e10800000000000000
+      internalID: 2180716805985579730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1791
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b72957788e9040800000000000000
+      internalID: 4656309110925932219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9f4c4130489a030800000000000000
+      internalID: 3506478933652863397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa916f0591fab9a0800000000000000
+      internalID: -6216390713121072387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8221f1eec3bdb0800000000000000
+      internalID: -4777247309901428222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15af96b68a094220800000000000000
+      internalID: 2470517444295238943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132b6ca544c121fd0800000000000000
+      internalID: -2372802973764505039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb3ccc30ffc0f80800000000000000
+      internalID: -8138850034779963618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0e317717cac3070800000000000000
+      internalID: 8087528634179641577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1729
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7348cf614857e8660800000000000000
+      internalID: 7389973248743343159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1665
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36ea74b094fd6880800000000000000
+      internalID: -8615961609749469634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1665
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2e820a069c2ffa0800000000000000
+      internalID: -5768326755867106604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1666
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d1f3222ae29da50800000000000000
+      internalID: 6546314807253867900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1666
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9803b293f28afc0800000000000000
+      internalID: -3483482389186836022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1666
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddee69c67d72ec900800000000000000
+      internalID: 706545997737029341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1666
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b518f5d43e4465f0800000000000000
+      internalID: -764400047911070284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1666
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae945c70e1a288e0800000000000000
+      internalID: -1692612524407218525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1666
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5987a32e91f4b7670800000000000000
+      internalID: 8537504491199166613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_52
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7425346c8e81f64e0800000000000000
+      internalID: -1986341522609319353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_53
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b4643c6d897d940800000000000000
+      internalID: 5320889532928117537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd52746da664d60800000000000000
+      internalID: 7874098467053100207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011aadee4001fae50800000000000000
+      internalID: 6822689573862809872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c85dff299063f90800000000000000
+      internalID: -6974376445974574037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_57
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1602
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea473e2fa63be3420800000000000000
+      internalID: 2611722105844364462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_58
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c9c8a6e93816b0800000000000000
+      internalID: -5325442896528553967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1602
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81acc01f0e3af39e0800000000000000
+      internalID: -1639411552827422184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1538
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491c1b8a68f33490800000000000000
+      internalID: -7767591795799877302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_61
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1538
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b3edcea9fc13f90800000000000000
+      internalID: -6975566083514287226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_62
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1536
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8898322e78d672830800000000000000
+      internalID: 4046323220597672328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1536
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef59e00a7ab6f80800000000000000
+      internalID: -8112205997896499528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1537
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbdcf268c3312ae0800000000000000
+      internalID: -1575921458855748658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_65
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1538
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be41a02c92253f020800000000000000
+      internalID: 2374331767856960747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_66
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1536
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c7bfa74d4f66f80800000000000000
+      internalID: -8113528485227823985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_67
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1536
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e243937461952e20800000000000000
+      internalID: 3325223760504767207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_68
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1537
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecd5bcedd40d0e60800000000000000
+      internalID: 7929999870074936550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1474
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595315b35a99eeb0800000000000000
+      internalID: -4690047852618753706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_70
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1474
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1f7f7ebaee383c0800000000000000
+      internalID: -4358377592265903652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_71
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1475
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9105d6c4b253ee8e0800000000000000
+      internalID: -1662332752371036135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_72
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1475
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e40191ea8f865fc0800000000000000
+      internalID: -3506457433208716061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1474
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0af95ad151cbb9f0800000000000000
+      internalID: -451554780320761331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1474
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4ea0003498064e0800000000000000
+      internalID: -1990440114441231119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_75
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1474
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e2db2462d20fb0800000000000000
+      internalID: -4682949334838091702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1474
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4a4835862954fb0800000000000000
+      internalID: -4664160862296824589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_77
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1474
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff6f77a8ae1bef10800000000000000
+      internalID: 2299965744416255984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1410
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf1d97e924e68b0800000000000000
+      internalID: -5157111274876568720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1410
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a98b6d05bb751550800000000000000
+      internalID: 6130942485279246754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1409
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a426f9fe77f028e0800000000000000
+      internalID: -1720102932923931486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1409
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1659147dcefb5ee60800000000000000
+      internalID: 7991004137783399777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1409
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14959f9537bf6a8a0800000000000000
+      internalID: -6294066956354365119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1410
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36788d811e1586db0800000000000000
+      internalID: -4798495375736928413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1409
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fb7fde045639430800000000000000
+      internalID: 3788483041093467930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1409
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae4279d0a5584210800000000000000
+      internalID: 1317397040337145518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1409
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d187daf490451300800000000000000
+      internalID: 222154765232472533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_87
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1346
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33507618e6822c7d0800000000000000
+      internalID: -2899710754990652109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_88
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1346
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3ce2cff1c430160800000000000000
+      internalID: 6990514746867762157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_89
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1347
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2309d16950b6e2c50800000000000000
+      internalID: 6642364172155588658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_90
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1347
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97145b079620135d0800000000000000
+      internalID: -3084681617886330503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_91
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1346
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca36fa45592fa1ba0800000000000000
+      internalID: -6117310420644568148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1346
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8579f850ee22bcaf0800000000000000
+      internalID: -375167738264447144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_93
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1346
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246049c204e134000800000000000000
+      internalID: 18892084414252610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_94
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1346
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c594dd2cc596b990800000000000000
+      internalID: -7370539035970464319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_95
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1346
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2ff0e0561bfe4a0800000000000000
+      internalID: -6561831084469783838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1282
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0e972f5dffd96b0800000000000000
+      internalID: -5287789093101903682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_97
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1282
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d837021a266638f0800000000000000
+      internalID: -561148772683925291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_98
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1282
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fba6746a4784da0800000000000000
+      internalID: -5960385849313280239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_99
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1282
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc144cd4d294b5b10800000000000000
+      internalID: 1971249720831787469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_100
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1282
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1332636a1ed8b5e80800000000000000
+      internalID: -8188795497147391183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1282
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b1860c0d3492290800000000000000
+      internalID: -7914720306266629312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_102
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1217
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21e08d59fc809bd0800000000000000
+      internalID: -2625443580113526481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1217
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ae5547d11ef1e10800000000000000
+      internalID: 2170701062037957248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_104
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1217
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceba2774c51e9620800000000000000
+      internalID: 2782685553318608583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1217
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e4234de8bd29820800000000000000
+      internalID: 2923640514608778879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_106
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1217
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67226c96109913c10800000000000000
+      internalID: 2031573138269414006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1217
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94239b70995656920800000000000000
+      internalID: 2982902036136800841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1153
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaa81d337f8f5750800000000000000
+      internalID: 6295908529196280524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1153
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf15db8d1278e000800000000000000
+      internalID: 65427665822490557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1153
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397a3dad200824d0800000000000000
+      internalID: -3159274942420584136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1153
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebdb89627d0932e0800000000000000
+      internalID: -2145668962417124383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1153
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0455ba1eaf324ff10800000000000000
+      internalID: 2302504869928064320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1153
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8c113c1f9463420800000000000000
+      internalID: 2609354336816449724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_114
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1089
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a048559a792ba60800000000000000
+      internalID: 7688374267414841875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1089
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bb1ed1096b01480800000000000000
+      internalID: -8930437330982814844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_116
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1089
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6cbbd0d1b32d5b0800000000000000
+      internalID: -5345144811764857124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167ea988d2dd70ea0800000000000000
+      internalID: -5906509198637996191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_118
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1089
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8e4cc737b57cf60800000000000000
+      internalID: 8054507010148067555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_119
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1089
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a8e9f3addee9110800000000000000
+      internalID: 1269713666591066727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1025
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce82508289b8deda0800000000000000
+      internalID: -5913917250044876564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_121
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1024
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2227b45e35422c0800000000000000
+      internalID: -4457345486911561055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1023
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23839446e8f8ba2f0800000000000000
+      internalID: -960516253782820814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_123
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1023
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a7ef8a7a86cc00800000000000000
+      internalID: 920575432848810421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_124
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1023
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727b873de6ea53fa0800000000000000
+      internalID: -5821555152288958681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_125
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1023
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920edeaafd68e310800000000000000
+      internalID: 1434517404760539803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_126
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1023
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973f9ea503b8529a0800000000000000
+      internalID: -6258443067361463431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_127
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1023
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a64069c5b510150800000000000000
+      internalID: 5837047045260864006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_128
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1023
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968c933bad223e50800000000000000
+      internalID: 6787537801729312400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_129
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1023
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4786abff5629f50800000000000000
+      internalID: 6886678929221383370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_130
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1023
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28baf8188fbfbea50800000000000000
+      internalID: 6551607127684656002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_131
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1023
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385c39f745d5b1590800000000000000
+      internalID: -7702460120188074621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_132
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1023
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a1e09d388a71650800000000000000
+      internalID: 6203612295961909821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_133
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 961
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b846b63ecc7020800000000000000
+      internalID: 2340972640707590603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_134
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 961
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c4d27997d403320800000000000000
+      internalID: 2535611774832299129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 961
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8905669718b09c00800000000000000
+      internalID: 905425936548432266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 961
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f031fcc32be527b10800000000000000
+      internalID: 1977747305986462479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 961
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19adc134cbab313a0800000000000000
+      internalID: -6695802903227213167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_138
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b51041acd7d0630800000000000000
+      internalID: 3894907559617846161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_139
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f44e408cd72400800000000000000
+      internalID: 299450343870494415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 961
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bb923b57578d610800000000000000
+      internalID: 1646194812181396283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 961
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aceb1e5bb68a9a0800000000000000
+      internalID: -6221604456291710326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9011853ffa4784e70800000000000000
+      internalID: 9099651346152821001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612b257038870d120800000000000000
+      internalID: 2436579902566347286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d5a5e55e12ef140800000000000000
+      internalID: 4755275525564030354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 961
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3129cb699cb854f90800000000000000
+      internalID: -6970011150352346605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8957582336dc42d50800000000000000
+      internalID: 6711715170621945240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_147
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 896
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5b866165f31b720800000000000000
+      internalID: 2860136877332674008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_148
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 898
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14db13123c2b3a9b0800000000000000
+      internalID: -5070012204343771839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_149
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b65906f74019b850800000000000000
+      internalID: 6393159047285659312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_150
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8ece2692b01a640800000000000000
+      internalID: 5089361326286629085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_151
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e22e6ba3c3a2f0800000000000000
+      internalID: -962710754272549936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_152
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05fbcd01ba76c880800000000000000
+      internalID: -8591044338303372019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 897
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0c418813aa19620800000000000000
+      internalID: 2779189574777487586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 897
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e880b8168ff296f0800000000000000
+      internalID: -679199642374600471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_155
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 897
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634ee645064a29210800000000000000
+      internalID: 1338312772922827830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_156
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 897
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688d426210a05bd30800000000000000
+      internalID: 4446471207149426822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_157
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 897
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecfce266aa8421e0800000000000000
+      internalID: -2223499868785279761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_158
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 897
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4da63479b72d0b50800000000000000
+      internalID: 6560943909620854095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_159
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 833
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf898357ed930b40800000000000000
+      internalID: 5405337594639257515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_160
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 833
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde519dbb1da29a0800000000000000
+      internalID: -6256958127546700338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_161
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 833
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e443e4b22a6f5c30800000000000000
+      internalID: 4350312462359413990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_162
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 833
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841cd0e9bdeec370800000000000000
+      internalID: 8344868542161360011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_163
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 833
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa8501917f37880800000000000000
+      internalID: -8614269975209137639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_164
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 833
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203501a3e8e6f8030800000000000000
+      internalID: 3499136992628724482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_165
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 833
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7fe7fb7b890e7e0800000000000000
+      internalID: -1738221541205805088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6b06d97d737dc50800000000000000
+      internalID: 6689877170680018609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927bf635e9be3ab0800000000000000
+      internalID: -5026375739977796976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_168
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 833
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12fc86f5a1782770800000000000000
+      internalID: 8586237647201825311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_169
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 833
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9056e13161b8638b0800000000000000
+      internalID: -5172794195062135543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_170
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 833
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f66134c33e2510800000000000000
+      internalID: 1526214241460615431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 833
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd7d846296ac8a70800000000000000
+      internalID: 8830616117049130481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 768
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d087077230e99030800000000000000
+      internalID: 3502076692607238361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9289e99d23e378540800000000000000
+      internalID: 5010041498593302569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 769
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d561a1d27d7aa0800000000000000
+      internalID: -6161642470491432815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 768
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30d1dd9edad26470800000000000000
+      internalID: 8386506105782652986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dbf324ce6814c40800000000000000
+      internalID: 5494821369650593027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_177
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 768
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7bf122744beea50800000000000000
+      internalID: 6552372725478832102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_178
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 640
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedc3089cd5f9b1c0800000000000000
+      internalID: -4487285225905992214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_179
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 639
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348fdc8763dd9630800000000000000
+      internalID: 3935534091090232369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_180
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 639
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e21dfcbb18ecea30800000000000000
+      internalID: 4246023754535998183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_181
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 639
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b4005dfef507f90800000000000000
+      internalID: -6957955940612027509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_182
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 639
+        width: 34
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeeefd2305d5e580800000000000000
+      internalID: -8798392087365095748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_183
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 639
+        width: 34
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107e3672560354e0800000000000000
+      internalID: -1994243258754109420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_184
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 639
+        width: 33
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af464a76684e40a0800000000000000
+      internalID: -6895494374482358361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_185
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 639
+        width: 33
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e23b6f1070229980800000000000000
+      internalID: -8533722677978123547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_186
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 450
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c76cc9b0bb81f90800000000000000
+      internalID: -6982625563688666043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_187
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 450
+        width: 119
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b0121b3d29847b0800000000000000
+      internalID: -5239776728538084538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_188
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 450
+        width: 117
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6a406f6c3021840800000000000000
+      internalID: 5193217473377511091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_189
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 450
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ee6a332a2481730800000000000000
+      internalID: 3969996335945805323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_190
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 450
+        width: 133
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4d5b05982ab0d60800000000000000
+      internalID: 7857552685526275232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_191
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 450
+        width: 139
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88113c4239dd6100800000000000000
+      internalID: 102977176549267598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_192
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 450
+        width: 133
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d3e5b102fd16fe0800000000000000
+      internalID: -1197430696912732863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_193
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 450
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2a2ecdaf6573970800000000000000
+      internalID: 8734545637756019386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_194
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 258
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f682ff63046e130800000000000000
+      internalID: 3595631957455171365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_195
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 247
+        width: 97
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5589fde15d4c7920800000000000000
+      internalID: 2989349266947409245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_196
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 235
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b5c231248fb050800000000000000
+      internalID: 5818514521706575414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_197
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 232
+        width: 35
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82a5ecc5be336f50800000000000000
+      internalID: 6873406406845112974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_198
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 225
+        width: 35
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c91b1af3e999a530800000000000000
+      internalID: 3866790959506987464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_199
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 216
+        width: 35
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91ff8f9b89da5130800000000000000
+      internalID: 3556394049463120284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_200
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 224
+        width: 35
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbf9b66f85d3e0c0800000000000000
+      internalID: -4547556386833564728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_201
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 238
+        width: 35
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afaa4e50da00c7e0800000000000000
+      internalID: -1747384765368324191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_202
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b5bc02b20e37390800000000000000
+      internalID: -7821661651974005929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_203
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 65
+        width: 118
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c13b1c1f386126a0800000000000000
+      internalID: -6475780168918289980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_204
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 65
+        width: 116
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a570300612a381bc0800000000000000
+      internalID: -3812233169549981862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_205
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 65
+        width: 121
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e68c525a0264900800000000000000
+      internalID: 668257488386682399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_206
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 65
+        width: 133
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe27e8128fd98a50800000000000000
+      internalID: 6523991285079420603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_207
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 65
+        width: 139
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2bc21f18a3166a0800000000000000
+      internalID: -6457816060901150040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_208
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 65
+        width: 131
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9644c55a5f9afd0b0800000000000000
+      internalID: -5701651730721389463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcMage_209
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 65
+        width: 113
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2beaa55b5288650800000000000000
+      internalID: 6235275144935158470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

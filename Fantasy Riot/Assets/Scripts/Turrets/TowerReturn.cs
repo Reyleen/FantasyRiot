@@ -45,11 +45,14 @@ public class TowerReturn : MonoBehaviour
     [SerializeField]
     private Air airTw;
 
+    private CountTower nTower;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gold = FindObjectOfType<GoldManager>();
         joystick = FindObjectOfType<FixedJoystick>();
+        nTower = FindObjectOfType<CountTower>();
     }
 
     private void Update()
@@ -82,7 +85,6 @@ public class TowerReturn : MonoBehaviour
                     {
                         Locked = true;
                         spawned = true;
-                        Debug.Log("SET SPAWNED");
 
                         if (Fire == true)
                         {
@@ -103,6 +105,8 @@ public class TowerReturn : MonoBehaviour
                         {
                             waterTw.Select();
                         }
+
+                        nTower.Count(1);
                     }
                     
                     else if (Locked == false)
@@ -110,7 +114,6 @@ public class TowerReturn : MonoBehaviour
                         Destroy(gameObject);
                         gold.AddMoney(+costTower);
                         spawned = true;
-                        Debug.Log("SET SPAWNED");
                     }
                 }
 
@@ -127,8 +130,12 @@ public class TowerReturn : MonoBehaviour
             touchPos.z = 0;
             RaycastHit2D hit = Physics2D.Raycast(touchPos, (Input.GetTouch(0).position));
 
+            Debug.Log("Toccato schermo");
+
             if (hit.collider != null && hit.collider.tag == "Tower")
             {
+                Debug.Log("Toccata torre");
+
                 if (Fire == true)
                 {
                     hit.collider.GetComponent<Tower>().Select();

@@ -14,12 +14,16 @@ public class Air : MonoBehaviour
     private bool justAttacked;
     private bool stunned;
     public float StunDur;
+    private float MoreStun;
 
     [SerializeField]
     private float attackDelay;
 
     [SerializeField]
     private float cooldown;
+
+    [SerializeField]
+    private TowerHealth hp;
 
     public bool Attacking
     {
@@ -60,7 +64,7 @@ public class Air : MonoBehaviour
     {
         if (!canAttack)
         {
-            if(timer > StunDur && stunned)
+            if((timer > StunDur + MoreStun) && stunned)
             {
                 foreach (Enemy enemy in targets)
                 {
@@ -68,6 +72,7 @@ public class Air : MonoBehaviour
                 }
 
                 stunned = false;
+                MoreStun = 0;
             }
 
             if (justAttacked && timer > attackDelay + 0.2f)
@@ -98,15 +103,63 @@ public class Air : MonoBehaviour
 
                 if (timer >= attackDelay)
                 {
-                    foreach (Enemy enemy in targets)
+                    if(hp.CurrentTowerHp == 50)
                     {
-                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage);
-                        Debug.Log("Damaging");
-                        enemy.gameObject.GetComponent<Enemy>().Stun();
-                        Debug.Log("Stunned");
-                        stunned = true;
-                        canAttack = false;
-                        justAttacked = true;
+                        foreach (Enemy enemy in targets)
+                        {
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage);
+                            Debug.Log("Damaging");
+                            enemy.gameObject.GetComponent<Enemy>().Stun();
+                            Debug.Log("Stunned");
+                            stunned = true;
+                            canAttack = false;
+                            justAttacked = true;
+                        }
+                    }
+
+                    if(hp.CurrentTowerHp <= 35 && hp.CurrentTowerHp >= 25)
+                    {
+                        foreach (Enemy enemy in targets)
+                        {
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4);
+                            Debug.Log("MORE Damage");
+                            MoreStun = 1f;
+                            enemy.gameObject.GetComponent<Enemy>().Stun();
+                            Debug.Log("Stunned");
+                            stunned = true;
+                            canAttack = false;
+                            justAttacked = true;
+                        }
+                    }
+                    
+                    if(hp.CurrentTowerHp < 25 && hp.CurrentTowerHp >= 15)
+                    {
+                        foreach (Enemy enemy in targets)
+                        {
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6);
+                            Debug.Log("MORE MORE Damage");
+                            MoreStun = 2f;
+                            enemy.gameObject.GetComponent<Enemy>().Stun();
+                            Debug.Log("Stunned");
+                            stunned = true;
+                            canAttack = false;
+                            justAttacked = true;
+                        }
+                    }
+
+                    if (hp.CurrentTowerHp < 15 && hp.CurrentTowerHp >= 0)
+                    {
+                        foreach (Enemy enemy in targets)
+                        {
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8);
+                            Debug.Log("MORE MORE MORE Damage");
+                            MoreStun = 3f;
+                            enemy.gameObject.GetComponent<Enemy>().Stun();
+                            Debug.Log("Stunned");
+                            stunned = true;
+                            canAttack = false;
+                            justAttacked = true;
+                        }
                     }
                 }
             }

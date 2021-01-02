@@ -191,6 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208216352}
   - component: {fileID: 208216353}
+  - component: {fileID: 208216354}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -233,6 +234,19 @@ MonoBehaviour:
   AirTower: {fileID: 2276250498638129101, guid: 74caec56f595f2140a3a3e545fb6c187,
     type: 3}
   HasSpawned: 0
+--- !u!114 &208216354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208216351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb621bf04489cae4b9549a57368a0c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tot: 0
 --- !u!1 &303995988
 GameObject:
   m_ObjectHideFlags: 0

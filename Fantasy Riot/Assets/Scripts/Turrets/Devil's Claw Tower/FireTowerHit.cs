@@ -28,5 +28,15 @@ public class FireTowerHit : MonoBehaviour
             rb.isKinematic = true;
             Destroy(gameObject);
         }
+
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Tower" || other.gameObject.tag == "RangeTower")
+        {
+
+        }
+
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

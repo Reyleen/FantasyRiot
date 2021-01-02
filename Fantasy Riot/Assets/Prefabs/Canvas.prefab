@@ -2974,6 +2974,7 @@ MonoBehaviour:
     type: 3}
   AirTower: {fileID: 2276250498638129101, guid: 74caec56f595f2140a3a3e545fb6c187,
     type: 3}
+  HasSpawned: 0
 --- !u!1 &7454508658176174036
 GameObject:
   m_ObjectHideFlags: 0

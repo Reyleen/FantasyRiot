@@ -32,6 +32,16 @@ public class HurtPlayer : MonoBehaviour
 
             }
         }
+
+        if(other.gameObject.tag == "Tower")
+        {
+            if (Time.time > nextHitAllowed + hitDelay)
+            {
+                nextHitAllowed = Time.time + hitDelay;
+                other.gameObject.GetComponent<TowerHealth>().HurtTower(damageToGive);
+            }
+        }
+
         if (other.gameObject.tag == "Enemy")
         {
             Physics2D.IgnoreCollision(thisenemy,other,false);

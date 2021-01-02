@@ -1,0 +1,2201 @@
+fileFormatVersion: 2
+guid: 13fefe956cae3324cb853992524173e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2394641121505594096
+    second: WarLizard_0
+  - first:
+      213: 3570822328022435296
+    second: WarLizard_1
+  - first:
+      213: 5246227653163901900
+    second: WarLizard_2
+  - first:
+      213: 605813766575841603
+    second: WarLizard_3
+  - first:
+      213: -5688805490861578826
+    second: WarLizard_4
+  - first:
+      213: -4508225778395650910
+    second: WarLizard_5
+  - first:
+      213: -7536780277162761901
+    second: WarLizard_6
+  - first:
+      213: 5717408114862454891
+    second: WarLizard_7
+  - first:
+      213: 3287044225200037631
+    second: WarLizard_8
+  - first:
+      213: 8176946423757101235
+    second: WarLizard_9
+  - first:
+      213: 8630448873854524038
+    second: WarLizard_10
+  - first:
+      213: 4704551694438484663
+    second: WarLizard_11
+  - first:
+      213: 9150350818977480316
+    second: WarLizard_12
+  - first:
+      213: 1804842530517295651
+    second: WarLizard_13
+  - first:
+      213: 1717246873076879791
+    second: WarLizard_14
+  - first:
+      213: 7053943760604595134
+    second: WarLizard_15
+  - first:
+      213: -3991740605753663457
+    second: WarLizard_16
+  - first:
+      213: -6461821479009241200
+    second: WarLizard_17
+  - first:
+      213: -5212736794626654657
+    second: WarLizard_18
+  - first:
+      213: -6689421179414620755
+    second: WarLizard_19
+  - first:
+      213: -131508074184685280
+    second: WarLizard_20
+  - first:
+      213: -1370379272811933960
+    second: WarLizard_21
+  - first:
+      213: -3870156216650731794
+    second: WarLizard_22
+  - first:
+      213: 6149583951151967022
+    second: WarLizard_23
+  - first:
+      213: 6804471951181501598
+    second: WarLizard_24
+  - first:
+      213: -5372999373254778725
+    second: WarLizard_25
+  - first:
+      213: 5871823221422276219
+    second: WarLizard_26
+  - first:
+      213: -6508652616825875643
+    second: WarLizard_27
+  - first:
+      213: -8526128710009020552
+    second: WarLizard_28
+  - first:
+      213: 5898856991237718935
+    second: WarLizard_29
+  - first:
+      213: 8846698974895098939
+    second: WarLizard_30
+  - first:
+      213: 9041812417195724535
+    second: WarLizard_31
+  - first:
+      213: -2682654721752118475
+    second: WarLizard_32
+  - first:
+      213: 6039809256696396584
+    second: WarLizard_33
+  - first:
+      213: -835614014821179514
+    second: WarLizard_34
+  - first:
+      213: 2035659322385207040
+    second: WarLizard_35
+  - first:
+      213: -1859887160332712868
+    second: WarLizard_36
+  - first:
+      213: -5129286695062563521
+    second: WarLizard_37
+  - first:
+      213: -5963579760694279148
+    second: WarLizard_38
+  - first:
+      213: -6114146271891192708
+    second: WarLizard_39
+  - first:
+      213: 8299534609773695435
+    second: WarLizard_40
+  - first:
+      213: 1906769567008135187
+    second: WarLizard_41
+  - first:
+      213: 8623085182099810429
+    second: WarLizard_42
+  - first:
+      213: -6747029788402039988
+    second: WarLizard_43
+  - first:
+      213: 3773266447398817112
+    second: WarLizard_44
+  - first:
+      213: -1620943710466497794
+    second: WarLizard_45
+  - first:
+      213: -1818088166190152843
+    second: WarLizard_46
+  - first:
+      213: -8667165369683364754
+    second: WarLizard_47
+  - first:
+      213: -8453171587267630342
+    second: WarLizard_48
+  - first:
+      213: 7657121474533897235
+    second: WarLizard_49
+  - first:
+      213: -8906549648673072068
+    second: WarLizard_50
+  - first:
+      213: 8815238047523810675
+    second: WarLizard_51
+  - first:
+      213: 3991977896323032405
+    second: WarLizard_52
+  - first:
+      213: -6736311203387936196
+    second: WarLizard_53
+  - first:
+      213: 3155860791023567343
+    second: WarLizard_54
+  - first:
+      213: 5383507347544311112
+    second: WarLizard_55
+  - first:
+      213: 7605989834423657868
+    second: WarLizard_56
+  - first:
+      213: 7735856298339803265
+    second: WarLizard_57
+  - first:
+      213: 5156960016247512893
+    second: WarLizard_58
+  - first:
+      213: -4302050520683382261
+    second: WarLizard_59
+  - first:
+      213: -7474388771180998091
+    second: WarLizard_60
+  - first:
+      213: 5554942045585141888
+    second: WarLizard_61
+  - first:
+      213: -6240064273440480821
+    second: WarLizard_62
+  - first:
+      213: -9027349838039824147
+    second: WarLizard_63
+  - first:
+      213: 3497151266914841932
+    second: WarLizard_64
+  - first:
+      213: 6546110136094544088
+    second: WarLizard_65
+  - first:
+      213: 1363358941465157781
+    second: WarLizard_66
+  - first:
+      213: 4254105271364804376
+    second: WarLizard_67
+  - first:
+      213: -2427755764196261919
+    second: WarLizard_68
+  - first:
+      213: 8160669715304071691
+    second: WarLizard_69
+  - first:
+      213: 6261638885605545251
+    second: WarLizard_70
+  - first:
+      213: 1557080514839438194
+    second: WarLizard_71
+  - first:
+      213: -1285898868420137876
+    second: WarLizard_72
+  - first:
+      213: -1630695356498105288
+    second: WarLizard_73
+  - first:
+      213: -8816319714758472715
+    second: WarLizard_74
+  - first:
+      213: 4042812874593446530
+    second: WarLizard_75
+  - first:
+      213: 75588137873393804
+    second: WarLizard_76
+  - first:
+      213: -6332584565292366632
+    second: WarLizard_77
+  - first:
+      213: -5320593549893655595
+    second: WarLizard_78
+  - first:
+      213: -6456005594498756498
+    second: WarLizard_79
+  - first:
+      213: 7290572590836982292
+    second: WarLizard_80
+  - first:
+      213: 6757343708561478274
+    second: WarLizard_81
+  - first:
+      213: -4087584215642614976
+    second: WarLizard_82
+  - first:
+      213: 4374249735594144879
+    second: WarLizard_83
+  - first:
+      213: -6289241306473128164
+    second: WarLizard_84
+  - first:
+      213: -7357879321715346315
+    second: WarLizard_85
+  - first:
+      213: 68208441516043416
+    second: WarLizard_86
+  - first:
+      213: -8044950453033947276
+    second: WarLizard_87
+  - first:
+      213: 8953762372696277746
+    second: WarLizard_88
+  - first:
+      213: 6003448913895397093
+    second: WarLizard_89
+  - first:
+      213: 1291537303657916720
+    second: WarLizard_90
+  - first:
+      213: -5685783986267895688
+    second: WarLizard_91
+  - first:
+      213: 8885103638614824230
+    second: WarLizard_92
+  - first:
+      213: 9163200324216532491
+    second: WarLizard_93
+  - first:
+      213: 650427596006117457
+    second: WarLizard_94
+  - first:
+      213: -2885300985729191262
+    second: WarLizard_95
+  - first:
+      213: 7152645600571513774
+    second: WarLizard_96
+  - first:
+      213: -237317242728679647
+    second: WarLizard_97
+  - first:
+      213: -8712320104260980117
+    second: WarLizard_98
+  - first:
+      213: 8424826433690135398
+    second: WarLizard_99
+  - first:
+      213: 4497997900410393912
+    second: WarLizard_100
+  - first:
+      213: 9032271914820282721
+    second: WarLizard_101
+  - first:
+      213: -9139109982312537506
+    second: WarLizard_102
+  - first:
+      213: 6715440346880007354
+    second: WarLizard_103
+  - first:
+      213: -8689228513760535900
+    second: WarLizard_104
+  - first:
+      213: 6983251805736050906
+    second: WarLizard_105
+  - first:
+      213: 7297745579489367836
+    second: WarLizard_106
+  - first:
+      213: 3986300851812381600
+    second: WarLizard_107
+  - first:
+      213: -85432340469196371
+    second: WarLizard_108
+  - first:
+      213: 1892054684148043062
+    second: WarLizard_109
+  - first:
+      213: -7750656345364675624
+    second: WarLizard_110
+  - first:
+      213: -565029014459989880
+    second: WarLizard_111
+  - first:
+      213: 8425822703523158403
+    second: WarLizard_112
+  - first:
+      213: 5370983845691531660
+    second: WarLizard_113
+  - first:
+      213: -8307056365288600451
+    second: WarLizard_114
+  - first:
+      213: 283927834253042509
+    second: WarLizard_115
+  - first:
+      213: -6854782252224368206
+    second: WarLizard_116
+  - first:
+      213: 1227494838129747197
+    second: WarLizard_117
+  - first:
+      213: 3234815449015214493
+    second: WarLizard_118
+  - first:
+      213: -3200015726803507038
+    second: WarLizard_119
+  - first:
+      213: 6860738127531557286
+    second: WarLizard_120
+  - first:
+      213: 6152500835029157950
+    second: WarLizard_121
+  - first:
+      213: -7381561271863760536
+    second: WarLizard_122
+  - first:
+      213: 2775311043785386999
+    second: WarLizard_123
+  - first:
+      213: -1107260334994337503
+    second: WarLizard_124
+  - first:
+      213: -6287570294310161758
+    second: WarLizard_125
+  - first:
+      213: 4366553892738495354
+    second: WarLizard_126
+  - first:
+      213: -6544724365582477807
+    second: WarLizard_127
+  - first:
+      213: 5351765659137005764
+    second: WarLizard_128
+  - first:
+      213: 8871404906410683702
+    second: WarLizard_129
+  - first:
+      213: 4673986491645148546
+    second: WarLizard_130
+  - first:
+      213: 710521323802289463
+    second: WarLizard_131
+  - first:
+      213: -4547148289304236302
+    second: WarLizard_132
+  - first:
+      213: -2718332901177662046
+    second: WarLizard_133
+  - first:
+      213: 5233477320290804846
+    second: WarLizard_134
+  - first:
+      213: 7561624832859225976
+    second: WarLizard_135
+  - first:
+      213: -1391161650834832614
+    second: WarLizard_136
+  - first:
+      213: -5976079920705026963
+    second: WarLizard_137
+  - first:
+      213: 8346496824333685698
+    second: WarLizard_138
+  - first:
+      213: 5251208655614938286
+    second: WarLizard_139
+  - first:
+      213: -6731529033366534370
+    second: WarLizard_140
+  - first:
+      213: -7517514781377969050
+    second: WarLizard_141
+  - first:
+      213: 6334760048840009085
+    second: WarLizard_142
+  - first:
+      213: 7787161633849051640
+    second: WarLizard_143
+  - first:
+      213: -4112340880598708286
+    second: WarLizard_144
+  - first:
+      213: -3299609898691309400
+    second: WarLizard_145
+  - first:
+      213: -7426781848560270699
+    second: WarLizard_146
+  - first:
+      213: -3687018135322621415
+    second: WarLizard_147
+  - first:
+      213: 310327015670170950
+    second: WarLizard_148
+  - first:
+      213: 264253244370462839
+    second: WarLizard_149
+  - first:
+      213: 1818598246043149861
+    second: WarLizard_150
+  - first:
+      213: 8900125767077383311
+    second: WarLizard_151
+  - first:
+      213: -2671719004071234948
+    second: WarLizard_152
+  - first:
+      213: 3094244494487301748
+    second: WarLizard_153
+  - first:
+      213: -1769703542787011298
+    second: WarLizard_154
+  - first:
+      213: 6349121199657370058
+    second: WarLizard_155
+  - first:
+      213: -3182783076058968392
+    second: WarLizard_156
+  - first:
+      213: -4551533481339965298
+    second: WarLizard_157
+  - first:
+      213: -37457531004126396
+    second: WarLizard_158
+  - first:
+      213: 6183617663615480997
+    second: WarLizard_159
+  - first:
+      213: -8864503416079245148
+    second: WarLizard_160
+  - first:
+      213: -4888875388355789000
+    second: WarLizard_161
+  - first:
+      213: 6219951927204098773
+    second: WarLizard_162
+  - first:
+      213: 7124740484934084428
+    second: WarLizard_163
+  - first:
+      213: -7781367837569778911
+    second: WarLizard_164
+  - first:
+      213: 2331328314136975553
+    second: WarLizard_165
+  - first:
+      213: -842417606633732934
+    second: WarLizard_166
+  - first:
+      213: 3512668535037540655
+    second: WarLizard_167
+  - first:
+      213: -8012183273477939683
+    second: WarLizard_168
+  - first:
+      213: -403218008404773144
+    second: WarLizard_169
+  - first:
+      213: -4400938001845614293
+    second: WarLizard_170
+  - first:
+      213: 7195887429869223157
+    second: WarLizard_171
+  - first:
+      213: -1065585446403692510
+    second: WarLizard_172
+  - first:
+      213: -484401654532387819
+    second: WarLizard_173
+  - first:
+      213: -4823096370553724961
+    second: WarLizard_174
+  - first:
+      213: 759210414079969769
+    second: WarLizard_175
+  - first:
+      213: -5477219150152980774
+    second: WarLizard_176
+  - first:
+      213: 7637937130460200503
+    second: WarLizard_177
+  - first:
+      213: 9142824118389653722
+    second: WarLizard_178
+  - first:
+      213: 8774963497726031445
+    second: WarLizard_179
+  - first:
+      213: -7589251908039941560
+    second: WarLizard_180
+  - first:
+      213: 8295461535339510072
+    second: WarLizard_181
+  - first:
+      213: 1666430071049397683
+    second: WarLizard_182
+  - first:
+      213: -2421671141208888978
+    second: WarLizard_183
+  - first:
+      213: 5056594410818676353
+    second: WarLizard_184
+  - first:
+      213: 8178782859247590650
+    second: WarLizard_185
+  - first:
+      213: 4489723139499793952
+    second: WarLizard_186
+  - first:
+      213: 5080896319539154948
+    second: WarLizard_187
+  - first:
+      213: -1801598825454647897
+    second: WarLizard_188
+  - first:
+      213: -7294875089272992123
+    second: WarLizard_189
+  - first:
+      213: 5701894464580227642
+    second: WarLizard_190
+  - first:
+      213: -5476600650921601871
+    second: WarLizard_191
+  - first:
+      213: 5884795166964648328
+    second: WarLizard_192
+  - first:
+      213: 3474634796480360204
+    second: WarLizard_193
+  - first:
+      213: 6598606317788632802
+    second: WarLizard_194
+  - first:
+      213: 3045481870760644519
+    second: WarLizard_195
+  - first:
+      213: -6220000042862506359
+    second: WarLizard_196
+  - first:
+      213: -284374123591141157
+    second: WarLizard_197
+  - first:
+      213: -451937235523223691
+    second: WarLizard_198
+  - first:
+      213: -2493835505992781064
+    second: WarLizard_199
+  - first:
+      213: -7993077321993710924
+    second: WarLizard_200
+  - first:
+      213: -9157470869118354716
+    second: WarLizard_201
+  - first:
+      213: -6312678403754636560
+    second: WarLizard_202
+  - first:
+      213: 5283470806921009483
+    second: WarLizard_203
+  - first:
+      213: -6481841154996737508
+    second: WarLizard_204
+  - first:
+      213: 6869870383403343952
+    second: WarLizard_205
+  - first:
+      213: -6379451297501725108
+    second: WarLizard_206
+  - first:
+      213: -4591304885956773954
+    second: WarLizard_207
+  - first:
+      213: -8678925206188993863
+    second: WarLizard_208
+  - first:
+      213: 6875517838542769972
+    second: WarLizard_209
+  - first:
+      213: -5359788197209473601
+    second: WarLizard_210
+  - first:
+      213: 7738335199285920592
+    second: WarLizard_211
+  - first:
+      213: 8026967710843766670
+    second: WarLizard_212
+  - first:
+      213: -7411818422544640023
+    second: WarLizard_213
+  - first:
+      213: 8162934167914304128
+    second: WarLizard_214
+  - first:
+      213: -560184901171089804
+    second: WarLizard_215
+  - first:
+      213: -8677974572092637877
+    second: WarLizard_216
+  - first:
+      213: 3638052413091460154
+    second: WarLizard_217
+  - first:
+      213: -1424822751065627424
+    second: WarLizard_218
+  - first:
+      213: -7867853536001978490
+    second: WarLizard_219
+  - first:
+      213: 7332921995682158623
+    second: WarLizard_220
+  - first:
+      213: -4922263374499569952
+    second: WarLizard_221
+  - first:
+      213: -2414243401651642435
+    second: WarLizard_222
+  - first:
+      213: -4692546275943546337
+    second: WarLizard_223
+  - first:
+      213: -497064700695414647
+    second: WarLizard_224
+  - first:
+      213: 3515512778371909378
+    second: WarLizard_225
+  - first:
+      213: 6181789871774363999
+    second: WarLizard_226
+  - first:
+      213: 3767255293819306070
+    second: WarLizard_227
+  - first:
+      213: -2143418538809537054
+    second: WarLizard_228
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarLizard_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532969c7303a54890800000000000000
+      internalID: -7474388771180998091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080fbfeeb5e171d40800000000000000
+      internalID: 5554942045585141888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc169f5ca96d669a0800000000000000
+      internalID: -6240064273440480821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c478b62968b280800000000000000
+      internalID: -9027349838039824147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45344e6c80688030800000000000000
+      internalID: 3497151266914841932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0df7a6c7478da50800000000000000
+      internalID: 6546110136094544088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590226fdbbf9be210800000000000000
+      internalID: 1363358941465157781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd0d0843e990b30800000000000000
+      internalID: 4254105271364804376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efbca9cef0ee4ed0800000000000000
+      internalID: -2427755764196261919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02ccf57ed5804170800000000000000
+      internalID: 8160669715304071691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3259a40146fc5e650800000000000000
+      internalID: 6261638885605545251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273efad7a7cdb9510800000000000000
+      internalID: 1557080514839438194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cadbacac1972ee0800000000000000
+      internalID: -1285898868420137876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c2d0b863b9e59e0800000000000000
+      internalID: -1630695356498105288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb4c872ee326a580800000000000000
+      internalID: -8816319714758472715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa483c3e4fa1830800000000000000
+      internalID: 4042812874593446530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c884d2bc20b8c0100800000000000000
+      internalID: 75588137873393804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d480aba3e32e18a0800000000000000
+      internalID: -6332584565292366632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3aa582b547926b0800000000000000
+      internalID: -5320593549893655595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6097fffd19a766a0800000000000000
+      internalID: -6456005594498756498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a90ee4215d2560800000000000000
+      internalID: 7290572590836982292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282170e0d48e6cd50800000000000000
+      internalID: 6757343708561478274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d02510dbf547c0800000000000000
+      internalID: -4087584215642614976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f647fe075f474bc30800000000000000
+      internalID: 4374249735594144879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f94f48a5028b8a0800000000000000
+      internalID: -6289241306473128164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574f6f89dbf83e990800000000000000
+      internalID: -7357879321715346315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c2f37573352f000800000000000000
+      internalID: 68208441516043416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f2b4bdf289a5090800000000000000
+      internalID: -8044950453033947276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f202db5077224c70800000000000000
+      internalID: 8953762372696277746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e690f3caf8805350800000000000000
+      internalID: 6003448913895397093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03922b6b5567ce110800000000000000
+      internalID: 1291537303657916720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878c5ecc6990811b0800000000000000
+      internalID: -5685783986267895688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625da2c1faa3e4b70800000000000000
+      internalID: 8885103638614824230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eabaa652a3a2f70800000000000000
+      internalID: 9163200324216532491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1505e04d378c60900800000000000000
+      internalID: 650427596006117457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f68b5a0a55f7d0800000000000000
+      internalID: -2885300985729191262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2282845aea74631f0800000000000000
+      internalID: -1065585446403692510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c4cfcf24f0749f0800000000000000
+      internalID: -484401654532387819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf5ba3a76be01db0800000000000000
+      internalID: -4823096370553724961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9830169d1498a00800000000000000
+      internalID: 759210414079969769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad62a26d3320df3b0800000000000000
+      internalID: -5477219150152980774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eb8d54a576ff960800000000000000
+      internalID: 7637937130460200503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc918c6dafd08170800000000000000
+      internalID: 8178782859247590650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_187
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40098ba6848f28640800000000000000
+      internalID: 5080896319539154948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_188
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c30dd96f6ff6e0800000000000000
+      internalID: -1801598825454647897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_190
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 640
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32121c3ec2312f40800000000000000
+      internalID: 5701894464580227642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_192
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 640
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8890dde760efaa150800000000000000
+      internalID: 5884795166964648328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_194
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 640
+        width: 126
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e690703c75f29b50800000000000000
+      internalID: 6598606317788632802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_197
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 448
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87904cd33bd0cf0800000000000000
+      internalID: -284374123591141157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_198
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fbddf8a756ab9f0800000000000000
+      internalID: -451937235523223691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f23b09f1dd146dd0800000000000000
+      internalID: -2493835505992781064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_200
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b295585682e21190800000000000000
+      internalID: -7993077321993710924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_202
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 448
+        width: 162
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0facce2107cd468a0800000000000000
+      internalID: -6312678403754636560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_204
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 448
+        width: 158
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a69e1dfcfdb06a0800000000000000
+      internalID: -6481841154996737508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050abbf27bea65f50800000000000000
+      internalID: 6869870383403343952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7f70138886840c0800000000000000
+      internalID: -4591304885956773954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_208
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2dbe402834e8780800000000000000
+      internalID: -8678925206188993863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_210
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd7ff138053e95b0800000000000000
+      internalID: -5359788197209473601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_212
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 239
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e878f54ba94856f60800000000000000
+      internalID: 8026967710843766670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_213
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 242
+        width: 126
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7d7880a6ee32990800000000000000
+      internalID: -7411818422544640023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_220
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18984e14b5c3c560800000000000000
+      internalID: 7332921995682158623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_222
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf193bda62ee7ed0800000000000000
+      internalID: -2414243401651642435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_223
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f128d42360ab0eeb0800000000000000
+      internalID: -4692546275943546337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_224
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f9acc9421a19f0800000000000000
+      internalID: -497064700695414647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_225
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 64
+        width: 162
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2074436fe3c99c030800000000000000
+      internalID: 3515512778371909378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarLizard_227
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 64
+        width: 158
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6504f4edabaf74430800000000000000
+      internalID: 3767255293819306070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

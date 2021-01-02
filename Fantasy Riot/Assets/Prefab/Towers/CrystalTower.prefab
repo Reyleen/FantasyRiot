@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2880227749996436058}
   - component: {fileID: 1647893927665603139}
   - component: {fileID: -2924763585894956646}
+  - component: {fileID: 2233382487268898437}
   m_Layer: 0
   m_Name: CrystalTower
   m_TagString: Tower
@@ -180,6 +181,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: {fileID: 2880227749996436058}
   anim: {fileID: 6741199717201889952}
+--- !u!61 &2233382487268898437
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4804067659197904830}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1 &5875445030217025025
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +221,7 @@ GameObject:
   - component: {fileID: 8490100616025657804}
   m_Layer: 0
   m_Name: Range
-  m_TagString: Tower
+  m_TagString: RangeTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

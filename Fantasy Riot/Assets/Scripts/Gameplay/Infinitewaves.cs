@@ -123,7 +123,7 @@ public class Infinitewaves : MonoBehaviour
         state = SpawnState.SPAWNING;
         for (int i = 0; i < e.count; i++)
         {
-            SpawnEnemy(e.enemies[Random.Range(0,2)]);
+            SpawnEnemy(e.enemies[Random.Range(0,6)]);
             yield return new WaitForSeconds(1f / e.rate);
         }
         state = SpawnState.WAITING;

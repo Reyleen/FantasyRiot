@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 289902097842072711}
   - component: {fileID: 289902097842072708}
   - component: {fileID: 289902097842072709}
-  m_Layer: 0
+  - component: {fileID: 113985219810952794}
+  m_Layer: 8
   m_Name: BowLizard
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -174,6 +175,9 @@ MonoBehaviour:
   enHea: {fileID: 289902097842072709}
   isAlive: 1
   isAttacking: 0
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 1
 --- !u!114 &289902097842072709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,3 +196,31 @@ MonoBehaviour:
   anim: {fileID: 289902097842072705}
   rb: {fileID: 289902097842072711}
   drop: 0
+--- !u!114 &113985219810952794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289902097842072730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

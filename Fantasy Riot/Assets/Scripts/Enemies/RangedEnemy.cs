@@ -133,9 +133,10 @@ public class RangedEnemy : MonoBehaviour
                 Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
                 Vector2 force = direction * speed * Time.deltaTime;
                 transform.Translate(force, Space.World);
-                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-                anim.SetFloat("AngleX", dir.x);
-                anim.SetFloat("AngleY", dir.y);
+                Vector2 tar = target.position - transform.position;
+                float angle = Mathf.Atan2(tar.y, tar.x) * Mathf.Rad2Deg;
+                anim.SetFloat("AngleX", tar.x);
+                anim.SetFloat("AngleY", tar.y);
                 float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
                 if (distance < nextWaypointDistance)
                 {

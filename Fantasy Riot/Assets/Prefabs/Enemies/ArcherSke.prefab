@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: -6418340204623717610}
   - component: {fileID: -1302653223024819734}
   - component: {fileID: -8438643405896569766}
-  m_Layer: 0
+  - component: {fileID: -8421947330498257928}
+  m_Layer: 8
   m_Name: ArcherSke
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -30,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5256094312025177033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 8.24, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,9 +106,12 @@ MonoBehaviour:
   startTimeBtwShots: 2
   projectile: {fileID: 8456232743298012767, guid: 4ecce2ce13e645a41996c74bbc73ba92,
     type: 3}
-  enHea: {fileID: 0}
+  enHea: {fileID: -6418340204623717610}
   isAlive: 1
   isAttacking: 0
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 1
 --- !u!95 &93125116836054684
 Animator:
   serializedVersion: 3
@@ -139,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 20
+  MaxHealth: 170
   CurrentHealth: 0
   coin: {fileID: 5869864426067620081, guid: 52a9a7648805dd649b0ba255570b7a5a, type: 3}
   anim: {fileID: 93125116836054684}
@@ -192,3 +196,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3037544, y: 0.50253993}
   m_EdgeRadius: 0
+--- !u!114 &-8421947330498257928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5256094312025177033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

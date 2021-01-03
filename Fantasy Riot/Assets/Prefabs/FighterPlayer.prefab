@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6292542961840878317
 Transform:
   m_ObjectHideFlags: 0
@@ -366,6 +366,8 @@ MonoBehaviour:
   maxHp: 124
   attack: 22
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
+  anim: {fileID: 6292542963134921631}
+  anim1: {fileID: 6292542963285278369}
 --- !u!1 &6292542963134921630
 GameObject:
   m_ObjectHideFlags: 0

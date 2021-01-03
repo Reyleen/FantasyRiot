@@ -38,11 +38,11 @@ public class PlayerHealthManager : MonoBehaviour
 
     public void HurtPlayer(int damageToGive)
     {
-        playerCurrentHealth -= damageToGive;
+        plaSta.currentHp -= damageToGive;
     }
 
     public void setMaxHealth()
     {
-        playerCurrentHealth = playerMaxHealth;
+        plaSta.currentHp = plaSta.maxHp;
     }
 }

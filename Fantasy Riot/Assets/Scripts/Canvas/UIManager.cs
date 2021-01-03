@@ -8,20 +8,20 @@ public class UIManager : MonoBehaviour
 {
     public Slider healthBar;
     public Text HPText;
-    private PlayerHealthManager playerHealth;
+    private PlayerStatus playerHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealthManager>();
-        healthBar.maxValue = playerHealth.playerMaxHealth;
+        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatus>();
+        healthBar.maxValue = playerHealth.maxHp;
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.value = playerHealth.playerCurrentHealth;
-        HPText.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;        
+        healthBar.value = playerHealth.currentHp;
+        HPText.text = "HP: " + playerHealth.currentHp + "/" + playerHealth.maxHp;        
     }
 
 }

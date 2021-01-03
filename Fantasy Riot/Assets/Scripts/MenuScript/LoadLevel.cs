@@ -12,23 +12,38 @@ public class LoadLevel : MonoBehaviour
 
     public void LoadScreen(string stringa)
     {
-        Debug.Log("prova");
+        
         StartCoroutine(LoadAsynchronously(stringa));
     }
 
     IEnumerator LoadAsynchronously(string stringa)
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+        if (stringa != "Random")
+        {
+            AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+            while (!operation.isDone)
+            {
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                yield return null;
+            }
+        } else
+        {
+            int index = Random.Range(5, 6);
+            AsyncOperation operation = SceneManager.LoadSceneAsync(index);
+            while (!operation.isDone)
+            {
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                yield return null;
+            }
+        }
 
         loadingScreen.SetActive(true);
 
-        while (!operation.isDone)
-        {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-            slider.value = progress;
-            progressText.text = progress * 100 + "%";
-            yield return null;
-        }
+
 
     }
 }

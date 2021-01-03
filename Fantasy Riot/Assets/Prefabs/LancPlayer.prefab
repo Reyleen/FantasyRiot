@@ -586,6 +586,8 @@ MonoBehaviour:
   maxHp: 72
   attack: 12
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
+  anim: {fileID: 7793864128974716940}
+  anim1: {fileID: 7793864128636694291}
 --- !u!1 &9144520766621163432
 GameObject:
   m_ObjectHideFlags: 0

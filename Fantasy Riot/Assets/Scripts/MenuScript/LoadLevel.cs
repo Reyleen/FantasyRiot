@@ -26,10 +26,9 @@ public class LoadLevel : MonoBehaviour
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
             slider.value = progress;
-            progressText.text = progress * 100f + "%";
+            progressText.text = progress * 100 + "%";
             yield return null;
         }
 
     }
-
 }

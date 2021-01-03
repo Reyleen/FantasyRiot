@@ -123,6 +123,8 @@ public class TowerReturn : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Input.multiTouchEnabled = false;
+
         if (Input.touchCount == 1 && Locked)
         {
             touch = Input.GetTouch(0);
@@ -130,30 +132,31 @@ public class TowerReturn : MonoBehaviour
             touchPos.z = 0;
             RaycastHit2D hit = Physics2D.Raycast(touchPos, (Input.GetTouch(0).position));
 
-            Debug.Log("Toccato schermo");
 
             if (hit.collider != null && hit.collider.tag == "Tower")
             {
-                Debug.Log("Toccata torre");
-
                 if (Fire == true)
                 {
-                    hit.collider.GetComponent<Tower>().Select();
+                    Debug.Log("fire tower touched");
+                    hit.collider.GetComponentInChildren<Tower>().Select();
                 }
 
                 if (Earth == true)
                 {
-                    hit.collider.GetComponent<Golem>().Select();
+                    Debug.Log("earth tower touched");
+                    hit.collider.GetComponentInChildren<Golem>().Select();
                 }
 
                 if (Air == true)
                 {
-                    hit.collider.GetComponent<Air>().Select();
+                    Debug.Log("air tower touched");
+                    hit.collider.GetComponentInChildren<Air>().Select();
                 }
 
-                if (Water == true)
+                if (Water == true) 
                 {
-                    hit.collider.GetComponent<IceTower>().Select();
+                    Debug.Log("ice tower touched");
+                    hit.collider.GetComponentInChildren<IceTower>().Select();
                 }
             }
         }

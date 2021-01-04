@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7617660360589604221}
   - component: {fileID: 4329855321228550544}
   - component: {fileID: 74613388135031110}
+  - component: {fileID: 2739455968517224553}
   m_Layer: 0
   m_Name: Range
   m_TagString: RangeTower
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5574309310715466583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.004, y: -0.04, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 3174996740842506383}
   m_RootOrder: 0
@@ -114,6 +115,27 @@ MonoBehaviour:
   ballPre: {fileID: 268806901485347876, guid: c2af78bfcf34bb8419705e176ec67392, type: 3}
   cooldown: 2
   projectileSpeed: 6
+--- !u!50 &2739455968517224553
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5574309310715466583}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8907366300788112933
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +151,7 @@ GameObject:
   - component: {fileID: 6497662237232840969}
   - component: {fileID: 4495053741662781124}
   - component: {fileID: -1118391709403136453}
-  - component: {fileID: 9098766152868739089}
+  - component: {fileID: 6308880857095390473}
   m_Layer: 0
   m_Name: InfernalTower
   m_TagString: Tower
@@ -256,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
-  costTower: 3
+  costTower: 10
   mov: 0
   spawned: 0
   Fire: 1
@@ -293,10 +315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bb016f22751944a838fc51fdbd48f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerHp: 50
+  TowerHp: 35
   CurrentTowerHp: 0
---- !u!61 &9098766152868739089
-BoxCollider2D:
+--- !u!60 &6308880857095390473
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -308,7 +330,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021863975, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -318,6 +340,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4322921, y: 0.64}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.12, y: -0.08}
+      - {x: 0.05118838, y: -0.16045974}
+      - {x: 0.15466547, y: 0.11083186}
+      - {x: 0.031500913, y: 0.29849917}
+      - {x: -0.049999997, y: 0.2984991}
+      - {x: -0.15616639, y: 0.10699824}
+      - {x: -0.109331034, y: -0.02683544}
+      - {x: -0.23849909, y: -0.046166383}
+      - {x: -0.23849909, y: -0.16916804}
+      - {x: -0.17866205, y: -0.22983702}
+      - {x: -0.19999999, y: -0.26999998}
+      - {x: -0.08466547, y: -0.30466548}
+      - {x: 0.10632927, y: -0.30083185}
+      - {x: 0.19, y: -0.26999998}
+      - {x: 0.16699828, y: -0.104665466}
+      - {x: 0.11482842, y: -0.09083194}

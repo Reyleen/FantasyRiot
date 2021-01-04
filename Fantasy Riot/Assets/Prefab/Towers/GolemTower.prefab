@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2320755635363518126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.18, z: 0}
-  m_LocalScale: {x: 1.8686467, y: 0.6085881, z: 1}
+  m_LocalPosition: {x: 0, y: -0.14, z: 0}
+  m_LocalScale: {x: 1.6993859, y: 0.5154947, z: 1}
   m_Children: []
   m_Father: {fileID: 4562003769846472594}
   m_RootOrder: 0
@@ -248,9 +248,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec1534501d7c744397b4d9ff93e6abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAttack: 10
+  damageAttack: 6
   attackDelay: 2.5
-  cooldown: 6
+  cooldown: 4
 --- !u!1 &6134797277603510831
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 1973949149363428019}
   - component: {fileID: -8451778555139296402}
   - component: {fileID: -7591254802600263414}
-  - component: {fileID: 6698734976777389470}
+  - component: {fileID: 975606203519874513}
   m_Layer: 0
   m_Name: GolemTower
   m_TagString: Tower
@@ -283,7 +283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6134797277603510831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.82, y: 1.1, z: 0}
+  m_LocalPosition: {x: -4.33, y: 0.36, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 3092315336867834924}
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
-  costTower: 2
+  costTower: 10
   mov: 0
   spawned: 0
   Fire: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bb016f22751944a838fc51fdbd48f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerHp: 50
+  TowerHp: 80
   CurrentTowerHp: 0
 --- !u!114 &-8451778555139296402
 MonoBehaviour:
@@ -446,8 +446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   status: {fileID: 3734539317373816334}
---- !u!61 &6698734976777389470
-BoxCollider2D:
+--- !u!60 &975606203519874513
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -456,10 +456,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0019768476}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -469,6 +469,59 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.596511}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19545949, y: 0.13715056}
+      - {x: 0.20584555, y: 0.25}
+      - {x: 0.12637824, y: 0.30584556}
+      - {x: 0.040062785, y: 0.2917212}
+      - {x: 0.048511226, y: 0.21176018}
+      - {x: -0.024540678, y: 0.24768327}
+      - {x: -0.064540505, y: 0.28545943}
+      - {x: -0.1437682, y: 0.26845548}
+      - {x: -0.18676445, y: 0.19492674}
+      - {x: -0.16014652, y: 0.13492668}
+      - {x: -0.118355565, y: 0.09942878}
+      - {x: -0.11415304, y: 0.076726384}
+      - {x: -0.19674234, y: 0.15040869}
+      - {x: -0.27333668, y: 0.14868674}
+      - {x: -0.29954526, y: 0.1324232}
+      - {x: -0.3003686, y: 0.005919073}
+      - {x: -0.27753642, y: 0.0037683118}
+      - {x: -0.28115794, y: -0.06218701}
+      - {x: -0.30169111, y: -0.099999994}
+      - {x: -0.31159136, y: -0.24774109}
+      - {x: -0.26545933, y: -0.24584556}
+      - {x: -0.20330936, y: -0.24527676}
+      - {x: -0.16415451, y: -0.2892277}
+      - {x: -0.013816163, y: -0.28398648}
+      - {x: -0.031935975, y: -0.2458851}
+      - {x: 0.021242179, y: -0.24883932}
+      - {x: 0.015622813, y: -0.27597862}
+      - {x: 0.14999999, y: -0.31}
+      - {x: 0.18588531, y: -0.24847141}
+      - {x: 0.3033997, y: -0.24165006}
+      - {x: 0.2989233, y: -0.044936076}
+      - {x: 0.29545948, y: 0.007371377}
+      - {x: 0.2960793, y: 0.03235258}
+      - {x: 0.29513258, y: 0.14182706}
+      - {x: 0.20251071, y: 0.13908012}
+      - {x: 0.12613611, y: 0.09002112}
+      - {x: 0.12637821, y: 0.1241544}
+    - - {x: 0.14, y: -0.08}
+      - {x: 0.16, y: -0.07}
+      - {x: 0.17999999, y: -0.03}
+      - {x: 0.19, y: -0.02}
+      - {x: 0.17999999, y: -0.03}
+      - {x: 0.17999999, y: -0.07}
+      - {x: 0.17, y: -0.08}
+      - {x: 0.16, y: -0.08}
+      - {x: 0.13, y: -0.11}
+      - {x: 0.14, y: -0.11}
+    - - {x: -0.17999999, y: -0.07}
+      - {x: -0.17999999, y: -0.03}
+      - {x: -0.17, y: -0.03}
+      - {x: -0.17, y: -0.04}
+      - {x: -0.14, y: -0.089999996}
+      - {x: -0.14, y: -0.099999994}
+      - {x: -0.14, y: -0.089999996}

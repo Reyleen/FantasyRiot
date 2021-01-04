@@ -121,7 +121,7 @@ public class Air : MonoBehaviour
                     {
                         foreach (Enemy enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 2);
                             Debug.Log("MORE Damage");
                             MoreStun = 1f;
                             enemy.gameObject.GetComponent<Enemy>().Stun();
@@ -136,9 +136,9 @@ public class Air : MonoBehaviour
                     {
                         foreach (Enemy enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4);
                             Debug.Log("MORE MORE Damage");
-                            MoreStun = 2f;
+                            MoreStun = 1.5f;
                             enemy.gameObject.GetComponent<Enemy>().Stun();
                             Debug.Log("Stunned");
                             stunned = true;
@@ -151,9 +151,9 @@ public class Air : MonoBehaviour
                     {
                         foreach (Enemy enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6);
                             Debug.Log("MORE MORE MORE Damage");
-                            MoreStun = 3f;
+                            MoreStun = 2f;
                             enemy.gameObject.GetComponent<Enemy>().Stun();
                             Debug.Log("Stunned");
                             stunned = true;

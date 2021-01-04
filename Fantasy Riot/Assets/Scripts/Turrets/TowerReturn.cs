@@ -15,7 +15,7 @@ public class TowerReturn : MonoBehaviour
     private Vector3 touchPos;
     private Rigidbody2D rb;
     private Vector3 direction;
-    private float moveSpeed = 10f;
+    private float moveSpeed = 50f;
     private GoldManager gold;
     
     [SerializeField]
@@ -106,6 +106,8 @@ public class TowerReturn : MonoBehaviour
                             waterTw.Select();
                         }
 
+                            
+
                         nTower.Count(1);
                     }
                     
@@ -123,17 +125,16 @@ public class TowerReturn : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Input.multiTouchEnabled = false;
-
-        if (Input.touchCount == 1 && Locked)
+        if (Input.touchCount > 0 && Locked )
         {
             touch = Input.GetTouch(0);
+            Debug.Log(touch);
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             touchPos.z = 0;
-            RaycastHit2D hit = Physics2D.Raycast(touchPos, (Input.GetTouch(0).position));
+            RaycastHit2D hit = Physics2D.Raycast(touchPos, (touch.position));
 
-
-            if (hit.collider != null && hit.collider.tag == "Tower")
+                if (touch.phase == TouchPhase.Ended)
+                    if (hit.collider != null && hit.collider.tag == "Tower")
             {
                 if (Fire == true)
                 {
@@ -161,5 +162,4 @@ public class TowerReturn : MonoBehaviour
             }
         }
     }
-
 }

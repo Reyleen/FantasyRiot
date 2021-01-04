@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2880227749996436058}
   - component: {fileID: 1647893927665603139}
   - component: {fileID: -2924763585894956646}
-  - component: {fileID: 2233382487268898437}
+  - component: {fileID: 7437367196491509461}
   m_Layer: 0
   m_Name: CrystalTower
   m_TagString: Tower
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
-  costTower: 5
+  costTower: 7
   mov: 0
   spawned: 0
   Fire: 0
@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: {fileID: 2880227749996436058}
   anim: {fileID: 6741199717201889952}
---- !u!61 &2233382487268898437
-BoxCollider2D:
+--- !u!60 &7437367196491509461
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -191,10 +191,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016336203, y: 0.006534457}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -204,9 +204,68 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4831726, y: 0.6269311}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.17, y: -0.06}
+      - {x: 0.14999999, y: -0.06}
+      - {x: 0.12, y: -0.089999996}
+      - {x: 0.14, y: -0.06}
+      - {x: 0.16, y: -0.06}
+      - {x: 0.17999999, y: -0.049999997}
+      - {x: 0.19, y: -0.01}
+      - {x: 0.17, y: 0.01}
+      - {x: 0.14, y: 0.02}
+      - {x: 0.16, y: 0.07}
+      - {x: 0.16, y: 0.089999996}
+      - {x: 0.14, y: 0.14}
+      - {x: 0.099999994, y: 0.22}
+      - {x: 0.02, y: 0.29999998}
+      - {x: -0.03, y: 0.29999998}
+      - {x: -0.11, y: 0.24}
+      - {x: -0.26999998, y: -0.14}
+      - {x: -0.26999998, y: -0.26}
+      - {x: -0.26, y: -0.28}
+      - {x: -0.089999996, y: -0.31}
+      - {x: 0.13, y: -0.31}
+      - {x: 0.22999999, y: -0.26999998}
+      - {x: 0.22999999, y: -0.099999994}
+    - - {x: -0.12, y: -0.099999994}
+      - {x: -0.14, y: -0.08}
+      - {x: -0.12, y: -0.11}
+      - {x: -0.11, y: -0.11}
+      - {x: -0.089999996, y: -0.08}
+      - {x: -0.12, y: -0.099999994}
+      - {x: -0.11, y: -0.14}
+      - {x: -0.099999994, y: -0.13}
+    - - {x: -0.17999999, y: 0.14999999}
+      - {x: -0.19999999, y: 0.11}
+      - {x: -0.19999999, y: 0.089999996}
+      - {x: -0.17999999, y: 0.08}
+      - {x: -0.14999999, y: 0.08}
+      - {x: -0.13, y: 0.099999994}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.14999999, y: 0.14999999}
+    - - {x: 0.13, y: 0.11}
+      - {x: 0.19, y: 0.11}
+      - {x: 0.21, y: 0.12}
+      - {x: 0.21, y: 0.16}
+      - {x: 0.16, y: 0.22}
+      - {x: 0.099999994, y: 0.22}
+      - {x: 0.089999996, y: 0.21}
+      - {x: 0.089999996, y: 0.17}
+    - - {x: -0.14, y: 0.24}
+      - {x: -0.13, y: 0.21}
+      - {x: -0.089999996, y: 0.21}
+      - {x: -0.07, y: 0.22}
+      - {x: -0.07, y: 0.25}
+      - {x: -0.08, y: 0.28}
+      - {x: -0.12, y: 0.28}
+      - {x: -0.14, y: 0.26999998}
+    - - {x: 0.04, y: 0.32}
+      - {x: 0.04, y: 0.28}
+      - {x: 0.049999997, y: 0.26}
+      - {x: 0.11, y: 0.26}
+      - {x: 0.11, y: 0.32}
 --- !u!1 &5875445030217025025
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e21dcfca996594b9060e9bf4117eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageField: 2
+  damageField: 3
   cooldown: 3
 --- !u!60 &8490100616025657804
 PolygonCollider2D:

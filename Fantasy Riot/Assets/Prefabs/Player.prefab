@@ -143,6 +143,8 @@ MonoBehaviour:
   maxHp: 50
   attack: 0
   gemMan: {fileID: 0}
+  anim: {fileID: 0}
+  anim1: {fileID: 0}
 --- !u!1 &8611908972583483576
 GameObject:
   m_ObjectHideFlags: 0

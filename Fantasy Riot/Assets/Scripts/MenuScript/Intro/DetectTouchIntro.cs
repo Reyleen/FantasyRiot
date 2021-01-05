@@ -24,6 +24,7 @@ public class DetectTouchIntro : MonoBehaviour
         {
             if ((Input.touchCount > 0 || Input.GetMouseButtonDown(0)) && clicked)
             {
+                Debug.Log(PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"));
                 if (PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"))
                 {
                     au.emailLoginField.text = PlayerPrefs.GetString("Email");

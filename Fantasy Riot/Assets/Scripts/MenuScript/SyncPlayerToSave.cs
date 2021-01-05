@@ -16,31 +16,35 @@ public class SyncPlayerToSave : MonoBehaviour
     }
     private void Awake()//control if it's the first time the player joined the game
     {
-        /*if ((PlayerPrefs.HasKey("Joined")) && (SceneManager.GetActiveScene().name != "Intro"))
-        {
-            if (PlayerPrefs.GetInt("Joined") == 1)
-            {
-            //_playerSaveManager.ChangePLAYER_KEY(PlayerPrefs.GetString("Email").Replace(".", ","));
-            _playerSaveManager.DB();
-            SDB();
-            PlayerPrefs.SetInt("Joined", 0);
-            }
-        }*/
+        
     }
     public void SDB()//Sync data
     {
         _playerSaveManager.OnPlayerUpdated.AddListener(HandlePlayerSaveUpdated);
         _player.OnPlayerUpdate.AddListener(HandlePlayerUpdate);
+        _playerSaveManager.OnPlayerUpdated2.AddListener(HandlePlayerSaveUpdated2);
+        _player.OnPlayerUpdate2.AddListener(HandlePlayerUpdate2);
+        Debug.Log("Entering Update()");
         _player.UpdateThings(_playerSaveManager.LastPlayerData);
+        Debug.Log("Entering Update2()");
+        _player.UpdateScore(_playerSaveManager.LastPlayerScore);
+        Debug.Log("Exiting Update2()");
     }
 
     private void HandlePlayerSaveUpdated(PlayerData playerData)
     {
         _player.UpdateThings(playerData);
     }
-
+    private void HandlePlayerSaveUpdated2(PlayerScore playerData)
+    {
+        _player.UpdateScore(playerData);
+    }
     private void HandlePlayerUpdate()
     {
-        _playerSaveManager.SavePlayer(_player.PlayerData,false);
+        _playerSaveManager.SaveScore(_player.PlayerScore,false);
+    }
+    private void HandlePlayerUpdate2()
+    {
+        _playerSaveManager.SaveScore(_player.PlayerScore, false);
     }
 }

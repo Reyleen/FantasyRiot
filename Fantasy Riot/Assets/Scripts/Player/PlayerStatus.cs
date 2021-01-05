@@ -22,6 +22,7 @@ public class PlayerStatus : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        setMaxHealth();
         nextLevelGems = new int[maxLevel + 1];
         nextLevelGems[1] = 100;
         deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();

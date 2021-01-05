@@ -25,7 +25,7 @@ public class DestroyCanvas : MonoBehaviour
 
     public void Destroy()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
         Destroy(pcamera);
         Destroy(player);
     }

@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
 {
     [SerializeField]
     private PlayerData _playerData;
+    [SerializeField]
+    private PlayerScore _playerScore;
 
     public PlayerData PlayerData =>_playerData;
     public string User => _playerData.User;
@@ -30,30 +32,40 @@ public class Player : MonoBehaviour
     public bool L2 => _playerData.L2;
     public bool L3 => _playerData.L3;
     public bool L4 => _playerData.L4;
-    public UnityEvent OnPlayerUpdate = new UnityEvent();
 
+    public PlayerScore PlayerScore => _playerScore;
+    public string Username => _playerScore.Username;
+    public int UserScore => _playerScore.UserScore;
+
+    public UnityEvent OnPlayerUpdate = new UnityEvent();
+    public UnityEvent OnPlayerUpdate2 = new UnityEvent();
     [Header("Info Chamge")]
     public TMP_Text Users;
     public TMP_Text Gems;
     public TMP_Text other;
 
-    public void SetThings(int val)
-    {
-        if (!val.Equals(Gemms))
-        {
-            _playerData.Gemms = val;
-        }
-    }
     public void UpdateThings(PlayerData playerData)
     {
+        Debug.Log("Updating Player");
         if (!playerData.Equals(_playerData))
         {
+            Debug.Log("Update Player");
             _playerData = playerData;
+        }
+    }
+    public void UpdateScore(PlayerScore playerScore)
+    {
+        Debug.Log("Updating Score");
+        if (!playerScore.Equals(_playerScore))
+        {
+            Debug.Log("Update score");
+            _playerScore = playerScore;
         }
     }
     public void Switch(string stringa)
     {
         _playerData.User = stringa;
+        _playerScore.Username = stringa;
     }
     public void UpdateScreen()
     {

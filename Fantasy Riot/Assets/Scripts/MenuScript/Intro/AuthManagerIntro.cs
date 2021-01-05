@@ -200,14 +200,15 @@ public class AuthManagerIntro : MonoBehaviour
                         //Now return to login screeen
                         warningRegisterText.text = "";
                         PlayerPrefs.SetString("ActualUser", User.UserId);
+                        PlayerPrefs.SetString("Email", _email);
+                        PlayerPrefs.SetString("Password", _password);
+                        PlayerPrefs.SetInt("Joined", 1);
                         string Register = usernameRegisterField.text;
                         _player.Switch(Register);
                         a.DB();
                         a.SavePlayer(_player.PlayerData, true);
+                        a.SaveScore(_player.PlayerScore, true);
                         PanelManager2.instance.CloseRegister();
-                        PlayerPrefs.SetString("Email", _email);
-                        PlayerPrefs.SetString("Password", _password);
-                        PlayerPrefs.SetInt("Joined", 1);
                         b.changeLevel();
                     }
                 }

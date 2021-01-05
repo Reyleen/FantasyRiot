@@ -12,6 +12,7 @@ public class PanelManager : MonoBehaviour
     public GameObject ALoginUI;
     public GameObject FirstPanel;
     public GameObject Recover;
+    public GameObject Rank;
     public Player _player;
     private void Awake()
     {
@@ -92,5 +93,15 @@ public class PanelManager : MonoBehaviour
     {
         loginUI.SetActive(true);
         Recover.SetActive(false);
+    }
+    public void Scoreboard()
+    {
+        FirstPanel.SetActive(false);
+        Rank.SetActive(true);
+    }
+    public void BackFromScoreboard()
+    {
+        FirstPanel.SetActive(true);
+        Rank.SetActive(false);
     }
 }

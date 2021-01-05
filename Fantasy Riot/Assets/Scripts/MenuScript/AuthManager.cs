@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Firebase;
 using Firebase.Auth;
-using TMPro;
 using Firebase.Database;
+using TMPro;
+using System.Linq;
 /* this is the authentication manager. It works with firebase Auth.*/
 public class AuthManager : MonoBehaviour
 {
@@ -34,11 +35,15 @@ public class AuthManager : MonoBehaviour
     public TMP_Text warningRecoverText;
 
     //AfterLogged
-    [Header("Other")]
+    [Header("UserData")]
     public TMP_Text Username;
     public Player _player;
     public SaveSystem a;
     public SyncPlayerToSave a1;
+    public TMP_Text UserScore;
+    public TMP_Text Score;
+    public GameObject scoreElement;
+    public Transform scoreboardContnent;
 
     private void Awake()//start auth
     {
@@ -63,6 +68,10 @@ public class AuthManager : MonoBehaviour
         _player = GameObject.Find("PlayerThings/Player").GetComponent<Player>();
         a = s.GetComponent<SaveSystem>();
         a1 = s.GetComponent<SyncPlayerToSave>();
+    }
+    public void ScoreBoardButton()
+    {
+        StartCoroutine(LoadScoreboardData());
     }
     public void LogOut()//logout function
     {
@@ -213,6 +222,7 @@ public class AuthManager : MonoBehaviour
                         _player.Switch(Register);
                         a.DB();
                         a.SavePlayer(_player.PlayerData, true);
+                        a.SaveScore(_player.PlayerScore, true);
                         PanelManager.instance.ToAccountScreenFromRegister();
                         PlayerPrefs.SetString("Email", _email);
                         PlayerPrefs.SetString("Password", _password);
@@ -294,6 +304,35 @@ public class AuthManager : MonoBehaviour
             //email sent
             warningRecoverText.text = "Email sent";
             PanelManager.instance.FromPassRecover();
+        }
+    }
+    private IEnumerator LoadScoreboardData()
+    {
+        var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").GetValueAsync();
+
+        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
+
+        if (DBTask.Exception != null)
+        {
+            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
+        }
+        else
+        {
+            DataSnapshot snapshot = DBTask.Result;
+
+            foreach(Transform Child in scoreboardContnent.transform)
+            {
+                Destroy(Child.gameObject);
+            }
+            foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
+            {
+                string username = childSnapshot.Child("Username").Value.ToString();
+                int score = int.Parse(childSnapshot.Child("UserScore").Value.ToString());
+                Debug.Log("User " + username + " Score " + score);
+                GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
+                scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(username, score);
+            }
+            PanelManager.instance.Scoreboard();
         }
     }
 }

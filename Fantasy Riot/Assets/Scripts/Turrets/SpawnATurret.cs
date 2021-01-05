@@ -32,10 +32,10 @@ public class SpawnATurret : MonoBehaviour
     } 
     public void PurchaseInfernalTower()
     {
-        if (gold.currentGold >= 3 && HasSpawned == false)
+        if (gold.currentGold >= 10 && HasSpawned == false)
         {
             Instantiate(InfernalTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-3);
+            gold.AddMoney(-10);
             HasSpawned = true;
         }
         
@@ -43,10 +43,10 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseGolemTower()
     {
-        if (gold.currentGold >= 2 && HasSpawned == false)
+        if (gold.currentGold >= 10 && HasSpawned == false)
         {
             Instantiate(GolemTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-2);
+            gold.AddMoney(-10);
             HasSpawned = true;
         }
         
@@ -54,10 +54,10 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseIceTower()
     {
-        if(gold.currentGold >=5 && HasSpawned == false)
+        if(gold.currentGold >=7 && HasSpawned == false)
         {
             Instantiate(IceTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-5);
+            gold.AddMoney(-7);
             HasSpawned = true;
         }
         
@@ -65,10 +65,10 @@ public class SpawnATurret : MonoBehaviour
 
     public void PurchaseAirTower()
     {
-        if (gold.currentGold >= 3 && HasSpawned == false)
+        if (gold.currentGold >= 12 && HasSpawned == false)
         {
             Instantiate(AirTower, new Vector3(PlayerPosition.position.x + 1f, PlayerPosition.position.y, 0), transform.rotation);
-            gold.AddMoney(-3);
+            gold.AddMoney(-12);
             HasSpawned = true;
         }
     }

@@ -17,9 +17,9 @@ public class WaveSpawner : MonoBehaviour
         public Transform enemy1;
         public int count;
         public int count1;
-        public float rate;
+        public float rate; 
     }
-    public GameObject TowerUI;
+    //public GameObject TowerUI;
     public Wave[] waves;
 
     public int nextWave = 0;
@@ -36,14 +36,17 @@ public class WaveSpawner : MonoBehaviour
     public GameObject bottoneNext;
     public TMP_Text timer;
 
+    private WinnerPanel winner;
+
     void Start()
     {
-        TowerUI = GameObject.FindGameObjectWithTag("TowerManager");
+        //TowerUI = GameObject.FindGameObjectWithTag("TowerManager");
         StarWaveSpowner = false;
         state = SpawnState.WAITING;
+        winner = GameObject.Find("Canvas").transform.Find("WinnerPanel").GetComponent<WinnerPanel>();
     }
 
-    void Update()
+    void Update() 
     {
         if (!StarWaveSpowner)
             return;
@@ -52,7 +55,6 @@ public class WaveSpawner : MonoBehaviour
             if (!EnemyIsAlive())
             {
                 WaveCompleted();
-                
                 return;
             }
             else
@@ -64,7 +66,7 @@ public class WaveSpawner : MonoBehaviour
 
             if (waveCountdown <= 0)
             {
-                TowerUI.SetActive(false);
+                //TowerUI.SetActive(false);
                 if (state != SpawnState.SPAWNING)
                 {
                     StartCoroutine(SpawnWave(waves[nextWave]));
@@ -74,10 +76,11 @@ public class WaveSpawner : MonoBehaviour
             else
             {
                 waveCountdown -= Time.deltaTime;
-            string minutes = ((int)waveCountdown / 60).ToString();
-            string seconds = (waveCountdown % 60).ToString("f0");
-            timer.text = minutes + ":" + seconds;
+                string minutes = ((int)waveCountdown / 60).ToString();
+                string seconds = (waveCountdown % 60).ToString("f0");
+                timer.text = minutes + ":" + seconds;
             }
+
     }
     public void startWave()
     {
@@ -95,16 +98,18 @@ public class WaveSpawner : MonoBehaviour
         state = SpawnState.COUNTING;
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
-        TowerUI.SetActive(true);
+        //TowerUI.SetActive(true);
         bottoneGo.SetActive(true);
-        if (nextWave + 1 > waves.Length -1)
-        {
-            nextWave = 0;
-        } else
+        if (nextWave < waves.Length -1)
         {
             nextWave++;
-        }
+        } 
 
+        else if (nextWave == waves.Length)
+        {
+            winner.ToggleWinPan();
+            Time.timeScale = 0f;
+        }
     }
 
     bool EnemyIsAlive()

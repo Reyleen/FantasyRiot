@@ -125,7 +125,7 @@ public class TowerReturn : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.touchCount > 0 && Locked )
+        if (Input.touchCount > 0 && Locked)
         {
             touch = Input.GetTouch(0);
             Debug.Log(touch);
@@ -133,8 +133,7 @@ public class TowerReturn : MonoBehaviour
             touchPos.z = 0;
             RaycastHit2D hit = Physics2D.Raycast(touchPos, (touch.position));
 
-                if (touch.phase == TouchPhase.Ended)
-                    if (hit.collider != null && hit.collider.tag == "Tower")
+            if (hit.collider != null && hit.collider.tag == "Tower")
             {
                 if (Fire == true)
                 {

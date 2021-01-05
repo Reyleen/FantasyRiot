@@ -9,6 +9,10 @@ public class LoadLevel : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
     public Text progressText;
+    public bool skip = false;
+
+    public GameObject arc, war, wit, pal;
+    public GameObject[] tips;
 
     public void LoadScreen(string stringa)
     {
@@ -18,18 +22,53 @@ public class LoadLevel : MonoBehaviour
 
     IEnumerator LoadAsynchronously(string stringa)
     {
-        if (stringa != "Random")
+        if (stringa == "Story")
         {
             AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+
+            operation.allowSceneActivation = false;
+            loadingScreen.SetActive(true);
+            pal.SetActive(true);
             while (!operation.isDone)
             {
+
                 float progress = Mathf.Clamp01(operation.progress / .9f);
                 slider.value = progress;
                 progressText.text = progress * 100 + "%";
+                if (skip)
+                {
+                    operation.allowSceneActivation = true;
+                }
+                skip = false;
                 yield return null;
             }
-        } else
+        }
+        else if (stringa == "Dungeon")
         {
+            AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+
+            operation.allowSceneActivation = false;
+            loadingScreen.SetActive(true);
+            wit.SetActive(true);
+            while (!operation.isDone)
+            {
+
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                if (skip)
+                {
+                    skip = false;
+                    operation.allowSceneActivation = true;
+                }
+                yield return null;
+            }
+        }
+        else if (stringa == "Random")
+        {
+            loadingScreen.SetActive(true);
+            int ran = Random.Range(1, 4);
+            tips[ran].SetActive(true);
             int index = Random.Range(5, 6);
             AsyncOperation operation = SceneManager.LoadSceneAsync(index);
             while (!operation.isDone)
@@ -37,13 +76,33 @@ public class LoadLevel : MonoBehaviour
                 float progress = Mathf.Clamp01(operation.progress / .9f);
                 slider.value = progress;
                 progressText.text = progress * 100 + "%";
+                if (skip)
+                {
+                    skip = false;
+                    operation.allowSceneActivation = true;
+                }
                 yield return null;
             }
         }
+        else
+        {
+            AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+            loadingScreen.SetActive(true);
+            int ran = Random.Range(1, 4);
+            tips[ran].SetActive(true);
+            while (!operation.isDone)
+            {
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                yield return null;
+            }
 
-        loadingScreen.SetActive(true);
+        }
+    }
 
-
-
+    public void Go()
+    {
+        skip = true;
     }
 }

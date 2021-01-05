@@ -5,9 +5,11 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     public float speed;
-
+    public Rigidbody2D rb;
     private Transform player;
     private Vector2 target;
+
+    public int damageToGive;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +28,30 @@ public class EnemyBullet : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<PlayerStatus>().HurtPlayer(damageToGive);
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
+            this.transform.parent = other.transform;
+            Destroy(gameObject, 2.0f);
+        }
+
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC" || other.gameObject.tag == "Tower" || other.gameObject.tag == "RangeTower")
+        {
+
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
+            Destroy(gameObject, 2.0f);
+        }
+
+
     }
 }

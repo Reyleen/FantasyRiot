@@ -28,7 +28,7 @@ public class HurtPlayer : MonoBehaviour
             if (Time.time > nextHitAllowed + hitDelay)
             {
                 nextHitAllowed = Time.time + hitDelay;
-                other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+                other.gameObject.GetComponent<PlayerStatus>().HurtPlayer(damageToGive);
 
             }
         }

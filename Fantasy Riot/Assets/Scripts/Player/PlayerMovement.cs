@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         joystick = FindObjectOfType<FixedJoystick>();
         aimStick = FindObjectOfType<VariableJoystick>();
-        DontDestroyOnLoad(transform.gameObject);
+        //DontDestroyOnLoad(transform.gameObject);
     }
 
     void Update()

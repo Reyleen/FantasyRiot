@@ -726,6 +726,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tot: 0
+--- !u!114 &960233440 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4698702586232359244, guid: ac22726db071bb94e9172be91a2350f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1787907564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f287d9b8aa6784b956369a0a6888f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1064320403 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1142854355259991466, guid: ac22726db071bb94e9172be91a2350f8,
@@ -1397,12 +1409,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 10.099976
       objectReference: {fileID: 0}
+    - target: {fileID: 2426911128482214095, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426911128556068840, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3550961202848434652, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -10
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6964601611094201051, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 960233440}
+    - target: {fileID: 6964601611094201051, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Go
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7950717381909997604, guid: ac22726db071bb94e9172be91a2350f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ac22726db071bb94e9172be91a2350f8, type: 3}
 --- !u!114 &1815217721 stripped
 MonoBehaviour:

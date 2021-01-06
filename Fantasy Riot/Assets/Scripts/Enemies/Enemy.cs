@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 2f;
 
-    private Transform target;
+    public Transform target;
     private int wavepointIndex = 0;
     public Rigidbody2D rb;
     private Transform player;
@@ -35,17 +35,25 @@ public class Enemy : MonoBehaviour
     GameObject tw;
     private CountTower nTower;
 
+    public WaveSpawner wa;
     // Start is called before the first frame update
     void Start()
     {
-        target = Waypoints.points[0];
+        
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         anim = GetComponent<Animator>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
-
+        if (wa.road)
+        {
+            target = Waypoints.points[0];
+        } else 
+        {
+            target = Waypoints1.points[0];
+        }
+        //target = Waypoints.points[0];
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
     void UpdatePath()
@@ -86,10 +94,10 @@ public class Enemy : MonoBehaviour
                     if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
                     {
                         FollowTower();
-                    }
+                    } 
                     
                     else
-                    {
+                    { 
                         Debug.Log("Going to the waypoint");
                         if (path == null)
                             return;
@@ -139,10 +147,10 @@ public class Enemy : MonoBehaviour
                 if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     FollowPlayer();
-                }
+                } 
 
                 else
-                {
+                { 
                     Debug.Log("Going to the waypoint");
                     if (path == null)
                         return;

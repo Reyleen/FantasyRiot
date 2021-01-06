@@ -308,8 +308,8 @@ public class AuthManager : MonoBehaviour
     }
     private IEnumerator LoadScoreboardData()
     {
-        var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").GetValueAsync();
-
+        var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").LimitToLast(11).GetValueAsync();
+        
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
         if (DBTask.Exception != null)
@@ -319,18 +319,39 @@ public class AuthManager : MonoBehaviour
         else
         {
             DataSnapshot snapshot = DBTask.Result;
-
-            foreach(Transform Child in scoreboardContnent.transform)
+            foreach (Transform Child in scoreboardContnent.transform)
             {
                 Destroy(Child.gameObject);
             }
+            int i = 1;
+            bool top10=false;
             foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
             {
-                string username = childSnapshot.Child("Username").Value.ToString();
-                int score = int.Parse(childSnapshot.Child("UserScore").Value.ToString());
-                Debug.Log("User " + username + " Score " + score);
-                GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
-                scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(username, score);
+                if (i <= 10)
+                {
+                    string username = childSnapshot.Child("Username").Value.ToString();
+                    if (!_player.Username.Equals(""))
+                    {
+                        Debug.Log("Player exists");
+                        if (username == _player.Username)
+                        {
+                            top10 = true;
+                            Debug.Log("Player find");
+                        }
+                    }
+                    int score = int.Parse(childSnapshot.Child("UserScore").Value.ToString());
+                    Debug.Log(int.Parse(childSnapshot.Child("UserScore").Value.ToString()));
+                    Debug.Log("User " + username + " Score " + score);
+                    GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
+                    scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(i, username, score);
+                    i++;
+                }
+                else if((!top10) && (!_player.Username.Equals("")))
+                {
+                    Debug.Log("Player not found :(");
+                    GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
+                    scoreboardElement.GetComponent<ScoreElement>().NewScoreElement("---", _player.Username, _player.UserScore);
+                }
             }
             PanelManager.instance.Scoreboard();
         }

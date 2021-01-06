@@ -89,7 +89,7 @@ public class LoadLevel : MonoBehaviour
             AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
             loadingScreen.SetActive(true);
             int ran = Random.Range(1, 4);
-            tips[ran].SetActive(true);
+            //tips[ran].SetActive(true);
             while (!operation.isDone)
             {
                 float progress = Mathf.Clamp01(operation.progress / .9f);

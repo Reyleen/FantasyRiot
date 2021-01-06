@@ -36,6 +36,7 @@ public class Enemy : MonoBehaviour
     private CountTower nTower;
 
     public WaveSpawner wa;
+    public bool strada;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,16 +45,18 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        wa = FindObjectOfType<WaveSpawner>();
+        strada = wa.road;
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
-        if (wa.road)
+        if (strada)
         {
             target = Waypoints.points[0];
-        } else 
+        }
+        else
         {
             target = Waypoints1.points[0];
         }
-        //target = Waypoints.points[0];
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
     void UpdatePath()
@@ -250,14 +253,28 @@ public class Enemy : MonoBehaviour
 
     void GetNextWaypoint()
     {
-        if (wavepointIndex >= Waypoints.points.Length - 1)
+        if (strada)
         {
-            return;
-        }
+            if (wavepointIndex >= Waypoints.points.Length - 1)
+            {
+                return;
+            }
 
-        wavepointIndex++;
-        target = Waypoints.points[wavepointIndex];
-        way = false;
+            wavepointIndex++;
+            target = Waypoints.points[wavepointIndex];
+            way = false;
+        }
+        else
+        {
+            if (wavepointIndex >= Waypoints1.points.Length - 1)
+            {
+                return;
+            }
+
+            wavepointIndex++;
+            target = Waypoints1.points[wavepointIndex];
+            way = false;
+        }
     }
 
     GameObject FindClosestTower()

@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatus>();
+        playerHealth = FindObjectOfType<PlayerStatus>();
         healthBar.maxValue = playerHealth.maxHp;
     }
 

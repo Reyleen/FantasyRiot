@@ -115,7 +115,6 @@ public class RangedEnemy : MonoBehaviour
                     isAttacking = true;
                     Instantiate(projectile, transform.position, Quaternion.identity);
                     timeBtwShots = startTimeBtwShots;
-                    Destroy(projectile, 2.0f);
                     anim.SetFloat("AttX", dir.x);
                     anim.SetFloat("AttY", dir.y);
                     anim.SetBool("isAttacking", isAttacking);

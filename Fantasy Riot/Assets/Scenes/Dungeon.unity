@@ -776,6 +776,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2015854748854166467, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2253142038167375754, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1606,7 +1611,7 @@ PrefabInstance:
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: timeBetweenWaves
-      value: 45
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}

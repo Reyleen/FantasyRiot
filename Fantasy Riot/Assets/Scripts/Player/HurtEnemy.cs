@@ -9,9 +9,12 @@ public class HurtEnemy : MonoBehaviour
     public Rigidbody2D rb;
     public PlayerStatus plaSta;
 
+    public bool hit;
+
     // Start is called before the first frame update
     void Start()
     {
+        hit = false;
         damageToGive = plaSta.attack;
     }
 
@@ -23,11 +26,12 @@ public class HurtEnemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Enemy")
+        if(other.gameObject.tag == "Enemy" && !hit)
         {
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
+            hit = true;
             this.transform.parent = other.transform;
         }
         

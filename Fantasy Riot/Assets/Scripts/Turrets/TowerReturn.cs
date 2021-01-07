@@ -47,12 +47,15 @@ public class TowerReturn : MonoBehaviour
 
     private CountTower nTower;
 
+    private Vector2 spr;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gold = FindObjectOfType<GoldManager>();
         joystick = FindObjectOfType<FixedJoystick>();
         nTower = FindObjectOfType<CountTower>();
+        spr = GameObject.FindGameObjectWithTag("NPC").GetComponent<Renderer>().bounds.size;
     }
 
     private void Update()
@@ -81,7 +84,7 @@ public class TowerReturn : MonoBehaviour
                 rb.velocity = Vector2.zero;
                 foreach (Transform place in Placement.Placements)
                 {
-                    if (Mathf.Abs(transform.position.x - place.position.x) <= 3f && Mathf.Abs(transform.position.y - place.position.y) <= 7.4f)
+                    if (Mathf.Abs(transform.position.x - place.position.x) <= spr.x && Mathf.Abs(transform.position.y - place.position.y) <= spr.y)
                     {
                         Locked = true;
                         spawned = true;

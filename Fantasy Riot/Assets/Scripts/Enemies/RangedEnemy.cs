@@ -36,15 +36,27 @@ public class RangedEnemy : MonoBehaviour
     Seeker seeker;
     bool way = false;
 
-    // Start is called before the first frame update
+    private WaveSpawner wa;
+    public bool strada;
+    // Start is called before the first frame updateù
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        wa = FindObjectOfType<WaveSpawner>();
+        strada = wa.road;
         timeBtwShots = startTimeBtwShots;
-        target = Waypoints.points[0];
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         seeker = GetComponent<Seeker>();
+        if (strada)
+        {
+            target = Waypoints.points[0];
+        }
+        else
+        {
+            target = Waypoints1.points[0];
+        }
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
 
@@ -103,7 +115,6 @@ public class RangedEnemy : MonoBehaviour
                     isAttacking = true;
                     Instantiate(projectile, transform.position, Quaternion.identity);
                     timeBtwShots = startTimeBtwShots;
-                    Destroy(projectile, 2.0f);
                     anim.SetFloat("AttX", dir.x);
                     anim.SetFloat("AttY", dir.y);
                     anim.SetBool("isAttacking", isAttacking);
@@ -149,14 +160,27 @@ public class RangedEnemy : MonoBehaviour
 
     void GetNextWaypoint()
     {
-        if (waypointIndex >= Waypoints.points.Length - 1)
+        if (strada)
         {
-            return;
-        }
+            if (waypointIndex >= Waypoints.points.Length - 1)
+            {
+                return;
+            }
 
-        waypointIndex++;
-        target = Waypoints.points[waypointIndex];
-        way = false;
+            waypointIndex++;
+            target = Waypoints.points[waypointIndex];
+            way = false;
+        } else
+        {
+            if (waypointIndex >= Waypoints1.points.Length - 1)
+            {
+                return;
+            }
+
+            waypointIndex++;
+            target = Waypoints1.points[waypointIndex];
+            way = false;
+        }
     }
 
     public void DebuffSlow()

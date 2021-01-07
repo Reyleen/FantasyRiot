@@ -15,8 +15,10 @@ public class WaveSpawner : MonoBehaviour
         public string name;
         public Transform enemy;
         public Transform enemy1;
+        public Transform enemy2;
         public int count;
         public int count1;
+        public int count2;
         public float rate; 
     }
     //public GameObject TowerUI;
@@ -37,6 +39,8 @@ public class WaveSpawner : MonoBehaviour
     public TMP_Text timer;
 
     private WinnerPanel winner;
+
+    public bool road;
 
     void Start()
     {
@@ -100,6 +104,7 @@ public class WaveSpawner : MonoBehaviour
         StarWaveSpowner = true;
         //TowerUI.SetActive(true);
         bottoneGo.SetActive(true);
+
         if (nextWave < waves.Length -1)
         {
             nextWave++;
@@ -133,30 +138,63 @@ public class WaveSpawner : MonoBehaviour
 
         for(int i = 0; i < _wave.count; i++)
         {
-            SpawnEnemy(_wave.enemy);
+            int index = Random.Range(0, spawnPoints.Length);
+            SpawnEnemy(_wave.enemy, index);
+            Foll(index);
             yield return new WaitForSeconds(1f /_wave.rate);
         }
 
         for (int i = 0; i < _wave.count1; i++)
         {
-            SpawnEnemy1(_wave.enemy1);
+            int index = Random.Range(0, spawnPoints.Length);
+            SpawnEnemy1(_wave.enemy1, index);
+            Foll(index);
             yield return new WaitForSeconds(1f / _wave.rate);
         }
+
+        for (int i = 0; i < _wave.count2; i++)
+        {
+            int index = Random.Range(0, spawnPoints.Length);
+            SpawnEnemy2(_wave.enemy2, index);
+            Foll(index);
+            yield return new WaitForSeconds(1f / _wave.rate);
+        }
+
 
         state = SpawnState.WAITING;
 
         yield break;
     }
 
-    void SpawnEnemy (Transform _enemy)
+    void SpawnEnemy (Transform _enemy, int index)
     {
-        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform _sp = spawnPoints[index];
         Instantiate(_enemy, _sp.transform.position, _sp.transform.rotation);
     }
 
-    void SpawnEnemy1(Transform _enemy1)
+    void SpawnEnemy1(Transform _enemy1, int index)
     {
-        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform _sp = spawnPoints[index];
         Instantiate(_enemy1, _sp.transform.position, _sp.transform.rotation);
     }
+
+    void SpawnEnemy2(Transform _enemy2, int index)
+    {
+        Transform _sp = spawnPoints[index];
+        Instantiate(_enemy2, _sp.transform.position, _sp.transform.rotation);
+    }
+
+    bool Foll(int index)
+    {
+        if (index == 1)
+        {
+            road = true;
+        }
+        else
+        {
+            road = false;
+        }
+        return road;
+    }
+        
 }

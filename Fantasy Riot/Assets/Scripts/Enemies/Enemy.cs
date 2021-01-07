@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 2f;
 
-    private Transform target;
+    public Transform target;
     private int wavepointIndex = 0;
     public Rigidbody2D rb;
     private Transform player;
@@ -35,17 +35,28 @@ public class Enemy : MonoBehaviour
     GameObject tw;
     private CountTower nTower;
 
+    public WaveSpawner wa;
+    public bool strada;
     // Start is called before the first frame update
     void Start()
     {
-        target = Waypoints.points[0];
+        
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         anim = GetComponent<Animator>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        wa = FindObjectOfType<WaveSpawner>();
+        strada = wa.road;
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
-
+        if (strada)
+        {
+            target = Waypoints.points[0];
+        }
+        else
+        {
+            target = Waypoints1.points[0];
+        }
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
     void UpdatePath()
@@ -81,13 +92,16 @@ public class Enemy : MonoBehaviour
                 if (nTower.Tot >= 1)
                 {
                     GameObject closestTower = FindClosestTower();
-                    float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
-                    
-                    if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
+                    if (closestTower != null)
                     {
-                        FollowTower();
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+
+                        if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
+                        {
+                            FollowTower();
+                        }
                     }
-                    
+
                     else
                     {
                         Debug.Log("Going to the waypoint");
@@ -106,7 +120,7 @@ public class Enemy : MonoBehaviour
                             reachedEndOfPath = false;
                         }
                         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-                        Vector2 force = direction * speed * Time.deltaTime;
+                        Vector2 force = Vector2.zero;//direction * speed * Time.deltaTime;
                         transform.Translate(force, Space.World);
                         Vector2 dir = target.position - transform.position;
                         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
@@ -123,26 +137,29 @@ public class Enemy : MonoBehaviour
                 if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     GameObject closestTower = FindClosestTower();
-                    float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
-
-                    if(closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
+                    if (closestTower != null)
                     {
-                        FollowTower();
-                    }
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
 
-                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3)
-                    {
-                        FollowPlayer();
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
+                        {
+                            FollowTower();
+                        }
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3)
+                        {
+                            FollowPlayer();
+                        }
                     }
                 }
 
                 if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     FollowPlayer();
-                }
+                } 
 
                 else
-                {
+                { 
                     Debug.Log("Going to the waypoint");
                     if (path == null)
                         return;
@@ -242,14 +259,28 @@ public class Enemy : MonoBehaviour
 
     void GetNextWaypoint()
     {
-        if (wavepointIndex >= Waypoints.points.Length - 1)
+        if (strada)
         {
-            return;
-        }
+            if (wavepointIndex >= Waypoints.points.Length - 1)
+            {
+                return;
+            }
 
-        wavepointIndex++;
-        target = Waypoints.points[wavepointIndex];
-        way = false;
+            wavepointIndex++;
+            target = Waypoints.points[wavepointIndex];
+            way = false;
+        }
+        else
+        {
+            if (wavepointIndex >= Waypoints1.points.Length - 1)
+            {
+                return;
+            }
+
+            wavepointIndex++;
+            target = Waypoints1.points[wavepointIndex];
+            way = false;
+        }
     }
 
     GameObject FindClosestTower()
@@ -268,11 +299,9 @@ public class Enemy : MonoBehaviour
             {
                 closest = towerPos;
                 distance = curDistance;
+                Vector3 pos = closest.transform.position;
             }
         }
-
-        Transform t = closest.transform;
-        Vector3 pos = closest.transform.position;
 
         return closest;
     }

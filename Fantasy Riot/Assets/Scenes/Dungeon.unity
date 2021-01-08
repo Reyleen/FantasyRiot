@@ -1956,7 +1956,7 @@ PrefabInstance:
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: timeBetweenWaves
-      value: 1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
@@ -2024,7 +2024,7 @@ PrefabInstance:
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: nextWave
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8977001056765497016, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}

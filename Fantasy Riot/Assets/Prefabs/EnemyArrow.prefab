@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7242007053449843306}
   m_Layer: 0
   m_Name: EnemyArrow
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   speed: 7
   rb: {fileID: -2042387315508043984}
   damageToGive: 3
+  hit: 0
 --- !u!50 &-2042387315508043984
 Rigidbody2D:
   serializedVersion: 4

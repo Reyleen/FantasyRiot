@@ -109,7 +109,7 @@ public class Infinitewaves : MonoBehaviour
                 e.count += 2;
                 for(int i = 0; i < 2; i++)
                 {
-                    e.enemies[i].GetComponent<EnemyHealthManager>().MaxHealth += 10;
+                    e.enemies[i].GetComponent<EnemyHealthManager>().MaxHealth += (currentWave*2);
                 }
                 currentWave++;
                 return false;

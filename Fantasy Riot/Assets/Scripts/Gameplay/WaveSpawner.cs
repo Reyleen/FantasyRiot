@@ -110,7 +110,7 @@ public class WaveSpawner : MonoBehaviour
             nextWave++;
         } 
 
-        else if (nextWave == waves.Length)
+        else if (nextWave == waves.Length - 1)
         {
             winner.ToggleWinPan();
             Time.timeScale = 0f;

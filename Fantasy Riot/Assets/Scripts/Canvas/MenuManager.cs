@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Reset();
     }
 
     // Update is called once per frame
@@ -34,5 +34,13 @@ public class MenuManager : MonoBehaviour
     public void StartGame()
     {
         PlayerPrefs.SetInt("CharacterIndex", characterIndex);
+    }
+
+    public void Reset()
+    {
+        for (int i = 0; i < characters.Length; i++)
+        {
+            characters[i].SetActive(true);
+        }
     }
 }

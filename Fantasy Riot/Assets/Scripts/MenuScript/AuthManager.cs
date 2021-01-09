@@ -45,6 +45,13 @@ public class AuthManager : MonoBehaviour
     public GameObject scoreElement;
     public Transform scoreboardContnent;
 
+    //Prefab
+    [Header("Other")]
+    public PlayerStatus arc;
+    public PlayerStatus fig;
+    public PlayerStatus mag;
+    public PlayerStatus lan;
+
     private void Awake()//start auth
     {
         //check dependencies for Firebase on the system
@@ -77,6 +84,7 @@ public class AuthManager : MonoBehaviour
     {
         auth.SignOut();
         Debug.Log("User SignOut");
+        PlayerPrefs.DeleteKey("FirstLogin");
         PlayerPrefs.DeleteKey("Email");
         PlayerPrefs.DeleteKey("Password");
         PlayerPrefs.DeleteKey("Joined");
@@ -140,12 +148,13 @@ public class AuthManager : MonoBehaviour
             Username.text = User.DisplayName;
             warningLoginText.text = "";
             PlayerPrefs.SetString("ActualUser", User.UserId);
-            //a.ChangePLAYER_KEY(emailLoginField.text.Replace(".", ","));
             a.DB();
             a1.SDB();
             PlayerPrefs.SetString("Email", _email);
             PlayerPrefs.SetString("Password", _password);
             PlayerPrefs.SetInt("Joined", 0);
+            PlayerPrefs.SetString("User", User.DisplayName);
+            Debug.Log(User.UserId);
             PanelManager.instance.UserScreen();
         }
     }
@@ -227,59 +236,13 @@ public class AuthManager : MonoBehaviour
                         PlayerPrefs.SetString("Email", _email);
                         PlayerPrefs.SetString("Password", _password);
                         PlayerPrefs.SetInt("Joined", 0);
+                        PanelManager.instance.ToAccountScreenFromRegister();
                     }
                 }
             }
         }
     }
-    /*private IEnumerator LoginToSave(string _email, string _password)
-    {
-        //Call the Firebase signin function (in auth)
-        var LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
-        //wait till it is finished
-        yield return new WaitUntil(predicate: () => LoginTask.IsCompleted);
 
-        if (LoginTask.Exception != null)
-        {
-            //if an error occourred
-            Debug.LogWarning(message: $"Failed to register task with {LoginTask.Exception}");
-            FirebaseException firebaseEx = LoginTask.Exception.GetBaseException() as FirebaseException;
-            AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
-
-            string message = "Login Failed";
-            switch (errorCode)
-            {
-                case AuthError.MissingEmail:
-                    message = "Missing Email";
-                    break;
-                case AuthError.MissingPassword:
-                    message = "Missing Password";
-                    break;
-                case AuthError.WrongPassword:
-                    message = "Wrong Password";
-                    break;
-                case AuthError.UserNotFound:
-                    message = "Account does not exist";
-                    break;
-            }
-            warningLoginText.text = message;
-        }
-        else
-        {
-            //user is logged in
-            User = LoginTask.Result;
-            Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
-            PlayerPrefs.SetString("ActualUser", User.UserId);
-            Debug.Log(User.DisplayName);
-            _player.Switch(User.DisplayName);
-            Debug.Log(_player.User);
-            a.DB();
-            a.SavePlayer(_player.PlayerData, true);
-            Debug.Log("User SignOut");
-            PlayerPrefs.DeleteKey("ActualUser");
-            _player.Switch("");
-        }
-    }*/
     public void RecoverPassword()
     {
         StartCoroutine(Recover(EmailRecoverField.text));
@@ -309,7 +272,7 @@ public class AuthManager : MonoBehaviour
     private IEnumerator LoadScoreboardData()
     {
         var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").LimitToLast(11).GetValueAsync();
-        
+
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
         if (DBTask.Exception != null)
@@ -324,7 +287,7 @@ public class AuthManager : MonoBehaviour
                 Destroy(Child.gameObject);
             }
             int i = 1;
-            bool top10=false;
+            bool top10 = false;
             foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
             {
                 if (i <= 10)
@@ -346,7 +309,7 @@ public class AuthManager : MonoBehaviour
                     scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(i, username, score);
                     i++;
                 }
-                else if((!top10) && (!_player.Username.Equals("")))
+                else if ((!top10) && (!_player.Username.Equals("")))
                 {
                     Debug.Log("Player not found :(");
                     GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
@@ -355,5 +318,26 @@ public class AuthManager : MonoBehaviour
             }
             PanelManager.instance.Scoreboard();
         }
+    }
+    public void UpdatePlayerOnServer(int currentGems, int playerLevel, int maxHp, int attack, string prefabName)
+    {
+        Debug.Log(currentGems);
+        _player.changeGem(currentGems);
+        switch (prefabName)
+        {
+            case "arcPlayer":
+                _player.ChangeArc(attack, maxHp,playerLevel);
+                break;
+            case "FighterPlayer":
+                _player.ChangeFig(attack, maxHp, playerLevel);
+                break;
+            case "LancPlayer":
+                _player.ChangeLan(attack, maxHp, playerLevel);
+                break;
+            case "witchPlayer":
+                _player.ChangeWit(attack, maxHp, playerLevel);
+                break;
+        }
+        a.SavePlayer(_player.PlayerData, true);
     }
 }

@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6292542961840878317
 Transform:
   m_ObjectHideFlags: 0
@@ -362,12 +362,13 @@ MonoBehaviour:
   playerLevel: 1
   maxLevel: 10
   nextLevelGems: 64000000fa0000009001000000000000000000000000000000000000000000000000000000000000
-  currentHp: 124
-  maxHp: 124
-  attack: 22
+  currentHp: 50
+  maxHp: 50
+  attack: 10
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   anim: {fileID: 6292542963134921631}
   anim1: {fileID: 6292542963285278369}
+  a: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d, type: 3}
 --- !u!1 &6292542963134921630
 GameObject:
   m_ObjectHideFlags: 0

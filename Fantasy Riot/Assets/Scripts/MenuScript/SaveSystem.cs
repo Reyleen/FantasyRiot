@@ -17,6 +17,13 @@ public class SaveSystem : MonoBehaviour
     private DatabaseReference _ref;
     private DatabaseReference _ref2;
 
+    //Prefab
+    [Header("Other")]
+    public PlayerStatus arc;
+    public PlayerStatus fig;
+    public PlayerStatus mag;
+    public PlayerStatus lan;
+
     public void DB()//initialize the DB if needed
     {
         PLAYER_KEY = PlayerPrefs.GetString("ActualUser");
@@ -36,6 +43,7 @@ public class SaveSystem : MonoBehaviour
         _ref = null;
         _database = null;
     }
+
     private void HandleValueChanged(object sender, ValueChangedEventArgs e)
     {
         var json = e.Snapshot.GetRawJsonValue();
@@ -45,8 +53,41 @@ public class SaveSystem : MonoBehaviour
             var playerData = JsonUtility.FromJson<PlayerData>(json);
             LastPlayerData = playerData;
             OnPlayerUpdated.Invoke(playerData);
+            if (!PlayerPrefs.HasKey("FirstLogin"))
+            {
+                PlayerPrefs.SetInt("FirstLogin", 1);
+                SetPrefab();
+            }
         }
     }
+    private void SetPrefab()
+    {
+        Debug.Log(LastPlayerData.lvlA);
+        arc.playerLevel = LastPlayerData.lvlA;
+        Debug.Log(arc.playerLevel);
+        arc.currentHp = LastPlayerData.HPA;
+        arc.maxHp = LastPlayerData.HPA;
+        arc.attack = LastPlayerData.atkA;
+
+        fig.playerLevel = LastPlayerData.lvlF;
+        fig.maxHp = LastPlayerData.HPF;
+        fig.currentHp = LastPlayerData.HPF;
+        fig.attack = LastPlayerData.atkF;
+
+        mag.playerLevel = LastPlayerData.lvlM;
+        mag.maxHp = LastPlayerData.HPM;
+        mag.currentHp = LastPlayerData.HPM;
+        mag.attack = LastPlayerData.atkM;
+
+        lan.playerLevel = LastPlayerData.lvlL;
+        lan.maxHp = LastPlayerData.HPA;
+        lan.currentHp = LastPlayerData.HPL;
+        lan.attack = LastPlayerData.atkL;
+        PlayerPrefs.SetInt("FirstLogin", 0);
+    }
+
+
+
     private void HandleValueChanged2(object sender, ValueChangedEventArgs e)
     {
         var json = e.Snapshot.GetRawJsonValue();

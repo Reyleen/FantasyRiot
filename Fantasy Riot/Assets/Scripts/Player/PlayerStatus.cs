@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStatus : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerStatus : MonoBehaviour
 
     public Animator anim;
     public Animator anim1;
+    public AuthManager a;
 
     // Start is called before the first frame update
     void Start()
@@ -69,7 +71,9 @@ public class PlayerStatus : MonoBehaviour
             maxHp = Mathf.RoundToInt(maxHp * 1.2f);
             currentHp = maxHp;
             attack = Mathf.CeilToInt(attack * 1.2f);
-            
+
+            a = GameObject.Find("AuthManager").GetComponent<AuthManager>();
+            a.UpdatePlayerOnServer(gemMan.curGems, playerLevel, maxHp, attack, this.gameObject.name);
         }
     }
 }

@@ -35,7 +35,7 @@ public class HurtEnemy : MonoBehaviour
             this.transform.parent = other.transform;
         }
         
-        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC" || other.gameObject.tag == "Tower" || other.gameObject.tag == "RangeTower")
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC" || other.gameObject.tag == "Tower" || other.gameObject.tag == "RangeTower" || other.gameObject.tag == "Circle")
         {
 
         } else

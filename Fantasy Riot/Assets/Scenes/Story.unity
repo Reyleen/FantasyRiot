@@ -289,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
@@ -319,6 +319,31 @@ PrefabInstance:
     - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Ability
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -532,6 +557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LancPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793864130255458097, guid: f05c5e985f5f02f49968de3280b85993,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7793864130255458100, guid: f05c5e985f5f02f49968de3280b85993,
         type: 3}
@@ -1458,6 +1488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}

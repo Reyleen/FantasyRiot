@@ -11,11 +11,17 @@ public class ShadowClone : MonoBehaviour
     public float speed;
     public Transform MyTarget { get; set; }
     public int damage;
-    public bool hit;
+    public bool hit = false;
     public float distance;
+    public bool isAttacking;
+    private Animator anim;
+
+    public float time;
+    public float timer;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         MyTarget = FindObjectOfType<EnemyHealthManager>().transform;
         Destroy(gameObject, 15f);
@@ -30,6 +36,8 @@ public class ShadowClone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (MyTarget == null)
         {
             Destroy(gameObject);
@@ -41,18 +49,35 @@ public class ShadowClone : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, MyTarget.position, speed * Time.deltaTime);
             Vector2 dir = MyTarget.position - transform.position;
 
-            //anim.SetFloat("AngleX", dir.x);
-            //anim.SetFloat("AngleY", dir.y);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
             if (distance <= 2f)
             {
-                if (hit && targetIndex < targets.Count)
-                {
-                    PickTarget(MyTarget.GetComponent<Collider2D>());
-                }
-                else
-                {
+                isAttacking = true;
+                anim.SetFloat("AttX", dir.x);
+                anim.SetFloat("AttY", dir.y);
+                anim.SetBool("isAttacking", isAttacking);
 
+                if (!hit && targetIndex < targets.Count)
+                {
+                    timer = 0;
+                    timer += Time.deltaTime;
+                    if (timer == time)
+                    {
+                        time += timer;
+                        PickTarget(MyTarget.GetComponent<Collider2D>());
+                        hit = true;
+                    }
+                    else
+                    {
+                        hit = false;
+                    }
                 }
+
+            } else
+            {
+                isAttacking = false;
+                anim.SetBool("isAttacking", isAttacking);
             }
         }
 

@@ -18,7 +18,7 @@ public class WitchAbility : MonoBehaviour
         
     }
 
-    public void Spell()
+    public void Ability()
     {
         Instantiate(lightning, transform.position, Quaternion.identity);
     }

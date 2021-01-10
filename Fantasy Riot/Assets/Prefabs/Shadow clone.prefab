@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4963677051608524791}
   - component: {fileID: 7095851700978462103}
   - component: {fileID: -7894334551821076414}
+  - component: {fileID: 2196631335566926042}
   m_Layer: 0
   m_Name: Shadow clone
   m_TagString: Untagged
@@ -134,7 +135,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61658f13bdb38a64084b5e0b28e3b075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 3
   damage: 30
   hit: 0
   distance: 0
+  isAttacking: 0
+--- !u!95 &2196631335566926042
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870008582308706546}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3e3e275189b66b24190e5e6862827264, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

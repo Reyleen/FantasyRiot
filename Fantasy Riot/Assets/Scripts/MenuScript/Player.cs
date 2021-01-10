@@ -105,4 +105,24 @@ public class Player : MonoBehaviour
         _playerData.HPL = HP;
         _playerData.lvlL = lvl;
     }
+    public void SetFirstPlayer()
+    {
+        _playerData.atkA = 5;
+        _playerData.HPA = 35;
+        _playerData.lvlA = 0;
+        _playerData.atkF = 10;
+        _playerData.HPF = 45;
+        _playerData.lvlF = 0;
+        _playerData.atkM = 7;
+        _playerData.HPM = 33;
+        _playerData.lvlM = 0;
+        _playerData.atkL = 12;
+        _playerData.HPL = 70;
+        _playerData.lvlL = 0;
+    }
+    public void SetFirstScore()
+    {
+        _playerScore.Username="";
+        _playerScore.UserScore=0;
+    }
 }

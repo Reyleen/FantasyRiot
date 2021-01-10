@@ -178,6 +178,7 @@ MonoBehaviour:
   slowed: 0
   SlowInput: 0
   nextWaypointDistance: 1
+  strada: 0
 --- !u!114 &289902097842072709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 30
+  MaxHealth: 25
   CurrentHealth: 0
   coin: {fileID: 0}
   anim: {fileID: 289902097842072705}

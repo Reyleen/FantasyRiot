@@ -121,6 +121,7 @@ MonoBehaviour:
   damageToGive: 10
   rb: {fileID: -1197479298552521542}
   plaSta: {fileID: 3547291834372024130, guid: ffa25def036d8834ba38f99d04d820c6, type: 3}
+  hit: 0
 --- !u!61 &736743180130446620
 BoxCollider2D:
   m_ObjectHideFlags: 0

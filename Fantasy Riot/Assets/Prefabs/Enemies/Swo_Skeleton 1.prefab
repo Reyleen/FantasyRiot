@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  target: {fileID: 0}
   rb: {fileID: 5378829859382424973}
   isAttacking: 0
   attackDelay: 2
@@ -131,6 +132,8 @@ MonoBehaviour:
   slowed: 0
   SlowInput: 0
   nextWaypointDistance: 1
+  wa: {fileID: 0}
+  strada: 0
 --- !u!50 &5378829859382424973
 Rigidbody2D:
   serializedVersion: 4
@@ -164,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 30
+  MaxHealth: 50
   CurrentHealth: 0
   coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
   anim: {fileID: 5378829859382424975}

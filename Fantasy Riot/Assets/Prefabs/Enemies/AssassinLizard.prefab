@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  target: {fileID: 0}
   rb: {fileID: 4239071134575948152}
   isAttacking: 0
   attackDelay: 1
@@ -129,6 +130,8 @@ MonoBehaviour:
   slowed: 0
   SlowInput: 0
   nextWaypointDistance: 1
+  wa: {fileID: 0}
+  strada: 0
 --- !u!114 &4239071134575948102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 25
+  MaxHealth: 20
   CurrentHealth: 0
   coin: {fileID: 5869864426067620081, guid: 52a9a7648805dd649b0ba255570b7a5a, type: 3}
   anim: {fileID: 4239071134575948100}

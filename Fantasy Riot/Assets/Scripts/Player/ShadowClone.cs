@@ -2,58 +2,60 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChainLightning : MonoBehaviour
+public class ShadowClone : MonoBehaviour
 {
-    public bool hit;
-
     private List<Transform> targets = new List<Transform>();
     private int targetIndex;
 
     private Rigidbody2D rb;
-    public float speed = 3f;
+    public float speed;
     public Transform MyTarget { get; set; }
     public int damage;
-
+    public bool hit;
+    public float distance;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         MyTarget = FindObjectOfType<EnemyHealthManager>().transform;
+        Destroy(gameObject, 15f);
     }
 
     void FixedUpdate()
     {
         Vector2 dir = MyTarget.position - transform.position;
-        rb.velocity = dir * speed;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //rb.velocity = dir * speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(MyTarget == null)
+        if (MyTarget == null)
         {
             Destroy(gameObject);
         }
 
-        float distance = 0;
-
         if (MyTarget != null)
         {
             distance = Vector2.Distance(transform.position, MyTarget.position);
-        }
-        if(distance <= 20f)
-        {
-            if(hit && targetIndex < targets.Count)
+            transform.position = Vector2.MoveTowards(transform.position, MyTarget.position, speed * Time.deltaTime);
+            Vector2 dir = MyTarget.position - transform.position;
+
+            //anim.SetFloat("AngleX", dir.x);
+            //anim.SetFloat("AngleY", dir.y);
+            if (distance <= 2f)
             {
-                PickTarget(MyTarget.GetComponent<Collider2D>());
-            }
-            else if(MyTarget != null)
-            {
-                
+                if (hit && targetIndex < targets.Count)
+                {
+                    PickTarget(MyTarget.GetComponent<Collider2D>());
+                }
+                else
+                {
+
+                }
             }
         }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -65,7 +67,8 @@ public class ChainLightning : MonoBehaviour
             {
                 EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
                 e.HurtEnemy(damage);
-            } else
+            }
+            else
             {
                 Destroy(gameObject);
             }
@@ -73,15 +76,13 @@ public class ChainLightning : MonoBehaviour
 
             foreach (Collider2D others in tmp)
             {
-                if(others.transform != MyTarget && others.transform != transform && others.tag == "Enemy")
+                if (others.transform != MyTarget && others.transform != transform && others.tag == "Enemy")
                 {
                     targets.Add(others.transform);
                 }
             }
-
-            speed *= 2;
             PickTarget(other);
-            Destroy(gameObject, 2f);
+            
         }
     }
 

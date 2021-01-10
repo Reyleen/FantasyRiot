@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 5117502672003373942}
   - component: {fileID: 6601535103103624359}
   - component: {fileID: 7343216491208640942}
+  - component: {fileID: -6435855113079664782}
   m_Layer: 0
   m_Name: FighterPlayer
   m_TagString: Player
@@ -368,6 +369,19 @@ MonoBehaviour:
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   anim: {fileID: 6292542963134921631}
   anim1: {fileID: 6292542963285278369}
+--- !u!114 &-6435855113079664782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292542961840878305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1483bdb776cfa4ea5cf752580f6f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clone: {fileID: 6870008582308706546, guid: 41fd4cff51e996d4985fe2bde3b116e8, type: 3}
 --- !u!1 &6292542963134921630
 GameObject:
   m_ObjectHideFlags: 0

@@ -1955,7 +1955,13 @@ MonoBehaviour:
     L2: 0
     L3: 0
     L4: 0
+  _playerScore:
+    Username: 
+    UserScore: 0
   OnPlayerUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerUpdate2:
     m_PersistentCalls:
       m_Calls: []
   Users: {fileID: 0}
@@ -4451,6 +4457,12 @@ MonoBehaviour:
   loadingScreen: {fileID: 862308410}
   slider: {fileID: 1280712689}
   progressText: {fileID: 865584321}
+  skip: 0
+  arc: {fileID: 0}
+  war: {fileID: 0}
+  wit: {fileID: 0}
+  pal: {fileID: 0}
+  tips: []
 --- !u!4 &834406704
 Transform:
   m_ObjectHideFlags: 0
@@ -5954,6 +5966,13 @@ MonoBehaviour:
   OnPlayerUpdated:
     m_PersistentCalls:
       m_Calls: []
+  OnPlayerUpdated2:
+    m_PersistentCalls:
+      m_Calls: []
+  arc: {fileID: 3547291834372024130, guid: ffa25def036d8834ba38f99d04d820c6, type: 3}
+  fig: {fileID: 7343216491208640942, guid: 8e9b03f484b5cac449bb4185d176db9f, type: 3}
+  mag: {fileID: 2235477034654666874, guid: 65bc22c128de0164c82ceb0c3b6a884b, type: 3}
+  lan: {fileID: 3117428463588801498, guid: f05c5e985f5f02f49968de3280b85993, type: 3}
 --- !u!1 &1104609423
 GameObject:
   m_ObjectHideFlags: 0

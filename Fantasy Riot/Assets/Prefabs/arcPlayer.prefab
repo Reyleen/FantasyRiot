@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Rae
   description: Fearless Hunter
-  playerLevel: 0
+  playerLevel: 2
   maxLevel: 10
   nextLevelGems: 64000000fa000000900100005802000020030000e8030000b0040000dc050000d0070000c4090000
   currentHp: 36
@@ -232,6 +232,7 @@ MonoBehaviour:
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   anim: {fileID: 4841506536331033103}
   anim1: {fileID: 4841506537559657640}
+  a: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d, type: 3}
 --- !u!114 &946105608305717471
 MonoBehaviour:
   m_ObjectHideFlags: 0

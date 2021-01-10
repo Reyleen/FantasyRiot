@@ -14,10 +14,6 @@ public class SyncPlayerToSave : MonoBehaviour
     {
         _playerSaveManager = FindObjectOfType<SaveSystem>();
     }
-    private void Awake()//control if it's the first time the player joined the game
-    {
-        
-    }
     public void SDB()//Sync data
     {
         _playerSaveManager.OnPlayerUpdated.AddListener(HandlePlayerSaveUpdated);

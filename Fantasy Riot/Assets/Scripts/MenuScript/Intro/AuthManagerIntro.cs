@@ -39,6 +39,8 @@ public class AuthManagerIntro : MonoBehaviour
     public SaveSystem a;
     public SyncPlayerToSave a1;
     public DetectTouchIntro b;
+
+    
     private void Awake()
     {
         //check dependencies for Firebase on the system
@@ -231,7 +233,7 @@ public class AuthManagerIntro : MonoBehaviour
             Debug.LogWarning(message: $"Failed to register task with {Task.Exception}");
             FirebaseException firebaseEx = Task.Exception.GetBaseException() as FirebaseException;
             AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
-            
+
             warningRecoverText.text = "Wrong Email";
         }
         else

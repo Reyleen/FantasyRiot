@@ -247,6 +247,21 @@ PrefabInstance:
       propertyPath: pcamera
       value: 
       objectReference: {fileID: 1214040710}
+    - target: {fileID: 2015854748854166467, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 586814652}
+    - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: startWave
+      objectReference: {fileID: 0}
     - target: {fileID: 7454508659228403763, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -553,6 +568,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db0fe58020fa47843bedbaf025fbe5df, type: 3}
+--- !u!1 &415617369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3215194065664205033, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 193273392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &546461430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3187324910551223550, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 193273392}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &586814651
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,15 +632,24 @@ MonoBehaviour:
     - {fileID: 572140553085165910, guid: 9f5974610cf62e745af7aaf16dfdf571, type: 3}
     count: 4
     rate: 1
+  b:
+    boss:
+    - {fileID: 7279855092140335533, guid: 33424974ea71e3849a64f5a370219501, type: 3}
+    - {fileID: 7291752249585857743, guid: 92db3dedcb43849499a6dc9149732559, type: 3}
+    - {fileID: 2557220645013351572, guid: 5d25995cd6088d34496d4af6df292b9a, type: 3}
+    - {fileID: 4590666439928982162, guid: dc91e28b70bfd204ca576da9f76707d3, type: 3}
+    count: 1
+    rate: 1
   currentWave: 0
   spawnPoints:
   - {fileID: 1760518841}
   timeBetweenWaves: 45
   waveCountdown: 0
   StarWaveSpowner: 1
-  bottoneGo: {fileID: 0}
-  bottoneNext: {fileID: 0}
-  timer: {fileID: 0}
+  bottoneGo: {fileID: 1840494804}
+  bottoneNext: {fileID: 415617369}
+  timer: {fileID: 546461430}
+  road: 0
 --- !u!4 &586814653
 Transform:
   m_ObjectHideFlags: 0
@@ -1186,6 +1228,12 @@ Transform:
   m_Father: {fileID: 586814653}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1840494804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971694545549179458, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 193273392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1929646385
 GameObject:
   m_ObjectHideFlags: 0

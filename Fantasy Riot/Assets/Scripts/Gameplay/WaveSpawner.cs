@@ -103,7 +103,6 @@ public class WaveSpawner : MonoBehaviour
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         //TowerUI.SetActive(true);
-        bottoneGo.SetActive(true);
 
         if (nextWave < waves.Length -1)
         {

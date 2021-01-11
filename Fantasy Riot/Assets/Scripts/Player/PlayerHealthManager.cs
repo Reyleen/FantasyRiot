@@ -38,7 +38,14 @@ public class PlayerHealthManager : MonoBehaviour
 
     public void HurtPlayer(int damageToGive)
     {
-        plaSta.currentHp -= damageToGive;
+        if (plaSta.currentHp - damageToGive > playerMaxHealth)
+        {
+            plaSta.currentHp = playerMaxHealth;
+        }
+        else
+        {
+            plaSta.currentHp -= damageToGive;
+        }
     }
 
     public void setMaxHealth()

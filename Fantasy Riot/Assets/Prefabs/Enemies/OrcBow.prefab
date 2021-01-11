@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8983401917169377721}
   - component: {fileID: 6405938391304464437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,9 +58,12 @@ GameObject:
   - component: {fileID: 8184153108269741781}
   - component: {fileID: 8056052878628087342}
   - component: {fileID: 7206041334238181153}
+  - component: {fileID: 3946506674613506693}
+  - component: {fileID: 2117819059263299721}
   - component: {fileID: 4111686303528899049}
   - component: {fileID: 8451658016977622129}
-  m_Layer: 0
+  - component: {fileID: 2091483699819357883}
+  m_Layer: 8
   m_Name: OrcBow
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -120,7 +123,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7501342054588910519, guid: 1f54ed6c44da91c4ebef1012ff5c12b2,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -152,6 +155,50 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3946506674613506693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253538961306212566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 25
+  CurrentHealth: 25
+  coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
+  heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
+  anim: {fileID: 7206041334238181153}
+  rb: {fileID: 4111686303528899049}
+  drop: 0
+--- !u!114 &2117819059263299721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253538961306212566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4372fd0e269329a4aa27338d22974b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  stopDistance: 3
+  retreatDistance: 1
+  startTimeBtwShots: 0
+  projectile: {fileID: 8456232743298012767, guid: 4ecce2ce13e645a41996c74bbc73ba92,
+    type: 3}
+  enHea: {fileID: 3946506674613506693}
+  isAlive: 1
+  isAttacking: 0
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 3
+  strada: 0
 --- !u!50 &4111686303528899049
 Rigidbody2D:
   serializedVersion: 4
@@ -167,7 +214,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -199,3 +246,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35, y: 0.53}
   m_EdgeRadius: 0
+--- !u!114 &2091483699819357883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253538961306212566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

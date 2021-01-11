@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 6576857840787640149}
   - component: {fileID: 4979463684487356334}
   - component: {fileID: 5681082940562083489}
-  - component: {fileID: 1430427618844190825}
   - component: {fileID: 6889399739401956849}
-  m_Layer: 0
+  - component: {fileID: -1548939700724312862}
+  - component: {fileID: 7798948430567458236}
+  - component: {fileID: -719200742073207122}
+  - component: {fileID: 1430427618844190825}
+  m_Layer: 8
   m_Name: OrcMage
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -73,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6295908529196280524, guid: 4a293831756130a40b2060f43a69f540,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -96,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 572140553085165910}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2ef1971c01ca6d4b8ff93e3314844d7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,27 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &1430427618844190825
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572140553085165910}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &6889399739401956849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,6 +134,98 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.28786057, y: 0.54835933}
   m_EdgeRadius: 0
+--- !u!114 &-1548939700724312862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572140553085165910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4372fd0e269329a4aa27338d22974b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  stopDistance: 3
+  retreatDistance: 1
+  startTimeBtwShots: 0
+  projectile: {fileID: 0}
+  enHea: {fileID: -719200742073207122}
+  isAlive: 1
+  isAttacking: 0
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 3
+  strada: 0
+--- !u!114 &7798948430567458236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572140553085165910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &-719200742073207122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572140553085165910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 20
+  CurrentHealth: 20
+  coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
+  heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
+  anim: {fileID: 5681082940562083489}
+  rb: {fileID: 1430427618844190825}
+  drop: 0
+--- !u!50 &1430427618844190825
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572140553085165910}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &3410529931643669968
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6232197714197731385}
   - component: {fileID: 8228135589586473397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

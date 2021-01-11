@@ -129,6 +129,7 @@ MonoBehaviour:
   MaxHealth: 50
   CurrentHealth: 0
   coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
+  heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
   anim: {fileID: 3208805983755218785}
   rb: {fileID: 6820648957067639760}
   drop: 1
@@ -188,7 +189,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

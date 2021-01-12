@@ -12,6 +12,7 @@ public class WinnerPanel : MonoBehaviour
     private string FIRST_TUTORIAL = "firstTime";
     private bool firstTime = true;
     public GemsManager gemsMan;
+    public AudioSource win;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class WinnerPanel : MonoBehaviour
     {
         gameObject.SetActive(true);
         isShowned = true;
+        win.Play();
     }
 
     public void AddGems()

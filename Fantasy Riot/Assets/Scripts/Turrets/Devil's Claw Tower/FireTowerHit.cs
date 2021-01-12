@@ -33,10 +33,5 @@ public class FireTowerHit : MonoBehaviour
         {
 
         }
-
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 }

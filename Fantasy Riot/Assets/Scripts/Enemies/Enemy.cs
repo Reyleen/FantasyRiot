@@ -34,6 +34,8 @@ public class Enemy : MonoBehaviour
 
     public WaveSpawner wa;
     public bool strada;
+
+    private Transform main;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,8 @@ public class Enemy : MonoBehaviour
         strada = wa.road;
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
+        main = GameObject.FindGameObjectWithTag("MainTower").GetComponent<Transform>();
+
         if (strada)
         {
             target = Waypoints.points[0];
@@ -84,10 +88,12 @@ public class Enemy : MonoBehaviour
             }
             if (isAlive)
             {
+                Debug.Log(nTower.Tot);
                 float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
                 if (nTower.Tot >= 1)
                 {
+                    Debug.Log("Tower!!!");
                     GameObject closestTower = FindClosestTower();
                     if (closestTower != null)
                     {
@@ -134,6 +140,8 @@ public class Enemy : MonoBehaviour
                 if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     GameObject closestTower = FindClosestTower();
+                    Debug.Log("Tower!!");
+                    
                     if (closestTower != null)
                     {
                         float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
@@ -150,10 +158,41 @@ public class Enemy : MonoBehaviour
                     }
                 }
 
+                if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, main.position) < 3)
+                {
+                    GameObject closestTower = FindClosestTower();
+                    Debug.Log("Tower!!");
+
+                    if (closestTower != null)
+                    {
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3 && Vector2.Distance(transform.position, main.position) < 3)
+                        {
+                            FollowTower();
+                        }
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3 && Vector2.Distance(transform.position, main.position) < 3)
+                        {
+                            FollowMainTower();
+                        }
+                    }
+                }
+
                 if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     FollowPlayer();
-                } 
+                }
+
+                if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 3 && Vector2.Distance(transform.position, player.position) < 3)
+                {
+                    FollowMainTower();
+                }
+
+                if(nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 3 && Vector2.Distance(transform.position, main.position) < 3)
+                {
+                    FollowMainTower();
+                }
 
                 else
                 { 
@@ -254,6 +293,35 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    void FollowMainTower()
+    {
+        Debug.Log("Going to nexus");
+        float distanceToMain = Vector2.Distance(transform.position, main.position);
+        if (distanceToMain < attackRange)
+        {
+            isAttacking = false;
+            Vector2 dir = main.position - transform.position;
+
+            if (Time.time > lastAttackTime + attackDelay)
+            {
+                lastAttackTime = Time.time;
+                isAttacking = true;
+                rb.velocity = Vector2.zero;
+            }
+            anim.SetFloat("AttX", dir.x);
+            anim.SetFloat("AttY", dir.y);
+            anim.SetBool("isAttacking", isAttacking);
+        }
+        else
+        {
+            transform.position = Vector2.MoveTowards(transform.position, main.position, speed * Time.deltaTime);
+            Vector2 dir = main.position - transform.position;
+
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+        }
+    }
+
     void GetNextWaypoint()
     {
         if (strada)
@@ -287,6 +355,7 @@ public class Enemy : MonoBehaviour
         GameObject closest = null;
         float distance = Mathf.Infinity;
         Vector3 position = transform.position;
+        
         foreach (GameObject towerPos in twPos)
         {
             Vector3 diff = towerPos.transform.position - position;
@@ -296,9 +365,10 @@ public class Enemy : MonoBehaviour
             {
                 closest = towerPos;
                 distance = curDistance;
-                Vector3 pos = closest.transform.position;
             }
         }
+
+        Vector3 pos = closest.transform.position;
 
         return closest;
     }

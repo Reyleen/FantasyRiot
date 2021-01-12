@@ -16,106 +16,90 @@ public class ShadowClone : MonoBehaviour
     public bool isAttacking;
     private Animator anim;
 
-    public float time;
-    public float timer;
+    public float range;
+    public float lastAttackTime;
+    public float attackDelay;
+    public float nextHitAllowed;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        MyTarget = FindObjectOfType<EnemyHealthManager>().transform;
         Destroy(gameObject, 15f);
     }
 
     void FixedUpdate()
     {
-        Vector2 dir = MyTarget.position - transform.position;
+       
         //rb.velocity = dir * speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-
+        MyTarget = FindObjectOfType<EnemyHealthManager>().transform;
         if (MyTarget == null)
         {
             Destroy(gameObject);
         }
+        Vector2 dir = MyTarget.position - transform.position;
+
+
 
         if (MyTarget != null)
         {
             distance = Vector2.Distance(transform.position, MyTarget.position);
             transform.position = Vector2.MoveTowards(transform.position, MyTarget.position, speed * Time.deltaTime);
-            Vector2 dir = MyTarget.position - transform.position;
+            //Vector2 dir = MyTarget.position - transform.position;
 
             anim.SetFloat("AngleX", dir.x);
             anim.SetFloat("AngleY", dir.y);
-            if (distance <= 2f)
+            if (distance < range)
             {
-                isAttacking = true;
+                rb.velocity = Vector2.zero;
+                isAttacking = false;
+
+                if (Time.time > lastAttackTime + attackDelay)
+                {
+                    EnemyHealthManager e = MyTarget.GetComponent<EnemyHealthManager>();
+                    e.HurtEnemy(damage);
+                    lastAttackTime = Time.time;
+                    isAttacking = true;
+                    rb.velocity = Vector2.zero;
+                }
                 anim.SetFloat("AttX", dir.x);
                 anim.SetFloat("AttY", dir.y);
                 anim.SetBool("isAttacking", isAttacking);
-
-                if (!hit && targetIndex < targets.Count)
-                {
-                    timer = 0;
-                    timer += Time.deltaTime;
-                    if (timer == time)
-                    {
-                        time += timer;
-                        PickTarget(MyTarget.GetComponent<Collider2D>());
-                        hit = true;
-                    }
-                    else
-                    {
-                        hit = false;
-                    }
-                }
-
-            } else
+            }
+            else
             {
+                transform.position = Vector2.MoveTowards(transform.position, MyTarget.position, speed * Time.deltaTime);
                 isAttacking = false;
                 anim.SetBool("isAttacking", isAttacking);
+                anim.SetFloat("AngleX", dir.x);
+                anim.SetFloat("AngleY", dir.y);
             }
         }
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!hit && other.gameObject.tag == "Enemy" && other.transform == MyTarget)
+        if (other.gameObject.tag == "Enemy" && other.transform == MyTarget)
         {
-            //hit = true;
+            EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
             if (targetIndex <= 5)
             {
-                EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
-                e.HurtEnemy(damage);
+                if (Time.time > nextHitAllowed + attackDelay)
+                {
+                    nextHitAllowed = Time.time + attackDelay;
+                    e.HurtEnemy(damage);
+                }
             }
             else
             {
                 Destroy(gameObject);
             }
-            Collider2D[] tmp = Physics2D.OverlapCircleAll(other.transform.position, 10);
-
-            foreach (Collider2D others in tmp)
-            {
-                if (others.transform != MyTarget && others.transform != transform && others.tag == "Enemy")
-                {
-                    targets.Add(others.transform);
-                }
-            }
-            PickTarget(other);
-            
         }
-    }
-
-    private void PickTarget(Collider2D other)
-    {
-        EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
-        e.HurtEnemy(damage);
-        MyTarget = targets[targetIndex];
-        targetIndex++;
     }
 }

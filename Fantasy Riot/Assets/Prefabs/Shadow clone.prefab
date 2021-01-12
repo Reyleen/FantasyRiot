@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7095851700978462103}
   - component: {fileID: -7894334551821076414}
   - component: {fileID: 2196631335566926042}
+  - component: {fileID: -157229612333432498}
   m_Layer: 0
   m_Name: Shadow clone
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 5760174463672439395, guid: 4ca2b2d5aee00464d992968ed6618937,
     type: 3}
   m_Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
@@ -140,6 +141,10 @@ MonoBehaviour:
   hit: 0
   distance: 0
   isAttacking: 0
+  range: 1
+  lastAttackTime: 0
+  attackDelay: 1
+  nextHitAllowed: 0
 --- !u!95 &2196631335566926042
 Animator:
   serializedVersion: 3
@@ -159,3 +164,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-157229612333432498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870008582308706546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

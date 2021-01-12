@@ -16,8 +16,17 @@ public class Infinitewaves : MonoBehaviour
         public float rate;
     }
 
+    [System.Serializable]
+    public class Bosses
+    {
+        public GameObject[] boss;
+        public int count;
+        public float rate;
+    }
+
     public GameObject TowerUI;
     public Enemies e;
+    public Bosses b;
 
     public int currentWave = 0;
 
@@ -32,6 +41,8 @@ public class Infinitewaves : MonoBehaviour
     public GameObject bottoneGo;
     public GameObject bottoneNext;
     public TMP_Text timer;
+
+    public bool road;
 
     void Start()
     {
@@ -66,7 +77,6 @@ public class Infinitewaves : MonoBehaviour
             {
                 StartCoroutine(SpawnWave());
             }
-
         }
         else
         {
@@ -93,8 +103,6 @@ public class Infinitewaves : MonoBehaviour
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         TowerUI.SetActive(true);
-        bottoneGo.SetActive(true);
-
     }
 
     bool EnemyIsAlive()
@@ -121,10 +129,32 @@ public class Infinitewaves : MonoBehaviour
     IEnumerator SpawnWave()
     {
         state = SpawnState.SPAWNING;
-        for (int i = 0; i < e.count; i++)
+        if (currentWave % 10 == 0)
         {
-            SpawnEnemy(e.enemies[Random.Range(0,11)]);
-            yield return new WaitForSeconds(1f / e.rate);
+            for (int i = 0; i < 1; i++)
+            {
+                int index = Random.Range(0, spawnPoints.Length);
+                SpawnEnemy(b.boss[Random.Range(0, 5)]);
+                Foll(index);
+                yield return new WaitForSeconds(1f / e.rate);
+            }
+            for (int i = 0; i < e.count; i++)
+            {
+                int index = Random.Range(0, spawnPoints.Length);
+                SpawnEnemy(e.enemies[Random.Range(0, 13)]);
+                Foll(index);
+                yield return new WaitForSeconds(1f / e.rate);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < e.count; i++)
+            {
+                int index = Random.Range(0, spawnPoints.Length);
+                SpawnEnemy(e.enemies[Random.Range(0, 12)]);
+                Foll(index);
+                yield return new WaitForSeconds(1f / e.rate);
+            }
         }
         state = SpawnState.WAITING;
         yield break;
@@ -134,5 +164,23 @@ public class Infinitewaves : MonoBehaviour
     {
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(enemy, _sp.transform.position, _sp.transform.rotation);
+    }
+
+    void SpawnBoss(GameObject boss)
+    {
+        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Instantiate(boss, _sp.transform.position, _sp.transform.rotation);
+    }
+    bool Foll(int index)
+    {
+        if (index == 1)
+        {
+            road = true;
+        }
+        else
+        {
+            road = false;
+        }
+        return road;
     }
 }

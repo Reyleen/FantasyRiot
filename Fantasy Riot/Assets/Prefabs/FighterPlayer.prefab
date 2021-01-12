@@ -203,7 +203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6292542961840878317
 Transform:
   m_ObjectHideFlags: 0
@@ -369,6 +369,7 @@ MonoBehaviour:
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   anim: {fileID: 6292542963134921631}
   anim1: {fileID: 6292542963285278369}
+  a: {fileID: 0}
 --- !u!114 &-6435855113079664782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,6 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clone: {fileID: 6870008582308706546, guid: 41fd4cff51e996d4985fe2bde3b116e8, type: 3}
+  pla: {fileID: 0}
 --- !u!1 &6292542963134921630
 GameObject:
   m_ObjectHideFlags: 0

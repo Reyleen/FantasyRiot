@@ -10,6 +10,7 @@ public class WarriorAbiity : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pla = GameObject.FindGameObjectWithTag("Player");
         PlayerPosition = pla.GetComponent<Transform>();
         PlayerPosition.position = new Vector3(PlayerPosition.position.x, PlayerPosition.position.y, PlayerPosition.position.z);
     }

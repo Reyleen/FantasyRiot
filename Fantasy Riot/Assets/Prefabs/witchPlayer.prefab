@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 9022929352559745307}
   - component: {fileID: 6983758052984696470}
   - component: {fileID: 2235477034654666874}
+  - component: {fileID: -4499162687894917908}
   m_Layer: 0
   m_Name: witchPlayer
   m_TagString: Player
@@ -220,6 +221,8 @@ MonoBehaviour:
   joystick: {fileID: 0}
   topAnim: {fileID: 9022929352099579054}
   botAnim: {fileID: 9022929352942706795}
+  playerMoving: 0
+  isShooting: 0
   arrowPrefab: {fileID: 3027320825508124567, guid: ac0c10e402533b54784bb47d7b198c56,
     type: 3}
   aimStick: {fileID: 0}
@@ -248,6 +251,20 @@ MonoBehaviour:
   anim: {fileID: 9022929352099579054}
   anim1: {fileID: 9022929352942706795}
   a: {fileID: 0}
+--- !u!114 &-4499162687894917908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9022929352559745300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b9120b0769ca547ba048aeeeb7f3d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightning: {fileID: 7695197710004257010, guid: 0311145006f18ff49814963bb0c14167,
+    type: 3}
 --- !u!1 &9022929352942706788
 GameObject:
   m_ObjectHideFlags: 0

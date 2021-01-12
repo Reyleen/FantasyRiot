@@ -49,6 +49,8 @@ public class TowerReturn : MonoBehaviour
 
     private Vector2 spr;
 
+
+    bool TowerClicked;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -131,37 +133,45 @@ public class TowerReturn : MonoBehaviour
         if (Input.touchCount > 0 && Locked)
         {
             touch = Input.GetTouch(0);
-            Debug.Log(touch);
+           // Debug.Log(touch);
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             touchPos.z = 0;
             RaycastHit2D hit = Physics2D.Raycast(touchPos, (touch.position));
+            
 
-            if (hit.collider != null && hit.collider.tag == "Tower")
-            {
-                if (Fire == true)
+            if (touch.phase == TouchPhase.Began)
+            { 
+                if (hit.collider != null && hit.collider.tag == "Tower")
+                Debug.Log(hit.collider.name);
                 {
-                    Debug.Log("fire tower touched");
-                    hit.collider.GetComponentInChildren<Tower>().Select();
-                }
+                    if (Fire == true)
+                    {
+                        Debug.Log("fire tower touched");
+                        hit.collider.GetComponentInChildren<Tower>().Select();
+                    }
 
-                if (Earth == true)
-                {
-                    Debug.Log("earth tower touched");
-                    hit.collider.GetComponentInChildren<Golem>().Select();
-                }
+                    if (Earth == true)
+                    {
+                        Debug.Log("earth tower touched");
+                        hit.collider.GetComponentInChildren<Golem>().Select();
+                    }
 
-                if (Air == true)
-                {
-                    Debug.Log("air tower touched");
-                    hit.collider.GetComponentInChildren<Air>().Select();
-                }
+                    if (Air == true)
+                    {
+                        Debug.Log("air tower touched");
+                        hit.collider.GetComponentInChildren<Air>().Select();
+                      
+                    }
 
-                if (Water == true) 
-                {
-                    Debug.Log("ice tower touched");
-                    hit.collider.GetComponentInChildren<IceTower>().Select();
+                    if (Water == true)
+                    {
+                        Debug.Log("ice tower touched");
+                        hit.collider.GetComponentInChildren<IceTower>().Select();
+                    }
+                
                 }
             }
+       
         }
     }
 }

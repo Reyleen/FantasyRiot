@@ -1274,6 +1274,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1998159752, guid: ac22726db071bb94e9172be91a2350f8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 832639741400196968, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1404,6 +1408,16 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 832639741706921495, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971005806960523301, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2426911128482214094, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1419,6 +1433,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3034353412212730556, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3550961202848434652, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1433,6 +1452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Go
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081750887684548354, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7950717381909997604, guid: ac22726db071bb94e9172be91a2350f8, type: 3}

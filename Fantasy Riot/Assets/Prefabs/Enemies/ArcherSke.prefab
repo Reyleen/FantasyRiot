@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -1302653223024819734}
   - component: {fileID: -8438643405896569766}
   - component: {fileID: -8421947330498257928}
+  - component: {fileID: 8398667989993744746}
   m_Layer: 8
   m_Name: ArcherSke
   m_TagString: Enemy
@@ -100,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4372fd0e269329a4aa27338d22974b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialSpeed: 0
   speed: 2
   stopDistance: 4
   retreatDistance: 2
@@ -226,3 +228,21 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &8398667989993744746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5256094312025177033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 1.9
+  ranged: 1
+  rb: {fileID: -1302653223024819734}
+  enemySpeed: {fileID: 0}
+  rangedSpeed: {fileID: 5256094312025177032}

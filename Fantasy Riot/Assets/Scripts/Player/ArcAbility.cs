@@ -9,8 +9,8 @@ public class ArcAbility : MonoBehaviour
     public bool ability;
     public GameObject circle;
 
-    private List<Enemy> targets = new List<Enemy>();
-    private Enemy target;
+    private List<Debuffs> targets = new List<Debuffs>();
+    private Debuffs target;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,7 @@ public class ArcAbility : MonoBehaviour
         {
             if(timer <= time)
             {
-                foreach (Enemy enemy in targets)
+                foreach (Debuffs enemy in targets)
                 {
                     StartCoroutine(enemy.KnockUp(0.03f, -0.1f, enemy.transform.position));
                 }
@@ -52,7 +52,7 @@ public class ArcAbility : MonoBehaviour
     {
         if (targets.Count > 0)
         {
-            foreach (Enemy enemy in targets)
+            foreach (Debuffs enemy in targets)
             {
                 target = enemy;
             }
@@ -63,18 +63,18 @@ public class ArcAbility : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            targets.Add(other.GetComponent<Enemy>());
+            targets.Add(other.GetComponent<Debuffs>());
         }
     }
 
-    public void Remove(List<Enemy> targets)
+    public void Remove(List<Debuffs> targets)
     {
         for (int i = 0; i < targets.Count; i++)
         {
             EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
             if (e.CurrentHealth == 0)
             {
-                targets.Remove(e.GetComponent<Enemy>());
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }
@@ -82,7 +82,7 @@ public class ArcAbility : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            targets.Remove(other.GetComponent<Enemy>());
+            targets.Remove(other.GetComponent<Debuffs>());
             target = null;
         }
     }

@@ -7,9 +7,12 @@ ScriptedImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  script: {fileID: 11500000, guid: 3a8b19c9fbdd6da41a3e435ec42ea167, type: 3}
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
-  errors: []
+  errors:
+  - Errors detected in tileset 'tileset_town_multi_v002..tsx'. Check the tileset
+    inspector for more details. Your map may be broken until these are fixed.
+  - Could not find tile 17215. Make sure the tilesets were successfully imported.
   warnings: []
   missingSortingLayers: []
   missingLayers: []

@@ -46,7 +46,6 @@ public class TowerReturn : MonoBehaviour
     private Air airTw;
 
     private CountTower nTower;
-
     private Vector2 spr;
 
 
@@ -128,50 +127,8 @@ public class TowerReturn : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    public void Sold()
     {
-        if (Input.touchCount > 0 && Locked)
-        {
-            touch = Input.GetTouch(0);
-           // Debug.Log(touch);
-            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-            touchPos.z = 0;
-            RaycastHit2D hit = Physics2D.Raycast(touchPos, (touch.position));
-            
-
-            if (touch.phase == TouchPhase.Began)
-            { 
-                if (hit.collider != null && hit.collider.tag == "Tower")
-                Debug.Log(hit.collider.name);
-                {
-                    if (Fire == true)
-                    {
-                        Debug.Log("fire tower touched");
-                        hit.collider.GetComponentInChildren<Tower>().Select();
-                    }
-
-                    if (Earth == true)
-                    {
-                        Debug.Log("earth tower touched");
-                        hit.collider.GetComponentInChildren<Golem>().Select();
-                    }
-
-                    if (Air == true)
-                    {
-                        Debug.Log("air tower touched");
-                        hit.collider.GetComponentInChildren<Air>().Select();
-                      
-                    }
-
-                    if (Water == true)
-                    {
-                        Debug.Log("ice tower touched");
-                        hit.collider.GetComponentInChildren<IceTower>().Select();
-                    }
-                
-                }
-            }
-       
-        }
+        Destroy(gameObject);
     }
 }

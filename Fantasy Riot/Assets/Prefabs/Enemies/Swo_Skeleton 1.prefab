@@ -170,6 +170,7 @@ MonoBehaviour:
   MaxHealth: 50
   CurrentHealth: 0
   coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
+  heart: {fileID: 0}
   anim: {fileID: 5378829859382424975}
   rb: {fileID: 5378829859382424973}
   drop: 1
@@ -186,7 +187,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0031196177, y: -0.13}
+  m_Offset: {x: -0.0031196177, y: -0.058210433}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -197,7 +198,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2968424, y: 0.29}
+  m_Size: {x: 0.2968424, y: 0.47580814}
   m_EdgeRadius: 0
 --- !u!114 &7011148097764144197
 MonoBehaviour:

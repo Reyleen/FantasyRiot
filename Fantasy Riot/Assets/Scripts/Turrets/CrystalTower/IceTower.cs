@@ -7,8 +7,8 @@ public class IceTower : MonoBehaviour
     private SpriteRenderer mySpriteRenderer;
     private bool canAttack = true;
     private float timer;
-    private List<Enemy> targets = new List<Enemy>();
-    private Enemy target;
+    private List<Debuffs> targets = new List<Debuffs>();
+    private Debuffs target;
     public int damageField;
 
     [SerializeField]
@@ -29,7 +29,7 @@ public class IceTower : MonoBehaviour
     {
         if (targets.Count > 0)
         {
-            foreach (Enemy enemy in targets)
+            foreach (Debuffs enemy in targets)
             {
                 target = enemy;
                 Debug.Log(target);
@@ -71,16 +71,16 @@ public class IceTower : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-           targets.Add(other.GetComponent<Enemy>());
-           other.gameObject.GetComponent<Enemy>().DebuffSlow();
+           targets.Add(other.GetComponent<Debuffs>());
+           other.gameObject.GetComponent<Debuffs>().DebuffSlow();
         }
     }
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Enemy")
         {
-           other.gameObject.GetComponent<Enemy>().RemoveBuff();
-           targets.Remove(other.GetComponent<Enemy>());
+           other.gameObject.GetComponent<Debuffs>().RemoveBuff();
+           targets.Remove(other.GetComponent<Debuffs>());
            target = null;
            Debug.Log("No Enemy/ Enemy died");
         }

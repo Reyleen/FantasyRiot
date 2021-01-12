@@ -5,13 +5,13 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
-    private Queue<Enemy> monsters = new Queue<Enemy>();
+    private Queue<Debuffs> monsters = new Queue<Debuffs>();
     private bool canAttack = true;
     private float timer;
     private Projectile proj;
-    private Enemy target;
+    private Debuffs target;
 
-    public Enemy Target
+    public Debuffs Target
     {
         get { return target; }
     }
@@ -84,7 +84,7 @@ public class Tower : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            monsters.Enqueue(other.GetComponent<Enemy>());
+            monsters.Enqueue(other.GetComponent<Debuffs>());
         }
     }
 

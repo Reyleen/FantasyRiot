@@ -5,6 +5,7 @@ using Pathfinding;
 
 public class RangedEnemy : MonoBehaviour
 {
+    public float initialSpeed;
     public float speed;
     public float stopDistance;
     public float retreatDistance;

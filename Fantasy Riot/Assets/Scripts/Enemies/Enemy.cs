@@ -5,6 +5,7 @@ using Pathfinding;
 
 public class Enemy : MonoBehaviour
 {
+    public float initialSpeed;
     public float speed = 2f;
 
     public Transform target;
@@ -21,8 +22,6 @@ public class Enemy : MonoBehaviour
     public EnemyHealthManager enHea;
     public bool isAlive = true;
 
-    public bool slowed = false;
-    public float SlowInput;
     public float nextWaypointDistance = 3f;
 
     Path path;
@@ -30,8 +29,6 @@ public class Enemy : MonoBehaviour
     bool reachedEndOfPath = false;
     Seeker seeker;
     bool way = false;
-
-    private bool stunned = false;
     GameObject tw;
     private CountTower nTower;
 
@@ -305,48 +302,4 @@ public class Enemy : MonoBehaviour
 
         return closest;
     }
-
-    public void DebuffSlow()
-    {
-        if (slowed == false)
-        {
-            speed = speed - SlowInput;
-            slowed = true;
-            Debug.Log("Getting slowed");
-        }
-    }
-
-    public void RemoveBuff()
-    {
-        speed = speed + SlowInput;
-        slowed = false;
-    }
-
-    public IEnumerator KnockUp(float knockDur, float knockPow, Vector3 knockDir)
-    {
-        float timerKnock = 0;
-
-        while (knockDur > timerKnock)
-        {
-            timerKnock += Time.deltaTime;
-            rb.AddForce(new Vector3(knockDir.x, knockDir.y * knockPow, transform.position.z));
-        }
-
-        yield return 0;
-    }
-
-    public void Stun()
-    {
-        if(stunned == false)
-        {
-            speed = 0;
-        }
-    }
-
-    public void NotStun()
-    {
-        speed = 2f;
-        stunned = false;
-    }
-
 }

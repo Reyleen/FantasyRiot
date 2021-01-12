@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 2230407917908158867}
   m_Layer: 0
   m_Name: Main Tower
-  m_TagString: Tower
+  m_TagString: MainTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -618,6 +618,8 @@ EdgeCollider2D:
   - {x: 0.18749237, y: -0.34853935}
   - {x: 0.1420722, y: -0.2983842}
   - {x: 0.1294465, y: -0.21114635}
+  - {x: 0.10583496, y: -0.06488037}
+  - {x: -0.10769653, y: -0.065841675}
   - {x: -0.12581304, y: -0.21021509}
 --- !u!114 &2230407917908158867
 MonoBehaviour:

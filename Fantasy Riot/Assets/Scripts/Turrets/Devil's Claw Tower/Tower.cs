@@ -77,6 +77,7 @@ public class Tower : MonoBehaviour
     private void DamageAttack()
     {
         GameObject fireBall = Instantiate(ballPre, new Vector3(transform.position.x, transform.position.y + 0.8f), Quaternion.identity);
+        Debug.Log("Attacking");
         Projectile proj = fireBall.GetComponent<Projectile>();
         proj.Initialize(this);
     }

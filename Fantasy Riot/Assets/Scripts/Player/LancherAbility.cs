@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LancherAbility : MonoBehaviour
 {
-    private List<Enemy> targets = new List<Enemy>();
-    private Enemy target;
+    private List<Debuffs> targets = new List<Debuffs>();
+    private Debuffs target;
     public float time;
     public float timer;
     public int damage;
@@ -42,7 +42,7 @@ public class LancherAbility : MonoBehaviour
             {
                 if (target != null && timer > delay)
                 {
-                    foreach (Enemy enemy in targets)
+                    foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
                         StartCoroutine(enemy.KnockUp(0.1f, -10, enemy.transform.position));
@@ -72,7 +72,7 @@ public class LancherAbility : MonoBehaviour
     {
         if (targets.Count > 0)
         {
-            foreach (Enemy enemy in targets)
+            foreach (Debuffs enemy in targets)
             {
                 target = enemy;
             }
@@ -83,18 +83,18 @@ public class LancherAbility : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            targets.Add(other.GetComponent<Enemy>());
+            targets.Add(other.GetComponent<Debuffs>());
         }
     }
 
-    public void Remove(List<Enemy> targets)
+    public void Remove(List<Debuffs> targets)
     {
         for (int i = 0; i < targets.Count; i++)
         {
             EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
             if (e.CurrentHealth == 0)
             {
-                targets.Remove(e.GetComponent<Enemy>());
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }
@@ -102,7 +102,7 @@ public class LancherAbility : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            targets.Remove(other.GetComponent<Enemy>());
+            targets.Remove(other.GetComponent<Debuffs>());
             target = null;
         } 
     }

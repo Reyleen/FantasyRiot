@@ -27014,6 +27014,30 @@ PrefabInstance:
       propertyPath: scoreboardContnent
       value: 
       objectReference: {fileID: 754601578}
+    - target: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d,
+        type: 3}
+      propertyPath: arc
+      value: 
+      objectReference: {fileID: 3547291834372024130, guid: ffa25def036d8834ba38f99d04d820c6,
+        type: 3}
+    - target: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d,
+        type: 3}
+      propertyPath: fig
+      value: 
+      objectReference: {fileID: 7343216491208640942, guid: 8e9b03f484b5cac449bb4185d176db9f,
+        type: 3}
+    - target: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d,
+        type: 3}
+      propertyPath: mag
+      value: 
+      objectReference: {fileID: 2235477034654666874, guid: 65bc22c128de0164c82ceb0c3b6a884b,
+        type: 3}
+    - target: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d,
+        type: 3}
+      propertyPath: lan
+      value: 
+      objectReference: {fileID: 3117428463588801498, guid: f05c5e985f5f02f49968de3280b85993,
+        type: 3}
     - target: {fileID: 3162267014881662853, guid: ca3e3fa25ef4bcb4cae02890b3311d5d,
         type: 3}
       propertyPath: m_LocalPosition.x

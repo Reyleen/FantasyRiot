@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6867612481918737248}
   - component: {fileID: 4022431927839380397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,10 @@ GameObject:
   - component: {fileID: 1908743482345507211}
   - component: {fileID: 4984336690722291005}
   - component: {fileID: 2792595758370396382}
-  m_Layer: 0
+  - component: {fileID: -5442297994784189460}
+  - component: {fileID: -8420170932413660480}
+  - component: {fileID: 4978330433278971906}
+  m_Layer: 8
   m_Name: Imp
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -167,7 +170,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -199,3 +202,75 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.49789965}
   m_EdgeRadius: 0
+--- !u!114 &-5442297994784189460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279855092140335533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &-8420170932413660480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279855092140335533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  target: {fileID: 0}
+  rb: {fileID: 4984336690722291005}
+  isAttacking: 0
+  attackDelay: 1
+  attackRange: 2
+  enHea: {fileID: 4978330433278971906}
+  isAlive: 1
+  slowed: 0
+  SlowInput: 0
+  nextWaypointDistance: 3
+  wa: {fileID: 0}
+  strada: 0
+--- !u!114 &4978330433278971906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279855092140335533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5645a611a665d4e47b380bd9440ed02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 200
+  CurrentHealth: 200
+  coin: {fileID: 5869864426067620081, guid: 52a9a7648805dd649b0ba255570b7a5a, type: 3}
+  heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
+  anim: {fileID: 1908743482345507211}
+  rb: {fileID: 4984336690722291005}
+  drop: 1

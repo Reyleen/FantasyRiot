@@ -90,6 +90,24 @@ public class AuthManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Joined");
         PlayerPrefs.DeleteKey("ActualUser");
         PanelManager.instance.AccountScreenToLogin();
+        arc.currentHp = 35;
+        arc.playerLevel = 0;
+        arc.maxHp = 35;
+        arc.attack = 5;
+        fig.currentHp = 45;
+        fig.playerLevel = 0;
+        fig.maxHp = 45;
+        fig.attack = 5;
+        mag.currentHp = 33;
+        mag.playerLevel = 0;
+        mag.maxHp = 35;
+        mag.attack = 5;
+        lan.currentHp = 70;
+        lan.playerLevel = 0;
+        lan.maxHp = 70;
+        lan.attack = 5;
+        _player.SetFirstPlayer();
+        _player.SetFirstScore();
     }
     private void InitializeFirebase()
     {

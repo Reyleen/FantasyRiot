@@ -1,0 +1,60 @@
+fileFormatVersion: 2
+guid: bfde026aa8636ac4d8beeb5cf471b24d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors:
+  - Errors detected in tileset 'Dirt.tsx'. Check the tileset inspector for more details.
+    Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Dirt2.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Grass.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Grass2.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Mountains.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Random2.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Rocks.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Ruins.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Waterfall.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'WaterGrass.tsx'. Check the tileset inspector for
+    more details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Bridges.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'Deco1.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'wateranimate2.tsx'. Check the tileset inspector for
+    more details. Your map may be broken until these are fixed.
+  - Could not find tile 13171. Make sure the tilesets were successfully imported.
+  - Could not find tile 13172. Make sure the tilesets were successfully imported.
+  - Could not find tile 13207. Make sure the tilesets were successfully imported.
+  - Could not find tile 13208. Make sure the tilesets were successfully imported.
+  - Could not find tile 12556. Make sure the tilesets were successfully imported.
+  - Could not find tile 189. Make sure the tilesets were successfully imported.
+  - Could not find tile 190. Make sure the tilesets were successfully imported.
+  - Could not find tile 184. Make sure the tilesets were successfully imported.
+  - Could not find tile 183. Make sure the tilesets were successfully imported.
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

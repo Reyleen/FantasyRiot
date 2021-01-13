@@ -2034,7 +2034,7 @@ TextureImporter:
         x: 17
         y: 1503
         width: 30
-        height: 48
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2055,7 +2055,7 @@ TextureImporter:
         x: 82
         y: 1503
         width: 31
-        height: 47
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2076,7 +2076,7 @@ TextureImporter:
         x: 147
         y: 1503
         width: 30
-        height: 40
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2097,7 +2097,7 @@ TextureImporter:
         x: 211
         y: 1504
         width: 30
-        height: 35
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2118,7 +2118,7 @@ TextureImporter:
         x: 275
         y: 1504
         width: 31
-        height: 29
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2139,7 +2139,7 @@ TextureImporter:
         x: 338
         y: 1502
         width: 34
-        height: 35
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4669,6 +4669,27 @@ TextureImporter:
       bones: []
       spriteID: dbd90a50c10f85580800000000000000
       internalID: -8838050265570435651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter_190
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 51
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee17d4bbd03664240800000000000000
+      internalID: 4775613365501129198
       vertices: []
       indices: 
       edges: []

@@ -156,11 +156,17 @@ public class AuthManagerIntro : MonoBehaviour
                 Debug.LogWarning(message: $"Failed to register task with {RegisterTask.Exception}");
                 FirebaseException firebaseEx = RegisterTask.Exception.GetBaseException() as FirebaseException;
                 AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
-                string message = "Login Failed";
+                string message = "Register Failed";
                 switch (errorCode)
                 {
                     case AuthError.MissingEmail:
                         message = "Missing Email";
+                        break;
+                    case AuthError.EmailAlreadyInUse:
+                        message = "Email already in use";
+                        break;
+                    case AuthError.InvalidEmail:
+                        message = "Invalid Email";
                         break;
                     case AuthError.MissingPassword:
                         message = "Missing Password";
@@ -168,11 +174,11 @@ public class AuthManagerIntro : MonoBehaviour
                     case AuthError.WrongPassword:
                         message = "Wrong Password";
                         break;
-                    case AuthError.UserNotFound:
-                        message = "Account does not exist";
+                    case AuthError.WeakPassword:
+                        message = "The password is too waek";
                         break;
                 }
-                warningLoginText.text = message;
+                warningRegisterText.text = message;
             }
             else
             {

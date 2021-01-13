@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Example@Email.com...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Password...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
@@ -3865,7 +3865,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Password...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
@@ -4864,7 +4864,7 @@ GameObject:
   - component: {fileID: 883370416}
   - component: {fileID: 883370415}
   m_Layer: 5
-  m_Name: Error Login (1)
+  m_Name: Error2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5021,8 +5021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7301688, y: -8.275579}
-  m_SizeDelta: {x: 140.60295, y: 26.374176}
+  m_AnchoredPosition: {x: 9.6818, y: -8.2756}
+  m_SizeDelta: {x: 150.22298, y: 27.451534}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887350245
 MonoBehaviour:
@@ -5071,8 +5071,8 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -5763,8 +5763,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7301688, y: -55.44548}
-  m_SizeDelta: {x: 140.60295, y: 26.374176}
+  m_AnchoredPosition: {x: 10.784, y: -58.9}
+  m_SizeDelta: {x: 148.01884, y: 26.908627}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018722725
 MonoBehaviour:
@@ -5813,8 +5813,8 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -5973,6 +5973,7 @@ MonoBehaviour:
   fig: {fileID: 7343216491208640942, guid: 8e9b03f484b5cac449bb4185d176db9f, type: 3}
   mag: {fileID: 2235477034654666874, guid: 65bc22c128de0164c82ceb0c3b6a884b, type: 3}
   lan: {fileID: 3117428463588801498, guid: f05c5e985f5f02f49968de3280b85993, type: 3}
+  gemm: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
 --- !u!1 &1104609423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,7 +6193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000019073486, y: 0.00005340576}
+  m_AnchoredPosition: {x: 0.000022888184, y: 0.00005340576}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1118722204
@@ -6774,6 +6775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p: {fileID: 388745181}
+  gemm: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
 --- !u!4 &1235252096
 Transform:
   m_ObjectHideFlags: 0
@@ -6876,8 +6878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7301688, y: 92.97898}
-  m_SizeDelta: {x: 140.60295, y: 26.374176}
+  m_AnchoredPosition: {x: 8.84, y: 94.13}
+  m_SizeDelta: {x: 150.18654, y: 28.17186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248939645
 MonoBehaviour:
@@ -8828,7 +8830,7 @@ GameObject:
   - component: {fileID: 1506636940}
   - component: {fileID: 1506636939}
   m_Layer: 5
-  m_Name: Error Login (1)
+  m_Name: Error
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9037,7 +9039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000019073486, y: 0.00005340576}
+  m_AnchoredPosition: {x: 0.000022888184, y: 0.00005340576}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643219460
@@ -9503,7 +9505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1715085270
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10653,8 +10655,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7301688, y: 44.52477}
-  m_SizeDelta: {x: 140.60295, y: 26.374176}
+  m_AnchoredPosition: {x: 9.2518, y: 44.525}
+  m_SizeDelta: {x: 149.36293, y: 27.208488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990979299
 MonoBehaviour:
@@ -10703,14 +10705,14 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
+  m_ContentType: 6
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 7
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 7
   m_RegexValue: 
   m_GlobalPointSize: 14
   m_CharacterLimit: 0

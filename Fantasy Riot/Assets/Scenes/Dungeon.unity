@@ -321,19 +321,13 @@ Transform:
   m_Father: {fileID: 1096675008}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &487166560 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2015854748854166467, guid: dcd320019d9a1d942a1d626988e20d44,
-    type: 3}
-  m_PrefabInstance: {fileID: 1609425451}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &487166562 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3187324910551223550, guid: dcd320019d9a1d942a1d626988e20d44,
     type: 3}
   m_PrefabInstance: {fileID: 1609425451}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487166560}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1553,6 +1547,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd320019d9a1d942a1d626988e20d44, type: 3}
+--- !u!1 &1609425452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971694545549179458, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1671513278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,12 +2251,12 @@ PrefabInstance:
         type: 3}
       propertyPath: bottoneGo
       value: 
-      objectReference: {fileID: 983510021}
+      objectReference: {fileID: 1609425452}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: bottoneNext
       value: 
-      objectReference: {fileID: 487166560}
+      objectReference: {fileID: 983510021}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: timer

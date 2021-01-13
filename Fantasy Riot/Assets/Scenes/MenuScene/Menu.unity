@@ -4293,6 +4293,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Go
       objectReference: {fileID: 0}
+    - target: {fileID: 8044150872166365894, guid: 61e1578391daa944ca8a6d9569ac65e5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1991448715}
+    - target: {fileID: 8044150872166365894, guid: 61e1578391daa944ca8a6d9569ac65e5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Go
+      objectReference: {fileID: 0}
     - target: {fileID: 8445670782385834338, guid: 61e1578391daa944ca8a6d9569ac65e5,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -13086,6 +13096,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970541002}
   m_CullTransparentMesh: 0
+--- !u!1 &988084412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061693573113034513, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 213035508}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &996896074
 GameObject:
   m_ObjectHideFlags: 0
@@ -27388,5 +27404,15 @@ PrefabInstance:
       propertyPath: tips.Array.data[3]
       value: 
       objectReference: {fileID: 652040192}
+    - target: {fileID: 5644656976345715831, guid: 46045bd55691ee3448a20a865fc50692,
+        type: 3}
+      propertyPath: skip
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644656976345715831, guid: 46045bd55691ee3448a20a865fc50692,
+        type: 3}
+      propertyPath: go
+      value: 
+      objectReference: {fileID: 988084412}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46045bd55691ee3448a20a865fc50692, type: 3}

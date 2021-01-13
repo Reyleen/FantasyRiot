@@ -10,6 +10,7 @@ public class LoadLevel : MonoBehaviour
     public Slider slider;
     public Text progressText;
     public bool skip = false;
+    public GameObject go;
 
     public GameObject arc, war, wit, pal;
     public GameObject[] tips;
@@ -52,15 +53,14 @@ public class LoadLevel : MonoBehaviour
             wit.SetActive(true);
             while (!operation.isDone)
             {
-
                 float progress = Mathf.Clamp01(operation.progress / .9f);
                 slider.value = progress;
                 progressText.text = progress * 100 + "%";
                 if (skip)
                 {
-                    skip = false;
                     operation.allowSceneActivation = true;
                 }
+                skip = false;
                 yield return null;
             }
         }
@@ -70,6 +70,7 @@ public class LoadLevel : MonoBehaviour
             int ran = Random.Range(1, 4);
             tips[ran].SetActive(true);
             int index = Random.Range(6, 7);
+            go.SetActive(false);
             AsyncOperation operation = SceneManager.LoadSceneAsync(index);
             while (!operation.isDone)
             {
@@ -89,7 +90,8 @@ public class LoadLevel : MonoBehaviour
             AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
             loadingScreen.SetActive(true);
             int ran = Random.Range(1, 4);
-            //tips[ran].SetActive(true);
+            tips[ran].SetActive(true);
+            go.SetActive(false);
             while (!operation.isDone)
             {
                 float progress = Mathf.Clamp01(operation.progress / .9f);

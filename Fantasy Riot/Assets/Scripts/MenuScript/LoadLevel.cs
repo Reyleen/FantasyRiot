@@ -53,15 +53,14 @@ public class LoadLevel : MonoBehaviour
             wit.SetActive(true);
             while (!operation.isDone)
             {
-
                 float progress = Mathf.Clamp01(operation.progress / .9f);
                 slider.value = progress;
                 progressText.text = progress * 100 + "%";
                 if (skip)
                 {
-                    skip = false;
                     operation.allowSceneActivation = true;
                 }
+                skip = false;
                 yield return null;
             }
         }

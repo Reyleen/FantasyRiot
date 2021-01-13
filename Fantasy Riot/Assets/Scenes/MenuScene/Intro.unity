@@ -4458,12 +4458,16 @@ MonoBehaviour:
   slider: {fileID: 1280712689}
   progressText: {fileID: 865584321}
   skip: 0
-  go: {fileID: 0}
+  go: {fileID: 8445670782704299652}
   arc: {fileID: 0}
   war: {fileID: 0}
   wit: {fileID: 0}
   pal: {fileID: 0}
-  tips: []
+  tips:
+  - {fileID: 8445670782704299651}
+  - {fileID: 8445670782704299650}
+  - {fileID: 8445670782704299649}
+  - {fileID: 8445670782704299648}
 --- !u!4 &834406704
 Transform:
   m_ObjectHideFlags: 0
@@ -11678,3 +11682,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1578391daa944ca8a6d9569ac65e5, type: 3}
+--- !u!1 &8445670782704299648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6534043726023312022, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8445670782704299647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8445670782704299649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 717176905621681403, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8445670782704299647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8445670782704299650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505887908659504077, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8445670782704299647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8445670782704299651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 249188215322463768, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8445670782704299647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8445670782704299652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061693573113034513, guid: 61e1578391daa944ca8a6d9569ac65e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8445670782704299647}
+  m_PrefabAsset: {fileID: 0}

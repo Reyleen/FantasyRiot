@@ -1563,6 +1563,36 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: startWave
       objectReference: {fileID: 0}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: tips.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: go
+      value: 
+      objectReference: {fileID: 1609425457}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: tips.Array.data[0]
+      value: 
+      objectReference: {fileID: 1609425456}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: tips.Array.data[1]
+      value: 
+      objectReference: {fileID: 1609425455}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: tips.Array.data[2]
+      value: 
+      objectReference: {fileID: 1609425454}
+    - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: tips.Array.data[3]
+      value: 
+      objectReference: {fileID: 1609425453}
     - target: {fileID: 3466592058020498645, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: AirTower
@@ -1574,6 +1604,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 8400000, guid: 06ccc43c754ebf04ca0f3be12bb76c1b, type: 2}
+    - target: {fileID: 5571941885328582540, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7454508659228403763, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -1714,11 +1749,46 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_volume
       objectReference: {fileID: 0}
+    - target: {fileID: 9137769016328038062, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd320019d9a1d942a1d626988e20d44, type: 3}
 --- !u!1 &1609425452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7971694545549179458, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609425453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7118811594856655992, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609425454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3572871638461454869, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609425455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3207533085139995939, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609425456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4256961677379231990, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609425457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1304879915104868863, guid: dcd320019d9a1d942a1d626988e20d44,
     type: 3}
   m_PrefabInstance: {fileID: 1609425451}
   m_PrefabAsset: {fileID: 0}
@@ -1876,7 +1946,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1847
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

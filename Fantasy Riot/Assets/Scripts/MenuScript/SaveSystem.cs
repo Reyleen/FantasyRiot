@@ -23,6 +23,7 @@ public class SaveSystem : MonoBehaviour
     public PlayerStatus fig;
     public PlayerStatus mag;
     public PlayerStatus lan;
+    public GemsManager gemm;
 
     public void DB()//initialize the DB if needed
     {
@@ -83,6 +84,8 @@ public class SaveSystem : MonoBehaviour
         lan.maxHp = LastPlayerData.HPA;
         lan.currentHp = LastPlayerData.HPL;
         lan.attack = LastPlayerData.atkL;
+        gemm.curGems =LastPlayerData.Gemms;
+        PlayerPrefs.SetInt("CurrentGems", gemm.curGems);
         PlayerPrefs.SetInt("FirstLogin", 0);
     }
 

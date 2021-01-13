@@ -51,6 +51,8 @@ public class AuthManager : MonoBehaviour
     public PlayerStatus fig;
     public PlayerStatus mag;
     public PlayerStatus lan;
+    public GemsManager gemm;
+    public GemsUI g;
 
     private void Awake()//start auth
     {
@@ -106,6 +108,8 @@ public class AuthManager : MonoBehaviour
         lan.playerLevel = 0;
         lan.maxHp = 70;
         lan.attack = 5;
+        gemm.curGems = 0;
+        g.UpdateStats();
         _player.SetFirstPlayer();
         _player.SetFirstScore();
     }
@@ -206,17 +210,23 @@ public class AuthManager : MonoBehaviour
                     case AuthError.MissingEmail:
                         message = "Missing Email";
                         break;
+                    case AuthError.EmailAlreadyInUse:
+                        message = "Email already in use";
+                        break;
+                    case AuthError.InvalidEmail:
+                        message = "Invalid Email";
+                        break;
                     case AuthError.MissingPassword:
                         message = "Missing Password";
                         break;
                     case AuthError.WrongPassword:
                         message = "Wrong Password";
                         break;
-                    case AuthError.UserNotFound:
-                        message = "Account does not exist";
+                    case AuthError.WeakPassword:
+                        message = "The password is too waek";
                         break;
                 }
-                warningLoginText.text = message;
+                warningRegisterText.text = message;
             }
             else
             {

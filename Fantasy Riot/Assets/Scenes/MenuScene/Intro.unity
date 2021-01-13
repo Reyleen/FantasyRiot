@@ -4458,6 +4458,7 @@ MonoBehaviour:
   slider: {fileID: 1280712689}
   progressText: {fileID: 865584321}
   skip: 0
+  go: {fileID: 0}
   arc: {fileID: 0}
   war: {fileID: 0}
   wit: {fileID: 0}
@@ -9505,7 +9506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1715085270
 RectTransform:
   m_ObjectHideFlags: 0

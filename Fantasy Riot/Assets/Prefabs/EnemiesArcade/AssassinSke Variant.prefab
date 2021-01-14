@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5498042654710456428, guid: 8be6c54b34d74cb4abf8961b4a802eb5,
         type: 3}
       propertyPath: m_Name
-      value: AssassinSke
+      value: AssassinSke Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5498042654710456437, guid: 8be6c54b34d74cb4abf8961b4a802eb5,
         type: 3}
@@ -67,5 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5498042654710456426, guid: 8be6c54b34d74cb4abf8961b4a802eb5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8be6c54b34d74cb4abf8961b4a802eb5, type: 3}

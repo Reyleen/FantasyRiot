@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5498042654710456439}
   - component: {fileID: 5498042654710456424}
   - component: {fileID: 5498042654710456425}
-  - component: {fileID: 5498042654710456426}
   - component: {fileID: 5498042654710456427}
   - component: {fileID: -7578782838776189445}
+  - component: {fileID: 7843626836421554494}
   m_Layer: 8
   m_Name: AssassinSke
   m_TagString: Enemy
@@ -156,30 +156,6 @@ MonoBehaviour:
   anim: {fileID: 5498042654710456427}
   rb: {fileID: 5498042654710456424}
   drop: 1
---- !u!114 &5498042654710456426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5498042654710456428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialSpeed: 0
-  speed: 2
-  target: {fileID: 0}
-  rb: {fileID: 5498042654710456424}
-  isAttacking: 0
-  attackDelay: 1
-  attackRange: 1
-  enHea: {fileID: 5498042654710456425}
-  isAlive: 1
-  nextWaypointDistance: 1
-  wa: {fileID: 0}
-  strada: 0
 --- !u!95 &5498042654710456427
 Animator:
   serializedVersion: 3
@@ -227,6 +203,30 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &7843626836421554494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498042654710456428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d245f95649c4043806df60aadc7666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 3
+  speed: 3
+  target: {fileID: 0}
+  rb: {fileID: 5498042654710456424}
+  isAttacking: 0
+  attackDelay: 1
+  attackRange: 1
+  enHea: {fileID: 5498042654710456425}
+  isAlive: 1
+  nextWaypointDistance: 3
+  wa: {fileID: 0}
+  strada: 0
 --- !u!1 &6013622585077646937
 GameObject:
   m_ObjectHideFlags: 0

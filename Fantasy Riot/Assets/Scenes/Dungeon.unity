@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &81256801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5276472853505504068, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &99060288 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
@@ -1512,6 +1524,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1063563668551251401, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063563668551251401, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 1979272165574586785, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1551,7 +1573,7 @@ PrefabInstance:
     - target: {fileID: 2015854748854166467, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2253142038167375754, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
@@ -2554,6 +2576,11 @@ PrefabInstance:
       propertyPath: nextWave
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: waveCounter
+      value: 
+      objectReference: {fileID: 81256801}
     - target: {fileID: 8977001056765497016, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: m_Name

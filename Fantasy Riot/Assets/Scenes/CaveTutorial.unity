@@ -9524,7 +9524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HP 50/50
+  m_Text: 'HP: 50/50'
 --- !u!222 &1400579770
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9589,7 +9589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8471198742098513183, guid: 70328fc281f59ee4eab7ccdc227ebf45,
+  m_Sprite: {fileID: 8524554617580056336, guid: 9e517e202acb7654998a7c51cc0bc013,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1

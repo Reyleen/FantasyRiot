@@ -41,6 +41,7 @@ public class Infinitewaves : MonoBehaviour
     public GameObject bottoneGo;
     public GameObject bottoneNext;
     public TMP_Text timer;
+    private TMP_Text waveCounter;
 
     public bool road;
 
@@ -53,6 +54,7 @@ public class Infinitewaves : MonoBehaviour
 
     void Update()
     {
+        waveCounter.text = "Wave: " + (currentWave);
         if (!StarWaveSpowner)
             return;
         if (state == SpawnState.WAITING)

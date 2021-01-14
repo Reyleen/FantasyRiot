@@ -39,6 +39,7 @@ public class WaveSpawner : MonoBehaviour
     public TMP_Text timer;
 
     private WinnerPanel winner;
+    public TMP_Text waveCounter;
 
     public bool road;
 
@@ -52,6 +53,7 @@ public class WaveSpawner : MonoBehaviour
 
     void Update() 
     {
+        waveCounter.text = "Wave: " + (nextWave);
         if (!StarWaveSpowner)
             return;
         if (state == SpawnState.WAITING)

@@ -139,11 +139,11 @@ GameObject:
   - component: {fileID: 4239071134575948098}
   - component: {fileID: 4239071134575948101}
   - component: {fileID: 4239071134575948100}
-  - component: {fileID: 4239071134575948103}
   - component: {fileID: 4239071134575948102}
   - component: {fileID: 4239071134575948153}
   - component: {fileID: 4239071134575948152}
   - component: {fileID: 2446869710228181886}
+  - component: {fileID: 9114966512972187568}
   m_Layer: 8
   m_Name: AssassinLizard
   m_TagString: Enemy
@@ -237,30 +237,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4239071134575948103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4239071134575948155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialSpeed: 0
-  speed: 2
-  target: {fileID: 0}
-  rb: {fileID: 4239071134575948152}
-  isAttacking: 0
-  attackDelay: 1
-  attackRange: 1
-  enHea: {fileID: 4239071134575948102}
-  isAlive: 1
-  nextWaypointDistance: 1
-  wa: {fileID: 0}
-  strada: 0
 --- !u!114 &4239071134575948102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,3 +331,27 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &9114966512972187568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4239071134575948155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d245f95649c4043806df60aadc7666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 2
+  speed: 3
+  target: {fileID: 0}
+  rb: {fileID: 4239071134575948152}
+  isAttacking: 0
+  attackDelay: 1
+  attackRange: 1
+  enHea: {fileID: 4239071134575948102}
+  isAlive: 1
+  nextWaypointDistance: 1
+  wa: {fileID: 0}
+  strada: 0

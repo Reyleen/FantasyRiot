@@ -51,10 +51,10 @@ public class HurtPlayer : MonoBehaviour
             }
         }
 
-        if (other.gameObject.tag == "Enemy")
+        /*if (other.gameObject.tag == "Enemy")
         {
             Physics2D.IgnoreCollision(thisenemy,other,false);
-        }
+        }*/
     }
 
 }

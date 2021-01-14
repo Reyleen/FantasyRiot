@@ -17,7 +17,6 @@ public class PlayerHealthManager : MonoBehaviour
     void Start()
     {
         deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
-        Debug.Log(plaSta.maxHp);
         playerMaxHealth = plaSta.maxHp;
         playerCurrentHealth = playerMaxHealth;
     }

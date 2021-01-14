@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GoldManager : MonoBehaviour
 {
-    public Text moneyText;
+    public TMP_Text moneyText;
     public int currentGold { get; set; }
     private PlayerHealthManager plaHea;
 

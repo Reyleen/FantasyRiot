@@ -103,7 +103,7 @@ public class Air : MonoBehaviour
 
                 if (timer >= attackDelay)
                 {
-                    if(hp.CurrentTowerHp == 50)
+                    if (hp.CurrentTowerHp <= 75 && hp.CurrentTowerHp > 35)
                     {
                         foreach (Debuffs enemy in targets)
                         {

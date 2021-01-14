@@ -55,7 +55,7 @@ public class TutorialManager : MonoBehaviour
 
     public void CompltedAllTutorials()
     {
-        expText.text = "You Have Completed the tutorial";
+        expText.text = "";
         //Back to menu
     }
     public Tutorial GetTutorialByOrder(int Order)

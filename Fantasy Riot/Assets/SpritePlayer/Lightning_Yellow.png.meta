@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 4c1af5957bf3ef748a914d04dd8e391e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2981954064702659590
+    second: Lightning_Yellow_0
+  - first:
+      213: -4085801442958786335
+    second: Lightning_Yellow_1
+  - first:
+      213: 1675868171474675176
+    second: Lightning_Yellow_2
+  - first:
+      213: -2088588324545653215
+    second: Lightning_Yellow_3
+  - first:
+      213: -4086746355270657293
+    second: Lightning_Yellow_4
+  - first:
+      213: 4865509743479087971
+    second: Lightning_Yellow_5
+  - first:
+      213: -1697519253186780118
+    second: Lightning_Yellow_6
+  - first:
+      213: -1323737742709775719
+    second: Lightning_Yellow_7
+  - first:
+      213: 6287453490339202714
+    second: Lightning_Yellow_8
+  - first:
+      213: 5256039833760022826
+    second: Lightning_Yellow_9
+  - first:
+      213: -3625874428033638272
+    second: Lightning_Yellow_10
+  - first:
+      213: -3491700198004740261
+    second: Lightning_Yellow_11
+  - first:
+      213: -8429719249984980600
+    second: Lightning_Yellow_12
+  - first:
+      213: 6912780032903707715
+    second: Lightning_Yellow_13
+  - first:
+      213: -1188054458353513898
+    second: Lightning_Yellow_14
+  - first:
+      213: -5638157483247448106
+    second: Lightning_Yellow_15
+  - first:
+      213: 2767978153818144565
+    second: Lightning_Yellow_16
+  - first:
+      213: -8690330091169947926
+    second: Lightning_Yellow_17
+  - first:
+      213: -7213404318545218607
+    second: Lightning_Yellow_18
+  - first:
+      213: -8095978339669556630
+    second: Lightning_Yellow_19
+  - first:
+      213: -5066537653695716682
+    second: Lightning_Yellow_20
+  - first:
+      213: 6200080852047144139
+    second: Lightning_Yellow_21
+  - first:
+      213: -8291629977235457365
+    second: Lightning_Yellow_22
+  - first:
+      213: 5265657005006441460
+    second: Lightning_Yellow_23
+  - first:
+      213: -8756534446508702884
+    second: Lightning_Yellow_24
+  - first:
+      213: -6492894458415946000
+    second: Lightning_Yellow_25
+  - first:
+      213: -2285405691099199739
+    second: Lightning_Yellow_26
+  - first:
+      213: -691278620514365374
+    second: Lightning_Yellow_27
+  - first:
+      213: 8108336709954536338
+    second: Lightning_Yellow_28
+  - first:
+      213: 532533555371795779
+    second: Lightning_Yellow_29
+  - first:
+      213: -434762108986622646
+    second: Lightning_Yellow_30
+  - first:
+      213: 5161727958826275288
+    second: Lightning_Yellow_31
+  - first:
+      213: 6711235179485205465
+    second: Lightning_Yellow_32
+  - first:
+      213: -1375325743852369689
+    second: Lightning_Yellow_33
+  - first:
+      213: 5496572878366690557
+    second: Lightning_Yellow_34
+  - first:
+      213: 5307356555161890033
+    second: Lightning_Yellow_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning_Yellow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3add4c398fd96d0800000000000000
+      internalID: -2981954064702659590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0c9a13c315c47c0800000000000000
+      internalID: -4085801442958786335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5a12b0931e14710800000000000000
+      internalID: 1675868171474675176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269d611cf7d303e0800000000000000
+      internalID: -2088588324545653215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa58f6a7d5f847c0800000000000000
+      internalID: -4086746355270657293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 176
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363e5474553c58340800000000000000
+      internalID: 4865509743479087971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a246a6aab333178e0800000000000000
+      internalID: -1697519253186780118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992a106598321ade0800000000000000
+      internalID: -1323737742709775719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96457913a5814750800000000000000
+      internalID: 6287453490339202714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c190916431f840800000000000000
+      internalID: 5256039833760022826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080e1ec1b6e4eadc0800000000000000
+      internalID: -3625874428033638272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Yellow_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f24c37b2dfa8fc0800000000000000
+      internalID: -3491700198004740261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

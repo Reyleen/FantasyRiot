@@ -224,15 +224,13 @@ MonoBehaviour:
   speed: 2
   stopDistance: 3
   retreatDistance: 1
-  startTimeBtwShots: 0
+  startTimeBtwShots: 1
   projectile: {fileID: 8456232743298012767, guid: 4ecce2ce13e645a41996c74bbc73ba92,
     type: 3}
   enHea: {fileID: 3946506674613506693}
   isAlive: 1
   isAttacking: 0
-  slowed: 0
-  SlowInput: 0
-  nextWaypointDistance: 3
+  nextWaypointDistance: 1
   strada: 0
 --- !u!50 &4111686303528899049
 Rigidbody2D:

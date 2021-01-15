@@ -150,14 +150,13 @@ MonoBehaviour:
   speed: 2
   stopDistance: 3
   retreatDistance: 1
-  startTimeBtwShots: 0
-  projectile: {fileID: 0}
+  startTimeBtwShots: 1
+  projectile: {fileID: 7484404325285506834, guid: 7cb8aa39bb791da44b0b444f7284a00d,
+    type: 3}
   enHea: {fileID: -719200742073207122}
   isAlive: 1
   isAttacking: 0
-  slowed: 0
-  SlowInput: 0
-  nextWaypointDistance: 3
+  nextWaypointDistance: 1
   strada: 0
 --- !u!114 &7798948430567458236
 MonoBehaviour:

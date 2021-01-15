@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSpeed: 0
+  initialSpeed: 2
   speed: 2
   target: {fileID: 0}
   rb: {fileID: 8149477465238633968}
@@ -305,7 +305,7 @@ MonoBehaviour:
   attackRange: 2
   enHea: {fileID: -1437323605072959178}
   isAlive: 1
-  nextWaypointDistance: 3
+  nextWaypointDistance: 1
   wa: {fileID: 0}
   strada: 0
 --- !u!114 &-1437323605072959178

@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7237055821192803737}
   - component: {fileID: 2894364534434951169}
   - component: {fileID: 2298582497642503585}
+  - component: {fileID: 1600313512731447955}
   m_Layer: 0
   m_Name: WolfMage
   m_TagString: Enemy
@@ -253,3 +254,27 @@ MonoBehaviour:
   anim: {fileID: 4134739243916268369}
   rb: {fileID: 7237055821192803737}
   drop: 1
+--- !u!114 &1600313512731447955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090276337777884326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4372fd0e269329a4aa27338d22974b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 2
+  speed: 2
+  stopDistance: 3
+  retreatDistance: 1
+  startTimeBtwShots: 1
+  projectile: {fileID: 361065480452901848, guid: 2025cebe006763047b07dcd28cee9cfb,
+    type: 3}
+  enHea: {fileID: 2298582497642503585}
+  isAlive: 1
+  isAttacking: 0
+  nextWaypointDistance: 1
+  strada: 0

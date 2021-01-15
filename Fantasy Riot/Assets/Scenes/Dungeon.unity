@@ -1667,6 +1667,11 @@ PrefabInstance:
       propertyPath: tips.Array.data[3]
       value: 
       objectReference: {fileID: 1609425453}
+    - target: {fileID: 3301527509097404436, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3466592058020498645, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: AirTower

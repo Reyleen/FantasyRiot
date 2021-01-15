@@ -349,6 +349,7 @@ MonoBehaviour:
   timer: 0
   time: 5
   ability: 0
+  ability1: 0
   circle: {fileID: 6840146566089046702}
   timer1: 0
   cooldown: 10
@@ -526,7 +527,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 8324047682080603671, guid: e3f89c458eabbef499c14b1c697c184f,
     type: 3}
   m_Color: {r: 0, g: 1, b: 0, a: 1}

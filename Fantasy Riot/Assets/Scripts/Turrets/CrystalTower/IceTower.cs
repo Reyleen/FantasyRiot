@@ -13,6 +13,9 @@ public class IceTower : MonoBehaviour
 
     [SerializeField]
     private float cooldown;
+    
+    [SerializeField]
+    private TowerHealth hp;
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +86,18 @@ public class IceTower : MonoBehaviour
            targets.Remove(other.GetComponent<Debuffs>());
            target = null;
            Debug.Log("No Enemy/ Enemy died");
+        }
+    }
+
+    public void Dying()
+    {
+        if (targets.Count > 0)
+        {
+            foreach (Debuffs enemy in targets)
+            {
+                Debug.Log("Removing slow");
+                enemy.gameObject.GetComponent<Debuffs>().RemoveBuff();
+            }
         }
     }
 }

@@ -574,6 +574,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerHp: 75
   CurrentTowerHp: 0
+  water: 1
+  air: 0
+  ice: {fileID: 1522860688157017934}
+  cloud: {fileID: 0}
 --- !u!114 &-2924763585894956646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,6 +789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageField: 3
   cooldown: 3
+  hp: {fileID: 1647893927665603139}
 --- !u!60 &8490100616025657804
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -44,18 +44,18 @@ public class Debuffs : MonoBehaviour
     {
         if (ranged == true)
         {
-            if (slowed == false)
+            if (slowed == true)
             {
-                rangedSpeed.speed = rangedSpeed.speed + SlowInput;
+                rangedSpeed.speed = 2f;
                 slowed = false;
             }
         }
 
         else if (!ranged)
         {
-            if (slowed == false)
+            if (slowed == true)
             {
-                enemySpeed.speed = enemySpeed.speed + SlowInput;
+                enemySpeed.speed = 2f;
                 slowed = false;
             }
         }
@@ -97,15 +97,17 @@ public class Debuffs : MonoBehaviour
 
     public void NotStun()
     {
+        Debug.Log("Not stunned");
+
         if(ranged)
         {
-            rangedSpeed.speed = rangedSpeed.initialSpeed;
+            rangedSpeed.speed = 2f;
             stunned = false;
         }
 
         else if(!ranged)
         {
-            enemySpeed.speed = enemySpeed.initialSpeed;
+            enemySpeed.speed = 2f;
             stunned = false;
         }
     }

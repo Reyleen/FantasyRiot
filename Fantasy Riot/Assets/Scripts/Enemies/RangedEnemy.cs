@@ -91,35 +91,43 @@ public class RangedEnemy : MonoBehaviour
         {
             if(nTower.Tot >= 1)
             {
+                Debug.Log("There is a tower");
                 GameObject closestTower = FindClosestTower();
-                if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 8)
+                Debug.Log("Take closest tower");
+
+                if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) > 8 && Vector2.Distance(transform.position, player.position) > 8)
                 {
-                    FollowTower();
+                    Debug.Log("going towards tower");
+                    FollowTower(closestTower);
                 }
 
                 else
                 {
+                    Debug.Log("Going to the waypoint trying to reach tower");
                     if (path == null)
                         return;
+
                     if (currentWaypoint >= path.vectorPath.Count)
                     {
                         if (way)
                             GetNextWaypoint();
+
                         reachedEndOfPath = true;
                         return;
                     }
+
                     else
                     {
                         way = true;
                         reachedEndOfPath = false;
                     }
                     Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-                    Vector2 force = Vector2.zero;
+                    Vector2 force = direction * speed * Time.deltaTime;
                     transform.Translate(force, Space.World);
-                    Vector2 tar = target.position - transform.position;
-                    float angle = Mathf.Atan2(tar.y, tar.x) * Mathf.Rad2Deg;
-                    anim.SetFloat("AngleX", tar.x);
-                    anim.SetFloat("AngleY", tar.y);
+                    Vector2 dir = target.position - transform.position;
+                    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                    anim.SetFloat("AngleX", dir.x);
+                    anim.SetFloat("AngleY", dir.y);
                     float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
                     if (distance < nextWaypointDistance)
                     {
@@ -131,13 +139,14 @@ public class RangedEnemy : MonoBehaviour
 
             if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8)
             {
+                Debug.Log("Tower, player close");
                 GameObject closestTower = FindClosestTower();
                 
                 if (closestTower != null)
                 {
                     if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8)
                     {
-                        FollowTower();
+                        FollowTower(closestTower);
                     }
 
                     if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8)
@@ -149,13 +158,14 @@ public class RangedEnemy : MonoBehaviour
 
             if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
             {
+                Debug.Log("Tower, player close, mt close");
                 GameObject closestTower = FindClosestTower();
 
                 if (closestTower != null)
                 {
                     if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
                     {
-                        FollowTower();
+                        FollowTower(closestTower);
                     }
 
                     if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
@@ -165,18 +175,21 @@ public class RangedEnemy : MonoBehaviour
                 }
             }
 
-            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 8)
+            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) > 8)
             {
+                Debug.Log("only player close");
                 FollowPlayer();
             }
 
             if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 8 && Vector2.Distance(transform.position, player.position) < 8)
             {
+                Debug.Log("no t, player close, mt close");
                 FollowMain();
             }
 
             if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
             {
+                Debug.Log("only close to mt");
                 FollowMain();
             }
 
@@ -184,13 +197,16 @@ public class RangedEnemy : MonoBehaviour
             {
                 if (path == null)
                     return;
+
                 if (currentWaypoint >= path.vectorPath.Count)
                 {
                     if (way)
                         GetNextWaypoint();
+
                     reachedEndOfPath = true;
                     return;
                 }
+
                 else
                 {
                     way = true;
@@ -199,10 +215,10 @@ public class RangedEnemy : MonoBehaviour
                 Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
                 Vector2 force = direction * speed * Time.deltaTime;
                 transform.Translate(force, Space.World);
-                Vector2 tar = target.position - transform.position;
-                float angle = Mathf.Atan2(tar.y, tar.x) * Mathf.Rad2Deg;
-                anim.SetFloat("AngleX", tar.x);
-                anim.SetFloat("AngleY", tar.y);
+                Vector2 dir = target.position - transform.position;
+                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                anim.SetFloat("AngleX", dir.x);
+                anim.SetFloat("AngleY", dir.y);
                 float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
                 if (distance < nextWaypointDistance)
                 {
@@ -215,6 +231,7 @@ public class RangedEnemy : MonoBehaviour
 
     GameObject FindClosestTower()
     {
+        Debug.Log("Searching for the closest tower!");
         GameObject[] twPos;
         twPos = GameObject.FindGameObjectsWithTag("Tower");
         GameObject closest = null;
@@ -234,14 +251,12 @@ public class RangedEnemy : MonoBehaviour
         }
 
         Vector3 pos = closest.transform.position;
-
+        Debug.Log("Found the closest");
         return closest;
     }
 
-    void FollowTower()
+    void FollowTower(GameObject closestTower)
     {
-        GameObject closestTower = FindClosestTower();
-
         Vector2 dir = closestTower.transform.position - transform.position;
 
         if (Vector2.Distance(transform.position, closestTower.transform.position) > stopDistance)
@@ -268,7 +283,9 @@ public class RangedEnemy : MonoBehaviour
         if (timeBtwShots <= 0)
         {
             isAttacking = true;
-            Instantiate(projectile, transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(projectile, transform.position, Quaternion.identity);
+            EnemyBullet bull = bullet.GetComponent<EnemyBullet>();
+            bull.GoToTower(closestTower);
             timeBtwShots = startTimeBtwShots;
             anim.SetFloat("AttX", dir.x);
             anim.SetFloat("AttY", dir.y);
@@ -309,8 +326,10 @@ public class RangedEnemy : MonoBehaviour
 
         if (timeBtwShots <= 0)
         {
-            isAttacking = true;
-            Instantiate(projectile, transform.position, Quaternion.identity);
+            isAttacking = true; 
+            GameObject bullet = Instantiate(projectile, transform.position, Quaternion.identity);
+            EnemyBullet bull = bullet.GetComponent<EnemyBullet>();
+            bull.GoToPlayer();
             timeBtwShots = startTimeBtwShots;
             anim.SetFloat("AttX", dir.x);
             anim.SetFloat("AttY", dir.y);
@@ -352,7 +371,9 @@ public class RangedEnemy : MonoBehaviour
         if (timeBtwShots <= 0)
         {
             isAttacking = true;
-            Instantiate(projectile, transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(projectile, transform.position, Quaternion.identity);
+            EnemyBullet bull = bullet.GetComponent<EnemyBullet>();
+            bull.GoToMainTower();
             timeBtwShots = startTimeBtwShots;
             anim.SetFloat("AttX", dir.x);
             anim.SetFloat("AttY", dir.y);

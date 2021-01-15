@@ -181,4 +181,15 @@ public class Air : MonoBehaviour
             target = null;
         }
     }
+
+    public void Dying()
+    {
+        if (targets.Count > 0)
+        {
+            foreach (Debuffs enemy in targets)
+            {
+                enemy.gameObject.GetComponent<Debuffs>().NotStun();
+            }
+        }
+    }
 }

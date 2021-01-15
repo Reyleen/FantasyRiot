@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 289902097842072730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4689974717757103189}
   m_Father: {fileID: 0}
@@ -177,8 +177,6 @@ MonoBehaviour:
   enHea: {fileID: 289902097842072709}
   isAlive: 1
   isAttacking: 0
-  slowed: 0
-  SlowInput: 0
   nextWaypointDistance: 1
   strada: 0
 --- !u!114 &289902097842072709

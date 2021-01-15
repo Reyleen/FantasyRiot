@@ -41,7 +41,7 @@ public class Infinitewaves : MonoBehaviour
     public GameObject bottoneGo;
     public GameObject bottoneNext;
     public TMP_Text timer;
-    private TMP_Text waveCounter;
+    public TMP_Text waveCounter;
     public GameObject abilityButton;
 
     public bool road;

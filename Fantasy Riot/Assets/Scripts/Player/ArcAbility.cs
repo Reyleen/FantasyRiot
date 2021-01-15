@@ -8,6 +8,7 @@ public class ArcAbility : MonoBehaviour
     public float timer;
     public float time;
     public bool ability;
+    public bool ability1;
     public GameObject circle;
 
     private List<Debuffs> targets = new List<Debuffs>();
@@ -30,14 +31,14 @@ public class ArcAbility : MonoBehaviour
         Remove(targets);
 
         timer1 += Time.deltaTime;
-        if (ability)
+        if (ability1)
         {
             fill.fillAmount += 1 / cooldown * Time.deltaTime;
 
             if (fill.fillAmount >= 1)
             {
                 fill.fillAmount = 0;
-                ability = false;
+                ability1 = false;
             }
         }
 
@@ -64,6 +65,7 @@ public class ArcAbility : MonoBehaviour
         {
             circle.SetActive(true);
             ability = true;
+            ability1 = true;
             timer1 = 0;
             timer = 0;
         }

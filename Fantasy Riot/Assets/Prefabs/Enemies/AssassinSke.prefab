@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5498042654710456427}
   - component: {fileID: -7578782838776189445}
   - component: {fileID: 7843626836421554494}
+  - component: {fileID: 3618856874546118908}
   m_Layer: 8
   m_Name: AssassinSke
   m_TagString: Enemy
@@ -227,6 +228,24 @@ MonoBehaviour:
   nextWaypointDistance: 3
   wa: {fileID: 0}
   strada: 0
+--- !u!114 &3618856874546118908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498042654710456428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 0
+  ranged: 0
+  rb: {fileID: 5498042654710456424}
+  enemySpeed: {fileID: 0}
+  rangedSpeed: {fileID: 0}
 --- !u!1 &6013622585077646937
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +339,7 @@ GameObject:
   - component: {fileID: 2456598293046961230}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

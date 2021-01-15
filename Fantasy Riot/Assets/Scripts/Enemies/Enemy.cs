@@ -77,8 +77,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.velocity = Vector2.zero;
-
         if (player != null)
         {
             if (enHea.CurrentHealth <= 0)
@@ -93,19 +91,18 @@ public class Enemy : MonoBehaviour
 
                 if (nTower.Tot >= 1)
                 {
-                    Debug.Log("Tower!!!");
+                    Debug.Log("There is a tower");
                     GameObject closestTower = FindClosestTower();
-                    if (closestTower != null)
-                    {
-                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+                    Debug.Log("Take closest tower");
 
-                        if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
-                        {
-                            FollowTower();
-                        }
+                    if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 3 && Vector2.Distance(transform.position, main.position) > 3 && Vector2.Distance(transform.position, player.position) > 3)
+                    {
+                        Debug.Log("there's a tower and everything is far from range");
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+                        FollowTower(closestTower);
                     }
 
-                    else
+                   else if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) > 3 && Vector2.Distance(transform.position, main.position) > 3 && Vector2.Distance(transform.position, player.position) > 3)
                     {
                         Debug.Log("Going to the waypoint");
                         if (path == null)
@@ -137,31 +134,31 @@ public class Enemy : MonoBehaviour
                     }
                 }
                 
-                if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3)
+                else if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3)
                 {
                     GameObject closestTower = FindClosestTower();
-                    Debug.Log("Tower!!");
+                    Debug.Log("Tower and player close main far");
                     
                     if (closestTower != null)
                     {
                         float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
 
-                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3)
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3 && Vector2.Distance(transform.position, main.position) > 3)
                         {
-                            FollowTower();
+                            FollowTower(closestTower);
                         }
 
-                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3)
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3 && Vector2.Distance(transform.position, main.position) > 3)
                         {
                             FollowPlayer();
                         }
                     }
                 }
 
-                if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, main.position) < 3)
+                else if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, main.position) < 3)
                 {
                     GameObject closestTower = FindClosestTower();
-                    Debug.Log("Tower!!");
+                    Debug.Log("Tower, player close and main tower close");
 
                     if (closestTower != null)
                     {
@@ -169,7 +166,7 @@ public class Enemy : MonoBehaviour
 
                         if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) < 3 && Vector2.Distance(transform.position, main.position) < 3)
                         {
-                            FollowTower();
+                            FollowTower(closestTower);
                         }
 
                         if (closestTower != null && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, closestTower.transform.position) > 3 && Vector2.Distance(transform.position, main.position) < 3)
@@ -179,18 +176,21 @@ public class Enemy : MonoBehaviour
                     }
                 }
 
-                if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 3)
+                else if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 3 && Vector2.Distance(transform.position, main.position) > 3)
                 {
+                    Debug.Log("no tower and player close main far");
                     FollowPlayer();
                 }
 
-                if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 3 && Vector2.Distance(transform.position, player.position) < 3)
+                else if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 3 && Vector2.Distance(transform.position, player.position) < 3)
                 {
+                    Debug.Log("no tower, main tower close, and player close");
                     FollowMainTower();
                 }
 
-                if(nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 3 && Vector2.Distance(transform.position, main.position) < 3)
+                else if(nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 3 && Vector2.Distance(transform.position, main.position) < 3)
                 {
+                    Debug.Log("no tower, player far, main close");
                     FollowMainTower();
                 }
 
@@ -263,10 +263,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void FollowTower()
+    void FollowTower(GameObject closestTower)
     {
         Debug.Log("Goint to the tower");
-        GameObject closestTower = FindClosestTower();
         float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
         if (distanceToTower < attackRange)
         {
@@ -350,26 +349,30 @@ public class Enemy : MonoBehaviour
 
     GameObject FindClosestTower()
     {
+        Debug.Log("Searching for the closest");
+        GameObject closest = null;
         GameObject[] twPos;
         twPos = GameObject.FindGameObjectsWithTag("Tower");
-        GameObject closest = null;
+        Debug.Log("Searching all the towers");
         float distance = Mathf.Infinity;
         Vector3 position = transform.position;
         
         foreach (GameObject towerPos in twPos)
         {
+            Debug.Log("Trying to find the distance");
             Vector3 diff = towerPos.transform.position - position;
             float curDistance = diff.sqrMagnitude;
             
-            if (curDistance < distance && curDistance < 3)
+            if (curDistance < distance)
             {
+                Debug.Log("Found the closest");
                 closest = towerPos;
                 distance = curDistance;
             }
         }
 
         Vector3 pos = closest.transform.position;
-
+        Debug.Log("Found the closest tower");
         return closest;
     }
 }

@@ -26,9 +26,6 @@ public class RangedEnemy : MonoBehaviour
 
     private Transform enemyPosition;
     public Point GridPosition { get; set; }
-
-    public bool slowed = false;
-    public float SlowInput;
     public float nextWaypointDistance = 3f;
 
     Path path;
@@ -39,6 +36,9 @@ public class RangedEnemy : MonoBehaviour
 
     private WaveSpawner wa;
     public bool strada;
+    private Transform main;
+    GameObject tw;
+    private CountTower nTower;
     // Start is called before the first frame updateù
 
     void Start()
@@ -50,6 +50,9 @@ public class RangedEnemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         seeker = GetComponent<Seeker>();
+        tw = GameObject.FindGameObjectWithTag("Tower");
+        nTower = FindObjectOfType<CountTower>();
+        main = GameObject.FindGameObjectWithTag("MainTower").GetComponent<Transform>();
         if (strada)
         {
             target = Waypoints.points[0];
@@ -78,8 +81,6 @@ public class RangedEnemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 dir = player.position - transform.position;
-
         if (enHea.CurrentHealth <= 0)
         {
             isAlive = false;
@@ -88,45 +89,98 @@ public class RangedEnemy : MonoBehaviour
 
         if (isAlive)
         {
-            if (Vector2.Distance(transform.position, player.position) < 8)
+            if(nTower.Tot >= 1)
             {
-                if (Vector2.Distance(transform.position, player.position) > stopDistance)
+                GameObject closestTower = FindClosestTower();
+                if (closestTower != null && Vector2.Distance(transform.position, closestTower.transform.position) < 8)
                 {
-                    transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-                    anim.SetFloat("AngleX", dir.x);
-                    anim.SetFloat("AngleY", dir.y);
-
-                }
-                else if (Vector2.Distance(transform.position, player.position) < stopDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
-                {
-                    transform.position = this.transform.position;
-                    anim.SetFloat("AngleX", dir.x);
-                    anim.SetFloat("AngleY", dir.y);
-
-                }
-                else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
-                {
-                    transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
-                    anim.SetFloat("AngleX", dir.x);
-                    anim.SetFloat("AngleY", dir.y);
+                    FollowTower();
                 }
 
-                if (timeBtwShots <= 0)
-                {
-                    isAttacking = true;
-                    Instantiate(projectile, transform.position, Quaternion.identity);
-                    timeBtwShots = startTimeBtwShots;
-                    anim.SetFloat("AttX", dir.x);
-                    anim.SetFloat("AttY", dir.y);
-                    anim.SetBool("isAttacking", isAttacking);
-                }
                 else
                 {
-                    isAttacking = false;
-                    timeBtwShots -= Time.deltaTime;
-                    anim.SetBool("isAttacking", isAttacking);
+                    if (path == null)
+                        return;
+                    if (currentWaypoint >= path.vectorPath.Count)
+                    {
+                        if (way)
+                            GetNextWaypoint();
+                        reachedEndOfPath = true;
+                        return;
+                    }
+                    else
+                    {
+                        way = true;
+                        reachedEndOfPath = false;
+                    }
+                    Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+                    Vector2 force = Vector2.zero;
+                    transform.Translate(force, Space.World);
+                    Vector2 tar = target.position - transform.position;
+                    float angle = Mathf.Atan2(tar.y, tar.x) * Mathf.Rad2Deg;
+                    anim.SetFloat("AngleX", tar.x);
+                    anim.SetFloat("AngleY", tar.y);
+                    float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+                    if (distance < nextWaypointDistance)
+                    {
+                        currentWaypoint++;
+                    }
                 }
-            } else
+            }
+
+
+            if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8)
+            {
+                GameObject closestTower = FindClosestTower();
+                
+                if (closestTower != null)
+                {
+                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8)
+                    {
+                        FollowTower();
+                    }
+
+                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8)
+                    {
+                        FollowPlayer();
+                    }
+                }
+            }
+
+            if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
+            {
+                GameObject closestTower = FindClosestTower();
+
+                if (closestTower != null)
+                {
+                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
+                    {
+                        FollowTower();
+                    }
+
+                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+                    {
+                        FollowMain();
+                    }
+                }
+            }
+
+            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 8)
+            {
+                FollowPlayer();
+            }
+
+            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 8 && Vector2.Distance(transform.position, player.position) < 8)
+            {
+                FollowMain();
+            }
+
+            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+            {
+                FollowMain();
+            }
+
+            else
             {
                 if (path == null)
                     return;
@@ -159,6 +213,159 @@ public class RangedEnemy : MonoBehaviour
         
     }
 
+    GameObject FindClosestTower()
+    {
+        GameObject[] twPos;
+        twPos = GameObject.FindGameObjectsWithTag("Tower");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+
+        foreach (GameObject towerPos in twPos)
+        {
+            Vector3 diff = towerPos.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+
+            if (curDistance < distance && curDistance < 8)
+            {
+                closest = towerPos;
+                distance = curDistance;
+            }
+        }
+
+        Vector3 pos = closest.transform.position;
+
+        return closest;
+    }
+
+    void FollowTower()
+    {
+        GameObject closestTower = FindClosestTower();
+
+        Vector2 dir = closestTower.transform.position - transform.position;
+
+        if (Vector2.Distance(transform.position, closestTower.transform.position) > stopDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, closestTower.transform.position, speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, closestTower.transform.position) < stopDistance && Vector2.Distance(transform.position, closestTower.transform.position) > retreatDistance)
+        {
+            transform.position = this.transform.position;
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, closestTower.transform.position) < retreatDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, closestTower.transform.position, -speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+        }
+
+        if (timeBtwShots <= 0)
+        {
+            isAttacking = true;
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBtwShots = startTimeBtwShots;
+            anim.SetFloat("AttX", dir.x);
+            anim.SetFloat("AttY", dir.y);
+            anim.SetBool("isAttacking", isAttacking);
+        }
+        else
+        {
+            isAttacking = false;
+            timeBtwShots -= Time.deltaTime;
+            anim.SetBool("isAttacking", isAttacking);
+        }
+    }
+
+    void FollowPlayer()
+    {
+        Vector2 dir = player.position - transform.position;
+
+        if (Vector2.Distance(transform.position, player.position) > stopDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, player.position) < stopDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
+        {
+            transform.position = this.transform.position;
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+        }
+
+        if (timeBtwShots <= 0)
+        {
+            isAttacking = true;
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBtwShots = startTimeBtwShots;
+            anim.SetFloat("AttX", dir.x);
+            anim.SetFloat("AttY", dir.y);
+            anim.SetBool("isAttacking", isAttacking);
+        }
+        else
+        {
+            isAttacking = false;
+            timeBtwShots -= Time.deltaTime;
+            anim.SetBool("isAttacking", isAttacking);
+        }
+    }
+
+    void FollowMain()
+    {
+        Vector2 dir = main.position - transform.position;
+
+        if (Vector2.Distance(transform.position, main.position) > stopDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, main.position, speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, main.position) < stopDistance && Vector2.Distance(transform.position, main.position) > retreatDistance)
+        {
+            transform.position = this.transform.position;
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+
+        }
+        else if (Vector2.Distance(transform.position, main.position) < retreatDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, main.position, -speed * Time.deltaTime);
+            anim.SetFloat("AngleX", dir.x);
+            anim.SetFloat("AngleY", dir.y);
+        }
+
+        if (timeBtwShots <= 0)
+        {
+            isAttacking = true;
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBtwShots = startTimeBtwShots;
+            anim.SetFloat("AttX", dir.x);
+            anim.SetFloat("AttY", dir.y);
+            anim.SetBool("isAttacking", isAttacking);
+        }
+        else
+        {
+            isAttacking = false;
+            timeBtwShots -= Time.deltaTime;
+            anim.SetBool("isAttacking", isAttacking);
+        }
+    }
+
     void GetNextWaypoint()
     {
         if (strada)
@@ -182,21 +389,5 @@ public class RangedEnemy : MonoBehaviour
             target = Waypoints1.points[waypointIndex];
             way = false;
         }
-    }
-
-    public void DebuffSlow()
-    {
-        if (slowed == false)
-        {
-            speed = speed - SlowInput;
-            slowed = true;
-            Debug.Log("Getting slowed");
-        }
-    }
-
-    public void RemoveBuff()
-    {
-        speed = speed + SlowInput;
-        slowed = false;
     }
 }

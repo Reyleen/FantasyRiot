@@ -12,10 +12,13 @@ public class SellTower : MonoBehaviour
     [SerializeField]
     private TowerReturn tower;
 
+    private CountTower nTower;
+
     // Start is called before the first frame update
     void Start()
     {
         gold = FindObjectOfType<GoldManager>();
+        nTower = FindObjectOfType<CountTower>();
     }
 
     // Update is called once per frame
@@ -61,7 +64,7 @@ public class SellTower : MonoBehaviour
             tower.Sold();
         }
 
-        Debug.Log("SOLDU!");
+        nTower.Count(-1);
     }
 
     public void SellGolem()
@@ -95,6 +98,8 @@ public class SellTower : MonoBehaviour
             gold.AddMoney(+2);
             tower.Sold();
         }
+
+        nTower.Count(-1);
     }
 
     public void SellIce()
@@ -128,6 +133,8 @@ public class SellTower : MonoBehaviour
             gold.AddMoney(+2);
             tower.Sold();
         }
+
+        nTower.Count(-1);
     }
 
     public void SellAir()
@@ -161,5 +168,7 @@ public class SellTower : MonoBehaviour
             gold.AddMoney(+2);
             tower.Sold();
         }
+
+        nTower.Count(-1);
     }
 }

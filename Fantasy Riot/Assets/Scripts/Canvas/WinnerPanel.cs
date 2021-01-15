@@ -8,7 +8,6 @@ public class WinnerPanel : MonoBehaviour
 {
     private bool isShowned = false;
     public Image backgroundImg;
-    private float transition = 0.0f;
     private string FIRST_TUTORIAL = "firstTime";
     private bool firstTime = true;
     public GemsManager gemsMan;

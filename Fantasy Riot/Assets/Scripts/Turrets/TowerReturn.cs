@@ -110,8 +110,6 @@ public class TowerReturn : MonoBehaviour
                             waterTw.Select();
                         }
 
-                            
-
                         nTower.Count(1);
                     }
                     

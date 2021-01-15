@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
     public Slider healthBar;
-    public Text HPText;
+    public TMP_Text HPText;
     private PlayerStatus playerHealth;
 
     // Start is called before the first frame update

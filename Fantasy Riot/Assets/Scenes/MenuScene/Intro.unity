@@ -1067,8 +1067,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Touch to start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a1059df344c3f90438101ad41e169f26, type: 2}
-  m_sharedMaterial: {fileID: -2257094137624362613, guid: a1059df344c3f90438101ad41e169f26,
+  m_fontAsset: {fileID: 11400000, guid: 81a5a20288c3d0f4f9e019d677db6a1b, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 81a5a20288c3d0f4f9e019d677db6a1b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6228,7 +6228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1223882855
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6973,8 +6973,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fantasy Riot
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a1059df344c3f90438101ad41e169f26, type: 2}
-  m_sharedMaterial: {fileID: -2257094137624362613, guid: a1059df344c3f90438101ad41e169f26,
+  m_fontAsset: {fileID: 11400000, guid: 81a5a20288c3d0f4f9e019d677db6a1b, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 81a5a20288c3d0f4f9e019d677db6a1b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

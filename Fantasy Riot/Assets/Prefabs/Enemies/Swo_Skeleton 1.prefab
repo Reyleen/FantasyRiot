@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowed: 0
-  SlowInput: 0
+  SlowInput: 1.9
   ranged: 0
   rb: {fileID: 5378829859382424973}
   enemySpeed: {fileID: 5378829859382424974}
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 6937945494070238276}
   m_Layer: 8
   m_Name: AttackZone
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

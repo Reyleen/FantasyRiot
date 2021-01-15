@@ -347,6 +347,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightning: {fileID: 7695197710004257010, guid: 0311145006f18ff49814963bb0c14167,
     type: 3}
+  cooldown: 10
+  fill: {fileID: 0}
+  ability: 0
+  timer: 0
 --- !u!1 &9022929352942706788
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public class WitchAbility : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        fill = GameObject.Find("Canvas").transform.Find("UHD").transform.Find("AbilityButton").transform.Find("Cd").GetComponent<Image>();
     }
 
     // Update is called once per frame

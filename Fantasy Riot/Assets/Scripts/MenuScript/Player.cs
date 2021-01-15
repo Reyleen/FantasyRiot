@@ -81,11 +81,17 @@ public class Player : MonoBehaviour
         Debug.Log(_playerData.Gemms);
         _playerData.Gemms = gems;
     }
-    public void ChangeArc(int att,int HP,int lvl)
+    public void AddGems(int gems)
     {
-        _playerData.atkA=att;
-        _playerData.HPA=HP;
-        _playerData.lvlA =lvl;
+        Debug.Log(gems);
+        Debug.Log(_playerData.Gemms);
+        _playerData.Gemms += gems;
+    }
+    public void ChangeArc(int att, int HP, int lvl)
+    {
+        _playerData.atkA = att;
+        _playerData.HPA = HP;
+        _playerData.lvlA = lvl;
     }
     public void ChangeFig(int att, int HP, int lvl)
     {
@@ -122,7 +128,11 @@ public class Player : MonoBehaviour
     }
     public void SetFirstScore()
     {
-        _playerScore.Username="";
-        _playerScore.UserScore=0;
+        _playerScore.Username = "";
+        _playerScore.UserScore = 0;
+    }
+    public void SetScore(int score)
+    {
+        _playerScore.UserScore = score;
     }
 }

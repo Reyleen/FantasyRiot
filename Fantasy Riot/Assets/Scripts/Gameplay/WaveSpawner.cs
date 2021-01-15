@@ -40,15 +40,16 @@ public class WaveSpawner : MonoBehaviour
 
     private WinnerPanel winner;
     public TMP_Text waveCounter;
-
+    public GameObject abilityButton;
+    public GameObject TowerUI;
     public bool road;
 
     void Start()
     {
-        //TowerUI = GameObject.FindGameObjectWithTag("TowerManager");
         StarWaveSpowner = false;
         state = SpawnState.WAITING;
         winner = GameObject.Find("Canvas").transform.Find("WinnerPanel").GetComponent<WinnerPanel>();
+        abilityButton.SetActive(false);
     }
 
     void Update() 
@@ -72,8 +73,9 @@ public class WaveSpawner : MonoBehaviour
 
             if (waveCountdown <= 0)
             {
-                //TowerUI.SetActive(false);
-                if (state != SpawnState.SPAWNING)
+            abilityButton.SetActive(true);
+            TowerUI.SetActive(false);
+            if (state != SpawnState.SPAWNING)
                 {
                     StartCoroutine(SpawnWave(waves[nextWave]));
                 }
@@ -104,7 +106,8 @@ public class WaveSpawner : MonoBehaviour
         state = SpawnState.COUNTING;
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
-        //TowerUI.SetActive(true);
+        abilityButton.SetActive(false);
+        TowerUI.SetActive(true);
 
         if (nextWave < waves.Length -1)
         {

@@ -42,14 +42,15 @@ public class Infinitewaves : MonoBehaviour
     public GameObject bottoneNext;
     public TMP_Text timer;
     private TMP_Text waveCounter;
+    public GameObject abilityButton;
 
     public bool road;
 
     void Start()
     {
-        TowerUI = GameObject.FindGameObjectWithTag("TowerManager");
         StarWaveSpowner = false;
         state = SpawnState.WAITING;
+        abilityButton.SetActive(false);
     }
 
     void Update()
@@ -75,6 +76,7 @@ public class Infinitewaves : MonoBehaviour
         if (waveCountdown <= 0)
         {
             TowerUI.SetActive(false);
+            abilityButton.SetActive(true);
             if (state != SpawnState.SPAWNING)
             {
                 StartCoroutine(SpawnWave());
@@ -93,10 +95,12 @@ public class Infinitewaves : MonoBehaviour
         StarWaveSpowner = true;
         waveCountdown = timeBetweenWaves;
         bottoneGo.SetActive(false);
+
     }
     public void NextWave()
     {
         bottoneNext.SetActive(false);
+        abilityButton.SetActive(true);
         waveCountdown = 0;
     }
     void WaveCompleted()
@@ -105,6 +109,7 @@ public class Infinitewaves : MonoBehaviour
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         TowerUI.SetActive(true);
+        abilityButton.SetActive(false);
     }
 
     bool EnemyIsAlive()

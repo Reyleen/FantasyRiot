@@ -29,7 +29,7 @@ public class LoadLevel : MonoBehaviour
 
             operation.allowSceneActivation = false;
             loadingScreen.SetActive(true);
-            pal.SetActive(true);
+            war.SetActive(true);
             while (!operation.isDone)
             {
 
@@ -64,12 +64,52 @@ public class LoadLevel : MonoBehaviour
                 yield return null;
             }
         }
+        else if (stringa == "Forest")
+        {
+            AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+
+            operation.allowSceneActivation = false;
+            loadingScreen.SetActive(true);
+            arc.SetActive(true);
+            while (!operation.isDone)
+            {
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                if (skip)
+                {
+                    operation.allowSceneActivation = true;
+                }
+                skip = false;
+                yield return null;
+            }
+        }
+        else if (stringa == "OutsideTheWall")
+        {
+            AsyncOperation operation = SceneManager.LoadSceneAsync(stringa);
+
+            operation.allowSceneActivation = false;
+            loadingScreen.SetActive(true);
+            pal.SetActive(true);
+            while (!operation.isDone)
+            {
+                float progress = Mathf.Clamp01(operation.progress / .9f);
+                slider.value = progress;
+                progressText.text = progress * 100 + "%";
+                if (skip)
+                {
+                    operation.allowSceneActivation = true;
+                }
+                skip = false;
+                yield return null;
+            }
+        }
         else if (stringa == "Random")
         {
             loadingScreen.SetActive(true);
             int ran = Random.Range(1, 4);
             tips[ran].SetActive(true);
-            int index = Random.Range(6, 7);
+            int index = Random.Range(8, 12);
             go.SetActive(false);
             AsyncOperation operation = SceneManager.LoadSceneAsync(index);
             while (!operation.isDone)

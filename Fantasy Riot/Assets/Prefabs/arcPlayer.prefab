@@ -350,6 +350,9 @@ MonoBehaviour:
   time: 5
   ability: 0
   circle: {fileID: 6840146566089046702}
+  timer1: 0
+  cooldown: 10
+  fill: {fileID: 0}
 --- !u!1 &4841506537559657643
 GameObject:
   m_ObjectHideFlags: 0

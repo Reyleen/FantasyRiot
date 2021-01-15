@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ArcAbility : MonoBehaviour
 {
@@ -12,10 +13,14 @@ public class ArcAbility : MonoBehaviour
     private List<Debuffs> targets = new List<Debuffs>();
     private Debuffs target;
 
+    public float timer1;
+    public float cooldown;
+    public Image fill;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        fill = GameObject.Find("Canvas").transform.Find("UHD").transform.Find("AbilityButton").transform.Find("Cd").GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -23,6 +28,18 @@ public class ArcAbility : MonoBehaviour
     {
         FindTarget();
         Remove(targets);
+
+        timer1 += Time.deltaTime;
+        if (ability)
+        {
+            fill.fillAmount += 1 / cooldown * Time.deltaTime;
+
+            if (fill.fillAmount >= 1)
+            {
+                fill.fillAmount = 0;
+                ability = false;
+            }
+        }
 
         timer += Time.deltaTime;
         if (ability)
@@ -43,9 +60,14 @@ public class ArcAbility : MonoBehaviour
 
     public void Ability()
     {
-        circle.SetActive(true);
-        ability = true;
-        timer = 0;
+        if (timer > cooldown)
+        {
+            circle.SetActive(true);
+            ability = true;
+            timer1 = 0;
+            timer = 0;
+        }
+
     }
 
     public void FindTarget()

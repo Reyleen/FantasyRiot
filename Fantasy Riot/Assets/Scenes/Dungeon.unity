@@ -1220,7 +1220,7 @@ MonoBehaviour:
   lightning: {fileID: 7695197710004257010, guid: 0311145006f18ff49814963bb0c14167,
     type: 3}
   cooldown: 10
-  fill: {fileID: 1752628319}
+  fill: {fileID: 0}
   ability: 0
   timer: 0
 --- !u!1 &1353640985
@@ -1792,6 +1792,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7454508659438275980, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1903,8 +1908,8 @@ GameObject:
   - component: {fileID: 1752628320}
   - component: {fileID: 1752628319}
   m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
+  m_Name: Cd
+  m_TagString: Cooldown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

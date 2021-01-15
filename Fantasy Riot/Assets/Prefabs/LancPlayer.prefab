@@ -723,12 +723,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 3
   timer: 0
-  damage: 10
+  damage: 5
   ability: 0
   coll: {fileID: 2153782840273450520}
+  timer1: 0
   topAnim: {fileID: 7793864128974716940}
   botAnim: {fileID: 7793864128636694291}
-  delay: 1.4
+  delay: 0.9
+  cooldown: 5
+  fill: {fileID: 0}
 --- !u!1 &9144520766621163432
 GameObject:
   m_ObjectHideFlags: 0

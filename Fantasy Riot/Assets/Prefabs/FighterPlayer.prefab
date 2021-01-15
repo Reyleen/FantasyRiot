@@ -465,7 +465,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clone: {fileID: 6870008582308706546, guid: 41fd4cff51e996d4985fe2bde3b116e8, type: 3}
-  pla: {fileID: 0}
+  pla: {fileID: 6292542961840878305}
+  cooldown: 20
+  fill: {fileID: 0}
+  ability: 0
+  timer: 0
 --- !u!1 &6292542963134921630
 GameObject:
   m_ObjectHideFlags: 0

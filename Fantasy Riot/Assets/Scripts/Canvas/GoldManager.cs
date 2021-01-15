@@ -19,7 +19,7 @@ public class GoldManager : MonoBehaviour
             currentGold = PlayerPrefs.GetInt("CurrentMoney");
         } else*/
         //{
-            currentGold = 40;
+        currentGold = 40;
         plaHea = FindObjectOfType<PlayerHealthManager>();
         //}
         moneyText.text = "Gold: " + currentGold;

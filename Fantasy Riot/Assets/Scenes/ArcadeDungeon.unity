@@ -378,6 +378,11 @@ PrefabInstance:
       propertyPath: timeBetweenWaves
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8945851762209932865, guid: 3268fc369aefa47438b5ba0548b7d15d,
+        type: 3}
+      propertyPath: waveCounter
+      value: 
+      objectReference: {fileID: 1728831833}
     - target: {fileID: 8945851762209932870, guid: 3268fc369aefa47438b5ba0548b7d15d,
         type: 3}
       propertyPath: m_Name
@@ -391,6 +396,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 282502220}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &282502222 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8945851762209932865, guid: 3268fc369aefa47438b5ba0548b7d15d,
+    type: 3}
+  m_PrefabInstance: {fileID: 282502220}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94b9cf79610d3a45b23a56b882f3858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &321950258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,7 +1302,7 @@ Transform:
   - {fileID: 421918795}
   - {fileID: 268106674}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1684264834 stripped
 MonoBehaviour:
@@ -1361,7 +1378,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 282502222}
     - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1615,6 +1632,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1728831825}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1728831833 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5276472853505504068, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1728831825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1762727055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1671,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ede292dd9e631404386778554a8cee54, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

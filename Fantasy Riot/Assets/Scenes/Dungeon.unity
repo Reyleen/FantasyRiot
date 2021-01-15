@@ -847,6 +847,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65bc22c128de0164c82ceb0c3b6a884b, type: 3}
+--- !u!1 &1073601162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7454508659438275980, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1086945446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1869,6 +1875,12 @@ Transform:
   m_Father: {fileID: 2004115353}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1741161194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3301527509097404436, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609425451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1825952673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,6 +2618,16 @@ PrefabInstance:
       propertyPath: waveCounter
       value: 
       objectReference: {fileID: 81256801}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: abilityButton
+      value: 
+      objectReference: {fileID: 1073601162}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: TowerUI
+      value: 
+      objectReference: {fileID: 1741161194}
     - target: {fileID: 8977001056765497016, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: m_Name

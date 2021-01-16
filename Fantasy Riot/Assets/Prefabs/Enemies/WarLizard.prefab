@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 4546416402557417409}
   - component: {fileID: -1636610615330334218}
   - component: {fileID: 6143287750078748672}
+  - component: {fileID: -3769448719445134413}
   m_Layer: 8
   m_Name: WarLizard
   m_TagString: Enemy
@@ -276,7 +277,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -371,3 +372,21 @@ MonoBehaviour:
   damageToGive: 4
   hitDelay: 1
   thisenemy: {fileID: 5038399394461069120}
+--- !u!114 &-3769448719445134413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546416402557417414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 1.5
+  ranged: 0
+  rb: {fileID: 4546416402557417411}
+  enemySpeed: {fileID: 4546416402557417408}
+  rangedSpeed: {fileID: 0}

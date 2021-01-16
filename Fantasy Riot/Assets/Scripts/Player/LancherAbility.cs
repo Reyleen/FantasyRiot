@@ -31,6 +31,10 @@ public class LancherAbility : MonoBehaviour
     void Update()
     {
         timer1 += Time.deltaTime;
+        timer += Time.deltaTime;
+        FindTarget();
+        Remove(targets);
+        Attack();
         if (ability1)
         {
             fill.fillAmount += 1 / cooldown * Time.deltaTime;
@@ -41,16 +45,13 @@ public class LancherAbility : MonoBehaviour
                 ability1 = false;
             }
         }
-        FindTarget();
-        Remove(targets);
-        Attack();
+
     }
            
     public void Attack()
     {
         if (ability)
         {
-            timer += Time.deltaTime;
             topAnim.SetBool("Ability", ability);
             botAnim.SetBool("Ability", ability);
 
@@ -58,19 +59,19 @@ public class LancherAbility : MonoBehaviour
             {
                 if (target != null && timer > delay)
                 {
+                    delay = timer + delay + 0.5f;
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
-                        StartCoroutine(enemy.KnockUp(0.1f, -10, enemy.transform.position));
+                        StartCoroutine(enemy.KnockUp(0.1f, -0.1f, enemy.transform.position));
                     }
-                    delay = timer + delay - 0.5f;
                 }
             }
             else
             {
                 delay = 1;
                 ability = false;
-                //coll.enabled = false;
+                coll.enabled = false;
                 topAnim.SetBool("Ability", ability);
                 botAnim.SetBool("Ability", ability);
             }
@@ -125,6 +126,6 @@ public class LancherAbility : MonoBehaviour
         {
             targets.Remove(other.GetComponent<Debuffs>());
             target = null;
-        } 
+        }
     }
 }

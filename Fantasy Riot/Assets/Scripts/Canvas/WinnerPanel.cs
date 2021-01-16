@@ -13,9 +13,10 @@ public class WinnerPanel : MonoBehaviour
     public GemsManager gemsMan;
     public AudioSource win;
     public bool game;
-
+    public bool wi = true;
     [SerializeField]
     private Text messageText;
+    public SaveScore Save;
 
     [SerializeField]
     private TextWriter textWriter;
@@ -36,6 +37,7 @@ public class WinnerPanel : MonoBehaviour
         {
             textWriter.AddWriter(messageText, "Congratulations!\n You have completed the tutorial!\n The reign is in danger, and you are now ready to defend it!", .05f);
         }
+        wi = true;
     }
 
     // Update is called once per frame
@@ -46,18 +48,15 @@ public class WinnerPanel : MonoBehaviour
 
     public void ToggleWinPan()
     {
+        
         gameObject.SetActive(true);
         isShowned = true;
         win.Play();
-    }
-
-    public void AddGems()
-    {
-        if(firstTime)
+        if (wi)
         {
-            gemsMan.AddGems(100);
-            this.firstTime = false;
-            PlayerPrefs.SetInt(FIRST_TUTORIAL, this.firstTime ? 1 : 0);
+            Save.SavingNormal();
+            wi = false;
         }
     }
+
 }

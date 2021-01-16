@@ -2,29 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 public class SaveScore : MonoBehaviour
 {
     public Player _p;
     public SaveSystem _Save;
-    public Infinitewaves i;
+    public Infinitewaves infinity;
+    public WaveSpawner normal;
     public GemsManager g;
+    public TMP_Text testoGems;
+    public TMP_Text changeWave;
+    public TMP_Text chaneGems;
     public void SavingInfinite()
     {
+        chaneGems.text = infinity.currentWave.ToString();
+        changeWave.text = (infinity.currentWave * 50).ToString();
         SetPlayerAndSave();
-        i = GameObject.Find("WaveSpawner").GetComponent<Infinitewaves>();
-        _p.AddGems(i.currentWave * 50);
-        g.AddGems(i.currentWave * 50);
-        if (_p.PlayerScore.UserScore < i.currentWave)
+        infinity = GameObject.Find("WaveSpawner").GetComponent<Infinitewaves>();
+        _p.AddGems(infinity.currentWave * 50);
+        g.AddGems(infinity.currentWave * 50);
+        if (_p.PlayerScore.UserScore < infinity.currentWave)
         {
             Debug.Log("ScoreChanged :)");
-            _p.SetScore(i.currentWave);
+            _p.SetScore(infinity.currentWave);
             _Save.SaveScore(_p.PlayerScore, true);
         }
         else
             Debug.Log("ScoreNotSaved :(");
         _Save.SavePlayer(_p.PlayerData, true);
+        
     }
-
+    public void PlayerLoseStory()
+    {
+        normal = GameObject.Find("GameSpawner").GetComponent<WaveSpawner>();
+        testoGems.text = "";
+        chaneGems.text = "";
+        changeWave.text = normal.nextWave.ToString();
+    }
     public void SavingNormal()
     {
         SetPlayerAndSave();

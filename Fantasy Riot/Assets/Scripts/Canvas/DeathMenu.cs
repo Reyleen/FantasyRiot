@@ -13,10 +13,11 @@ public class DeathMenu : MonoBehaviour
     private float transition = 0.0f;
     public SaveScore Save;
     public bool ded = true;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        ded = true;
     }
 
     // Update is called once per frame
@@ -46,6 +47,10 @@ public class DeathMenu : MonoBehaviour
             if (stringa == "ArcadeCity" || stringa == "ArcadeDungeon" || stringa == "ArcadeForest" || stringa == "ArcadeOutside")
             {
                 Save.SavingInfinite();
+            }
+            else
+            {
+                Save.PlayerLoseStory();
             }
             ded = false;
         }

@@ -23,10 +23,9 @@ public class SpawnATurret : MonoBehaviour
     public void Update()
     {
         status = FindObjectOfType<TowerReturn>();
-        if(status!=null)
+        
         if (status.spawned == true)
         {
-            Debug.Log("Spawned tower");
             HasSpawned = false;
         }
     } 

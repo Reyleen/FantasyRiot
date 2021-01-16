@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 2593205365542257946}
   - component: {fileID: -1437323605072959178}
   - component: {fileID: -2084181385927288779}
+  - component: {fileID: 998093129890722437}
   m_Layer: 8
   m_Name: Minotaurus
   m_TagString: Enemy
@@ -355,3 +356,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &998093129890722437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291752249585857743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8baf850de95ac84e97c8135d00e9d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 10
+  hitDelay: 1
+  thisenemy: {fileID: 1220776206782809132}

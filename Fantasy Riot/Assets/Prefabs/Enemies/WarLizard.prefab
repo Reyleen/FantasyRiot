@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 4546416402557417408}
   - component: {fileID: 4546416402557417409}
   - component: {fileID: -1636610615330334218}
+  - component: {fileID: 6143287750078748672}
   m_Layer: 8
   m_Name: WarLizard
   m_TagString: Enemy
@@ -355,3 +356,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &6143287750078748672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546416402557417414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8baf850de95ac84e97c8135d00e9d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 4
+  hitDelay: 1
+  thisenemy: {fileID: 5038399394461069120}

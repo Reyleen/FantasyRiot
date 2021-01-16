@@ -15,6 +15,7 @@ public class Air : MonoBehaviour
     private bool stunned;
     public float StunDur;
     private float MoreStun;
+    public GameObject lightning;
 
     [SerializeField]
     private float attackDelay;
@@ -103,6 +104,7 @@ public class Air : MonoBehaviour
 
                 if (timer >= attackDelay)
                 {
+                    Instantiate(lightning, new Vector3(transform.position.x, transform.position.y - 0.2f), Quaternion.identity);
                     if (hp.CurrentTowerHp <= 75 && hp.CurrentTowerHp > 35)
                     {
                         foreach (Debuffs enemy in targets)

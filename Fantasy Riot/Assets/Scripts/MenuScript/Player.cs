@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
     [Header("Info Chamge")]
     public TMP_Text Users;
     public TMP_Text Gems;
-    public TMP_Text other;
+    public TMP_Text Scor;
 
     public void UpdateThings(PlayerData playerData)
     {
@@ -72,8 +72,10 @@ public class Player : MonoBehaviour
     {
         Users = GameObject.Find("MenuCanvas/AccountMenuSignedIn/UserChange").GetComponent<TMP_Text>();
         Gems = GameObject.Find("MenuCanvas/AccountMenuSignedIn/GemsChange").GetComponent<TMP_Text>();
+        Scor = GameObject.Find("MenuCanvas/AccountMenuSignedIn/ScoreChange").GetComponent<TMP_Text>();
         Users.text = _playerData.User;
         Gems.text = _playerData.Gemms.ToString();
+        Scor.text = _playerScore.UserScore.ToString();
     }
     public void changeGem(int gems)
     {

@@ -339,6 +339,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerHp: 75
   CurrentTowerHp: 0
+  water: 0
+  air: 1
+  ice: {fileID: 0}
+  cloud: {fileID: 6614309867998370931}
 --- !u!114 &1528197770445287594
 MonoBehaviour:
   m_ObjectHideFlags: 0

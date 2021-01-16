@@ -831,10 +831,10 @@ public class AstarPath : VersionedMonoBehaviour {
 
 			if (logPathResults == PathLog.InGame) {
 				inGameDebugPath = debug;
-			} else if (path.error) {
-				Debug.LogWarning(debug);
-			} else {
-				Debug.Log(debug);
+			} 
+			else if (path.error) {
+			} 
+			else {
 			}
 		}
 	}
@@ -1193,7 +1193,6 @@ public class AstarPath : VersionedMonoBehaviour {
 			int memory = SystemInfo.systemMemorySize;
 
 			if (memory <= 0) {
-				Debug.LogError("Machine reporting that is has <= 0 bytes of RAM. This is definitely not true, assuming 1 GiB");
 				memory = 1024;
 			}
 
@@ -1862,7 +1861,6 @@ public class AstarPath : VersionedMonoBehaviour {
 		waitForPathDepth++;
 
 		if (waitForPathDepth == 5) {
-			Debug.LogError("You are calling the BlockUntilCalculated function recursively (maybe from a path callback). Please don't do this.");
 		}
 
 		if (path.PipelineState < PathState.ReturnQueue) {
@@ -1929,7 +1927,6 @@ public class AstarPath : VersionedMonoBehaviour {
 		var astar = active;
 
 		if (System.Object.ReferenceEquals(astar, null)) {
-			Debug.LogError("There is no AstarPath object in the scene or it has not been initialized yet");
 			return;
 		}
 
@@ -1944,9 +1941,7 @@ public class AstarPath : VersionedMonoBehaviour {
 		}
 
 		if (astar.graphs == null || astar.graphs.Length == 0) {
-			Debug.LogError("There are no graphs in the scene");
 			path.FailWithError("There are no graphs in the scene");
-			Debug.LogError(path.errorLog);
 			return;
 		}
 

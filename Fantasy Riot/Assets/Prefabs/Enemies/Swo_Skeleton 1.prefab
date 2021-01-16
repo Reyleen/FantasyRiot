@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e80285a7cfd9441bf528ad0690fbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSpeed: 0
+  initialSpeed: 2
   speed: 2
   target: {fileID: 0}
   rb: {fileID: 5378829859382424973}

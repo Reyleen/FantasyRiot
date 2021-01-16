@@ -9,6 +9,15 @@ public class TowerHealth : MonoBehaviour
     public int CurrentTowerHp;
     private CountTower nTower;
 
+    public bool water;
+    public bool air;
+
+    [SerializeField]
+    private IceTower ice;
+
+    [SerializeField]
+    private Air cloud;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +30,19 @@ public class TowerHealth : MonoBehaviour
     {
         if (CurrentTowerHp <= 0)
         {
+            if(cloud)
+            {
+                cloud.Dying();
+            }
+
+            if (ice)
+            {
+                ice.Dying();
+            }
+                
             Destroy(gameObject);
             nTower.Count(-1);
+            
         }
     }
 

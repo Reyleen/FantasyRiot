@@ -8,9 +8,11 @@ public class Debuffs : MonoBehaviour
     public float SlowInput;
     private bool stunned = false;
     public bool ranged;
+    public bool assassin;
     public Rigidbody2D rb;
     public Enemy enemySpeed;
     public RangedEnemy rangedSpeed;
+    public EnemyAssassin assassinSpeed;
     
     void Start()
     {
@@ -28,8 +30,18 @@ public class Debuffs : MonoBehaviour
                 Debug.Log("Getting slowed");
             }
         }
-        
-        else if (!ranged)
+
+        if (assassin == true)
+        {
+            if (slowed == false)
+            {
+                assassinSpeed.speed = assassinSpeed.speed - SlowInput;
+                slowed = true;
+                Debug.Log("Getting slowed");
+            }
+        }
+
+        else
         {
             if (slowed == false)
             {
@@ -44,18 +56,28 @@ public class Debuffs : MonoBehaviour
     {
         if (ranged == true)
         {
-            if (slowed == false)
+            if (slowed == true)
             {
-                rangedSpeed.speed = rangedSpeed.speed + SlowInput;
+                rangedSpeed.speed = rangedSpeed.initialSpeed;
                 slowed = false;
             }
         }
 
-        else if (!ranged)
+        if (assassin == true)
         {
-            if (slowed == false)
+            if (slowed == true)
             {
-                enemySpeed.speed = enemySpeed.speed + SlowInput;
+                assassinSpeed.speed = assassinSpeed.initialSpeed;
+                slowed = false;
+                Debug.Log("Getting slowed");
+            }
+        }
+
+        else
+        {
+            if (slowed == true)
+            {
+                enemySpeed.speed = enemySpeed.initialSpeed;
                 slowed = false;
             }
         }
@@ -85,7 +107,15 @@ public class Debuffs : MonoBehaviour
             }
         }
 
-        else if(!ranged)
+        if (assassin)
+        {
+            if (stunned == false)
+            {
+                assassinSpeed.speed = 0;
+            }
+        }
+        
+        else 
         {
             if (stunned == false)
             {
@@ -97,15 +127,23 @@ public class Debuffs : MonoBehaviour
 
     public void NotStun()
     {
+        Debug.Log("Not stunned");
+
         if(ranged)
         {
             rangedSpeed.speed = rangedSpeed.initialSpeed;
             stunned = false;
         }
 
+        if (assassin)
+        {
+            assassinSpeed.speed = assassinSpeed.initialSpeed;
+            stunned = false;
+        }
+
         else if(!ranged)
         {
-            enemySpeed.speed = enemySpeed.initialSpeed;
+            enemySpeed.speed = enemySpeed.initialSpeed; ;
             stunned = false;
         }
     }

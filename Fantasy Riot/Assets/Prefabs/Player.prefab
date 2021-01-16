@@ -160,7 +160,7 @@ Transform:
   m_GameObject: {fileID: 5294221084721767809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 8611908972139356410}
   m_RootOrder: 3
@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 8611908972139356410}
   - component: {fileID: 8611908972139356408}
   - component: {fileID: 8611908972139356409}
-  - component: {fileID: 8611908972139356358}
   - component: {fileID: 8611908972139356359}
   - component: {fileID: 6321731978488020052}
   - component: {fileID: 1839213568921460669}
@@ -299,23 +298,6 @@ MonoBehaviour:
     type: 3}
   aimStick: {fileID: 0}
   fireRate: 0.5
---- !u!114 &8611908972139356358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8611908972139356411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d70bc7e81d71a1643a75af7e66ea2927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMaxHealth: 50
-  playerCurrentHealth: 50
-  anim: {fileID: 8611908973325318875}
-  anim1: {fileID: 8611908972583483525}
-  plaSta: {fileID: 0}
 --- !u!61 &8611908972139356359
 BoxCollider2D:
   m_ObjectHideFlags: 0

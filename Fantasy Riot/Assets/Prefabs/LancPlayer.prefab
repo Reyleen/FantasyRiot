@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 1835330897739629131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 7793864130255458100}
   m_RootOrder: 10
@@ -506,7 +506,6 @@ GameObject:
   - component: {fileID: 7793864130255458100}
   - component: {fileID: 7793864130255458101}
   - component: {fileID: 7793864130255458102}
-  - component: {fileID: 7793864130255458096}
   - component: {fileID: 2270384678866692702}
   - component: {fileID: 7557745484763418172}
   - component: {fileID: 3117428463588801498}
@@ -592,23 +591,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.49844325, y: 0.4155637}
   m_EdgeRadius: 0
---- !u!114 &7793864130255458096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7793864130255458097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d70bc7e81d71a1643a75af7e66ea2927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMaxHealth: 50
-  playerCurrentHealth: 50
-  anim: {fileID: 7793864128974716940}
-  anim1: {fileID: 7793864128636694291}
-  plaSta: {fileID: 3117428463588801498}
 --- !u!114 &2270384678866692702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,6 +707,7 @@ MonoBehaviour:
   timer: 0
   damage: 5
   ability: 0
+  ability1: 0
   coll: {fileID: 2153782840273450520}
   timer1: 0
   topAnim: {fileID: 7793864128974716940}

@@ -9,19 +9,20 @@ public class MainTowerHp : MonoBehaviour
     public int TowerHp;
     public int CurrentMainTowerHp;
     public Slider towerHpBar;
-    private DeathMenu deathMenu;
+    public DeathMenu deathMenu;
 
     // Start is called before the first frame update
     void Start()
     {
         CurrentMainTowerHp = TowerHp;
         towerHpBar.maxValue = TowerHp;
+        deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+       
         towerHpBar.value = CurrentMainTowerHp;
 
         if (CurrentMainTowerHp <= 0)

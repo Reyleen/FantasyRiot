@@ -12,21 +12,39 @@ public class WinnerPanel : MonoBehaviour
     private bool firstTime = true;
     public GemsManager gemsMan;
     public AudioSource win;
+    public bool game;
 
+    [SerializeField]
+    private Text messageText;
+
+    [SerializeField]
+    private TextWriter textWriter;
+
+    void Awake()
+    {
+        Application.targetFrameRate = 10;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.SetActive(true);
+        isShowned = true;
+        win.Play();
+        if (game)
+        {
+            textWriter.AddWriter(messageText, "Congratulations!\n You defeated every enemy and\n thanks to you the reign is again safe.", .05f);
+        }
+
+        else
+        {
+            textWriter.AddWriter(messageText, "Congratulations!\n You have completed the tutorial!\n The reign is in danger, and you are now ready to defend it!", .05f);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isShowned)
-        {
-            gameObject.SetActive(false);
-            return;
-        }
+
     }
 
     public void ToggleWinPan()

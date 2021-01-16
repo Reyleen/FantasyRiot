@@ -9,7 +9,7 @@ public class GoldManager : MonoBehaviour
 {
     public TMP_Text moneyText;
     public int currentGold { get; set; }
-    private PlayerHealthManager plaHea;
+    //private PlayerHealthManager plaHea;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class GoldManager : MonoBehaviour
         } else*/
         //{
         currentGold = 40;
-        plaHea = FindObjectOfType<PlayerHealthManager>();
+        //plaHea = FindObjectOfType<PlayerHealthManager>();
         //}
         moneyText.text = "Gold: " + currentGold;
     }
@@ -28,12 +28,12 @@ public class GoldManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(plaHea.playerCurrentHealth <= 0)
+        /*if(plaHea.playerCurrentHealth <= 0)
         {
             currentGold = 0;
             PlayerPrefs.SetInt("CurrentMoney", 0);
             moneyText.text = "Gold: " + currentGold;
-        }
+        } */
     }
 
     public void AddMoney(int goldToAdd)

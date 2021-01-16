@@ -196,7 +196,6 @@ GameObject:
   - component: {fileID: 4841506536352062764}
   - component: {fileID: 8703035543046277461}
   - component: {fileID: 3547291834372024130}
-  - component: {fileID: 946105608305717471}
   - component: {fileID: 224391760540335857}
   m_Layer: 0
   m_Name: arcPlayer
@@ -317,23 +316,6 @@ MonoBehaviour:
   anim: {fileID: 4841506536331033103}
   anim1: {fileID: 4841506537559657640}
   a: {fileID: 3162267014881662852, guid: ca3e3fa25ef4bcb4cae02890b3311d5d, type: 3}
---- !u!114 &946105608305717471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4841506536352062766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d70bc7e81d71a1643a75af7e66ea2927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMaxHealth: 0
-  playerCurrentHealth: 0
-  anim: {fileID: 4841506536331033103}
-  anim1: {fileID: 4841506537559657640}
-  plaSta: {fileID: 3547291834372024130}
 --- !u!114 &224391760540335857
 MonoBehaviour:
   m_ObjectHideFlags: 0

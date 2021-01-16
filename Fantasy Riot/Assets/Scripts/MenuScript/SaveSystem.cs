@@ -59,6 +59,8 @@ public class SaveSystem : MonoBehaviour
                 PlayerPrefs.SetInt("FirstLogin", 1);
                 SetPrefab();
             }
+            PlayerPrefs.SetInt("CurrentGems", LastPlayerData.Gemms);
+            gemm.SetGems();
         }
     }
     private void SetPrefab()

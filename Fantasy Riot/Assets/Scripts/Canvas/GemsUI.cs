@@ -17,6 +17,6 @@ public class GemsUI : MonoBehaviour
 
     public void UpdateStats()
     {
-        gems.text = "" + gemsMan.curGems;
+        gems.text = gemsMan.GetAndSetGems().ToString();
     }
 }

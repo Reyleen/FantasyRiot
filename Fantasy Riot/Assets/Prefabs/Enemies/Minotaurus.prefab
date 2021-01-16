@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: -1437323605072959178}
   - component: {fileID: -2084181385927288779}
   - component: {fileID: 998093129890722437}
+  - component: {fileID: 2882468323483825309}
   m_Layer: 8
   m_Name: Minotaurus
   m_TagString: Enemy
@@ -250,7 +251,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -371,3 +372,21 @@ MonoBehaviour:
   damageToGive: 10
   hitDelay: 1
   thisenemy: {fileID: 1220776206782809132}
+--- !u!114 &2882468323483825309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291752249585857743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 1.5
+  ranged: 0
+  rb: {fileID: 8149477465238633968}
+  enemySpeed: {fileID: 2593205365542257946}
+  rangedSpeed: {fileID: 0}

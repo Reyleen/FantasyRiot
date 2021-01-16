@@ -31,6 +31,7 @@ public class ArcAbility : MonoBehaviour
         Remove(targets);
 
         timer1 += Time.deltaTime;
+        timer += Time.deltaTime;
         if (ability1)
         {
             fill.fillAmount += 1 / cooldown * Time.deltaTime;
@@ -41,8 +42,6 @@ public class ArcAbility : MonoBehaviour
                 ability1 = false;
             }
         }
-
-        timer += Time.deltaTime;
         if (ability)
         {
             if(timer <= time)

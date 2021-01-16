@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: -2595777301627220231}
   - component: {fileID: -5188110417596087377}
   - component: {fileID: -3736854965794925700}
+  - component: {fileID: 6063569878946621004}
   m_Layer: 8
   m_Name: OrcBoss
   m_TagString: Enemy
@@ -250,7 +251,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -371,3 +372,21 @@ MonoBehaviour:
   damageToGive: 10
   hitDelay: 1
   thisenemy: {fileID: 5365407537224456817}
+--- !u!114 &6063569878946621004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4590666439928982162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 1.5
+  ranged: 0
+  rb: {fileID: 3142406792192402349}
+  enemySpeed: {fileID: -5188110417596087377}
+  rangedSpeed: {fileID: 0}

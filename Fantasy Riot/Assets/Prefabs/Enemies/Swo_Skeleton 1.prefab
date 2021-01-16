@@ -259,9 +259,11 @@ MonoBehaviour:
   slowed: 0
   SlowInput: 1.9
   ranged: 0
+  assassin: 0
   rb: {fileID: 5378829859382424973}
   enemySpeed: {fileID: 5378829859382424974}
   rangedSpeed: {fileID: 0}
+  assassinSpeed: {fileID: 0}
 --- !u!1 &5813385721814687161
 GameObject:
   m_ObjectHideFlags: 0

@@ -466,6 +466,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ac5622d09b3eb345ae053902c8df92c, type: 3}
+--- !u!114 &416132306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1697622780}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b3b7a41c2cb284f831edca86b5be73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &425522189
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +720,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 416132306}
+    - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: startWave
+      objectReference: {fileID: 0}
     - target: {fileID: 3299089401366278440, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: tips.Array.size
@@ -867,7 +889,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1704619349}
     - target: {fileID: 7454508659438275982, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1428,7 +1450,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f9e80c303e728c7499844dfae437f259, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2388,3 +2410,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42ad5b5063bf4bf40910feaa8605981a, type: 3}
+--- !u!114 &1704619349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5464569463029433955, guid: f05c5e985f5f02f49968de3280b85993,
+    type: 3}
+  m_PrefabInstance: {fileID: 411887601}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b63665af06f7349afc4c3aeb5c431e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

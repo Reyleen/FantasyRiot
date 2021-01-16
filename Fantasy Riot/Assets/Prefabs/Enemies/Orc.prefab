@@ -193,9 +193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8baf850de95ac84e97c8135d00e9d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToGive: 5
+  damageToGive: 4
   hitDelay: 1
-  thisenemy: {fileID: 3123935420899292149}
+  thisenemy: {fileID: 8744886483560974996}
 --- !u!61 &3123935420899292149
 BoxCollider2D:
   m_ObjectHideFlags: 0

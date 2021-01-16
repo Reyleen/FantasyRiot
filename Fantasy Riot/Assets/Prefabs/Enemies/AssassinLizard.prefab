@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 4239071134575948152}
   - component: {fileID: 2446869710228181886}
   - component: {fileID: 9114966512972187568}
+  - component: {fileID: 315773859300701561}
   m_Layer: 8
   m_Name: AssassinLizard
   m_TagString: Enemy
@@ -355,3 +356,18 @@ MonoBehaviour:
   nextWaypointDistance: 1
   wa: {fileID: 0}
   strada: 0
+--- !u!114 &315773859300701561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4239071134575948155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8baf850de95ac84e97c8135d00e9d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 5
+  hitDelay: 0.5
+  thisenemy: {fileID: 5407914506782665998}

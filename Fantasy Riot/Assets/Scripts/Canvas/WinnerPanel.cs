@@ -32,7 +32,6 @@ public class WinnerPanel : MonoBehaviour
         {
             textWriter.AddWriter(messageText, "Congratulations!\n You defeated every enemy and\n thanks to you the reign is again safe.", .05f);
         }
-
         else
         {
             textWriter.AddWriter(messageText, "Congratulations!\n You have completed the tutorial!\n The reign is in danger, and you are now ready to defend it!", .05f);

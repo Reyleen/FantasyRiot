@@ -12,6 +12,7 @@ public class DeathMenu : MonoBehaviour
     private SpawnPoint spwn;
     private float transition = 0.0f;
     public SaveScore Save;
+    public bool ded = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,17 +39,16 @@ public class DeathMenu : MonoBehaviour
     public void ToggleEndMenu()
     {
         gameObject.SetActive(true);
-        string stringa = SceneManager.GetActiveScene().name;
         isShowned = true;
-        if(stringa=="ArcadeCity" || stringa == "ArcadeDungeon" || stringa == "ArcadeForest" || stringa == "ArcadeOutside")
+        if (ded)
         {
-            Save.SavingInfinite();
+            string stringa = SceneManager.GetActiveScene().name;
+            if (stringa == "ArcadeCity" || stringa == "ArcadeDungeon" || stringa == "ArcadeForest" || stringa == "ArcadeOutside")
+            {
+                Save.SavingInfinite();
+            }
+            ded = false;
         }
-        else
-        {
-            Save.SavingNormal();
-        }
-
     }
 
     public void Retry()

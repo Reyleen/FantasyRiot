@@ -16,11 +16,15 @@ public class SaveScore : MonoBehaviour
         g.AddGems(i.currentWave * 50);
         if (_p.PlayerScore.UserScore < i.currentWave)
         {
+            Debug.Log("ScoreChanged :)");
             _p.SetScore(i.currentWave);
             _Save.SaveScore(_p.PlayerScore, true);
         }
+        else
+            Debug.Log("ScoreNotSaved :(");
         _Save.SavePlayer(_p.PlayerData, true);
     }
+
     public void SavingNormal()
     {
         SetPlayerAndSave();
@@ -72,5 +76,6 @@ public class SaveScore : MonoBehaviour
     {
         g.AddGems(250);
         _p.AddGems(250);
+        _Save.SavePlayer(_p.PlayerData, true);
     }
 }

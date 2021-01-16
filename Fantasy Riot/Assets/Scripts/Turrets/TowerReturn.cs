@@ -50,6 +50,9 @@ public class TowerReturn : MonoBehaviour
 
 
     bool TowerClicked;
+
+    Placement placement;
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -57,10 +60,14 @@ public class TowerReturn : MonoBehaviour
         joystick = FindObjectOfType<FixedJoystick>();
         nTower = FindObjectOfType<CountTower>();
         spr = GameObject.FindGameObjectWithTag("NPC").GetComponent<Renderer>().bounds.size;
+        placement = FindObjectOfType<Placement>();
+      
     }
 
     private void Update()
     {
+        Debug.Log(placement.sizeX[0]);
+
         move.x = joystick.Horizontal;
         move.y = joystick.Vertical;
 
@@ -83,10 +90,13 @@ public class TowerReturn : MonoBehaviour
             if (touch.phase == TouchPhase.Ended)
             {
                 rb.velocity = Vector2.zero;
-                foreach (Transform place in Placement.Placements)
+                //foreach (Transform place in Placement.Placements)
+                for (int i = 0; i < placement.Placements.Length; i++)
                 {
-                    if (Mathf.Abs(transform.position.x - place.position.x) <= spr.x && Mathf.Abs(transform.position.y - place.position.y) <= spr.y)
+                    Debug.Log(i + "entered");
+                    if (Mathf.Abs(transform.position.x - placement.Placements[i].transform.position.x) <= placement.sizeX[i] &&  Mathf.Abs(transform.position.y - placement.Placements[i].position.y) <= placement.sizeY[i])
                     {
+                        Debug.Log("Placed");
                         Locked = true;
                         spawned = true;
 
@@ -112,18 +122,20 @@ public class TowerReturn : MonoBehaviour
 
                         nTower.Count(1);
                     }
-                    
-                    else if (Locked == false)
-                    {
-                        Destroy(gameObject);
-                        gold.AddMoney(+costTower);
-                        spawned = true;
-                    }
                 }
-
+                
+                if (Locked == false)
+                {
+                    gold.AddMoney(+costTower);
+                    spawned = true;
+                    Destroy(gameObject, 0.2f);
+                }
             }
         }
     }
+
+
+   
 
     public void Sold()
     {

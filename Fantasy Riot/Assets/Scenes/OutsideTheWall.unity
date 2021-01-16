@@ -736,6 +736,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: startWave
       objectReference: {fileID: 0}
+    - target: {fileID: 4650192700209672154, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.79003906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571941885328582540, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7454508659228403763, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_AnchorMax.x

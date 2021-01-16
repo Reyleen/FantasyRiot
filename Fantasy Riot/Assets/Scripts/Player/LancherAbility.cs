@@ -11,6 +11,7 @@ public class LancherAbility : MonoBehaviour
     public float timer;
     public int damage;
     public bool ability;
+    public bool ability1;
     public CircleCollider2D coll;
     public float timer1;
     public Animator topAnim;
@@ -30,14 +31,14 @@ public class LancherAbility : MonoBehaviour
     void Update()
     {
         timer1 += Time.deltaTime;
-        if (ability)
+        if (ability1)
         {
             fill.fillAmount += 1 / cooldown * Time.deltaTime;
 
             if (fill.fillAmount >= 1)
             {
                 fill.fillAmount = 0;
-                ability = false;
+                ability1 = false;
             }
         }
         FindTarget();
@@ -83,6 +84,7 @@ public class LancherAbility : MonoBehaviour
             timer1 = 0;
             timer = 0;
             ability = true;
+            ability1 = true;
             coll.enabled = true;
         }
     }

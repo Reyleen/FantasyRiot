@@ -24,12 +24,9 @@ public class DetectTouchIntro : MonoBehaviour
         {
             if ((Input.touchCount > 0 || Input.GetMouseButtonDown(0)) && clicked)
             {
-                Debug.Log(PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"));
-                if (PlayerPrefs.HasKey("Email") && PlayerPrefs.HasKey("Password"))
+                if (au.auth.CurrentUser!=null)
                 {
-                    au.emailLoginField.text = PlayerPrefs.GetString("Email");
-                    au.passwordLoginField.text = PlayerPrefs.GetString("Password");
-                    au.LoginButton();
+                    au.LoginFirebase();
                 }
                 else
                 {
@@ -43,11 +40,6 @@ public class DetectTouchIntro : MonoBehaviour
                 {
                     PanelManager2.instance.LoginScreen();
                     una = false;
-                }
-                if (load.activeSelf == false)
-                { 
-                PlayerPrefs.DeleteKey("Email");
-                PlayerPrefs.DeleteKey("Password");
                 }
             }
         }

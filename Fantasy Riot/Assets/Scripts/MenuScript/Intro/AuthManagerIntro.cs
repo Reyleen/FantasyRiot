@@ -39,8 +39,10 @@ public class AuthManagerIntro : MonoBehaviour
     public SaveSystem a;
     public SyncPlayerToSave a1;
     public DetectTouchIntro b;
+    public TMP_Text test1;
+    public TMP_Text test2;
 
-    
+
     private void Awake()
     {
         //check dependencies for Firebase on the system
@@ -69,6 +71,15 @@ public class AuthManagerIntro : MonoBehaviour
         Debug.Log("Seting up Firebase Auth");
         //Set the Authentication instance object
         auth = FirebaseAuth.DefaultInstance;
+        if (auth.CurrentUser != null)
+        {
+            Debug.Log("effettivamente");
+            test1.text = "aa";
+        }
+        else
+        {
+            Debug.Log("manco per il ciufolo");
+        }
     }
     public void LoginButton()
     {
@@ -117,10 +128,9 @@ public class AuthManagerIntro : MonoBehaviour
         else
         {
             //user is logged in
+            PanelManager2.instance.CloseLogin();
             User = LoginTask.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
-            PlayerPrefs.SetString("Email", _email);
-            PlayerPrefs.SetString("Password", _password);
             PlayerPrefs.SetInt("Joined", 1);
             PlayerPrefs.SetString("User", User.DisplayName);
             PlayerPrefs.SetString("ActualUser", User.UserId);
@@ -128,9 +138,21 @@ public class AuthManagerIntro : MonoBehaviour
             a.DB();
             a1.SDB();
             warningLoginText.text = "";
-            PanelManager2.instance.CloseLogin();
             b.changeLevel();
         }
+    }
+    public void LoginFirebase()
+    {
+        User = auth.CurrentUser;
+        Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
+        PlayerPrefs.SetInt("Joined", 1);
+        PlayerPrefs.SetString("User", User.DisplayName);
+        PlayerPrefs.SetString("ActualUser", User.UserId);
+        a.DB();
+        a1.SDB();
+        warningLoginText.text = "";
+        PanelManager2.instance.CloseLogin();
+        b.changeLevel();
     }
     private IEnumerator Register(string _email, string _password, string _username)
     {
@@ -206,17 +228,15 @@ public class AuthManagerIntro : MonoBehaviour
                     {
                         //Username is now set
                         //Now return to login screeen
+                        PanelManager2.instance.CloseRegister();
                         warningRegisterText.text = "";
                         PlayerPrefs.SetString("ActualUser", User.UserId);
-                        PlayerPrefs.SetString("Email", _email);
-                        PlayerPrefs.SetString("Password", _password);
                         PlayerPrefs.SetInt("Joined", 1);
                         string Register = usernameRegisterField.text;
                         _player.Switch(Register);
                         a.DB();
                         a.SavePlayer(_player.PlayerData, true);
                         a.SaveScore(_player.PlayerScore, true);
-                        PanelManager2.instance.CloseRegister();
                         b.changeLevel();
                     }
                 }

@@ -27,9 +27,6 @@ public class WinnerPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(true);
-        isShowned = true;
-        win.Play();
         if (game)
         {
             textWriter.AddWriter(messageText, "Congratulations!\n You defeated every enemy and\n thanks to you the reign is again safe.", .05f);

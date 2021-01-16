@@ -726,6 +726,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 865391375, guid: dcd320019d9a1d942a1d626988e20d44, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 8400000, guid: 71477160e6011974f92df2fb8869ba99, type: 2}
+    - target: {fileID: 1062335209, guid: dcd320019d9a1d942a1d626988e20d44, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62917539c8d76884d8fc6d7b41ba273a,
+        type: 3}
     - target: {fileID: 1108114163926256486, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -1388,7 +1397,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2049
+    m_Bits: 2048
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 71477160e6011974f92df2fb8869ba99, type: 2}
   m_TargetDisplay: 0

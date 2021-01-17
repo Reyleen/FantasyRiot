@@ -52,7 +52,7 @@ public class RangedEnemy : MonoBehaviour
         seeker = GetComponent<Seeker>();
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
-        main = GameObject.FindGameObjectWithTag("MainTower").GetComponent<Transform>();
+        main = GameObject.FindGameObjectWithTag("MainTower").transform;
         if (strada)
         {
             target = Waypoints.points[0];
@@ -101,6 +101,63 @@ public class RangedEnemy : MonoBehaviour
                     FollowTower(closestTower);
                 }
 
+                else if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8)
+                {
+                    closestTower = FindClosestTower();
+
+                    if (closestTower != null)
+                    {
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) > 8)
+                        {
+                            FollowTower(closestTower);
+                        }
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) > 8)
+                        {
+                            FollowPlayer();
+                        }
+                    }
+                }
+                else if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
+                {
+                    closestTower = FindClosestTower();
+
+                    if (closestTower != null)
+                    {
+                        float distanceToTower = Vector2.Distance(transform.position, closestTower.transform.position);
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 3 && Vector2.Distance(transform.position, main.position) < 8)
+                        {
+                            FollowMainTower();
+                        }
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+                        {
+                            FollowMainTower();
+                        }
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+                        {
+                            FollowMainTower();
+                        }
+                    }
+                }
+                else if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+                {
+                    closestTower = FindClosestTower();
+
+                        if (closestTower != null && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
+                    {
+                        FollowTower(closestTower);
+                    }
+                    if (closestTower != null && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+                    {
+                        FollowMainTower();
+                    }
+                }
+
                 else
                 {
                     Debug.Log("Going to the waypoint trying to reach tower");
@@ -135,62 +192,19 @@ public class RangedEnemy : MonoBehaviour
                     }
                 }
             }
-
-
-            if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8)
+            else if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) > 8)
             {
-                Debug.Log("Tower, player close");
-                GameObject closestTower = FindClosestTower();
-                
-                if (closestTower != null)
-                {
-                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8)
-                    {
-                        FollowTower(closestTower);
-                    }
-
-                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8)
-                    {
-                        FollowPlayer();
-                    }
-                }
-            }
-
-            if (nTower.Tot >= 1 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
-            {
-                Debug.Log("Tower, player close, mt close");
-                GameObject closestTower = FindClosestTower();
-
-                if (closestTower != null)
-                {
-                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) < 8 && Vector2.Distance(transform.position, main.position) < 8)
-                    {
-                        FollowTower(closestTower);
-                    }
-
-                    if (closestTower != null && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, closestTower.transform.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
-                    {
-                        FollowMain();
-                    }
-                }
-            }
-
-            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) < 8 && Vector2.Distance(transform.position, main.position) > 8)
-            {
-                Debug.Log("only player close");
                 FollowPlayer();
             }
 
-            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 8 && Vector2.Distance(transform.position, player.position) < 8)
+            else if (nTower.Tot <= 0 && Vector2.Distance(transform.position, main.position) < 8 && Vector2.Distance(transform.position, player.position) < 8)
             {
-                Debug.Log("no t, player close, mt close");
-                FollowMain();
+                FollowMainTower();
             }
 
-            if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
+            else if (nTower.Tot <= 0 && Vector2.Distance(transform.position, player.position) > 8 && Vector2.Distance(transform.position, main.position) < 8)
             {
-                Debug.Log("only close to mt");
-                FollowMain();
+                FollowMainTower();
             }
 
             else
@@ -250,7 +264,6 @@ public class RangedEnemy : MonoBehaviour
             }
         }
 
-        Vector3 pos = closest.transform.position;
         Debug.Log("Found the closest");
         return closest;
     }
@@ -259,21 +272,21 @@ public class RangedEnemy : MonoBehaviour
     {
         Vector2 dir = closestTower.transform.position - transform.position;
 
-        if (Vector2.Distance(transform.position, closestTower.transform.position) > stopDistance)
+        if (Vector2.Distance(transform.position, closestTower.transform.position) > 2f)
         {
             transform.position = Vector2.MoveTowards(transform.position, closestTower.transform.position, speed * Time.deltaTime);
             anim.SetFloat("AngleX", dir.x);
             anim.SetFloat("AngleY", dir.y);
 
         }
-        else if (Vector2.Distance(transform.position, closestTower.transform.position) < stopDistance && Vector2.Distance(transform.position, closestTower.transform.position) > retreatDistance)
+        else if (Vector2.Distance(transform.position, closestTower.transform.position) < 2f && Vector2.Distance(transform.position, closestTower.transform.position) > 1f)
         {
             transform.position = this.transform.position;
             anim.SetFloat("AngleX", dir.x);
             anim.SetFloat("AngleY", dir.y);
 
         }
-        else if (Vector2.Distance(transform.position, closestTower.transform.position) < retreatDistance)
+        else if (Vector2.Distance(transform.position, closestTower.transform.position) < 1f)
         {
             transform.position = Vector2.MoveTowards(transform.position, closestTower.transform.position, -speed * Time.deltaTime);
             anim.SetFloat("AngleX", dir.x);
@@ -343,7 +356,7 @@ public class RangedEnemy : MonoBehaviour
         }
     }
 
-    void FollowMain()
+    void FollowMainTower()
     {
         Vector2 dir = main.position - transform.position;
 

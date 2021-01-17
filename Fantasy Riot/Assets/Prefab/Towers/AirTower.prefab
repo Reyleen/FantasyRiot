@@ -114,6 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitialDamage: 6
   StunDur: 1
+  lightning: {fileID: 6797885058132282245, guid: 901f09f70b267c34e85deaf6cccc8635,
+    type: 3}
   attackDelay: 1.2
   cooldown: 5
   hp: {fileID: 7925768870937926991}

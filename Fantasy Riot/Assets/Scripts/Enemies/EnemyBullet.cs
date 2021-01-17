@@ -7,28 +7,30 @@ public class EnemyBullet : MonoBehaviour
     public float speed;
     public Rigidbody2D rb;
     private Transform player;
-    private Transform main;
-    private Vector2 target;
+    public Transform main;
 
     public int damageToGive;
     public bool hit;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        main = GameObject.FindGameObjectWithTag("MainTower").transform;
+    }
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        main = GameObject.FindGameObjectWithTag("MainTower").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void GoToPlayer()
     {
-        target = new Vector2(player.position.x, player.position.y);
         Vector2 dir = player.position - transform.position;
 
         hit = false;
@@ -39,7 +41,6 @@ public class EnemyBullet : MonoBehaviour
 
     public void GoToTower(GameObject thisTower)
     {
-        target = new Vector2(thisTower.transform.position.x, thisTower.transform.position.y);
         Vector2 dir = thisTower.transform.position - transform.position;
 
         hit = false;
@@ -50,7 +51,6 @@ public class EnemyBullet : MonoBehaviour
 
     public void GoToMainTower()
     {
-        target = new Vector2(main.position.x, main.position.y);
         Vector2 dir = main.position - transform.position;
 
         hit = false;

@@ -46,7 +46,6 @@ public class TowerReturn : MonoBehaviour
     private Air airTw;
 
     private CountTower nTower;
-    private Vector2 spr;
 
 
     bool TowerClicked;
@@ -59,15 +58,12 @@ public class TowerReturn : MonoBehaviour
         gold = FindObjectOfType<GoldManager>();
         joystick = FindObjectOfType<FixedJoystick>();
         nTower = FindObjectOfType<CountTower>();
-        spr = GameObject.FindGameObjectWithTag("NPC").GetComponent<Renderer>().bounds.size;
         placement = FindObjectOfType<Placement>();
       
     }
 
     private void Update()
     {
-        Debug.Log(placement.sizeX[0]);
-
         move.x = joystick.Horizontal;
         move.y = joystick.Vertical;
 
@@ -90,13 +86,11 @@ public class TowerReturn : MonoBehaviour
             if (touch.phase == TouchPhase.Ended)
             {
                 rb.velocity = Vector2.zero;
-                //foreach (Transform place in Placement.Placements)
+
                 for (int i = 0; i < placement.Placements.Length; i++)
                 {
-                    Debug.Log(i + "entered");
                     if (Mathf.Abs(transform.position.x - placement.Placements[i].transform.position.x) <= placement.sizeX[i] &&  Mathf.Abs(transform.position.y - placement.Placements[i].position.y) <= placement.sizeY[i])
                     {
-                        Debug.Log("Placed");
                         Locked = true;
                         spawned = true;
 

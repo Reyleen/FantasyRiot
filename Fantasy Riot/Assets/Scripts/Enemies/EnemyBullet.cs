@@ -17,10 +17,11 @@ public class EnemyBullet : MonoBehaviour
     private void Awake()
     {
         main = GameObject.FindGameObjectWithTag("MainTower").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
 
     // Update is called once per frame

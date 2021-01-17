@@ -25,6 +25,8 @@ public class MeleeAttack : MonoBehaviour
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
+                Debuffs d = enemy.GetComponent<Debuffs>();
+                StartCoroutine(d.KnockUp(0.5f, 1f, enemy.transform.position));
             }
         }else if ((x < 0.7f && x>-0.7f) && y > 0.7f)//Up
         {

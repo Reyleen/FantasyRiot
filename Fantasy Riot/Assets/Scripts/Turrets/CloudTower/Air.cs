@@ -42,6 +42,7 @@ public class Air : MonoBehaviour
     {
         FindTarget();
         Attack();
+        Remove(targets);
     }
 
     public void FindTarget()
@@ -164,6 +165,17 @@ public class Air : MonoBehaviour
                         }
                     }
                 }
+            }
+        }
+    }
+    public void Remove(List<Debuffs> targets)
+    {
+        for (int i = 0; i < targets.Count; i++)
+        {
+            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            if (e.CurrentHealth == 0)
+            {
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }

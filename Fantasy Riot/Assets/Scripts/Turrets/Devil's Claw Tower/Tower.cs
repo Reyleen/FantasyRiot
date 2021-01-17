@@ -38,7 +38,6 @@ public class Tower : MonoBehaviour
     void Update()
     {
         Attack();
-        Debug.Log(target);
     }
 
     public void Select()
@@ -77,7 +76,6 @@ public class Tower : MonoBehaviour
     private void DamageAttack()
     {
         GameObject fireBall = Instantiate(ballPre, new Vector3(transform.position.x, transform.position.y + 0.8f), Quaternion.identity);
-        Debug.Log("Attacking");
         Projectile proj = fireBall.GetComponent<Projectile>();
         proj.Initialize(this);
     }
@@ -94,7 +92,6 @@ public class Tower : MonoBehaviour
         if (other.tag == "Enemy")
         {
             target = null;
-            Debug.Log("No Enemy In Range");
         }
     }
 }

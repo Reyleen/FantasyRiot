@@ -35,7 +35,6 @@ public class Placement : MonoBehaviour
         for (int i = 0; i < Placements.Length; i++)
         {
             Placements[i] = transform.GetChild(i);
-            Debug.Log(Placements[i].position);
           
            //Vector3 minSize = Placements[i].GetComponent<SpriteRenderer>().bounds.min;
            //Vector3 MaxSize  = Placements[i].GetComponent<SpriteRenderer>().bounds.max;

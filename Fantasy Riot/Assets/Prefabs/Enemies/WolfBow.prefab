@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2719591579438399362}
   - component: {fileID: 499620095369588814}
   - component: {fileID: 5716549246730175996}
+  - component: {fileID: 6361917081270114465}
   m_Layer: 8
   m_Name: WolfBow
   m_TagString: Enemy
@@ -200,6 +201,7 @@ MonoBehaviour:
   isAttacking: 0
   nextWaypointDistance: 1
   strada: 0
+  main: {fileID: 0}
 --- !u!114 &2719591579438399362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +231,8 @@ AudioSource:
   m_GameObject: {fileID: 818720565681109784}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: fbe2b701251563f43b325fb8a80a7e6a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -330,6 +333,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   death: {fileID: 499620095369588814}
   enemy: {fileID: -4742635884539981557}
+--- !u!114 &6361917081270114465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818720565681109784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
 --- !u!1 &7818084179261724615
 GameObject:
   m_ObjectHideFlags: 0

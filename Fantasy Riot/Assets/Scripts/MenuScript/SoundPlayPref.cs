@@ -2,26 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class SoundPlayPref : MonoBehaviour
 {
-    public AudioSource music;
-    public AudioSource FX;
     public Slider volume;
     public Slider fxVolume;
+    public AudioMixer masterMixer;
+
     void Start()
     {
-        volume.value = PlayerPrefs.GetFloat("MusicVolume");
-        fxVolume.value = PlayerPrefs.GetFloat("FxVolume");
-    }
-    public void MusicVolumePrefs()
-    {
-        PlayerPrefs.SetFloat("MusicVolume",music.volume);
-
-    }
-    public void FXVolumePrefs()
-    {
-        PlayerPrefs.SetFloat("FxVolume", fxVolume.value);
+        masterMixer.SetFloat("effVol", fxVolume.value);
+        masterMixer.SetFloat("musVol", volume.value);
+        volume.value = PlayerPrefs.GetFloat("VolumeMusica");
+        fxVolume.value = PlayerPrefs.GetFloat("VolumeEffetti");
     }
 }
 

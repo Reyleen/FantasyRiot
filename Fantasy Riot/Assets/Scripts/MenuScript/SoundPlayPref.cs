@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 
+//this script manage the mixer at the start of every scene
 public class SoundPlayPref : MonoBehaviour
 {
     public Slider volume;

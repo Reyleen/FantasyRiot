@@ -8,7 +8,7 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     public Slider healthBar;
-    public TMP_Text HPText;
+    public Text HPText;
     private PlayerStatus playerHealth;
 
     // Start is called before the first frame update

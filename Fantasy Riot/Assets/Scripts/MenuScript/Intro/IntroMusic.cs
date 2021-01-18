@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+//set music in the intro
 public class IntroMusic : MonoBehaviour
 {
     public AudioMixer masterMixer;

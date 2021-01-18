@@ -135,6 +135,7 @@ MonoBehaviour:
   isAttacking: 0
   nextWaypointDistance: 1
   strada: 0
+  main: {fileID: 0}
 --- !u!114 &2557220645013351662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,9 +259,10 @@ AudioSource:
   m_GameObject: {fileID: 2557220645013351572}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 6fa4a824d55342d468120bb1697b46cc, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

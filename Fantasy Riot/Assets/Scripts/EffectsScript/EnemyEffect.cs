@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyEffect : MonoBehaviour
 {
-    public AudioSource death;
+    public AudioSource death, attack;
     public Enemy enemy;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,21 @@ public class EnemyEffect : MonoBehaviour
         else
         {
             death.Stop();
+        }
+
+        if (enemy.isAttacking)
+        {
+            if (!attack.isPlaying)
+                attack.Play();
+        }
+        else
+        {
+            float time = 0;
+            time += Time.deltaTime;
+            if (time > 1.5f)
+            {
+                attack.Stop();
+            }
         }
     }
 }

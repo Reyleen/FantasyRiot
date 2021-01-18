@@ -70,7 +70,7 @@ public class Air : MonoBehaviour
             {
                 foreach (Debuffs enemy in targets)
                 {
-                    enemy.gameObject.GetComponent<Debuffs>().NotStun();
+                    enemy.NotStun();
                 }
 
                 stunned = false;
@@ -100,7 +100,6 @@ public class Air : MonoBehaviour
                 if (timer >= 0.1f)
                 {
                     attacking = false;
-                    Debug.Log("Starting Animation");
                 }
 
                 if (timer >= attackDelay)
@@ -110,13 +109,13 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage, false);
-                            Debug.Log("Damaging");
-                            enemy.gameObject.GetComponent<Debuffs>().Stun();
-                            Debug.Log("Stunned");
-                            stunned = true;
                             canAttack = false;
                             justAttacked = true;
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage, false);
+                            Debug.Log(enemy + "Damaging");
+                            enemy.Stun();
+                            Debug.Log(enemy + "Stunned");
+                            stunned = true;
                         }
                     }
 
@@ -124,14 +123,12 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4, false);
-                            Debug.Log("MORE Damage");
-                            MoreStun = 1f;
-                            enemy.gameObject.GetComponent<Debuffs>().Stun();
-                            Debug.Log("Stunned");
-                            stunned = true;
                             canAttack = false;
                             justAttacked = true;
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4, false);
+                            MoreStun = 1f;
+                            enemy.Stun();
+                            stunned = true;
                         }
                     }
                     
@@ -139,14 +136,12 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6, false);
-                            Debug.Log("MORE MORE Damage");
-                            MoreStun = 2f;
-                            enemy.gameObject.GetComponent<Debuffs>().Stun();
-                            Debug.Log("Stunned");
-                            stunned = true;
                             canAttack = false;
                             justAttacked = true;
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6, false);
+                            MoreStun = 2f;
+                            enemy.gameObject.GetComponent<Debuffs>().Stun();
+                            stunned = true;
                         }
                     }
 
@@ -154,14 +149,12 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8, false);
-                            Debug.Log("MORE MORE MORE Damage");
-                            MoreStun = 3f;
-                            enemy.gameObject.GetComponent<Debuffs>().Stun();
-                            Debug.Log("Stunned");
-                            stunned = true;
                             canAttack = false;
                             justAttacked = true;
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8, false);
+                            MoreStun = 3f;
+                            enemy.gameObject.GetComponent<Debuffs>().Stun();
+                            stunned = true;
                         }
                     }
                 }
@@ -170,10 +163,10 @@ public class Air : MonoBehaviour
     }
     public void Remove(List<Debuffs> targets)
     {
-        for (int i = 0; i < targets.Count; i++)
+        for (int i=0; i<=targets.Count; i++ )
         {
             EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
-            if (e.CurrentHealth == 0)
+            if (e.CurrentHealth <= 0)
             {
                 targets.Remove(e.GetComponent<Debuffs>());
             }

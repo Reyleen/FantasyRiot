@@ -1443,7 +1443,7 @@ MonoBehaviour:
     go button is pressed. After that when every enemy is dead the timer for the next
     wave will start and in that moment you can place the towers
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0.000021450236}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &303619971
@@ -1633,7 +1633,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "It can hit enemy with \r\nlightning and stun enemies\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1697,7 +1697,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &308787770
@@ -1742,7 +1742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.965501, y: -11.50001}
+  m_AnchoredPosition: {x: 0.000002861, y: -7.1407}
   m_SizeDelta: {x: 677.1283, y: 157.82559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318603009
@@ -1767,8 +1767,9 @@ MonoBehaviour:
   m_text: ' This text tell you how many gold you have. With Gold you can buy different
     towers that can help you to fight enemies'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1831,7 +1832,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &318603010
@@ -2304,8 +2305,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: It does a melee attack, that knok back enemies
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2731,7 +2733,7 @@ MonoBehaviour:
   m_text: Now you know everything. Press the go button to close the pannel and start
     the game. Good Luck!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2795,7 +2797,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &483785490
@@ -3082,7 +3084,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3146,7 +3148,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &538773846
@@ -3217,8 +3219,9 @@ MonoBehaviour:
     The objective of the game is to Stay alive till the end of the total Waves (Story
     Mode) or resist till you loose (Arcade Mode).
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4254,86 +4257,6 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 802b9fd0d97597244bf9c230ca63c6e5,
     type: 3}
---- !u!1 &660734057
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 660734058}
-  - component: {fileID: 660734060}
-  - component: {fileID: 660734059}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &660734058
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660734057}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 961922450}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &660734059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660734057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 37
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 50
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'A
-
-'
---- !u!222 &660734060
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660734057}
-  m_CullTransparentMesh: 0
 --- !u!1 &662035458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5217,8 +5140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6000394, y: -20.999992}
-  m_SizeDelta: {x: 677.1283, y: 157.82559}
+  m_AnchoredPosition: {x: -0.00000095367, y: 0.0000047684}
+  m_SizeDelta: {x: 678.9271, y: 107.45938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &718035365
 MonoBehaviour:
@@ -5242,15 +5165,16 @@ MonoBehaviour:
   m_text: "Let's get in Business.\n\rNow it will be explained to you the MainGame
     mode."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294901503
+  m_fontColor: {r: 1, g: 0.995283, b: 0.995283, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5267,8 +5191,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5303,7 +5227,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 1.7987947}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5657,8 +5581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.950008, y: 0}
-  m_SizeDelta: {x: 45.552887, y: 21.478325}
+  m_AnchoredPosition: {x: 35.67503, y: 0}
+  m_SizeDelta: {x: 34.102913, y: 21.478325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848085605
 MonoBehaviour:
@@ -5681,8 +5605,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 81a5a20288c3d0f4f9e019d677db6a1b, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 81a5a20288c3d0f4f9e019d677db6a1b,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5706,7 +5631,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.2
+  m_fontSize: 20.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5984,7 +5909,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "There are 4 different Tower: \nAir Tower\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6048,7 +5973,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &868948735
@@ -6093,7 +6018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353.1999, y: 190.09459}
+  m_AnchoredPosition: {x: 343.1, y: 191}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &889018301
@@ -6117,8 +6042,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Gold: Money'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 81a5a20288c3d0f4f9e019d677db6a1b, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 81a5a20288c3d0f4f9e019d677db6a1b,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6405,7 +6331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000007391}
+  m_AnchoredPosition: {x: 0, y: -8}
   m_SizeDelta: {x: 677.1283, y: 91.32674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902442110
@@ -6429,8 +6355,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: This is your Health bar, when it gets to 0 you will die and lose the game.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6493,7 +6420,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &902442111
@@ -7276,7 +7203,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: This is The pause Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7340,7 +7267,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &935892341
@@ -7467,8 +7394,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 660734058}
+  m_Children: []
   m_Father: {fileID: 266038045}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7539,7 +7465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: d504df1a461893041b0ab24fb4f3a036, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7875,8 +7801,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071, type: 2}
+  m_sharedMaterial: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8374,7 +8301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -17}
+  m_AnchoredPosition: {x: 0, y: -30.144}
   m_SizeDelta: {x: 677.1283, y: 157.82559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161532046
@@ -8399,8 +8326,9 @@ MonoBehaviour:
   m_text: Now it will be explained to you the UI, press the arrow to go to the next
     screen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8460,7 +8388,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 35.15653}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9045,8 +8973,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "There are 4 different Tower: \nDevil's Tower\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9109,7 +9038,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1295346543
@@ -9166,7 +9095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 14}
   m_SizeDelta: {x: 677.1283, y: 78.912796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365891738
@@ -9191,8 +9120,9 @@ MonoBehaviour:
   m_text: In this area you will see The actual wave you are in and the time to the
     next wave
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9255,7 +9185,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1365891739
@@ -9480,12 +9410,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: b41cb9102c6cc9e479a6a3b1aba3db05, type: 3}
+    m_FontSize: 96
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 96
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -9635,8 +9565,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Wave:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 81a5a20288c3d0f4f9e019d677db6a1b, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 81a5a20288c3d0f4f9e019d677db6a1b,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9660,7 +9591,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.2
+  m_fontSize: 20.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9769,8 +9700,9 @@ MonoBehaviour:
   m_text: Last but not least the Tower Button. When you press the tower shop will
     show up.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9833,7 +9765,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1419610954
@@ -9878,8 +9810,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.399994, y: 1.899993}
-  m_SizeDelta: {x: 532.0399, y: 157.82559}
+  m_AnchoredPosition: {x: 0.000013351, y: 0.0000019073}
+  m_SizeDelta: {x: 530.5426, y: 139.85843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436971525
 MonoBehaviour:
@@ -9903,8 +9835,9 @@ MonoBehaviour:
   m_text: This is the Ability Button, when you press it the character will do a special
     move. Every Hero have different Special Moves.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9928,8 +9861,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9964,7 +9897,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -1.4972588}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11277,8 +11210,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "There are 4 different Tower: \nGolem Tower\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11947,6 +11881,23 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 702984345748827334, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071,
+        type: 2}
+    - target: {fileID: 702984345748827334, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
+        type: 2}
+    - target: {fileID: 702984345748827334, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20.45
+      objectReference: {fileID: 0}
     - target: {fileID: 785771200500393839, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_RootOrder
@@ -11972,6 +11923,12 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 832639740832840415, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b41cb9102c6cc9e479a6a3b1aba3db05,
+        type: 3}
     - target: {fileID: 832639741400196968, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -12200,6 +12157,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3396482495879002606, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071,
+        type: 2}
+    - target: {fileID: 3396482495879002606, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
+        type: 2}
     - target: {fileID: 3422622860835914724, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12219,6 +12188,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -149.49998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921844751761825171, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921844751761825171, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.79003906
       objectReference: {fileID: 0}
     - target: {fileID: 4298916586181037075, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
@@ -12265,6 +12244,41 @@ PrefabInstance:
       propertyPath: Tot
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5656438425556882930, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656438425556882930, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027803804364834673, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027803804364834673, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_RootOrder
@@ -12273,17 +12287,42 @@ PrefabInstance:
     - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 107.5
+      value: 124.42801
       objectReference: {fileID: 0}
     - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 216
+      value: 208.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 102.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32.712463
       objectReference: {fileID: 0}
     - target: {fileID: 6672654425181627695, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6964601611094201051, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
@@ -12441,8 +12480,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12505,7 +12545,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1944626140
@@ -12574,7 +12614,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "There are 4 different Tower: \nIce Tower\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12638,7 +12678,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1958093938

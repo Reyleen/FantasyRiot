@@ -93,7 +93,7 @@ public class Golem : MonoBehaviour
                 {
                     foreach (Debuffs enemy in targets)
                     {
-                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack);
+                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack, false);
                         Debug.Log("Damaging");
                         StartCoroutine(enemy.KnockUp(0.1f, -10, enemy.transform.position));
                         Debug.Log("knock");

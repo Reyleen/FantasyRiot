@@ -24,9 +24,12 @@ public class SpawnATurret : MonoBehaviour
     {
         status = FindObjectOfType<TowerReturn>();
         
-        if (status.spawned == true)
+        if(status!=null)
         {
-            HasSpawned = false;
+            if (status.spawned == true)
+            {
+                HasSpawned = false;
+            }
         }
     } 
     public void PurchaseInfernalTower()

@@ -110,7 +110,7 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage, false);
                             Debug.Log("Damaging");
                             enemy.gameObject.GetComponent<Debuffs>().Stun();
                             Debug.Log("Stunned");
@@ -124,7 +124,7 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 4, false);
                             Debug.Log("MORE Damage");
                             MoreStun = 1f;
                             enemy.gameObject.GetComponent<Debuffs>().Stun();
@@ -139,7 +139,7 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 6, false);
                             Debug.Log("MORE MORE Damage");
                             MoreStun = 2f;
                             enemy.gameObject.GetComponent<Debuffs>().Stun();
@@ -154,7 +154,7 @@ public class Air : MonoBehaviour
                     {
                         foreach (Debuffs enemy in targets)
                         {
-                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8);
+                            enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage + 8, false);
                             Debug.Log("MORE MORE MORE Damage");
                             MoreStun = 3f;
                             enemy.gameObject.GetComponent<Debuffs>().Stun();

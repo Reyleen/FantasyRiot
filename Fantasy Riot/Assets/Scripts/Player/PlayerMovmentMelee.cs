@@ -9,8 +9,8 @@ public class PlayerMovmentMelee : MonoBehaviour
     private Joystick joystick;
     public Animator topAnim;
     public Animator botAnim;
-    private bool playerMoving;
-    private bool isShooting;
+    public bool playerMoving;
+    public bool isShooting;
     private Vector2 lastMove;
     Vector2 move;
     private static bool playerExists;
@@ -64,6 +64,10 @@ public class PlayerMovmentMelee : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             att.Attack(aim.x,aim.y);
+        }
+        else
+        {
+            att.att = false;
         }
 
         if (aim.x > 0.5f || aim.x < -0.5f || aim.y > 0.5f || aim.y < -0.5f)

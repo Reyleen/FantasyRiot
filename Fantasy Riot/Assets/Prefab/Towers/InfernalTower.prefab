@@ -598,6 +598,7 @@ MonoBehaviour:
   ballPre: {fileID: 268806901485347876, guid: c2af78bfcf34bb8419705e176ec67392, type: 3}
   cooldown: 2
   projectileSpeed: 6
+  canvas: {fileID: 2189686608243998922}
 --- !u!50 &745664873517779876
 Rigidbody2D:
   serializedVersion: 4

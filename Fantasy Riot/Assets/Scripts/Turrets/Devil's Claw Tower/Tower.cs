@@ -10,6 +10,7 @@ public class Tower : MonoBehaviour
     private float timer;
     private Projectile proj;
     private Debuffs target;
+    private WaveSpawner s;
 
     public Debuffs Target
     {
@@ -25,6 +26,9 @@ public class Tower : MonoBehaviour
     [SerializeField]
     private float projectileSpeed;
 
+    [SerializeField]
+    GameObject canvas;
+
     public float ProjectileSpeed
     {
         get { return projectileSpeed; }
@@ -33,10 +37,20 @@ public class Tower : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        s = FindObjectOfType<WaveSpawner>();
     }
 
     void Update()
     {
+        if (s.spawningEnemies == true)
+        {
+            Dissapear();
+        }
+
+        if (s.spawningEnemies == false)
+        {
+            Appear();
+        }
         Attack();
     }
 
@@ -93,5 +107,15 @@ public class Tower : MonoBehaviour
         {
             target = null;
         }
+    }
+    private void Dissapear()
+    {
+        mySpriteRenderer.enabled = false;
+        canvas.SetActive(false);
+    }
+
+    private void Appear()
+    {
+        canvas.SetActive(true);
     }
 }

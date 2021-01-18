@@ -12,12 +12,16 @@ public class Golem : MonoBehaviour
     public int damageAttack;
     private bool attacking;
     private bool justAttacked;
+    private WaveSpawner s;
 
     [SerializeField]
     private float attackDelay;
 
     [SerializeField]
     private float cooldown;
+
+    [SerializeField]
+    GameObject canvas;
 
     public bool Attacking 
     { 
@@ -28,11 +32,21 @@ public class Golem : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        s = FindObjectOfType<WaveSpawner>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (s.spawningEnemies == true)
+        {
+            Dissapear();
+        }
+
+        if (s.spawningEnemies == false)
+        {
+            Appear();
+        }
         FindTarget();
         Attack();
     }
@@ -119,5 +133,15 @@ public class Golem : MonoBehaviour
             targets.Remove(other.GetComponent<Debuffs>());
             target = null;
         }
+    }
+    private void Dissapear()
+    {
+        mySpriteRenderer.enabled = false;
+        canvas.SetActive(false);
+    }
+
+    private void Appear()
+    {
+        canvas.SetActive(true);
     }
 }

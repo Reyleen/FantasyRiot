@@ -119,6 +119,7 @@ MonoBehaviour:
   attackDelay: 1.2
   cooldown: 5
   hp: {fileID: 7925768870937926991}
+  canvas: {fileID: 4727898334048731558}
 --- !u!50 &6714992313624855378
 Rigidbody2D:
   serializedVersion: 4

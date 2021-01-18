@@ -6727,27 +6727,17 @@ MonoBehaviour:
   m_FillRect: {fileID: 653681323}
   m_HandleRect: {fileID: 1201404999}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1776373813}
-        m_MethodName: set_volume
+      - m_Target: {fileID: 3141886350059581964, guid: 2d21c1c262d51254cbf7169db7b48157,
+          type: 3}
+        m_MethodName: SetMusic
         m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1878705399}
-        m_MethodName: MusicVolumePrefs
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8908,6 +8898,7 @@ GameObject:
   - component: {fileID: 585485319}
   - component: {fileID: 585485318}
   - component: {fileID: 585485317}
+  - component: {fileID: 585485321}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -9009,6 +9000,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &585485321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585485316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18ad7a945ae95a4da2a8d7aca673bed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 418360524}
+  fxVolume: {fileID: 1786936893}
+  masterMixer: {fileID: 24100000, guid: 5033dde5b5a5b3542b089262f86fd858, type: 2}
 --- !u!1 &592104086
 GameObject:
   m_ObjectHideFlags: 0
@@ -23838,7 +23844,8 @@ AudioSource:
   m_GameObject: {fileID: 1716075098}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: c5e8973df5ee6c840a303ec953e508d2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -24394,7 +24401,8 @@ AudioSource:
   m_GameObject: {fileID: 1776373811}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -4247348791719563134, guid: 5033dde5b5a5b3542b089262f86fd858,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 6c4a0a960356b9a46ab1a1e07f82e285, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -24577,27 +24585,17 @@ MonoBehaviour:
   m_FillRect: {fileID: 1731356587}
   m_HandleRect: {fileID: 1942148845}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1716075099}
-        m_MethodName: set_volume
+      - m_Target: {fileID: 3141886350059581964, guid: 2d21c1c262d51254cbf7169db7b48157,
+          type: 3}
+        m_MethodName: SetEffect
         m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1878705399}
-        m_MethodName: FXVolumePrefs
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -25651,7 +25649,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1878705400}
-  - component: {fileID: 1878705399}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -25659,22 +25656,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1878705399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878705398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e18ad7a945ae95a4da2a8d7aca673bed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  music: {fileID: 1776373813}
-  FX: {fileID: 1716075099}
-  volume: {fileID: 418360524}
-  fxVolume: {fileID: 1786936893}
 --- !u!4 &1878705400
 Transform:
   m_ObjectHideFlags: 0

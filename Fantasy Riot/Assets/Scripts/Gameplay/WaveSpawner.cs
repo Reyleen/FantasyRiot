@@ -44,6 +44,8 @@ public class WaveSpawner : MonoBehaviour
     public GameObject TowerUI;
     public bool road;
 
+    public AudioSource begin, end;
+
     void Start()
     {
         StarWaveSpowner = false;
@@ -95,6 +97,7 @@ public class WaveSpawner : MonoBehaviour
         StarWaveSpowner = true;
         waveCountdown = timeBetweenWaves;
         bottoneGo.SetActive(false);
+        begin.Play();
     }
     public void NextWave()
     {
@@ -116,6 +119,7 @@ public class WaveSpawner : MonoBehaviour
 
         else if (nextWave == waves.Length - 1)
         {
+            end.Play();
             winner.ToggleWinPan();
             Time.timeScale = 0f;
         }

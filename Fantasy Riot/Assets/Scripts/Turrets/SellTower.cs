@@ -34,31 +34,31 @@ public class SellTower : MonoBehaviour
 
     public void SellFire()
     {
-        if (hp.CurrentTowerHp == 50)
+        if (hp.CurrentTowerHp == 20)
         {
             gold.AddMoney(+10);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 50 && hp.CurrentTowerHp >= 38)
+        if (hp.CurrentTowerHp < 20 && hp.CurrentTowerHp >= 15)
         {
             gold.AddMoney(+8);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 38 && hp.CurrentTowerHp >= 28)
+        if (hp.CurrentTowerHp < 15 && hp.CurrentTowerHp >= 10)
         {
             gold.AddMoney(+6);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 28 && hp.CurrentTowerHp >= 12)
+        if (hp.CurrentTowerHp < 10 && hp.CurrentTowerHp >= 5)
         {
             gold.AddMoney(+4);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 12 && hp.CurrentTowerHp >= 1)
+        if (hp.CurrentTowerHp < 5 && hp.CurrentTowerHp >= 1)
         {
             gold.AddMoney(+2);
             tower.Sold();
@@ -69,31 +69,31 @@ public class SellTower : MonoBehaviour
 
     public void SellGolem()
     {
-        if (hp.CurrentTowerHp == 100)
+        if (hp.CurrentTowerHp == 50)
         {
             gold.AddMoney(+10);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 100 && hp.CurrentTowerHp >= 80)
+        if (hp.CurrentTowerHp < 50 && hp.CurrentTowerHp >= 37)
         {
             gold.AddMoney(+8);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 80 && hp.CurrentTowerHp >= 40)
+        if (hp.CurrentTowerHp < 37 && hp.CurrentTowerHp >= 21)
         {
             gold.AddMoney(+6);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 40 && hp.CurrentTowerHp >= 20)
+        if (hp.CurrentTowerHp < 21 && hp.CurrentTowerHp >= 10)
         {
             gold.AddMoney(+4);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 20 && hp.CurrentTowerHp >= 1)
+        if (hp.CurrentTowerHp < 10 && hp.CurrentTowerHp >= 1)
         {
             gold.AddMoney(+2);
             tower.Sold();
@@ -104,31 +104,31 @@ public class SellTower : MonoBehaviour
 
     public void SellIce()
     {
-        if (hp.CurrentTowerHp == 75)
+        if (hp.CurrentTowerHp == 35)
         {
             gold.AddMoney(+7);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 75 && hp.CurrentTowerHp >= 50)
+        if (hp.CurrentTowerHp < 35 && hp.CurrentTowerHp >= 22)
         {
             gold.AddMoney(+6);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 50 && hp.CurrentTowerHp >= 28)
+        if (hp.CurrentTowerHp < 22 && hp.CurrentTowerHp >= 10)
         {
             gold.AddMoney(+5);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 28 && hp.CurrentTowerHp >= 12)
+        if (hp.CurrentTowerHp < 10 && hp.CurrentTowerHp >= 5)
         {
             gold.AddMoney(+4);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 12 && hp.CurrentTowerHp >= 1)
+        if (hp.CurrentTowerHp < 5 && hp.CurrentTowerHp >= 1)
         {
             gold.AddMoney(+2);
             tower.Sold();
@@ -139,31 +139,31 @@ public class SellTower : MonoBehaviour
 
     public void SellAir()
     {
-        if (hp.CurrentTowerHp == 75)
+        if (hp.CurrentTowerHp == 35)
         {
             gold.AddMoney(+12);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 75 && hp.CurrentTowerHp >= 50)
+        if (hp.CurrentTowerHp < 35 && hp.CurrentTowerHp >= 22)
         {
             gold.AddMoney(+10);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 50 && hp.CurrentTowerHp >= 28)
+        if (hp.CurrentTowerHp < 22 && hp.CurrentTowerHp >= 10)
         {
             gold.AddMoney(+7);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 28 && hp.CurrentTowerHp >= 12)
+        if (hp.CurrentTowerHp < 10 && hp.CurrentTowerHp >= 5)
         {
             gold.AddMoney(+4);
             tower.Sold();
         }
 
-        if (hp.CurrentTowerHp < 12 && hp.CurrentTowerHp >= 1)
+        if (hp.CurrentTowerHp < 5 && hp.CurrentTowerHp >= 1)
         {
             gold.AddMoney(+2);
             tower.Sold();

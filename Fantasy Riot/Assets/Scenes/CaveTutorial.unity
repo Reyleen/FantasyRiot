@@ -1417,7 +1417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: 677.1283, y: 247.29681}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303619970
@@ -1439,12 +1439,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: At the beginning of each game, the first wave will start only after the
-    go button is pressed. After that when every enemy is dead the timer for the next
-    wave will start and in that moment you can place the towers
+  m_text: At the start of each game, the first wave will start only after pressing
+    the GO Button. After, when every enemy is dead, the timer for the next wave will
+    start and you can place the towers. Towers cannot be spawned during waves.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1507,7 +1508,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0.000021450236}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &303619971
@@ -1609,7 +1610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140, y: -61}
+  m_AnchoredPosition: {x: 148, y: -65}
   m_SizeDelta: {x: 338.79645, y: 157.82559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308787769
@@ -1631,10 +1632,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "It can hit enemy with \r\nlightning and stun enemies\n"
+  m_text: 'It hits enemies with
+
+    lightnings and stun enemies.
+
+    Special Ability:
+    the more Health it looses and the more Damage and Stun it deals.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1658,8 +1667,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1694,10 +1703,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -52.765938, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &308787770
@@ -1764,8 +1773,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' This text tell you how many gold you have. With Gold you can buy different
-    towers that can help you to fight enemies'
+  m_text: This text tell you how many gold you have. With Gold you can buy different
+    towers that can help you to fight the enemies.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -1793,8 +1802,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1832,7 +1841,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &318603010
@@ -2303,7 +2312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: It does a melee attack, that knok back enemies
+  m_text: It does a melee attack, that knocks up the enemies.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -2708,7 +2717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -0.0000062585}
+  m_AnchoredPosition: {x: 0.000048594, y: -8}
   m_SizeDelta: {x: 575.5663, y: 140.89859}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &483785489
@@ -2730,11 +2739,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Now you know everything. Press the go button to close the pannel and start
-    the game. Good Luck!
+  m_text: 'Now you know everything. Press the go button to close the panel and start
+    the game.
+
+    Good Luck!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2797,7 +2809,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &483785490
@@ -3080,12 +3092,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'It can slow down enemies and do chep damage to them.
+  m_text: 'It slows down enemies and inflict a small damage.
 
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3148,7 +3161,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &538773846
@@ -3193,7 +3206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6000136, y: 34.220024}
+  m_AnchoredPosition: {x: -0.000010967, y: 19}
   m_SizeDelta: {x: 677.1283, y: 157.82559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545401787
@@ -3215,9 +3228,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Different type of Enemies will spawn and try to attack you and your tower.
-    The objective of the game is to Stay alive till the end of the total Waves (Story
-    Mode) or resist till you loose (Arcade Mode).
+  m_text: Different type of Enemies will spawn and try to attack you and the Tower.
+    The objective of the game is to stay alive till the end of all the Waves (Story
+    Mode) or resist till you die or the Main Tower gets destroyed (Arcade Mode).
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -3245,8 +3258,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5907,10 +5920,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There are 4 different Tower: \nAir Tower\n"
+  m_text: "There are 4 different Tower: \nCloud Tower\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5973,7 +5987,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &868948735
@@ -6331,7 +6345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8}
+  m_AnchoredPosition: {x: 0, y: 9}
   m_SizeDelta: {x: 677.1283, y: 91.32674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902442110
@@ -6353,7 +6367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is your Health bar, when it gets to 0 you will die and lose the game.
+  m_text: This is your Health Bar, when it gets to 0 you will die and lose the game.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -6420,7 +6434,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &902442111
@@ -6799,18 +6813,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907219110}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -154.25237}
-  m_LocalScale: {x: 1.3290399, y: 1.3290399, z: 1.3290399}
-  m_Children:
-  - {fileID: 1526419171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
   m_Father: {fileID: 1613250290}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.224457, y: -186.6898}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -8.285, y: -185}
+  m_SizeDelta: {x: 154.13715, y: 40.260086}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907219112
 MonoBehaviour:
@@ -7179,8 +7192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: -0.0000038147}
-  m_SizeDelta: {x: 413.5509, y: 49.00923}
+  m_AnchoredPosition: {x: 7, y: -10}
+  m_SizeDelta: {x: 413.5509, y: 66.59789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935892340
 MonoBehaviour:
@@ -7201,10 +7214,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is The pause Button
+  m_text: This is the Pause Button.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7264,10 +7278,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -7.328608, z: 0, w: -0.000046058063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &935892341
@@ -8323,8 +8337,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Now it will be explained to you the UI, press the arrow to go to the next
-    screen
+  m_text: 'Now it will be explained the UI.
+
+    Press the arrow to see the next
+    screen.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -8971,7 +8987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There are 4 different Tower: \nDevil's Tower\n"
+  m_text: "There are 4 different Tower: \nDevil's Claw Tower\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -9038,7 +9054,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1295346543
@@ -9117,8 +9133,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In this area you will see The actual wave you are in and the time to the
-    next wave
+  m_text: In this area you will see the actual wave you are at and the time till
+    the next wave.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -9185,7 +9201,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1365891739
@@ -9465,7 +9481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -169, y: -68}
+  m_AnchoredPosition: {x: -170, y: -45}
   m_SizeDelta: {x: 213.65259, y: 213.65259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408469479
@@ -9832,8 +9848,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the Ability Button, when you press it the character will do a special
-    move. Every Hero have different Special Moves.
+  m_text: This is the Ability Button. When you press it, the character will do a
+    special move. Every Hero have different Special Moves.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
   m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
@@ -10243,86 +10259,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1526419170
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1526419171}
-  - component: {fileID: 1526419173}
-  - component: {fileID: 1526419172}
-  m_Layer: 0
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1526419171
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526419170}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 907219111}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1526419172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526419170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Towers
-
-'
---- !u!222 &1526419173
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526419170}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1536555184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12157,6 +12093,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3279200207722280353, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3396482495879002606, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_fontAsset
@@ -12247,37 +12188,37 @@ PrefabInstance:
     - target: {fileID: 5656438425556882930, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5656438425556882930, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5917866382241364544, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6027803804364834673, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6027803804364834673, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6183464367287491803, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
@@ -12312,17 +12253,17 @@ PrefabInstance:
     - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6850818235981932761, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6964601611094201051, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
@@ -12476,7 +12417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'It can hit enemy from the distance with a strong projectile
+  m_text: 'It can hit enemy from an high distance and with a strong fire ball.
 
 '
   m_isRightToLeft: 0
@@ -12545,7 +12486,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1944626140
@@ -12612,10 +12553,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There are 4 different Tower: \nIce Tower\n"
+  m_text: "There are 4 different Tower: \nCrystal Tower\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f445c2586b8bc74a93644bb44b36e2e, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_sharedMaterial: {fileID: 1998131416077925, guid: 5f445c2586b8bc74a93644bb44b36e2e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12678,7 +12620,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1958093938

@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.418, y: 0.678}
+  m_AnchoredPosition: {x: 0.00000020862, y: 0.96}
   m_SizeDelta: {x: 0.6332531, y: 0.59727263}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6061765339788887673
@@ -177,8 +177,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.458, y: 0.678}
-  m_SizeDelta: {x: 0.6332531, y: 0.59727263}
+  m_AnchoredPosition: {x: 0, y: -0.07000017}
+  m_SizeDelta: {x: 1.8306274, y: 1.8604631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3461380596775077713
 CanvasRenderer:
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.17880027, b: 0.17880027, a: 1}
+  m_Color: {r: 0.9245283, g: 0.17880027, b: 0.17880027, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -332,8 +332,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2320755635363518126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.14, z: 0}
-  m_LocalScale: {x: 1.6993859, y: 0.5154947, z: 1}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalScale: {x: 1.687772, y: 0.6084045, z: 1}
   m_Children: []
   m_Father: {fileID: 4562003769846472594}
   m_RootOrder: 0
@@ -615,8 +615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.003, y: 0.027}
-  m_SizeDelta: {x: 2.2073703, y: 2.1991377}
+  m_AnchoredPosition: {x: -0.0013, y: 0.059}
+  m_SizeDelta: {x: 2.2329726, y: 2.3911552}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &9181792228278928228
 Canvas:
@@ -712,7 +712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.002000004, y: -0.002000004}
+  m_AnchoredPosition: {x: 0.0019999743, y: -0.0019999743}
   m_SizeDelta: {x: -0.00006906502, y: 0.00040218374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8818722299418737927
@@ -1087,8 +1087,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bb016f22751944a838fc51fdbd48f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerHp: 100
+  TowerHp: 50
   CurrentTowerHp: 0
+  water: 0
+  air: 0
+  ice: {fileID: 0}
+  cloud: {fileID: 0}
 --- !u!114 &-8451778555139296402
 MonoBehaviour:
   m_ObjectHideFlags: 0

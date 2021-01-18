@@ -105,7 +105,7 @@ public class Air : MonoBehaviour
                 if (timer >= attackDelay)
                 {
                     Instantiate(lightning, new Vector3(transform.position.x, transform.position.y - 0.2f), Quaternion.identity);
-                    if (hp.CurrentTowerHp <= 75 && hp.CurrentTowerHp > 35)
+                    if (hp.CurrentTowerHp <= 35 && hp.CurrentTowerHp > 22)
                     {
                         foreach (Debuffs enemy in targets)
                         {
@@ -119,7 +119,7 @@ public class Air : MonoBehaviour
                         }
                     }
 
-                    if(hp.CurrentTowerHp <= 35 && hp.CurrentTowerHp >= 25)
+                    if(hp.CurrentTowerHp <= 22 && hp.CurrentTowerHp >= 10)
                     {
                         foreach (Debuffs enemy in targets)
                         {
@@ -132,7 +132,7 @@ public class Air : MonoBehaviour
                         }
                     }
                     
-                    if(hp.CurrentTowerHp < 25 && hp.CurrentTowerHp >= 15)
+                    if(hp.CurrentTowerHp < 10 && hp.CurrentTowerHp >= 5)
                     {
                         foreach (Debuffs enemy in targets)
                         {
@@ -145,7 +145,7 @@ public class Air : MonoBehaviour
                         }
                     }
 
-                    if (hp.CurrentTowerHp < 15 && hp.CurrentTowerHp >= 0)
+                    if (hp.CurrentTowerHp < 5 && hp.CurrentTowerHp >= 0)
                     {
                         foreach (Debuffs enemy in targets)
                         {

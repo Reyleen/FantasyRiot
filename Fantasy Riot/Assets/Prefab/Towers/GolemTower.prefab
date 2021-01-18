@@ -556,6 +556,7 @@ MonoBehaviour:
   damageAttack: 6
   attackDelay: 2.5
   cooldown: 4
+  canvas: {fileID: 2942772972906085081}
 --- !u!50 &8003695763124213684
 Rigidbody2D:
   serializedVersion: 4

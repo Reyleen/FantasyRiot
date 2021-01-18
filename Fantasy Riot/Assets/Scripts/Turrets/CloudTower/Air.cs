@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Air : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Air : MonoBehaviour
     public float StunDur;
     private float MoreStun;
     public GameObject lightning;
+    private WaveSpawner s;
 
     [SerializeField]
     private float attackDelay;
@@ -26,6 +28,9 @@ public class Air : MonoBehaviour
     [SerializeField]
     private TowerHealth hp;
 
+    [SerializeField]
+    GameObject canvas;
+
     public bool Attacking
     {
         get { return attacking; }
@@ -35,11 +40,22 @@ public class Air : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        s = FindObjectOfType<WaveSpawner>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(s.spawningEnemies==true)
+        {
+            Dissapear();
+        }
+
+        if(s.spawningEnemies==false)
+        {
+            Appear();
+        }
+
         FindTarget();
         Attack();
         Remove(targets);
@@ -198,5 +214,16 @@ public class Air : MonoBehaviour
                 enemy.gameObject.GetComponent<Debuffs>().NotStun();
             }
         }
+    }
+
+    private void Dissapear()
+    {
+        mySpriteRenderer.enabled = false;
+        canvas.SetActive(false);
+    }
+
+    private void Appear()
+    {
+        canvas.SetActive(true);
     }
 }

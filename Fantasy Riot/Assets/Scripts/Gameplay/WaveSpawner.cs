@@ -43,6 +43,7 @@ public class WaveSpawner : MonoBehaviour
     public GameObject abilityButton;
     public GameObject TowerUI;
     public bool road;
+    public bool spawningEnemies;
 
     public AudioSource begin, end;
 
@@ -77,6 +78,7 @@ public class WaveSpawner : MonoBehaviour
             {
             abilityButton.SetActive(true);
             TowerUI.SetActive(false);
+            spawningEnemies = true;
             if (state != SpawnState.SPAWNING)
                 {
                     StartCoroutine(SpawnWave(waves[nextWave]));
@@ -111,6 +113,7 @@ public class WaveSpawner : MonoBehaviour
         StarWaveSpowner = true;
         abilityButton.SetActive(false);
         TowerUI.SetActive(true);
+        spawningEnemies = false;
 
         if (nextWave < waves.Length -1)
         {

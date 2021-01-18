@@ -790,6 +790,7 @@ MonoBehaviour:
   damageField: 2
   cooldown: 3
   hp: {fileID: 1647893927665603139}
+  canvas: {fileID: 678380536006326535}
 --- !u!60 &8490100616025657804
 PolygonCollider2D:
   m_ObjectHideFlags: 0

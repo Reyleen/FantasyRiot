@@ -10,21 +10,35 @@ public class IceTower : MonoBehaviour
     private List<Debuffs> targets = new List<Debuffs>();
     private Debuffs target;
     public int damageField;
+    private WaveSpawner s;
 
     [SerializeField]
     private float cooldown;
     
     [SerializeField]
     private TowerHealth hp;
+    
+    [SerializeField]
+    GameObject canvas;
 
     // Start is called before the first frame update
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        s = FindObjectOfType<WaveSpawner>();
     }
 
     void Update()
     {
+        if (s.spawningEnemies == true)
+        {
+            Dissapear();
+        }
+
+        if (s.spawningEnemies == false)
+        {
+            Appear();
+        }
         TargetFinder();
     }
 
@@ -99,5 +113,15 @@ public class IceTower : MonoBehaviour
                 enemy.gameObject.GetComponent<Debuffs>().RemoveBuff();
             }
         }
+    }
+    private void Dissapear()
+    {
+        mySpriteRenderer.enabled = false;
+        canvas.SetActive(false);
+    }
+
+    private void Appear()
+    {
+        canvas.SetActive(true);
     }
 }

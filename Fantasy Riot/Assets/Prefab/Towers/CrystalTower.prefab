@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e21dcfca996594b9060e9bf4117eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageField: 3
+  damageField: 2
   cooldown: 3
   hp: {fileID: 1647893927665603139}
 --- !u!60 &8490100616025657804

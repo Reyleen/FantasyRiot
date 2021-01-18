@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class HurtEnemy : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class HurtEnemy : MonoBehaviour
     public PlayerStatus plaSta;
 
     public bool hit;
+    public AudioSource stuck;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,7 @@ public class HurtEnemy : MonoBehaviour
             rb.isKinematic = true;
             hit = true;
             this.transform.parent = other.transform;
+            stuck.Play();
         }
         
         if(other.gameObject.tag == "Player" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC" || other.gameObject.tag == "Tower" || other.gameObject.tag == "RangeTower" || other.gameObject.tag == "Circle")

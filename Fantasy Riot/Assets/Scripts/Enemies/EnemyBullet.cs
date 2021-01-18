@@ -12,6 +12,7 @@ public class EnemyBullet : MonoBehaviour
     public int damageToGive;
     public bool hit;
 
+    public AudioSource stuck;
     // Start is called before the first frame update
 
     private void Awake()
@@ -70,6 +71,7 @@ public class EnemyBullet : MonoBehaviour
             this.transform.parent = other.transform;
             hit = true;
             Destroy(gameObject, 2.0f);
+            stuck.Play();
         }
 
         if(other.gameObject.tag == "Tower" && !hit)
@@ -80,6 +82,7 @@ public class EnemyBullet : MonoBehaviour
             this.transform.parent = other.transform;
             hit = true;
             Destroy(gameObject, 2.0f);
+            stuck.Play();
         }
 
         if(other.gameObject.tag == "MainTower" && !hit)
@@ -90,6 +93,7 @@ public class EnemyBullet : MonoBehaviour
             this.transform.parent = other.transform;
             hit = true;
             Destroy(gameObject, 2.0f);
+            stuck.Play();
         }
 
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Weapon" || other.gameObject.tag == "Coin" || other.gameObject.tag == "NPC" || other.gameObject.tag == "RangeTower")

@@ -1361,6 +1361,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2603278280151037327, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e2dae1eb0e404d4dbbb9e1d7fa01d38, type: 3}
+    - target: {fileID: 2603278280151037327, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+        type: 2}
     - target: {fileID: 3006349426213729361, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1865,12 +1876,13 @@ AudioSource:
   m_GameObject: {fileID: 1759485146}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -4247348791719563134, guid: 5033dde5b5a5b3542b089262f86fd858,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: ede292dd9e631404386778554a8cee54, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

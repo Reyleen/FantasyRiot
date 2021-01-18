@@ -11,6 +11,7 @@ public class WitchAbility : MonoBehaviour
     public Image fill;
     public bool ability;
     public float timer;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()

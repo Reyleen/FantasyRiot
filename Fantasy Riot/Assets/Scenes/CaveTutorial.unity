@@ -8850,6 +8850,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233098901}
   m_CullTransparentMesh: 0
+--- !u!114 &1245501113 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 832639740832840415, guid: ac22726db071bb94e9172be91a2350f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943850802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1246522373 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6978076777435780486, guid: 9efd27509e3eeb14898b9dd6c195b1d2,
@@ -11886,6 +11898,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: b41cb9102c6cc9e479a6a3b1aba3db05,
         type: 3}
+    - target: {fileID: 832639740832840415, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_Text
+      value: HP 30/50
+      objectReference: {fileID: 0}
     - target: {fileID: 832639741400196968, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -11899,6 +11916,11 @@ PrefabInstance:
     - target: {fileID: 832639741588820055, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 832639741664163304, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 832639741664163305, guid: ac22726db071bb94e9172be91a2350f8,
@@ -12027,6 +12049,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 832639741706921491, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: HPText
+      value: 
+      objectReference: {fileID: 1245501113}
     - target: {fileID: 832639741706921492, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_Name

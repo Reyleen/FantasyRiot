@@ -12,6 +12,7 @@ public class MeleeAttack : MonoBehaviour
     public Transform attackPointL2;
     public Transform attackPointR;
     public Transform attackPointR2;
+    public bool att;
     public int damage;
     public LayerMask enemyLayers;
 
@@ -21,7 +22,10 @@ public class MeleeAttack : MonoBehaviour
         if ( x>=0.7f && (y<=0.7f && y>=-0.7f))//every if check the direction of the attack. this is Right
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointR.position, attackPointR2.position, enemyLayers);
-
+            if (hitEnemies.Length!=0)
+                att = true;
+            else
+                att = false;
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
@@ -29,7 +33,10 @@ public class MeleeAttack : MonoBehaviour
         }else if ((x < 0.7f && x>-0.7f) && y > 0.7f)//Up
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointU.position, attackPointU2.position, enemyLayers);
-
+            if (hitEnemies.Length != 0)
+                att = true;
+            else
+                att = false;
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);
@@ -37,7 +44,10 @@ public class MeleeAttack : MonoBehaviour
         }else if (x <= -0.7f && (y <= 0.7f && y >= -0.7f))//Left
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointL.position, attackPointL2.position, enemyLayers);
-
+            if (hitEnemies.Length != 0)
+                att = true;
+            else
+                att = false;
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);
@@ -45,7 +55,10 @@ public class MeleeAttack : MonoBehaviour
         }else if ((x < 0.7f && x > -0.7f) && y < -0.7f)//Right
         {
             Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(attackPointD.position, attackPointD2.position, enemyLayers);
-
+            if (hitEnemies.Length != 0)
+                att = true;
+            else
+                att = false;
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);

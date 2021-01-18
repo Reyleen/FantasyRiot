@@ -24,9 +24,7 @@ public class MeleeAttack : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
-                Debuffs d = enemy.GetComponent<Debuffs>();
-                StartCoroutine(d.KnockUp(0.5f, 1f, enemy.transform.position));
+                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
             }
         }else if ((x < 0.7f && x>-0.7f) && y > 0.7f)//Up
         {
@@ -34,7 +32,7 @@ public class MeleeAttack : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
+                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);
             }
         }else if (x <= -0.7f && (y <= 0.7f && y >= -0.7f))//Left
         {
@@ -42,7 +40,7 @@ public class MeleeAttack : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
+                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);
             }
         }else if ((x < 0.7f && x > -0.7f) && y < -0.7f)//Right
         {
@@ -50,7 +48,7 @@ public class MeleeAttack : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
+                enemy.GetComponent<EnemyHealthManager>().HurtEnemy(damage, true);
             }
         }
         

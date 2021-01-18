@@ -11,9 +11,9 @@ public class EnemyHealthManager : MonoBehaviour
     public GameObject coin;
     public GameObject heart;
     public Animator anim;
+    public Animator anim2;
     public Rigidbody2D rb;
     public float drop;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -41,11 +41,18 @@ public class EnemyHealthManager : MonoBehaviour
         }
     }
 
-    public void HurtEnemy(int damageToGive)
+    public void HurtEnemy(int damageToGive, bool id)
     {
         CurrentHealth -= damageToGive;
+        if (id)
+            StartCoroutine(PlayOneShot());
     }
-
+    public IEnumerator PlayOneShot()
+    {
+        anim2.SetBool("ok", true);
+        yield return null;
+        anim2.SetBool("ok", false);
+    }
     public void setMaxHealth()
     {
         CurrentHealth = MaxHealth;

@@ -63,7 +63,7 @@ public class ShadowClone : MonoBehaviour
                 if (Time.time > lastAttackTime + attackDelay)
                 {
                     EnemyHealthManager e = MyTarget.GetComponent<EnemyHealthManager>();
-                    e.HurtEnemy(damage);
+                    e.HurtEnemy(damage,true);
                     lastAttackTime = Time.time;
                     isAttacking = true;
                     rb.velocity = Vector2.zero;
@@ -93,7 +93,7 @@ public class ShadowClone : MonoBehaviour
                 if (Time.time > nextHitAllowed + attackDelay)
                 {
                     nextHitAllowed = Time.time + attackDelay;
-                    e.HurtEnemy(damage);
+                    e.HurtEnemy(damage,true);
                 }
             }
             else

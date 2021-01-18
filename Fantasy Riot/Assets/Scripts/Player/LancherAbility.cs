@@ -62,7 +62,7 @@ public class LancherAbility : MonoBehaviour
                     delay = timer + delay + 0.5f;
                     foreach (Debuffs enemy in targets)
                     {
-                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage);
+                        enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
                         StartCoroutine(enemy.KnockUp(0.1f, -0.1f, enemy.transform.position));
                     }
                 }

@@ -30,7 +30,7 @@ public class HurtEnemy : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy" && !hit)
         {
-            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
+            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive,false);
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
             hit = true;

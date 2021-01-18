@@ -342,14 +342,14 @@ MonoBehaviour:
   playerName: 
   description: 
   playerLevel: 0
-  maxLevel: 0
+  maxLevel: 10
   nextLevelGems: 
   currentHp: 0
   maxHp: 50
   attack: 0
-  gemMan: {fileID: 0}
-  anim: {fileID: 0}
-  anim1: {fileID: 0}
+  gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
+  anim: {fileID: 8611908973325318875}
+  anim1: {fileID: 8611908972583483525}
   a: {fileID: 0}
 --- !u!114 &1839213568921460669
 MonoBehaviour:
@@ -385,8 +385,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   step: {fileID: 5244964378331452268}
   Death: {fileID: 769397060875410722}
-  ps: {fileID: 0}
-  player: {fileID: 0}
+  ps: {fileID: 6321731978488020052}
+  player: {fileID: 8611908972139356409}
   done: 0
 --- !u!82 &5244964378331452268
 AudioSource:
@@ -494,8 +494,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: edd2f7e6413b7ad4fa20bab46e2f0d00, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

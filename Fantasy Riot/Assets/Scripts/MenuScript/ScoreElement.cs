@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+//score element for the rank menu
 public class ScoreElement : MonoBehaviour
 {
     public TMP_Text rankText;

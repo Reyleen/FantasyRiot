@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-
+//this script save manage the info to show in the death menu and talk with the save manager for data save
 public class SaveScore : MonoBehaviour
 {
     public Player _p;

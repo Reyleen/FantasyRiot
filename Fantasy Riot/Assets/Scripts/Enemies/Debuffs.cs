@@ -31,7 +31,7 @@ public class Debuffs : MonoBehaviour
             }
         }
 
-        if (assassin == true)
+        else if(assassin == true)
         {
             if (slowed == false)
             {
@@ -63,7 +63,7 @@ public class Debuffs : MonoBehaviour
             }
         }
 
-        if (assassin == true)
+        else if (assassin == true)
         {
             if (slowed == true)
             {
@@ -107,7 +107,7 @@ public class Debuffs : MonoBehaviour
             }
         }
 
-        if (assassin)
+        else if (assassin)
         {
             if (stunned == false)
             {
@@ -129,13 +129,13 @@ public class Debuffs : MonoBehaviour
     {
         Debug.Log("Not stunned");
 
-        if(ranged)
+        if (ranged)
         {
             rangedSpeed.speed = rangedSpeed.initialSpeed;
             stunned = false;
         }
 
-        if (assassin)
+        else if (assassin)
         {
             assassinSpeed.speed = assassinSpeed.initialSpeed;
             stunned = false;
@@ -143,7 +143,7 @@ public class Debuffs : MonoBehaviour
 
         else if(!ranged)
         {
-            enemySpeed.speed = enemySpeed.initialSpeed; ;
+            enemySpeed.speed = enemySpeed.initialSpeed;
             stunned = false;
         }
     }

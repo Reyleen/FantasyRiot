@@ -62,7 +62,7 @@ public class Golem : MonoBehaviour
             {
                 foreach (Debuffs enemy in targets)
                 {
-                    StartCoroutine(enemy.KnockUp(0.1f, +10, enemy.transform.position));
+                    StartCoroutine(enemy.KnockUp(0.05f, +5, enemy.transform.position));
                     Debug.Log("down");
                     justAttacked = false;
                 }
@@ -83,7 +83,7 @@ public class Golem : MonoBehaviour
             {
                 attacking = true;
 
-                if (timer >= 0.1f)
+                if (timer >= 0.05f)
                 {
                     attacking = false;
                     Debug.Log("Starting Animation");
@@ -95,7 +95,7 @@ public class Golem : MonoBehaviour
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack, false);
                         Debug.Log("Damaging");
-                        StartCoroutine(enemy.KnockUp(0.1f, -10, enemy.transform.position));
+                        StartCoroutine(enemy.KnockUp(0.1f, -5, enemy.transform.position));
                         Debug.Log("knock");
                         canAttack = false;
                         justAttacked = true;

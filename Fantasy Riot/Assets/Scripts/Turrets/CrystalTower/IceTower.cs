@@ -63,7 +63,7 @@ public class IceTower : MonoBehaviour
             {
                 if (canAttack)
                 {
-                    target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField);
+                    target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField,false);
                     Debug.Log("Attacking");
                     canAttack = false;
                 }

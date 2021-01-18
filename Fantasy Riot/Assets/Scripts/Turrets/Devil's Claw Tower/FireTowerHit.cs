@@ -23,7 +23,7 @@ public class FireTowerHit : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
+            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive,false);
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
             Destroy(gameObject);

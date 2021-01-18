@@ -64,7 +64,7 @@ public class ChainLightning : MonoBehaviour
             if (targetIndex <= 5)
             {
                 EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
-                e.HurtEnemy(damage);
+                e.HurtEnemy(damage,false);
             } else
             {
                 Destroy(gameObject);
@@ -88,7 +88,7 @@ public class ChainLightning : MonoBehaviour
     private void PickTarget(Collider2D other)
     {
         EnemyHealthManager e = other.GetComponent<EnemyHealthManager>();
-        e.HurtEnemy(damage);
+        e.HurtEnemy(damage,false);
         MyTarget = targets[targetIndex];
         targetIndex++;
     }

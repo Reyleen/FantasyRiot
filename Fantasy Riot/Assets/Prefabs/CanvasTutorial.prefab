@@ -1743,6 +1743,7 @@ MonoBehaviour:
   MoveJoystick: {fileID: 2533532076680494183}
   AimJoystik: {fileID: 5208900398574929225}
   Torrette: {fileID: 5210845681359394070}
+  map: {fileID: 0}
 --- !u!114 &7950717381909997604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1933,8 +1934,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000018163, y: 101}
-  m_SizeDelta: {x: 190.5632, y: 49.999985}
+  m_AnchoredPosition: {x: 1.2, y: 101}
+  m_SizeDelta: {x: 242.98685, y: 49.999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6718768063938598927
 CanvasRenderer:
@@ -1965,8 +1966,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: GameOver
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071, type: 2}
+  m_sharedMaterial: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

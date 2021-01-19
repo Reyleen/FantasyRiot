@@ -211,7 +211,7 @@ MonoBehaviour:
   anim: {fileID: 5681082940562083489}
   anim2: {fileID: 4592610429822714256}
   rb: {fileID: 1430427618844190825}
-  drop: 0
+  drop: 1
 --- !u!50 &1430427618844190825
 Rigidbody2D:
   serializedVersion: 4

@@ -62,7 +62,6 @@ public class AuthManagerIntro : MonoBehaviour
     public void LogOut()
     {
         auth.SignOut();
-        Debug.Log("User SignOut");
         PlayerPrefs.SetInt("Joined", 0);
         PlayerPrefs.DeleteKey("ActualUser");
     }
@@ -71,15 +70,6 @@ public class AuthManagerIntro : MonoBehaviour
         Debug.Log("Seting up Firebase Auth");
         //Set the Authentication instance object
         auth = FirebaseAuth.DefaultInstance;
-        if (auth.CurrentUser != null)
-        {
-            Debug.Log("effettivamente");
-            test1.text = "aa";
-        }
-        else
-        {
-            Debug.Log("manco per il ciufolo");
-        }
     }
     public void LoginButton()
     {
@@ -134,7 +124,6 @@ public class AuthManagerIntro : MonoBehaviour
             PlayerPrefs.SetInt("Joined", 1);
             PlayerPrefs.SetString("User", User.DisplayName);
             PlayerPrefs.SetString("ActualUser", User.UserId);
-            Debug.Log(User.UserId);
             a.DB();
             a1.SDB();
             warningLoginText.text = "";

@@ -65,9 +65,7 @@ public class SaveSystem : MonoBehaviour
     }
     private void SetPrefab()
     {
-        Debug.Log(LastPlayerData.lvlA);
         arc.playerLevel = LastPlayerData.lvlA;
-        Debug.Log(arc.playerLevel);
         arc.currentHp = LastPlayerData.HPA;
         arc.maxHp = LastPlayerData.HPA;
         arc.attack = LastPlayerData.atkA;
@@ -96,7 +94,6 @@ public class SaveSystem : MonoBehaviour
     private void HandleValueChanged2(object sender, ValueChangedEventArgs e)
     {
         var json = e.Snapshot.GetRawJsonValue();
-        Debug.Log("json:" + json);
         if (!string.IsNullOrEmpty(json))
         {
             var playerData = JsonUtility.FromJson<PlayerScore>(json);
@@ -107,22 +104,15 @@ public class SaveSystem : MonoBehaviour
 
     public void SavePlayer(PlayerData player,bool a)//save player data in DB
     {
-        Debug.Log("in save player");
         if (!player.Equals(LastPlayerData) || a)
         {
-            Debug.Log("saving player");
-            Debug.Log(JsonUtility.ToJson(player));
             _database.RootReference.Child("users").Child(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));
         }
     }
     public void SaveScore(PlayerScore player, bool a)//save player data in DB
     {
-        Debug.Log(player.UserScore);
-        Debug.Log(LastPlayerScore.UserScore);
         if ((player.UserScore > LastPlayerScore.UserScore) || a)
         {
-            Debug.Log("saving player");
-            Debug.Log(JsonUtility.ToJson(player));
             _database.RootReference.Child("score").Child(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));
         }
     }
@@ -141,7 +131,6 @@ public class SaveSystem : MonoBehaviour
     public async Task<PlayerData?> LoadPlayerScore()//load player data in DB
     {
         var dataSnapshot = await _database.RootReference.Child("score").Child(PLAYER_KEY).GetValueAsync();
-        Debug.Log(LastPlayerScore.UserScore);
         if (!dataSnapshot.Exists)
         {
             return null;

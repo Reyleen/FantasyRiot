@@ -22,7 +22,6 @@ public class PanelManager : MonoBehaviour
         }
         else if (instance != null)
         {
-            Debug.Log("Instance already exists, destroying object!");
             Destroy(this);
         }
     }
@@ -77,12 +76,6 @@ public class PanelManager : MonoBehaviour
         ALoginUI.SetActive(false);
         loginUI.SetActive(false);
         FirstPanel.SetActive(true);
-    }
-    public void AccountScreenToLogin()
-    {
-        ALoginUI.SetActive(false);
-        loginUI.SetActive(true);
-        FirstPanel.SetActive(false);
     }
     public void ToPassRecover()
     {

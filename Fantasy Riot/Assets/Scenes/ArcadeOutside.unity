@@ -2285,6 +2285,11 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1208170772}
+    - target: {fileID: 8945851762209932865, guid: 3268fc369aefa47438b5ba0548b7d15d,
+        type: 3}
+      propertyPath: e.rate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8945851762209932870, guid: 3268fc369aefa47438b5ba0548b7d15d,
         type: 3}
       propertyPath: m_Name

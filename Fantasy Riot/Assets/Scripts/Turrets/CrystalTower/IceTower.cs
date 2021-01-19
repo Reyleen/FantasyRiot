@@ -11,6 +11,8 @@ public class IceTower : MonoBehaviour
     private Debuffs target;
     public int damageField;
     private WaveSpawner s;
+    private SpawnATurret arcade;
+    private Infinitewaves s1;
 
     [SerializeField]
     private float cooldown;
@@ -25,19 +27,44 @@ public class IceTower : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        s = FindObjectOfType<WaveSpawner>();
+        arcade = FindObjectOfType<SpawnATurret>();
+        if (arcade.arcade == true)
+        {
+            s1 = FindObjectOfType<Infinitewaves>();
+        }
+        else
+        {
+
+            s = FindObjectOfType<WaveSpawner>();
+        }
     }
 
     void Update()
     {
-        if (s.spawningEnemies == true)
+        if (arcade.arcade == true)
         {
-            Dissapear();
+            if (s.spawningEnemies == true)
+            {
+                Dissapear();
+            }
+
+            if (s.spawningEnemies == false)
+            {
+                Appear();
+            }
         }
 
-        if (s.spawningEnemies == false)
+        else
         {
-            Appear();
+            if (s1.spawningEnemies == true)
+            {
+                Dissapear();
+            }
+
+            if (s1.spawningEnemies == false)
+            {
+                Appear();
+            }
         }
         TargetFinder();
     }

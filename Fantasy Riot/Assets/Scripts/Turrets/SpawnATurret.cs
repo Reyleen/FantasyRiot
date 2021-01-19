@@ -12,6 +12,7 @@ public class SpawnATurret : MonoBehaviour
     private GoldManager gold;
     public bool HasSpawned = false;
     private TowerReturn status;
+    public bool arcade;
 
     void Start()
     {

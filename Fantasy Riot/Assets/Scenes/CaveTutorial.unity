@@ -12281,6 +12281,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 832639741706921489, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: map
+      value: 
+      objectReference: {fileID: 1943850803}
     - target: {fileID: 832639741706921491, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: HPText
@@ -12593,6 +12598,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7950717381909997604, guid: ac22726db071bb94e9172be91a2350f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ac22726db071bb94e9172be91a2350f8, type: 3}
+--- !u!1 &1943850803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 832639740258731502, guid: ac22726db071bb94e9172be91a2350f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943850802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1943850804 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4698702586232359244, guid: ac22726db071bb94e9172be91a2350f8,

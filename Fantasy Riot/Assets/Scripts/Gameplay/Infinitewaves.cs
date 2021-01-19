@@ -136,7 +136,7 @@ public class Infinitewaves : MonoBehaviour
     IEnumerator SpawnWave()
     {
         state = SpawnState.SPAWNING;
-        if (currentWave % 10 == 0)
+        /*if (currentWave % 10 == 0)
         {
             for (int i = 0; i < 1; i++)
             {
@@ -154,30 +154,31 @@ public class Infinitewaves : MonoBehaviour
             }
         }
         else
-        {
+        {*/
             for (int i = 0; i < e.count; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                SpawnEnemy(e.enemies[Random.Range(0, 12)]);
+                SpawnEnemy(e.enemies[Random.Range(0, 12)], index);
                 Foll(index);
                 yield return new WaitForSeconds(1f / e.rate);
             }
-        }
+        //}
         state = SpawnState.WAITING;
         yield break;
     }
 
-    void SpawnEnemy(GameObject enemy)
+    void SpawnEnemy(GameObject enemy, int index)
     {
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(enemy, _sp.transform.position, _sp.transform.rotation);
     }
 
-    void SpawnBoss(GameObject boss)
+    void SpawnBoss(GameObject boss, int index)
     {
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(boss, _sp.transform.position, _sp.transform.rotation);
     }
+
     bool Foll(int index)
     {
         if (index == 1)

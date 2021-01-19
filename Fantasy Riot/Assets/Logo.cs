@@ -17,7 +17,7 @@ public class Logo : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer>5f)
+        if(timer>4.5f)
         {
             SceneManager.LoadScene(1);
         }

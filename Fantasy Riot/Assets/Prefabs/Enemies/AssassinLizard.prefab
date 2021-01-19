@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 898062433386637876}
   - component: {fileID: 2572290570693558450}
   - component: {fileID: 1167986113398404673}
+  - component: {fileID: -3757321226139408896}
   m_Layer: 8
   m_Name: AssassinLizard
   m_TagString: Enemy
@@ -359,6 +360,7 @@ MonoBehaviour:
   enHea: {fileID: 4239071134575948102}
   isAlive: 1
   nextWaypointDistance: 1
+  wa1: {fileID: 0}
   wa: {fileID: 0}
   strada: 0
 --- !u!114 &315773859300701561
@@ -585,6 +587,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-3757321226139408896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4239071134575948155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88c8f05dd85b814aadbf96c751ffccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowed: 0
+  SlowInput: 1.5
+  ranged: 0
+  assassin: 1
+  rb: {fileID: 4239071134575948152}
+  enemySpeed: {fileID: 0}
+  rangedSpeed: {fileID: 0}
+  assassinSpeed: {fileID: 9114966512972187568}
 --- !u!1 &8691135521791446692
 GameObject:
   m_ObjectHideFlags: 0

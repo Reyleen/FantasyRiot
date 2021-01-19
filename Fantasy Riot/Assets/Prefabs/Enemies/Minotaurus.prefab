@@ -313,6 +313,7 @@ MonoBehaviour:
   isAlive: 1
   nextWaypointDistance: 1
   wa: {fileID: 0}
+  wa1: {fileID: 0}
   strada: 0
 --- !u!114 &-1437323605072959178
 MonoBehaviour:
@@ -331,6 +332,7 @@ MonoBehaviour:
   coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
   heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
   anim: {fileID: 3176838811115641656}
+  anim2: {fileID: 0}
   rb: {fileID: 8149477465238633968}
   drop: 1
 --- !u!114 &-2084181385927288779
@@ -389,7 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowed: 0
-  SlowInput: 1.5
+  SlowInput: 1
   ranged: 0
   assassin: 0
   rb: {fileID: 8149477465238633968}

@@ -182,6 +182,7 @@ MonoBehaviour:
   isAlive: 1
   isAttacking: 0
   nextWaypointDistance: 1
+  wa1: {fileID: 0}
   strada: 0
   main: {fileID: 0}
 --- !u!114 &289902097842072709
@@ -245,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowed: 0
-  SlowInput: 1.5
+  SlowInput: 1
   ranged: 1
   assassin: 0
   rb: {fileID: 0}

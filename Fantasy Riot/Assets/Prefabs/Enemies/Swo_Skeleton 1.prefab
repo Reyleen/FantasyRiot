@@ -239,6 +239,7 @@ MonoBehaviour:
   isAlive: 1
   nextWaypointDistance: 1
   wa: {fileID: 0}
+  wa1: {fileID: 0}
   strada: 0
 --- !u!50 &5378829859382424973
 Rigidbody2D:
@@ -363,7 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowed: 0
-  SlowInput: 1.9
+  SlowInput: 1
   ranged: 0
   assassin: 0
   rb: {fileID: 5378829859382424973}

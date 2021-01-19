@@ -57,20 +57,18 @@ public class LancherAbility : MonoBehaviour
 
             if (timer <= time)
             {
-                if (target != null && timer > delay)
+                if (target != null)
                 {
-                    delay = timer + delay + 0.5f;
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
                         Vector2 dir = transform.position - enemy.transform.position;
-                        StartCoroutine(enemy.KnockBack(0.03f, 8f, dir));
+                        StartCoroutine(enemy.KnockBack(0.03f, 0.2f, dir));
                     }
                 }
             }
             else
             {
-                delay = 1;
                 ability = false;
                 coll.enabled = false;
                 topAnim.SetBool("Ability", ability);

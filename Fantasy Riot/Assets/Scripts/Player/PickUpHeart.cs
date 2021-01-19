@@ -5,13 +5,13 @@ using UnityEngine;
 public class PickUpHeart : MonoBehaviour
 {
     public int value;
-    public PlayerHealthManager theHM;
+    public PlayerStatus theHM;
     private Transform target;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        theHM = FindObjectOfType<PlayerHealthManager>();
+        theHM = FindObjectOfType<PlayerStatus>();
     }
 
     // Update is called once per frame

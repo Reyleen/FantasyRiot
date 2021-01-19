@@ -141,14 +141,14 @@ public class Infinitewaves : MonoBehaviour
             for (int i = 0; i < 1; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                SpawnEnemy(b.boss[Random.Range(0, 5)]);
+                SpawnEnemy(b.boss[Random.Range(0, 5)], index);
                 Foll(index);
                 yield return new WaitForSeconds(1f / e.rate);
             }
             for (int i = 0; i < e.count; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                SpawnEnemy(e.enemies[Random.Range(0, 13)]);
+                SpawnEnemy(e.enemies[Random.Range(0, 13)], index);
                 Foll(index);
                 yield return new WaitForSeconds(1f / e.rate);
             }
@@ -158,7 +158,7 @@ public class Infinitewaves : MonoBehaviour
             for (int i = 0; i < e.count; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                SpawnEnemy(e.enemies[Random.Range(0, 12)]);
+                SpawnEnemy(e.enemies[Random.Range(0, 12)], index);
                 Foll(index);
                 yield return new WaitForSeconds(1f / e.rate);
             }
@@ -167,17 +167,18 @@ public class Infinitewaves : MonoBehaviour
         yield break;
     }
 
-    void SpawnEnemy(GameObject enemy)
+    void SpawnEnemy(GameObject enemy, int index)
     {
-        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform _sp = spawnPoints[index];
         Instantiate(enemy, _sp.transform.position, _sp.transform.rotation);
     }
 
-    void SpawnBoss(GameObject boss)
+    void SpawnBoss(GameObject boss, int index)
     {
-        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform _sp = spawnPoints[index];
         Instantiate(boss, _sp.transform.position, _sp.transform.rotation);
     }
+
     bool Foll(int index)
     {
         if (index == 1)

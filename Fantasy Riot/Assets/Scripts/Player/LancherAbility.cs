@@ -64,7 +64,7 @@ public class LancherAbility : MonoBehaviour
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
                         Vector2 dir = transform.position - enemy.transform.position;
-                        StartCoroutine(enemy.KnockBack(0.03f, 3f, dir));
+                        StartCoroutine(enemy.KnockBack(0.03f, 8f, dir));
                     }
                 }
             }

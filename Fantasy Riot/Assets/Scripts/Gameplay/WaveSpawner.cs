@@ -124,6 +124,7 @@ public class WaveSpawner : MonoBehaviour
         {
             end.Play();
             winner.ToggleWinPan();
+            TowerUI.SetActive(false);
             Time.timeScale = 0f;
         }
     }

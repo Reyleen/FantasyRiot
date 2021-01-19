@@ -97,6 +97,19 @@ public class Debuffs : MonoBehaviour
         yield return 0;
     }
 
+    public IEnumerator KnockBack(float knockDur, float knockPow, Vector3 knockDir)
+    {
+        float timerKnock = 0;
+
+        while (knockDur > timerKnock)
+        {
+            timerKnock += Time.deltaTime;
+            rb.AddForce(new Vector3(knockDir.x * knockPow, knockDir.y * knockPow, transform.position.z));
+        }
+
+        yield return 0;
+    }
+
     public void Stun()
     {
         if (ranged)

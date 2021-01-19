@@ -150,7 +150,7 @@ public class Infinitewaves : MonoBehaviour
             for (int i = 0; i < e.count; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                SpawnEnemy(e.enemies[Random.Range(0, 13)], index);
+                SpawnEnemy(e.enemies[Random.Range(0, 12)], index);
                 Foll(index);
                 yield return new WaitForSeconds(1f / e.rate);
             }

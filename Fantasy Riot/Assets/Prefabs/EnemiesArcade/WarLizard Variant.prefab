@@ -7,10 +7,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4546416402557417408, guid: 8376b86835f96ea4d839b8a285cad8bd,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4546416402557417414, guid: 8376b86835f96ea4d839b8a285cad8bd,
         type: 3}
       propertyPath: m_Name
-      value: WarLizard
+      value: WarLizard Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4546416402557417423, guid: 8376b86835f96ea4d839b8a285cad8bd,
         type: 3}

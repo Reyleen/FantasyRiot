@@ -34,12 +34,14 @@ public class RangedEnemy : MonoBehaviour
     Seeker seeker;
     bool way = false;
 
+    public Infinitewaves wa1;
     private WaveSpawner wa;
     public bool strada;
     public Transform main;
     GameObject tw;
     private CountTower nTower;
-    // Start is called before the first frame updateù
+
+    // Start is called before the first frame update
     private void Awake()
     {
         main = GameObject.FindGameObjectWithTag("MainTower").transform;
@@ -49,7 +51,15 @@ public class RangedEnemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         wa = FindObjectOfType<WaveSpawner>();
-        strada = wa.road;
+        wa1 = FindObjectOfType<Infinitewaves>();
+        if (wa != null)
+        {
+            strada = wa.road;
+        }
+        else
+        {
+            strada = wa1.road;
+        }
         timeBtwShots = startTimeBtwShots;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();

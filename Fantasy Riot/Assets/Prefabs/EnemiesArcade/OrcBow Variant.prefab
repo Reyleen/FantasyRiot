@@ -7,10 +7,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2117819059263299721, guid: 90d1aeaa76696cf4aac7e4937a4f60b9,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3253538961306212566, guid: 90d1aeaa76696cf4aac7e4937a4f60b9,
         type: 3}
       propertyPath: m_Name
-      value: OrcBow
+      value: OrcBow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8184153108269741781, guid: 90d1aeaa76696cf4aac7e4937a4f60b9,
         type: 3}

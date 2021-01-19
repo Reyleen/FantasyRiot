@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
     private CountTower nTower;
 
     public WaveSpawner wa;
+    public Infinitewaves wa1;
     public bool strada;
 
     private Transform main;
@@ -45,7 +46,14 @@ public class Enemy : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         wa = FindObjectOfType<WaveSpawner>();
-        strada = wa.road;
+        wa1 = FindObjectOfType<Infinitewaves>();
+        if (wa != null)
+        {
+            strada = wa.road;
+        } else
+        {
+            strada = wa1.road;
+        }
         tw = GameObject.FindGameObjectWithTag("Tower");
         nTower = FindObjectOfType<CountTower>();
         main = GameObject.FindGameObjectWithTag("MainTower").GetComponent<Transform>();

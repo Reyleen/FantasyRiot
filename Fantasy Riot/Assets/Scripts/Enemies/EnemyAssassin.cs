@@ -29,7 +29,7 @@ public class EnemyAssassin : MonoBehaviour
     bool reachedEndOfPath = false;
     Seeker seeker;
     bool way = false;
-
+    public Infinitewaves wa1;
     public WaveSpawner wa;
     public bool strada;
 
@@ -41,8 +41,15 @@ public class EnemyAssassin : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         wa = FindObjectOfType<WaveSpawner>();
-        strada = wa.road;
-
+        wa1 = FindObjectOfType<Infinitewaves>();
+        if (wa != null)
+        {
+            strada = wa.road;
+        }
+        else
+        {
+            strada = wa1.road;
+        }
         if (strada)
         {
             target = Waypoints.points[0];

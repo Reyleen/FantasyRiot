@@ -14,6 +14,7 @@ public class SaveScore : MonoBehaviour
     public TMP_Text testoGems;
     public TMP_Text changeWave;
     public TMP_Text chaneGems;
+
     public void SavingInfinite()
     {
         SetPlayerAndSave();

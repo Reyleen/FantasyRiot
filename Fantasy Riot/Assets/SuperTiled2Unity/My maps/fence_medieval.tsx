@@ -3,7 +3,7 @@
  <image source="fence_medieval.png" width="512" height="1024"/>
  <tile id="724">
   <objectgroup draworder="index" id="3">
-   <object id="3" x="-0.0909091" y="0" width="16.1818" height="16.0909"/>
+   <object id="3" x="0.0965909" y="0.0625" width="15.8693" height="15.9034"/>
   </objectgroup>
  </tile>
 </tileset>

@@ -6,6 +6,8 @@ using Firebase.Auth;
 using Firebase.Database;
 using TMPro;
 using System.Linq;
+using UnityEngine.SceneManagement;
+
 /* this is the authentication manager. It works with firebase Auth.*/
 public class AuthManager : MonoBehaviour
 {
@@ -86,11 +88,7 @@ public class AuthManager : MonoBehaviour
     {
         auth.SignOut();
         Debug.Log("User SignOut");
-        PlayerPrefs.DeleteKey("FirstLogin");
-        PlayerPrefs.DeleteKey("Email");
-        PlayerPrefs.DeleteKey("Password");
-        PlayerPrefs.DeleteKey("Joined");
-        PlayerPrefs.DeleteKey("ActualUser");
+        PlayerPrefs.DeleteAll();
         PanelManager.instance.AccountScreenToLogin();
         arc.currentHp = 35;
         arc.playerLevel = 0;
@@ -112,6 +110,7 @@ public class AuthManager : MonoBehaviour
         g.UpdateStats();
         _player.SetFirstPlayer();
         _player.SetFirstScore();
+        SceneManager.LoadScene("Intro");
     }
     private void InitializeFirebase()
     {
@@ -223,7 +222,7 @@ public class AuthManager : MonoBehaviour
                         message = "Wrong Password";
                         break;
                     case AuthError.WeakPassword:
-                        message = "The password is too waek";
+                        message = "The password is too weak";
                         break;
                 }
                 warningRegisterText.text = message;

@@ -50,7 +50,7 @@ public class ArcAbility : MonoBehaviour
                 foreach (Debuffs enemy in targets)
                 {
                     Vector2 dir = transform.position - enemy.transform.position;
-                    StartCoroutine(enemy.KnockBack(0.03f, 8f, dir));
+                    StartCoroutine(enemy.KnockBack(0.03f, 0.1f, dir));
                 }
             } else
             {

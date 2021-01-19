@@ -100,7 +100,7 @@ public class Debuffs : MonoBehaviour
         while (knockDur > timerKnock)
         {
             timerKnock += Time.deltaTime;
-            rb.AddForce(new Vector3(knockDir.x * knockPow, knockDir.y * knockPow, transform.position.z));
+            rb.AddForce(new Vector3(-knockDir.x * knockPow, -knockDir.y * knockPow, transform.position.z));
         }
 
         yield return 0;

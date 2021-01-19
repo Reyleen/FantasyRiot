@@ -364,8 +364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 50
   CurrentHealth: 0
-  coin: {fileID: 5869864426067620081, guid: 52a9a7648805dd649b0ba255570b7a5a, type: 3}
-  heart: {fileID: 0}
+  coin: {fileID: 631694930291664572, guid: 7a686eaf11343cd42ab52645de84c71d, type: 3}
+  heart: {fileID: 6085948847326809454, guid: cbef86d164914a84ca35ece2e3655610, type: 3}
   anim: {fileID: 8833066902366310540}
   anim2: {fileID: 1674641615994839007}
   rb: {fileID: -3296855567745222965}

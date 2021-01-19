@@ -52,7 +52,14 @@ public class PlayerStatus : MonoBehaviour
 
     public void HurtPlayer(int damageToGive)
     {
-        currentHp -= damageToGive;
+        if (currentHp - damageToGive > maxHp)
+        {
+            currentHp = maxHp;
+        }
+        else
+        {
+            currentHp -= damageToGive;
+        }
     }
 
     public void setMaxHealth()

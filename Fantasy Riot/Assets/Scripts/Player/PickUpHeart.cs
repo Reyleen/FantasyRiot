@@ -7,6 +7,7 @@ public class PickUpHeart : MonoBehaviour
     public int value;
     public PlayerStatus theHM;
     private Transform target;
+    public AudioSource heal;
 
     // Start is called before the first frame update
     void Awake()
@@ -25,6 +26,7 @@ public class PickUpHeart : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             theHM.HurtPlayer(value);
+            heal.Play();
             Destroy(gameObject);
         }
     }

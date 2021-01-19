@@ -10,6 +10,7 @@ public class MainTowerHp : MonoBehaviour
     public int CurrentMainTowerHp;
     public Slider towerHpBar;
     public DeathMenu deathMenu;
+    public AudioSource destroy;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class MainTowerHp : MonoBehaviour
 
         if (CurrentMainTowerHp <= 0)
         {
+            destroy.Play();
             deathMenu.ToggleEndMenu();
             Destroy(gameObject);
         }

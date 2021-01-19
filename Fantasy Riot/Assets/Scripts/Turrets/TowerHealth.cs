@@ -11,6 +11,7 @@ public class TowerHealth : MonoBehaviour
 
     public bool water;
     public bool air;
+    public AudioSource destroy;
 
     [SerializeField]
     private IceTower ice;
@@ -39,7 +40,8 @@ public class TowerHealth : MonoBehaviour
             {
                 ice.Dying();
             }
-                
+
+            destroy.Play();
             Destroy(gameObject);
             nTower.Count(-1);
             

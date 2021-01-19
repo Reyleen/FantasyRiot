@@ -67,6 +67,7 @@ public class IceTower : MonoBehaviour
             }
         }
         TargetFinder();
+        Remove(targets);
     }
 
     public void TargetFinder()
@@ -134,6 +135,17 @@ public class IceTower : MonoBehaviour
             foreach (Debuffs enemy in targets)
             {
                 enemy.gameObject.GetComponent<Debuffs>().RemoveBuff();
+            }
+        }
+    }
+    public void Remove(List<Debuffs> targets)
+    {
+        for (int i = 0; i <= targets.Count; i++)
+        {
+            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            if (e.CurrentHealth <= 0)
+            {
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }

@@ -49,6 +49,7 @@ public class Golem : MonoBehaviour
         }
         FindTarget();
         Attack();
+        Remove(targets);
     }
 
     public void FindTarget()
@@ -75,7 +76,7 @@ public class Golem : MonoBehaviour
             {
                 foreach (Debuffs enemy in targets)
                 {
-                    StartCoroutine(enemy.KnockUp(0.05f, +5, enemy.transform.position));
+                    StartCoroutine(enemy.KnockUp(0.05f, +7, enemy.transform.position));
                     justAttacked = false;
                 }
             }
@@ -105,11 +106,22 @@ public class Golem : MonoBehaviour
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack, false);
-                        StartCoroutine(enemy.KnockUp(0.1f, -5, enemy.transform.position));
+                        StartCoroutine(enemy.KnockUp(0.1f, -7, enemy.transform.position));
                         canAttack = false;
                         justAttacked = true;
                     }
                 }
+            }
+        }
+    }
+    public void Remove(List<Debuffs> targets)
+    {
+        for (int i = 0; i <= targets.Count; i++)
+        {
+            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            if (e.CurrentHealth <= 0)
+            {
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }

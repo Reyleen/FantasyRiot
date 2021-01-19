@@ -110,7 +110,7 @@ public class AuthManager : MonoBehaviour
         g.UpdateStats();
         _player.SetFirstPlayer();
         _player.SetFirstScore();
-        SceneManager.LoadScene("Intro")
+        SceneManager.LoadScene("Intro");
     }
     private void InitializeFirebase()
     {

@@ -18,6 +18,8 @@ public class Air : MonoBehaviour
     private float MoreStun;
     public GameObject lightning;
     private WaveSpawner s;
+    private SpawnATurret arcade;
+    private Infinitewaves s1;
 
     [SerializeField]
     private float attackDelay;
@@ -40,20 +42,46 @@ public class Air : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        s = FindObjectOfType<WaveSpawner>();
+        arcade = FindObjectOfType<SpawnATurret>();
+        if(arcade.arcade == true)
+        {
+            s1 = FindObjectOfType<Infinitewaves>();
+        }
+        else
+        {
+
+            s = FindObjectOfType<WaveSpawner>();
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(s.spawningEnemies==true)
+        if(arcade.arcade==true)
         {
-            Dissapear();
+            if (s.spawningEnemies == true)
+            {
+                Dissapear();
+            }
+
+            if (s.spawningEnemies == false)
+            {
+                Appear();
+            }
         }
 
-        if(s.spawningEnemies==false)
+        else
         {
-            Appear();
+            if (s1.spawningEnemies == true)
+            {
+                Dissapear();
+            }
+
+            if (s1.spawningEnemies == false)
+            {
+                Appear();
+            }
         }
 
         FindTarget();
@@ -74,7 +102,11 @@ public class Air : MonoBehaviour
 
     public void Select()
     {
-        mySpriteRenderer.enabled = !mySpriteRenderer.enabled; 
+        mySpriteRenderer.enabled = false; 
+    }
+    public void Show()
+    {
+        mySpriteRenderer.enabled = true;
     }
 
     private void Attack()

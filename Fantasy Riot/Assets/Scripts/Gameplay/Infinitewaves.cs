@@ -43,7 +43,7 @@ public class Infinitewaves : MonoBehaviour
     public TMP_Text timer;
     public TMP_Text waveCounter;
     public GameObject abilityButton;
-
+    public bool spawningEnemies;
     public bool road;
 
     void Start()
@@ -77,6 +77,7 @@ public class Infinitewaves : MonoBehaviour
         {
             TowerUI.SetActive(false);
             abilityButton.SetActive(true);
+            spawningEnemies = true;
             if (state != SpawnState.SPAWNING)
             {
                 StartCoroutine(SpawnWave());
@@ -110,6 +111,7 @@ public class Infinitewaves : MonoBehaviour
         StarWaveSpowner = true;
         TowerUI.SetActive(true);
         abilityButton.SetActive(false);
+        spawningEnemies = false;
     }
 
     bool EnemyIsAlive()

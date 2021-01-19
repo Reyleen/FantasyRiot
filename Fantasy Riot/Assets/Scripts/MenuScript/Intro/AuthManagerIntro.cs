@@ -197,7 +197,7 @@ public class AuthManagerIntro : MonoBehaviour
                         message = "Wrong Password";
                         break;
                     case AuthError.WeakPassword:
-                        message = "The password is too waek";
+                        message = "The password is too weak";
                         break;
                 }
                 warningRegisterText.text = message;

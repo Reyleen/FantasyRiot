@@ -16,7 +16,7 @@ public class PlayerStatus : MonoBehaviour
     public GemsManager gemMan;
 
     private DeathMenu deathMenu;
-
+    private bool ded;
     public Animator anim;
     public Animator anim1;
     public AuthManager a;
@@ -24,6 +24,7 @@ public class PlayerStatus : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ded = true;
         currentHp = maxHp;
         nextLevelGems = new int[maxLevel + 1];
         nextLevelGems[1] = 100;
@@ -39,15 +40,20 @@ public class PlayerStatus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            //deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
+        //deathMenu = GameObject.Find("Canvas").transform.Find("DeathMenu").GetComponent<DeathMenu>();
 
-            if (currentHp <= 0)
+        if (currentHp <= 0)
+        {
+            anim.SetBool("IsDead", true);
+            anim1.SetBool("IsDead", true);
+            if (ded)
             {
-                anim.SetBool("IsDead", true);
-                anim1.SetBool("IsDead", true);
+                Debug.Log("ps");
+                ded = false;
                 deathMenu.ToggleEndMenu();
-                Destroy(gameObject, 0.8f);
             }
+            Destroy(gameObject, 0.8f);
+        }
     }
 
     public void HurtPlayer(int damageToGive)

@@ -41,6 +41,7 @@ public class GemsManager : MonoBehaviour
 
     public void AddGems(int gemsToAdd)
     {
+        Debug.Log("addingGems");
         curGems += gemsToAdd;
         PlayerPrefs.SetInt("CurrentGems", curGems);
     }

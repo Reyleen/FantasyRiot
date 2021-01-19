@@ -17,26 +17,27 @@ public class SaveScore : MonoBehaviour
 
     public void SavingInfinite()
     {
+        Debug.Log("SavingScore");
         SetPlayerAndSave();
         infinity = GameObject.Find("WaveSpawner").GetComponent<Infinitewaves>();
-        chaneGems.text = infinity.currentWave.ToString();
-        changeWave.text = (infinity.currentWave * 50).ToString();
-        _p.AddGems(infinity.currentWave * 50);
-        g.AddGems(infinity.currentWave * 50);
+        chaneGems.text = ((infinity.currentWave-1) * 50).ToString();
+        changeWave.text = (infinity.currentWave-1).ToString();
+        _p.AddGems((infinity.currentWave-1) * 50);
+        g.AddGems((infinity.currentWave-1) * 50);
         if (_p.PlayerScore.UserScore < infinity.currentWave)
         {
             _p.SetScore(infinity.currentWave);
             _Save.SaveScore(_p.PlayerScore, true);
         }
-        _Save.SavePlayer(_p.PlayerData, true);
-        
+       _Save.SavePlayer(_p.PlayerData, true);
     }
+
     public void PlayerLoseStory()
     {
         normal = GameObject.Find("GameSpawner").GetComponent<WaveSpawner>();
         testoGems.text = "";
         chaneGems.text = "";
-        changeWave.text = normal.nextWave.ToString();
+        changeWave.text = (normal.nextWave-1).ToString();
     }
     public void SavingNormal()
     {

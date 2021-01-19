@@ -79,14 +79,10 @@ public class Player : MonoBehaviour
     }
     public void changeGem(int gems)
     {
-        Debug.Log(gems);
-        Debug.Log(_playerData.Gemms);
         _playerData.Gemms = gems;
     }
     public void AddGems(int gems)
     {
-        Debug.Log(gems);
-        Debug.Log(_playerData.Gemms);
         _playerData.Gemms += gems;
     }
     public void ChangeArc(int att, int HP, int lvl)

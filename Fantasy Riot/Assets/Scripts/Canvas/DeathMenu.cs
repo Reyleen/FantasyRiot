@@ -43,16 +43,20 @@ public class DeathMenu : MonoBehaviour
         isShowned = true;
         if (ded)
         {
+            Debug.Log("morto");
+            ded = false;
             string stringa = SceneManager.GetActiveScene().name;
             if (stringa == "ArcadeCity" || stringa == "ArcadeDungeon" || stringa == "ArcadeForest" || stringa == "ArcadeOutside")
             {
+                Debug.Log("SavingInfinite");
                 Save.SavingInfinite();
             }
             else
             {
+                Debug.Log("Story");
                 Save.PlayerLoseStory();
             }
-            ded = false;
+
         }
     }
 

@@ -6544,6 +6544,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1112916951273281323, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: afd6908d35822914e86daff791a46386, type: 3}
+    - target: {fileID: 7700143660525381970, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 56a346a7cb49be64d8fc6abed5ef3697, type: 3}
     - target: {fileID: 8977001056765497014, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6680,6 +6690,16 @@ PrefabInstance:
       propertyPath: TowerUI
       value: 
       objectReference: {fileID: 854403570}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: begin
+      value: 
+      objectReference: {fileID: 1235196512}
+    - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
+        type: 3}
+      propertyPath: end
+      value: 
+      objectReference: {fileID: 1235196511}
     - target: {fileID: 8977001056765497016, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: m_Name
@@ -8942,6 +8962,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233098901}
   m_CullTransparentMesh: 0
+--- !u!82 &1235196511 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7700143660525381970, guid: 42ad5b5063bf4bf40910feaa8605981a,
+    type: 3}
+  m_PrefabInstance: {fileID: 903433826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1235196512 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1112916951273281323, guid: 42ad5b5063bf4bf40910feaa8605981a,
+    type: 3}
+  m_PrefabInstance: {fileID: 903433826}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1246522373 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6978076777435780486, guid: 9efd27509e3eeb14898b9dd6c195b1d2,

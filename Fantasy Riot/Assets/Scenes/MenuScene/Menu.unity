@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 87806884}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.35308567
+  m_Size: 0.3530857
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3072,7 +3072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &149741603
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3122,7 +3122,7 @@ MonoBehaviour:
   levelText: {fileID: 2083048213}
   hpText: {fileID: 1412503391}
   attackText: {fileID: 115095895}
-  nextLevelGems: {fileID: 186364594}
+  nextLevelGems: {fileID: 997720562}
 --- !u!1 &152204730
 GameObject:
   m_ObjectHideFlags: 0
@@ -6397,7 +6397,7 @@ MonoBehaviour:
   levelText: {fileID: 723133661}
   hpText: {fileID: 1952621979}
   attackText: {fileID: 1459959517}
-  nextLevelGems: {fileID: 223868995}
+  nextLevelGems: {fileID: 1009651816}
 --- !u!1 &388087997
 GameObject:
   m_ObjectHideFlags: 0
@@ -6864,7 +6864,7 @@ MonoBehaviour:
   m_MinValue: -80
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -8476,7 +8476,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 996896075}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5229409
+  m_Size: 0.5229408
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11771,8 +11771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.99994, y: -78}
-  m_SizeDelta: {x: 342.83466, y: 53.055443}
+  m_AnchoredPosition: {x: -314.27, y: -87.56}
+  m_SizeDelta: {x: 348.2909, y: 72.15221}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761273527
 MonoBehaviour:
@@ -11793,7 +11793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Password
+  m_text: Confirm Password
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071, type: 2}
   m_sharedMaterial: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
@@ -13063,7 +13063,7 @@ MonoBehaviour:
   levelText: {fileID: 867901736}
   hpText: {fileID: 1654113718}
   attackText: {fileID: 789697027}
-  nextLevelGems: {fileID: 934969982}
+  nextLevelGems: {fileID: 996607746}
 --- !u!1 &861880465
 GameObject:
   m_ObjectHideFlags: 0
@@ -15999,7 +15999,7 @@ MonoBehaviour:
   levelText: {fileID: 624995761}
   hpText: {fileID: 1616609762}
   attackText: {fileID: 1337595413}
-  nextLevelGems: {fileID: 626172153}
+  nextLevelGems: {fileID: 1579694494}
 --- !u!1 &1095097034
 GameObject:
   m_ObjectHideFlags: 0
@@ -16472,7 +16472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 724100242}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -20974,7 +20974,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1036947573}
   m_HandleRect: {fileID: 1036947572}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -24572,7 +24572,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: username
+  m_text: Username
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071, type: 2}
   m_sharedMaterial: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
@@ -25009,7 +25009,7 @@ MonoBehaviour:
   m_MinValue: -80
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

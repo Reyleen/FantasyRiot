@@ -84,7 +84,12 @@ public class IceTower : MonoBehaviour
 
     public void Select()
     {
-        mySpriteRenderer.enabled = !mySpriteRenderer.enabled;
+        mySpriteRenderer.enabled = false;
+    }
+
+    public void Show()
+    {
+        mySpriteRenderer.enabled = true;
     }
 
     private void Attack()

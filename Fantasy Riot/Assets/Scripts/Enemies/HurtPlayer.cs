@@ -9,18 +9,6 @@ public class HurtPlayer : MonoBehaviour
     private float nextHitAllowed;
     public Collider2D thisenemy;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void OnTriggerStay2D(Collider2D other)
     {
         if(other.gameObject.tag == "Player")
@@ -50,11 +38,6 @@ public class HurtPlayer : MonoBehaviour
                 other.gameObject.GetComponent<MainTowerHp>().HurtMainTower(damageToGive);
             }
         }
-
-        /*if (other.gameObject.tag == "Enemy")
-        {
-            Physics2D.IgnoreCollision(thisenemy,other,false);
-        }*/
     }
 
 }

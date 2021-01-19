@@ -100,7 +100,6 @@ public class EnemyAssassin : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Going to the waypoint");
                     if (path == null)
                         return;
                     if (currentWaypoint >= path.vectorPath.Count)
@@ -138,7 +137,6 @@ public class EnemyAssassin : MonoBehaviour
 
     void FollowPlayer()
     {
-        Debug.Log("Going to the player");
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         if (distanceToPlayer < attackRange)
         {

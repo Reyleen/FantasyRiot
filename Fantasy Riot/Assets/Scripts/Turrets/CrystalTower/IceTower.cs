@@ -49,7 +49,6 @@ public class IceTower : MonoBehaviour
             foreach (Debuffs enemy in targets)
             {
                 target = enemy;
-                Debug.Log(target);
                 Attack();
             }
         }
@@ -78,7 +77,6 @@ public class IceTower : MonoBehaviour
                 if (canAttack)
                 {
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField,false);
-                    Debug.Log("Attacking");
                     canAttack = false;
                 }
             }
@@ -99,7 +97,6 @@ public class IceTower : MonoBehaviour
            other.gameObject.GetComponent<Debuffs>().RemoveBuff();
            targets.Remove(other.GetComponent<Debuffs>());
            target = null;
-           Debug.Log("No Enemy/ Enemy died");
         }
     }
 
@@ -109,7 +106,6 @@ public class IceTower : MonoBehaviour
         {
             foreach (Debuffs enemy in targets)
             {
-                Debug.Log("Removing slow");
                 enemy.gameObject.GetComponent<Debuffs>().RemoveBuff();
             }
         }

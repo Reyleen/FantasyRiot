@@ -9,7 +9,6 @@ public class EnemyTutorial : Tutorial
     {
         if (HitEnemy.CurrentHealth<=0)
         {
-            Debug.Log("Enemy");
             TutorialManager.Instance.CompleteTutorial();
         }
     }

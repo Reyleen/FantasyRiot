@@ -16,8 +16,6 @@ public class TutorialManager : MonoBehaviour
         {
             if (instance == null)
                 instance = GameObject.FindObjectOfType<TutorialManager>();
-            if (instance == null)
-                Debug.Log("There is no TutorialManager");
 
             return instance;
         }

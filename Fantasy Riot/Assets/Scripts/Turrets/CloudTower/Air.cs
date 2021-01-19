@@ -68,7 +68,6 @@ public class Air : MonoBehaviour
             foreach (Debuffs enemy in targets)
             {
                 target = enemy;
-                Debug.Log(target);
             }
         }
     }
@@ -128,9 +127,7 @@ public class Air : MonoBehaviour
                             canAttack = false;
                             justAttacked = true;
                             enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(InitialDamage, false);
-                            Debug.Log(enemy + "Damaging");
                             enemy.Stun();
-                            Debug.Log(enemy + "Stunned");
                             stunned = true;
                         }
                     }

@@ -94,7 +94,6 @@ public class Enemy : MonoBehaviour
             }
             if (isAlive)
             {
-                Debug.Log(nTower.Tot);
                 float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
                 if (nTower.Tot >= 1)
@@ -310,7 +309,6 @@ public class Enemy : MonoBehaviour
 
     void FollowMainTower()
     {
-        Debug.Log("Going to nexus");
         float distanceToMain = Vector2.Distance(transform.position, main.position);
         if (distanceToMain < attackRange)
         {

@@ -32,7 +32,6 @@ public class EnemyHealthManager : MonoBehaviour
                 drop = Time.time + 2;
                 Instantiate(coin, transform.position, Quaternion.identity);
                 int a = Random.Range(0, 31);
-                Debug.Log(a);
                 if (a % 3 == 0)
                 {
                     Instantiate(heart, transform.position, Quaternion.identity);

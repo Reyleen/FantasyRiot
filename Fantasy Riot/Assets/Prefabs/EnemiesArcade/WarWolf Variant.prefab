@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 8833066902366310541, guid: 11c785e573709cd49bf5beac07d2a797,
         type: 3}
       propertyPath: m_Name
-      value: WarWolf
+      value: WarWolf Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833066902366310542, guid: 11c785e573709cd49bf5beac07d2a797,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8833066902366310544, guid: 11c785e573709cd49bf5beac07d2a797,
         type: 3}

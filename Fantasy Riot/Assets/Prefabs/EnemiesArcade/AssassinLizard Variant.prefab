@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AssassinLizard Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9114966512972187568, guid: d293b9cd0cec6c4488591aac49a90425,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4239071134575948103, guid: d293b9cd0cec6c4488591aac49a90425, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d293b9cd0cec6c4488591aac49a90425, type: 3}

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1535412348711369848, guid: ef1b3bdd225585e4ba41a0d0fd696eeb,
         type: 3}
       propertyPath: m_Name
-      value: Orc
+      value: Orc Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4204534098075359210, guid: ef1b3bdd225585e4ba41a0d0fd696eeb,
         type: 3}
@@ -66,6 +66,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612506959681593204, guid: ef1b3bdd225585e4ba41a0d0fd696eeb,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef1b3bdd225585e4ba41a0d0fd696eeb, type: 3}

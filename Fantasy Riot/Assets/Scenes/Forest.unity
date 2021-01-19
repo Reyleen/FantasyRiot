@@ -169,6 +169,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -316,6 +321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -659,6 +669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -778,6 +793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -1125,6 +1145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,6 +1240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1304,6 +1334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -1425,6 +1460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1515,6 +1555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1604,6 +1649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -2126,6 +2176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -2908,6 +2963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3003,6 +3063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
@@ -3669,6 +3734,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,6 +3968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceTower (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3987,6 +4062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlaceTower (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070714196786117752, guid: 5f38872c16e039842a25d203dc7a0674,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 2394361719057709692, guid: 5f38872c16e039842a25d203dc7a0674,
         type: 3}

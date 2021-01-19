@@ -109,7 +109,7 @@ public class LoadLevel : MonoBehaviour
             loadingScreen.SetActive(true);
             int ran = Random.Range(1, 4);
             tips[ran].SetActive(true);
-            int index = Random.Range(8, 12);
+            int index = Random.Range(9, 13);
             go.SetActive(false);
             AsyncOperation operation = SceneManager.LoadSceneAsync(index);
             while (!operation.isDone)

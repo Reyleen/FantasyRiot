@@ -13531,7 +13531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &898615143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29628,6 +29628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: animation in start menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994810178101668748, guid: 41afc4ea478a492488d593cce63bf778,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2994810178101668749, guid: 41afc4ea478a492488d593cce63bf778,
         type: 3}

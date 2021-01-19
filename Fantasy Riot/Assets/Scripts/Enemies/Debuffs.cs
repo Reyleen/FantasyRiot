@@ -27,7 +27,6 @@ public class Debuffs : MonoBehaviour
             {
                 rangedSpeed.speed = rangedSpeed.speed - SlowInput;
                 slowed = true;
-                Debug.Log("Getting slowed");
             }
         }
 
@@ -37,7 +36,6 @@ public class Debuffs : MonoBehaviour
             {
                 assassinSpeed.speed = assassinSpeed.speed - SlowInput;
                 slowed = true;
-                Debug.Log("Getting slowed");
             }
         }
 
@@ -47,7 +45,6 @@ public class Debuffs : MonoBehaviour
             {
                 enemySpeed.speed = enemySpeed.speed - SlowInput;
                 slowed = true;
-                Debug.Log("Getting slowed");
             }
         }
     }
@@ -69,7 +66,6 @@ public class Debuffs : MonoBehaviour
             {
                 assassinSpeed.speed = assassinSpeed.initialSpeed;
                 slowed = false;
-                Debug.Log("Getting slowed");
             }
         }
 
@@ -140,8 +136,6 @@ public class Debuffs : MonoBehaviour
 
     public void NotStun()
     {
-        Debug.Log("Not stunned");
-
         if (ranged)
         {
             rangedSpeed.speed = rangedSpeed.initialSpeed;

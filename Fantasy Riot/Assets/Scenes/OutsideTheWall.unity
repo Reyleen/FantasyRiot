@@ -3305,10 +3305,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1399051639084777921, guid: 257881fad2657474ab0fdb676f4b8a3d,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 2243681953840023529, guid: 257881fad2657474ab0fdb676f4b8a3d,
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243681953840023529, guid: 257881fad2657474ab0fdb676f4b8a3d,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 7732846529348115331, guid: 257881fad2657474ab0fdb676f4b8a3d,
         type: 3}

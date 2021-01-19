@@ -13,6 +13,7 @@ public class PickUpGold : MonoBehaviour
     void Start()
     {
         theGM = FindObjectOfType<GoldManager>();
+        Destroy(gameObject, 30f);
     }
 
     // Update is called once per frame

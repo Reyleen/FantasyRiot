@@ -13,6 +13,7 @@ public class PickUpHeart : MonoBehaviour
     void Awake()
     {
         theHM = FindObjectOfType<PlayerStatus>();
+        Destroy(gameObject, 30f);
     }
 
     // Update is called once per frame

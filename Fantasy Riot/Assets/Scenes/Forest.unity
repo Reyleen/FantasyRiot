@@ -3584,6 +3584,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -3686695840999138372, guid: 08a9cc5d188636141bfe3e581d4d441c,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: -3400871516303633541, guid: 08a9cc5d188636141bfe3e581d4d441c,
         type: 3}
       propertyPath: m_Color.a
@@ -3688,6 +3693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792053160788394738, guid: 08a9cc5d188636141bfe3e581d4d441c,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 08a9cc5d188636141bfe3e581d4d441c,

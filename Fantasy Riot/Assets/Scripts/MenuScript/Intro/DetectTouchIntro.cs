@@ -25,6 +25,7 @@ public class DetectTouchIntro : MonoBehaviour
             {
                 if (au.auth.CurrentUser!=null)
                 {
+                    clicked = false;
                     au.LoginFirebase();
                 }
                 else

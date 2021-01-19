@@ -20,11 +20,8 @@ public class SyncPlayerToSave : MonoBehaviour
         _player.OnPlayerUpdate.AddListener(HandlePlayerUpdate);
         _playerSaveManager.OnPlayerUpdated2.AddListener(HandlePlayerSaveUpdated2);
         _player.OnPlayerUpdate2.AddListener(HandlePlayerUpdate2);
-        Debug.Log("Entering Update()");
         _player.UpdateThings(_playerSaveManager.LastPlayerData);
-        Debug.Log("Entering Update2()");
         _player.UpdateScore(_playerSaveManager.LastPlayerScore);
-        Debug.Log("Exiting Update2()");
     }
 
     private void HandlePlayerSaveUpdated(PlayerData playerData)

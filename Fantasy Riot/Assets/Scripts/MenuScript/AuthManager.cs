@@ -74,7 +74,6 @@ public class AuthManager : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log("startAuth");
         GameObject s = GameObject.Find("PlayerThings/SaveManager");
         _player = GameObject.Find("PlayerThings/Player").GetComponent<Player>();
         a = s.GetComponent<SaveSystem>();
@@ -87,9 +86,7 @@ public class AuthManager : MonoBehaviour
     public void LogOut()//logout function
     {
         auth.SignOut();
-        Debug.Log("User SignOut");
         PlayerPrefs.DeleteAll();
-        PanelManager.instance.AccountScreenToLogin();
         arc.currentHp = 35;
         arc.playerLevel = 0;
         arc.maxHp = 35;
@@ -114,7 +111,6 @@ public class AuthManager : MonoBehaviour
     }
     private void InitializeFirebase()
     {
-        Debug.Log("Seting up Firebase Auth");
         //Set the Authentication instance object
         auth = FirebaseAuth.DefaultInstance;
     }
@@ -322,23 +318,19 @@ public class AuthManager : MonoBehaviour
                     string username = childSnapshot.Child("Username").Value.ToString();
                     if (!_player.Username.Equals(""))
                     {
-                        Debug.Log("Player exists");
                         if (username == _player.Username)
                         {
                             top10 = true;
-                            Debug.Log("Player find");
                         }
                     }
                     int score = int.Parse(childSnapshot.Child("UserScore").Value.ToString());
                     Debug.Log(int.Parse(childSnapshot.Child("UserScore").Value.ToString()));
-                    Debug.Log("User " + username + " Score " + score);
                     GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
                     scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(i, username, score);
                     i++;
                 }
                 else if ((!top10) && (!_player.Username.Equals("")))
                 {
-                    Debug.Log("Player not found :(");
                     GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
                     scoreboardElement.GetComponent<ScoreElement>().NewScoreElement("---", _player.Username, _player.UserScore);
                 }

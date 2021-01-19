@@ -19,7 +19,6 @@ public class DetectTouchIntro : MonoBehaviour
     }
     void Update()
     {
-
         if (Time.time > 5f)
         {
             if ((Input.touchCount > 0 || Input.GetMouseButtonDown(0)) && clicked)
@@ -46,7 +45,6 @@ public class DetectTouchIntro : MonoBehaviour
     }
     public void changeLevel()//change the scene to the menu scene
     {
-        Debug.Log("entrato");
         wrap.GetComponent<LoadLevel>().LoadScreen("Menu");
     }
            

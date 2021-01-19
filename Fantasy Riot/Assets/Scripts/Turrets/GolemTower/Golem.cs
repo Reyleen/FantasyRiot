@@ -51,12 +51,12 @@ public class Golem : MonoBehaviour
     {
         if (arcade.arcade == true)
         {
-            if (s.spawningEnemies == true)
+            if (s1.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s.spawningEnemies == false)
+            else if (s1.spawningEnemies == false)
             {
                 Appear();
             }
@@ -64,12 +64,12 @@ public class Golem : MonoBehaviour
 
         else
         {
-            if (s1.spawningEnemies == true)
+            if (s.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s1.spawningEnemies == false)
+            else if (s.spawningEnemies == false)
             {
                 Appear();
             }
@@ -107,7 +107,7 @@ public class Golem : MonoBehaviour
             {
                 foreach (Debuffs enemy in targets)
                 {
-                    StartCoroutine(enemy.KnockUp(0.05f, +7, enemy.transform.position));
+                    StartCoroutine(enemy.KnockUp(0.05f, +5, enemy.transform.position));
                     justAttacked = false;
                 }
             }
@@ -137,7 +137,7 @@ public class Golem : MonoBehaviour
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageAttack, false);
-                        StartCoroutine(enemy.KnockUp(0.1f, -7, enemy.transform.position));
+                        StartCoroutine(enemy.KnockUp(0.1f, -5, enemy.transform.position));
                         canAttack = false;
                         justAttacked = true;
                     }

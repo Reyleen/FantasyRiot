@@ -3512,6 +3512,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3466592058020498645, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: arcade
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4283602602967661353, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_Texture

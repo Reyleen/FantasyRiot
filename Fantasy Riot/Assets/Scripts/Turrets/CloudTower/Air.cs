@@ -58,14 +58,14 @@ public class Air : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(arcade.arcade==true)
+        if (arcade.arcade == true)
         {
-            if (s.spawningEnemies == true)
+            if (s1.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s.spawningEnemies == false)
+            else if (s1.spawningEnemies == false)
             {
                 Appear();
             }
@@ -73,12 +73,12 @@ public class Air : MonoBehaviour
 
         else
         {
-            if (s1.spawningEnemies == true)
+            if (s.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s1.spawningEnemies == false)
+            else if (s.spawningEnemies == false)
             {
                 Appear();
             }

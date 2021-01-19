@@ -55,12 +55,12 @@ public class Tower : MonoBehaviour
     {
         if (arcade.arcade == true)
         {
-            if (s.spawningEnemies == true)
+            if (s1.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s.spawningEnemies == false)
+            else if (s1.spawningEnemies == false)
             {
                 Appear();
             }
@@ -68,12 +68,12 @@ public class Tower : MonoBehaviour
 
         else
         {
-            if (s1.spawningEnemies == true)
+            if (s.spawningEnemies == true)
             {
                 Dissapear();
             }
 
-            if (s1.spawningEnemies == false)
+            else if (s.spawningEnemies == false)
             {
                 Appear();
             }

@@ -4,11 +4,12 @@ using System.Threading;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI, UHD, MoveJoystick, AimJoystik, Torrette;
+    public GameObject pauseMenuUI, UHD, MoveJoystick, AimJoystik, Torrette, map;
 
 
     public void Resume()
     {
+        map.SetActive(true);
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         UHD.SetActive(true);
@@ -19,6 +20,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause ()
     {
+        map.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         UHD.SetActive(false);

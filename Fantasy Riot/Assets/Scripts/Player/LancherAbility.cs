@@ -63,7 +63,8 @@ public class LancherAbility : MonoBehaviour
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
-                        StartCoroutine(enemy.KnockUp(0.1f, -0.1f, enemy.transform.position));
+                        Vector2 dir = transform.position - enemy.transform.position;
+                        StartCoroutine(enemy.KnockBack(0.03f, 3f, dir));
                     }
                 }
             }

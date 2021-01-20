@@ -77,7 +77,6 @@ public class IceTower : MonoBehaviour
             {
                 target = enemy;
                 Attack();
-                Remove(targets);
             }
         }
     }
@@ -111,9 +110,9 @@ public class IceTower : MonoBehaviour
                 {
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField,false);
                     canAttack = false;
-                    
                 }
-            }
+            Remove(targets);
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)

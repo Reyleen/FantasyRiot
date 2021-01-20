@@ -28,8 +28,7 @@ public class ArcAbility : MonoBehaviour
     void Update()
     {
         FindTarget();
-        Remove(targets);
-
+        targets.RemoveAll(targets => targets == null);
         timer1 += Time.deltaTime;
         timer += Time.deltaTime;
         if (ability1)
@@ -92,17 +91,6 @@ public class ArcAbility : MonoBehaviour
         }
     }
 
-    public void Remove(List<Debuffs> targets)
-    {
-        for (int i = 0; i < targets.Count; i++)
-        {
-            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
-            if (e.CurrentHealth == 0)
-            {
-                targets.Remove(e.GetComponent<Debuffs>());
-            }
-        }
-    }
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Enemy")

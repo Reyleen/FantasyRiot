@@ -1781,7 +1781,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733271090}
-  - component: {fileID: 733271089}
   - component: {fileID: 733271088}
   m_Layer: 0
   m_Name: Road (1)
@@ -1800,18 +1799,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33e28f711f47af47b258330f6f69a71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &733271089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733271087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6218ccadf3e3dea48ba37a1f72605481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &733271090
@@ -2072,7 +2059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974760708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.44, y: 7.27, z: 0}
+  m_LocalPosition: {x: -37.27, y: 7.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 733271090}
@@ -2761,7 +2748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253982813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.52, y: 8.19, z: 0}
+  m_LocalPosition: {x: -38.05, y: 7.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1892497}

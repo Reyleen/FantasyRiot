@@ -619,8 +619,8 @@ EdgeCollider2D:
   - {x: 0.18749237, y: -0.34853935}
   - {x: 0.1420722, y: -0.2983842}
   - {x: 0.1294465, y: -0.21114635}
-  - {x: 0.10583496, y: -0.06488037}
-  - {x: -0.10769653, y: -0.065841675}
+  - {x: 0.11289215, y: 0.032260895}
+  - {x: -0.11299133, y: 0.03129959}
   - {x: -0.12581304, y: -0.21021509}
 --- !u!114 &2230407917908158867
 MonoBehaviour:
@@ -639,6 +639,7 @@ MonoBehaviour:
   towerHpBar: {fileID: 1767101750}
   deathMenu: {fileID: 0}
   destroy: {fileID: 4667686715703817172}
+  tow: {fileID: 0}
 --- !u!82 &4667686715703817172
 AudioSource:
   m_ObjectHideFlags: 0
@@ -651,7 +652,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f59cdb0ecf4beda4ca034cb340c90f14, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

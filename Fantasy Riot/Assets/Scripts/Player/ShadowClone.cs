@@ -31,8 +31,7 @@ public class ShadowClone : MonoBehaviour
 
     void FixedUpdate()
     {
-       
-        //rb.velocity = dir * speed;
+
     }
 
     // Update is called once per frame
@@ -51,7 +50,6 @@ public class ShadowClone : MonoBehaviour
         {
             distance = Vector2.Distance(transform.position, MyTarget.position);
             transform.position = Vector2.MoveTowards(transform.position, MyTarget.position, speed * Time.deltaTime);
-            //Vector2 dir = MyTarget.position - transform.position;
 
             anim.SetFloat("AngleX", dir.x);
             anim.SetFloat("AngleY", dir.y);
@@ -80,6 +78,9 @@ public class ShadowClone : MonoBehaviour
                 anim.SetFloat("AngleX", dir.x);
                 anim.SetFloat("AngleY", dir.y);
             }
+        } else
+        {
+            Destroy(gameObject);
         }
     }
 

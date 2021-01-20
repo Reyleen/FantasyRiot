@@ -75,6 +75,7 @@ public class Infinitewaves : MonoBehaviour
 
         if (waveCountdown <= 0)
         {
+            bottoneNext.SetActive(false);
             TowerUI.SetActive(false);
             abilityButton.SetActive(true);
             spawningEnemies = true;

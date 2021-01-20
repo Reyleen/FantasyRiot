@@ -145,9 +145,9 @@ public class IceTower : MonoBehaviour
     }
     public void Remove(List<Debuffs> targets)
     {
-        for (int i = 0; i <= targets.Count; i++)
+        foreach (Debuffs enemy in targets)
         {
-            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            EnemyHealthManager e = enemy.GetComponent<EnemyHealthManager>();
             if (e.CurrentHealth <= 0)
             {
                 targets.Remove(e.GetComponent<Debuffs>());

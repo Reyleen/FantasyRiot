@@ -20,9 +20,16 @@ public class UIStatus : MonoBehaviour
     public void UpdatePlayerStatus()
     {
         nameText.text = playerStatus.playerName;
-        hpText.text = "" + playerStatus.currentHp;
+        hpText.text =playerStatus.currentHp.ToString();
         levelText.text = playerStatus.playerLevel.ToString();
-        nextLevelGems.text = "" + playerStatus.nextLevelGems[playerStatus.playerLevel];
-        attackText.text = "" + playerStatus.attack;
+        if (playerStatus.playerLevel != 10)
+        {
+            nextLevelGems.text =playerStatus.nextLevelGems[playerStatus.playerLevel].ToString();
+        }
+        else
+        {
+            nextLevelGems.text = "MAX LVL";
+        }
+        attackText.text =playerStatus.attack.ToString();
     }
 }

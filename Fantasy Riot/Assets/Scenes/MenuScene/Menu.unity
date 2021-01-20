@@ -9044,6 +9044,7 @@ GameObject:
   - component: {fileID: 585485318}
   - component: {fileID: 585485317}
   - component: {fileID: 585485321}
+  - component: {fileID: 585485322}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -9160,6 +9161,23 @@ MonoBehaviour:
   volume: {fileID: 418360524}
   fxVolume: {fileID: 1786936893}
   masterMixer: {fileID: 24100000, guid: 5033dde5b5a5b3542b089262f86fd858, type: 2}
+--- !u!114 &585485322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585485316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c5cf712434b4a4ea5baf330d9224dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arc: {fileID: 3547291834372024130, guid: ffa25def036d8834ba38f99d04d820c6, type: 3}
+  fig: {fileID: 7343216491208640942, guid: 8e9b03f484b5cac449bb4185d176db9f, type: 3}
+  mag: {fileID: 2235477034654666874, guid: 65bc22c128de0164c82ceb0c3b6a884b, type: 3}
+  lan: {fileID: 3117428463588801498, guid: f05c5e985f5f02f49968de3280b85993, type: 3}
+  _player: {fileID: 0}
 --- !u!1 &592104086
 GameObject:
   m_ObjectHideFlags: 0

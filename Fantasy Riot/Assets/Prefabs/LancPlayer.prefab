@@ -522,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7793864130255458100
 Transform:
   m_ObjectHideFlags: 0
@@ -653,12 +653,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Damian
   description: 
-  playerLevel: 0
+  playerLevel: 10
   maxLevel: 10
   nextLevelGems: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  currentHp: 70
-  maxHp: 35
-  attack: 12
+  currentHp: 215
+  maxHp: 215
+  attack: 84
   gemMan: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30, type: 3}
   anim: {fileID: 7793864128974716940}
   anim1: {fileID: 7793864128636694291}

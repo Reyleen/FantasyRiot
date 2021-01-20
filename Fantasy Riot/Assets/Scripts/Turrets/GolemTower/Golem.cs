@@ -75,12 +75,10 @@ public class Golem : MonoBehaviour
             }
         }
         FindTarget();
-        Attack();
-        if(targets != null)
+        if (targets.Count > 0)
         {
-            Remover(targets);
+            Attack();
         }
-
     }
 
     public void FindTarget()
@@ -144,22 +142,20 @@ public class Golem : MonoBehaviour
                         StartCoroutine(enemy.KnockUp(0.1f, -5, enemy.transform.position));
                         canAttack = false;
                         justAttacked = true;
+                        Remove(targets);
                     }
                 }
             }
         }
     }
-    public void Remover(List<Debuffs> targets)
+    public void Remove(List<Debuffs> targets)
     {
-        if (targets != null)
+        for (int i = 0; i <= targets.Count; i++)
         {
-            for (int i = 0; i <= targets.Count; i++)
+            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            if (e.CurrentHealth <= 0)
             {
-                EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
-                if (e.CurrentHealth <= 0)
-                {
-                    targets.Remove(e.GetComponent<Debuffs>());
-                }
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }

@@ -26,7 +26,7 @@ public class SaveScore : MonoBehaviour
         g.AddGems((infinity.currentWave-1) * 50);
         if (_p.PlayerScore.UserScore < infinity.currentWave)
         {
-            _p.SetScore(infinity.currentWave);
+            _p.SetScore(infinity.currentWave-1);
             _Save.SaveScore(_p.PlayerScore, true);
         }
        _Save.SavePlayer(_p.PlayerData, true);

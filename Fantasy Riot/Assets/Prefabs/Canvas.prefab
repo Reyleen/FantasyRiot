@@ -3858,6 +3858,7 @@ MonoBehaviour:
   AirTower: {fileID: 3849785183628458681, guid: 0adfb0e4c0d5964459191de9324492a8,
     type: 3}
   HasSpawned: 0
+  arcade: 0
 --- !u!114 &1264382898060264987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4668,7 +4669,7 @@ MonoBehaviour:
   MoveJoystick: {fileID: 5752635282750866435}
   AimJoystik: {fileID: 2644780796570025261}
   Torrette: {fileID: 2642832080243371378}
-  map: {fileID: 1062335207}
+  map: {fileID: 865391372}
 --- !u!114 &211090952
 MonoBehaviour:
   m_ObjectHideFlags: 0

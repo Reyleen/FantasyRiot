@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, 4f);
     }
 
     // Update is called once per frame
@@ -32,6 +32,9 @@ public class Projectile : MonoBehaviour
             Vector2 dir = target.transform.position - transform.position;
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        } else
+        {
+            Destroy(gameObject);
         }
     }
 }

@@ -2321,7 +2321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1062335207, guid: dcd320019d9a1d942a1d626988e20d44, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1979272165574586785, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
@@ -2439,7 +2439,7 @@ PrefabInstance:
         type: 3}
       propertyPath: AirTower
       value: 
-      objectReference: {fileID: 4804067659197904830, guid: 462da6caef50f504da4d28666ff439d2,
+      objectReference: {fileID: 3849785183628458681, guid: 0adfb0e4c0d5964459191de9324492a8,
         type: 3}
     - target: {fileID: 3466592058020498645, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}

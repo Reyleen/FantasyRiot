@@ -283,6 +283,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 769397060875410722, guid: 8fcc006925f7d6341af3cc27e4a8eeab,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+        type: 2}
+    - target: {fileID: 5244964378331452268, guid: 8fcc006925f7d6341af3cc27e4a8eeab,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+        type: 2}
     - target: {fileID: 6321731978488020052, guid: 8fcc006925f7d6341af3cc27e4a8eeab,
         type: 3}
       propertyPath: nextLevelGems.Array.size

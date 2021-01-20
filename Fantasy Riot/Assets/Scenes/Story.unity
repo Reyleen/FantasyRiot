@@ -390,6 +390,16 @@ PrefabInstance:
       propertyPath: go
       value: 
       objectReference: {fileID: 195000059}
+    - target: {fileID: 4114334174065100831, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 546007394}
+    - target: {fileID: 4114334174065100831, guid: dcd320019d9a1d942a1d626988e20d44,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextWave
+      objectReference: {fileID: 0}
     - target: {fileID: 4283602602967661353, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: m_Texture
@@ -673,6 +683,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &195000067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3767774237655069261, guid: dcd320019d9a1d942a1d626988e20d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 195000057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &214225358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7253526854060265731, guid: dcd320019d9a1d942a1d626988e20d44,
@@ -1753,7 +1769,7 @@ PrefabInstance:
         type: 3}
       propertyPath: bottoneNext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 195000067}
     - target: {fileID: 8977001056765497015, guid: 42ad5b5063bf4bf40910feaa8605981a,
         type: 3}
       propertyPath: timeBetweenWaves

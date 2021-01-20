@@ -54,12 +54,7 @@ public class SaveSystem : MonoBehaviour
             var playerData = JsonUtility.FromJson<PlayerData>(json);
             LastPlayerData = playerData;
             OnPlayerUpdated.Invoke(playerData);
-            if (!PlayerPrefs.HasKey("FirstLogin"))
-            {
-                PlayerPrefs.SetInt("FirstLogin", 1);
-                SetPrefab();
-            }
-            PlayerPrefs.SetInt("CurrentGems", LastPlayerData.Gemms);
+            SetPrefab();
             gemm.SetGems();
         }
     }

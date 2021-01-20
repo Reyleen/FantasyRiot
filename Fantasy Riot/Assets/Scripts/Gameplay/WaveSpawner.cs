@@ -74,11 +74,12 @@ public class WaveSpawner : MonoBehaviour
         }
 
 
-            if (waveCountdown <= 0)
-            {
-            abilityButton.SetActive(true);
-            TowerUI.SetActive(false);
-            spawningEnemies = true;
+            if (waveCountdown <= 0) 
+            { 
+                bottoneNext.SetActive(false);
+                abilityButton.SetActive(true);
+                TowerUI.SetActive(false);
+                spawningEnemies = true;
             if (state != SpawnState.SPAWNING)
                 {
                     StartCoroutine(SpawnWave(waves[nextWave]));
@@ -87,6 +88,7 @@ public class WaveSpawner : MonoBehaviour
             }
             else
             {
+                bottoneNext.SetActive(true);
                 waveCountdown -= Time.deltaTime;
                 string minutes = ((int)waveCountdown / 60).ToString();
                 string seconds = (waveCountdown % 60).ToString("f0");
@@ -97,7 +99,7 @@ public class WaveSpawner : MonoBehaviour
     public void startWave()
     {
         StarWaveSpowner = true;
-        waveCountdown = timeBetweenWaves;
+        waveCountdown = 0;
         bottoneGo.SetActive(false);
         begin.Play();
     }
@@ -105,10 +107,12 @@ public class WaveSpawner : MonoBehaviour
     {
         bottoneNext.SetActive(false);
         waveCountdown = 0;
+        timer.text = 0 + ":" + 0;
     }
     void WaveCompleted()
     {
         state = SpawnState.COUNTING;
+        if(nextWave==1)
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         abilityButton.SetActive(false);

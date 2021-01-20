@@ -85,6 +85,7 @@ public class Infinitewaves : MonoBehaviour
         }
         else
         {
+            bottoneNext.SetActive(true);
             waveCountdown -= Time.deltaTime;
             string minutes = ((int)waveCountdown / 60).ToString();
             string seconds = (waveCountdown % 60).ToString("f0");
@@ -94,20 +95,22 @@ public class Infinitewaves : MonoBehaviour
     public void startWave()
     {
         StarWaveSpowner = true;
-        waveCountdown = timeBetweenWaves;
+        waveCountdown = 0;
         bottoneGo.SetActive(false);
-
+        timer.text = 0 + ":" + 0;
     }
     public void NextWave()
     {
         bottoneNext.SetActive(false);
         abilityButton.SetActive(true);
         waveCountdown = 0;
+        timer.text = 0 + ":" + 0;
     }
     void WaveCompleted()
     {
         state = SpawnState.COUNTING;
-        waveCountdown = timeBetweenWaves;
+        if (currentWave != 1)
+            waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         TowerUI.SetActive(true);
         abilityButton.SetActive(false);

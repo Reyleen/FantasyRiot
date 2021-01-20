@@ -1536,63 +1536,6 @@ Transform:
   m_Father: {fileID: 2004115353}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1322346732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9022929352559745300, guid: 65bc22c128de0164c82ceb0c3b6a884b,
-    type: 3}
-  m_PrefabInstance: {fileID: 780177559}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1322346733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322346732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dfa3f88036326746a11e1f800462857, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  step: {fileID: 1322346735}
-  player: {fileID: 1322346737}
---- !u!82 &1322346735 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 613857464609578023, guid: 65bc22c128de0164c82ceb0c3b6a884b,
-    type: 3}
-  m_PrefabInstance: {fileID: 780177559}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1322346737 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6983758052984696470, guid: 65bc22c128de0164c82ceb0c3b6a884b,
-    type: 3}
-  m_PrefabInstance: {fileID: 780177559}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322346732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b173b031ef5e474d87363018dde201f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1322346739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322346732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b9120b0769ca547ba048aeeeb7f3d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightning: {fileID: 7695197710004257010, guid: 0311145006f18ff49814963bb0c14167,
-    type: 3}
-  cooldown: 10
-  fill: {fileID: 0}
-  ability: 0
-  timer: 0
-  anim: {fileID: 0}
 --- !u!1 &1353640985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,7 +2158,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1322346739}
+      objectReference: {fileID: 0}
     - target: {fileID: 7617394073460154594, guid: dcd320019d9a1d942a1d626988e20d44,
         type: 3}
       propertyPath: OutputAudioMixerGroup

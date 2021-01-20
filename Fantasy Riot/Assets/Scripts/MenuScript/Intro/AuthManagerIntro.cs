@@ -58,6 +58,7 @@ public class AuthManagerIntro : MonoBehaviour
                 Debug.LogError("Could not Resolve all Firebase dependencies: " + dependencyStatus);
             }
         });
+        PlayerPrefs.DeleteKey("SetPrefab");
     }
     public void LogOut()
     {

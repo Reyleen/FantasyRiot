@@ -142,11 +142,11 @@ public class Golem : MonoBehaviour
                         StartCoroutine(enemy.KnockUp(0.1f, -5, enemy.transform.position));
                         canAttack = false;
                         justAttacked = true;
-                        
                     }
+
+                    Remove(targets);
                 }
             }
-            Remove(targets);
         }
     }
     public void Remove(List<Debuffs> targets)

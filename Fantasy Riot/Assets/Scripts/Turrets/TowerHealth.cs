@@ -31,12 +31,12 @@ public class TowerHealth : MonoBehaviour
     {
         if (CurrentTowerHp <= 0)
         {
-            if(cloud)
+            if(air)
             {
                 cloud.Dying();
             }
 
-            if (ice)
+            if (water)
             {
                 ice.Dying();
             }

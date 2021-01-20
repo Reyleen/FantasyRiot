@@ -6,10 +6,7 @@ using UnityEngine.UI;
 
 public class WinnerPanel : MonoBehaviour
 {
-    private bool isShowned = false;
     public Image backgroundImg;
-    private string FIRST_TUTORIAL = "firstTime";
-    private bool firstTime = true;
     public GemsManager gemsMan;
     public AudioSource win;
     public bool game;
@@ -50,7 +47,6 @@ public class WinnerPanel : MonoBehaviour
     {
         
         gameObject.SetActive(true);
-        isShowned = true;
         win.Play();
         if (wi)
         {

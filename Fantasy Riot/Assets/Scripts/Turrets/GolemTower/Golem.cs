@@ -49,6 +49,7 @@ public class Golem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        targets.RemoveAll(targets => targets == null);
         if (arcade.arcade == true)
         {
             if (s1.spawningEnemies == true)
@@ -143,19 +144,7 @@ public class Golem : MonoBehaviour
                         canAttack = false;
                         justAttacked = true;
                     }
-
-                    Remove(targets);
                 }
-            }
-        }
-    }
-    public void Remove(List<Debuffs> targets)
-    {
-        foreach (Debuffs enemy in targets)
-        {
-            if (enemy == null)
-            {
-                targets.Remove(enemy);
             }
         }
     }

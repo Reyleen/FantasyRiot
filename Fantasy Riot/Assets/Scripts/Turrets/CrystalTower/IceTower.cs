@@ -41,6 +41,7 @@ public class IceTower : MonoBehaviour
 
     void Update()
     {
+        targets.RemoveAll(targets => targets == null);
         if (arcade.arcade == true)
         {
             if (s1.spawningEnemies == true)
@@ -111,7 +112,6 @@ public class IceTower : MonoBehaviour
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField,false);
                     canAttack = false;
                 }
-            Remove(targets);
         }
     }
 
@@ -143,16 +143,7 @@ public class IceTower : MonoBehaviour
             }
         }
     }
-    public void Remove(List<Debuffs> targets)
-    {
-        foreach (Debuffs enemy in targets)
-        {
-            if (enemy == null)
-            {
-                targets.Remove(enemy);
-            }
-        }
-    }
+
     private void Dissapear()
     {
         mySpriteRenderer.enabled = false;

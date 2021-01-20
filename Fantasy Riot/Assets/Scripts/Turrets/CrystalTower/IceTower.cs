@@ -77,6 +77,7 @@ public class IceTower : MonoBehaviour
             {
                 target = enemy;
                 Attack();
+                Remove(targets);
             }
         }
     }
@@ -110,7 +111,7 @@ public class IceTower : MonoBehaviour
                 {
                     target.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageField,false);
                     canAttack = false;
-                    Remove(targets);
+                    
                 }
             }
     }
@@ -147,10 +148,9 @@ public class IceTower : MonoBehaviour
     {
         foreach (Debuffs enemy in targets)
         {
-            EnemyHealthManager e = enemy.GetComponent<EnemyHealthManager>();
-            if (e.CurrentHealth <= 0)
+            if (enemy == null)
             {
-                targets.Remove(e.GetComponent<Debuffs>());
+                targets.Remove(enemy);
             }
         }
     }

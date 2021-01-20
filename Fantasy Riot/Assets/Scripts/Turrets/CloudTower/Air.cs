@@ -85,10 +85,9 @@ public class Air : MonoBehaviour
         }
 
         FindTarget();
-        Attack();
-        if(targets != null)
+        if (targets.Count > 0)
         {
-            Remover(targets);
+            Attack();
         }
     }
 
@@ -207,19 +206,17 @@ public class Air : MonoBehaviour
                     }
                 }
             }
+            Remove(targets);
         }
     }
-    public void Remover(List<Debuffs> targets)
+    public void Remove(List<Debuffs> targets)
     {
-        if (targets != null)
+        for (int i=0; i<=targets.Count; i++ )
         {
-            for (int i = 0; i <= targets.Count; i++)
+            EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
+            if (e.CurrentHealth <= 0)
             {
-                EnemyHealthManager e = targets[i].GetComponent<EnemyHealthManager>();
-                if (e.CurrentHealth <= 0)
-                {
-                    targets.Remove(e.GetComponent<Debuffs>());
-                }
+                targets.Remove(e.GetComponent<Debuffs>());
             }
         }
     }

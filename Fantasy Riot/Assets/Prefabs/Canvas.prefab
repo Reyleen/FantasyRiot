@@ -6106,6 +6106,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3406553839333148800, guid: da8f6017c4266be4dbb4752b86eda20b,
+        type: 3}
+      propertyPath: g
+      value: 
+      objectReference: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30,
+        type: 3}
     - target: {fileID: 3561098394982999754, guid: da8f6017c4266be4dbb4752b86eda20b,
         type: 3}
       propertyPath: game

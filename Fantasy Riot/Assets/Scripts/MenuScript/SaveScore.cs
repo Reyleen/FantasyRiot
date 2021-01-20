@@ -62,6 +62,7 @@ public class SaveScore : MonoBehaviour
             case "CaveTutorial":
                 if (!PlayerPrefs.HasKey("3"))
                 {
+                    Debug.Log("cave");
                     PlayerPrefs.SetInt("3", 1);
                     GiveGems();
                 }
@@ -89,6 +90,7 @@ public class SaveScore : MonoBehaviour
     }
     public void GiveGems()
     {
+        Debug.Log("gem");
         g.AddGems(250);
         _p.AddGems(250);
         _Save.SavePlayer(_p.PlayerData, true);

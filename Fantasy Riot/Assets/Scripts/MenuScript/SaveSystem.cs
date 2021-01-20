@@ -104,6 +104,7 @@ public class SaveSystem : MonoBehaviour
 
     public void SavePlayer(PlayerData player,bool a)//save player data in DB
     {
+        Debug.Log("saving");
         if (!player.Equals(LastPlayerData) || a)
         {
             _database.RootReference.Child("users").Child(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));

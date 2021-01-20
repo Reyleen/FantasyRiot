@@ -54,7 +54,12 @@ public class SaveSystem : MonoBehaviour
             var playerData = JsonUtility.FromJson<PlayerData>(json);
             LastPlayerData = playerData;
             OnPlayerUpdated.Invoke(playerData);
-            SetPrefab();
+            if (!PlayerPrefs.HasKey("FirstLogin"))
+            {
+                PlayerPrefs.SetInt("FirstLogin", 1);
+                SetPrefab();
+            }
+            PlayerPrefs.SetInt("CurrentGems", LastPlayerData.Gemms);
             gemm.SetGems();
         }
     }
@@ -99,7 +104,6 @@ public class SaveSystem : MonoBehaviour
 
     public void SavePlayer(PlayerData player,bool a)//save player data in DB
     {
-        Debug.Log("saving");
         if (!player.Equals(LastPlayerData) || a)
         {
             _database.RootReference.Child("users").Child(PLAYER_KEY).SetRawJsonValueAsync(JsonUtility.ToJson(player));

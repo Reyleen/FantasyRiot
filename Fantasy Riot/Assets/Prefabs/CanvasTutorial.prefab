@@ -477,6 +477,7 @@ MonoBehaviour:
   AirTower: {fileID: 3849785183628458681, guid: 0adfb0e4c0d5964459191de9324492a8,
     type: 3}
   HasSpawned: 0
+  arcade: 0
 --- !u!114 &5531077774530892994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5743,6 +5744,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3406553839333148800, guid: da8f6017c4266be4dbb4752b86eda20b,
+        type: 3}
+      propertyPath: g
+      value: 
+      objectReference: {fileID: 7279250142264689818, guid: 230f2f0c177f21f4984a6ae48a04aa30,
+        type: 3}
     - target: {fileID: 3561098394982999754, guid: da8f6017c4266be4dbb4752b86eda20b,
         type: 3}
       propertyPath: Save

@@ -58,6 +58,7 @@ public class Air : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        targets.RemoveAll(targets => targets == null);
         if (arcade.arcade == true)
         {
             if (s1.spawningEnemies == true)
@@ -205,17 +206,6 @@ public class Air : MonoBehaviour
                         }
                     }
                 }
-            }
-            Remove(targets);
-        }
-    }
-    public void Remove(List<Debuffs> targets)
-    {
-        foreach (Debuffs enemy in targets)
-        {
-            if(enemy == null)
-            {
-                targets.Remove(enemy);
             }
         }
     }

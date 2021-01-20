@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class MainTowerHp : MonoBehaviour
 {
     public int TowerHp;
@@ -11,8 +11,13 @@ public class MainTowerHp : MonoBehaviour
     public Slider towerHpBar;
     public DeathMenu deathMenu;
     public AudioSource destroy;
-
+    public GameObject tow;
     // Start is called before the first frame update
+    void Awake()
+    {
+        tow = GameObject.Find("Canvas/UHD/TowerWarningtext");
+        tow.SetActive(false);
+    }
     void Start()
     {
         CurrentMainTowerHp = TowerHp;
@@ -37,5 +42,12 @@ public class MainTowerHp : MonoBehaviour
     public void HurtMainTower(int damageToGive)
     {
         CurrentMainTowerHp -= damageToGive;
+        StartCoroutine(TextWarn());
+    }
+    private IEnumerator TextWarn()
+    {
+        tow.SetActive(true);
+        yield return new WaitForSeconds(2);
+        tow.SetActive(false);
     }
 }

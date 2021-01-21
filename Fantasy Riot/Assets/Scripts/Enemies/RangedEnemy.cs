@@ -30,6 +30,7 @@ public class RangedEnemy : MonoBehaviour
 
     Path path;
     int currentWaypoint = 0;
+    bool reachedEndOfPath = false;
     Seeker seeker;
     bool way = false;
 
@@ -158,12 +159,14 @@ public class RangedEnemy : MonoBehaviour
                         if (way)
                             GetNextWaypoint();
 
+                        reachedEndOfPath = true;
                         return;
                     }
 
                     else
                     {
                         way = true;
+                        reachedEndOfPath = false;
                     }
                     Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
                     Vector2 force = direction * speed * Time.deltaTime;
@@ -210,12 +213,15 @@ public class RangedEnemy : MonoBehaviour
                     {
                         if (way)
                             GetNextWaypoint();
+
+                        reachedEndOfPath = true;
                         return;
                     }
 
                     else
                     {
                         way = true;
+                        reachedEndOfPath = false;
                     }
                     Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
                     Vector2 force = direction * speed * Time.deltaTime;

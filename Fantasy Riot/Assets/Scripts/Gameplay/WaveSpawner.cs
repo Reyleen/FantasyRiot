@@ -112,7 +112,7 @@ public class WaveSpawner : MonoBehaviour
     void WaveCompleted()
     {
         state = SpawnState.COUNTING;
-        if(nextWave==1)
+        if(nextWave != 0 )
         waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         abilityButton.SetActive(false);

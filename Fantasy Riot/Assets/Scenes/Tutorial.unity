@@ -1057,7 +1057,7 @@ RectTransform:
   m_Children:
   - {fileID: 1998159752}
   m_Father: {fileID: 576482116}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1423,6 +1423,12 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 20.45
       objectReference: {fileID: 0}
+    - target: {fileID: 832639739725675008, guid: ac22726db071bb94e9172be91a2350f8,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5296246491470657868, guid: 5033dde5b5a5b3542b089262f86fd858,
+        type: 2}
     - target: {fileID: 832639740478540105, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1637,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: 1971005806960523301, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2426911128482214094, guid: ac22726db071bb94e9172be91a2350f8,
         type: 3}

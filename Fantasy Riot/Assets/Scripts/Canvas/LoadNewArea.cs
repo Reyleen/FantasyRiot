@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadNewArea : MonoBehaviour
 {
     public LoadLevel lvl;
+    public GameObject tutUi;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class LoadNewArea : MonoBehaviour
         
         if(other.gameObject.name == "Player")
         {
+            tutUi.SetActive(false);
             lvl.LoadScreen("CaveTutorial");
         }
     

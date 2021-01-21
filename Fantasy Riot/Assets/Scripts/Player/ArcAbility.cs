@@ -45,16 +45,15 @@ public class ArcAbility : MonoBehaviour
         {
             if(timer <= time)
             {
-                
-                foreach (Debuffs enemy in targets)
-                {
-                    Vector2 dir = transform.position - enemy.transform.position;
-                    StartCoroutine(enemy.KnockBack(0.03f, 5f, dir));
-                }
+
             } else
             {
                 ability = false;
                 circle.SetActive(false);
+                foreach(Debuffs enemy in targets)
+                {
+                    enemy.RemoveBuff();
+                }
             }
         }
     }
@@ -88,6 +87,7 @@ public class ArcAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Add(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().DebuffSlow();
         }
     }
 

@@ -62,8 +62,6 @@ public class LancherAbility : MonoBehaviour
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
-                        Vector2 dir = transform.position - enemy.transform.position;
-                        StartCoroutine(enemy.KnockBack(0.03f, 5f, dir));
                     }
                 }
             }
@@ -73,6 +71,10 @@ public class LancherAbility : MonoBehaviour
                 coll.enabled = false;
                 topAnim.SetBool("Ability", ability);
                 botAnim.SetBool("Ability", ability);
+                foreach (Debuffs enemy in targets)
+                {
+                    enemy.RemoveBuff();
+                }
             }
         }
     }
@@ -105,6 +107,7 @@ public class LancherAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Add(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().DebuffSlow();
         }
     }
 
@@ -113,6 +116,7 @@ public class LancherAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Remove(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().RemoveBuff();
             target = null;
         }
     }

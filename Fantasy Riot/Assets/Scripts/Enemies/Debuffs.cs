@@ -83,14 +83,11 @@ public class Debuffs : MonoBehaviour
     public IEnumerator KnockUp(float knockDur, float knockPow, Vector3 knockDir)
     {
         float timerKnock = 0;
+        Vector2 force = knockDir.normalized * knockPow;
+        rb.velocity = force;
+        yield return new WaitForSeconds(knockDur);
 
-            while (knockDur > timerKnock)
-            {
-                timerKnock += Time.deltaTime;
-                rb.AddForce(new Vector3(knockDir.x, knockDir.y * knockPow, transform.position.z));
-            }
-            
-        yield return 0;
+        rb.velocity = new Vector2();
     }
 
     public IEnumerator KnockBack(float knockDur, float knockPow, Vector3 knockDir)

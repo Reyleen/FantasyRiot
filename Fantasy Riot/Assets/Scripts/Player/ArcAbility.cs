@@ -45,10 +45,7 @@ public class ArcAbility : MonoBehaviour
         {
             if(timer <= time)
             {
-                foreach (Debuffs enemy in targets)
-                {
-                    enemy.DebuffSlow();
-                }
+
             } else
             {
                 ability = false;
@@ -90,6 +87,7 @@ public class ArcAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Add(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().DebuffSlow();
         }
     }
 

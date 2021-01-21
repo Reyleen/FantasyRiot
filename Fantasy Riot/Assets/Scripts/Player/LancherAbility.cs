@@ -62,7 +62,6 @@ public class LancherAbility : MonoBehaviour
                     foreach (Debuffs enemy in targets)
                     {
                         enemy.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damage,true);
-                        enemy.DebuffSlow();
                     }
                 }
             }
@@ -108,6 +107,7 @@ public class LancherAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Add(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().DebuffSlow();
         }
     }
 
@@ -116,6 +116,7 @@ public class LancherAbility : MonoBehaviour
         if (other.tag == "Enemy")
         {
             targets.Remove(other.GetComponent<Debuffs>());
+            other.gameObject.GetComponent<Debuffs>().RemoveBuff();
             target = null;
         }
     }

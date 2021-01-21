@@ -136,10 +136,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da55b2c71816bf46a05b388e819b24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 4
+  value: 2
   theGM: {fileID: 0}
   speed: 2
-  money: {fileID: 7009251564520911305}
+  mon: {fileID: 0}
 --- !u!95 &631694930904801400
 Animator:
   serializedVersion: 3

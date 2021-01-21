@@ -110,7 +110,7 @@ public class Infinitewaves : MonoBehaviour
     void WaveCompleted()
     {
         state = SpawnState.COUNTING;
-        if (currentWave != 1)
+        if (currentWave != 0)
             waveCountdown = timeBetweenWaves;
         StarWaveSpowner = true;
         TowerUI.SetActive(true);

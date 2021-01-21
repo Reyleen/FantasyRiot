@@ -94,15 +94,15 @@ public class AuthManager : MonoBehaviour
         fig.currentHp = 45;
         fig.playerLevel = 0;
         fig.maxHp = 45;
-        fig.attack = 5;
+        fig.attack = 11;
         mag.currentHp = 33;
         mag.playerLevel = 0;
-        mag.maxHp = 35;
-        mag.attack = 5;
+        mag.maxHp = 33;
+        mag.attack = 7;
         lan.currentHp = 70;
         lan.playerLevel = 0;
         lan.maxHp = 70;
-        lan.attack = 5;
+        lan.attack = 16;
         gemm.curGems = 0;
         g.UpdateStats();
         _player.SetFirstPlayer();
@@ -171,8 +171,10 @@ public class AuthManager : MonoBehaviour
             PlayerPrefs.SetString("Password", _password);
             PlayerPrefs.SetInt("Joined", 0);
             PlayerPrefs.SetString("User", User.DisplayName);
+            PlayerPrefs.DeleteKey("SetPrefab");
+            PlayerPrefs.SetInt("CurrentGems",_player.PlayerData.Gemms);
             Debug.Log(User.UserId);
-            PanelManager.instance.UserScreen();
+            SceneManager.LoadScene("Menu");
         }
     }
     private IEnumerator Register(string _email, string _password, string _username)

@@ -2816,8 +2816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -361, y: 19}
-  m_SizeDelta: {x: 300, y: 373.6}
+  m_AnchoredPosition: {x: -369, y: 13}
+  m_SizeDelta: {x: 278.65, y: 373.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6929294711922081501
 CanvasRenderer:
@@ -4017,8 +4017,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Raised by the eldest sorcerer of the land, she was meant to be the greatest
     Mage of all the time. Since her childhood, Eilmys acknowledged the most powerful
-    and forbidden spells but her desire of power/she was craving power corrupted
-    her soul diving her into dark magic taking her away from her master's teachings.
+    and forbidden spells but her desire of power corrupted her soul diving her into
+    dark magic taking her away from her master's teachings.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 984c3599dc391614f87fafd0f50cb071, type: 2}
   m_sharedMaterial: {fileID: -2257094137624362613, guid: 984c3599dc391614f87fafd0f50cb071,
@@ -4046,7 +4046,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.2
+  m_fontSize: 21.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

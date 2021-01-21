@@ -7006,6 +7006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437828394}
   - component: {fileID: 437828395}
+  - component: {fileID: 437828396}
   m_Layer: 0
   m_Name: Paladino_191
   m_TagString: Untagged
@@ -7021,7 +7022,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437828393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -432, y: -7, z: -16962.38}
+  m_LocalPosition: {x: -432, y: -7, z: 0}
   m_LocalScale: {x: 665.6, y: 654.49, z: 183.41673}
   m_Children: []
   m_Father: {fileID: 378878462}
@@ -7065,7 +7066,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -6338721310472806790, guid: df9d127198d209a4fa98319b3e2ae388,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7078,6 +7079,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!222 &437828396
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437828393}
+  m_CullTransparentMesh: 0
 --- !u!1 &449281546
 GameObject:
   m_ObjectHideFlags: 0
@@ -8473,6 +8482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553408128}
   - component: {fileID: 553408129}
+  - component: {fileID: 553408130}
   m_Layer: 0
   m_Name: fighter_90
   m_TagString: Untagged
@@ -8488,7 +8498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553408127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -506.47614, y: -12.287252, z: -16962.38}
+  m_LocalPosition: {x: -506.47614, y: -12.287252, z: 0}
   m_LocalScale: {x: 647.70276, y: 647.70276, z: 183.41673}
   m_Children: []
   m_Father: {fileID: 1091469887}
@@ -8532,7 +8542,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9205814373112215024, guid: 482d6b158dd0ce84baa8b8907cdfb0a8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8545,6 +8555,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!222 &553408130
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553408127}
+  m_CullTransparentMesh: 0
 --- !u!1 &558389378
 GameObject:
   m_ObjectHideFlags: 0
@@ -21227,6 +21245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574321531}
   - component: {fileID: 1574321532}
+  - component: {fileID: 1574321533}
   m_Layer: 0
   m_Name: MagaFinito_12
   m_TagString: Untagged
@@ -21242,7 +21261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574321530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -459.12906, y: -10.279378, z: -16962.38}
+  m_LocalPosition: {x: -459.12906, y: -10.279378, z: 0}
   m_LocalScale: {x: 640.455, y: 603.91656, z: 183.41673}
   m_Children: []
   m_Father: {fileID: 857383575}
@@ -21286,7 +21305,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4421488953463049658, guid: d1cb742393b9aa44ebe70031a5564d39,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21299,6 +21318,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!222 &1574321533
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574321530}
+  m_CullTransparentMesh: 0
 --- !u!1 &1574865127
 GameObject:
   m_ObjectHideFlags: 0
@@ -26093,6 +26120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882815898}
   - component: {fileID: 1882815899}
+  - component: {fileID: 1882815900}
   m_Layer: 0
   m_Name: Archer1_167
   m_TagString: Untagged
@@ -26108,7 +26136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882815897}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -444.2, y: -7.7, z: -16961.73}
+  m_LocalPosition: {x: -444.2, y: -7.7, z: 0}
   m_LocalScale: {x: 638.00574, y: 620.99646, z: 183.4097}
   m_Children: []
   m_Father: {fileID: 149741603}
@@ -26152,7 +26180,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -6638448833816157362, guid: 6dc99e6171a72e44b849501da9c81fe1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -26165,6 +26193,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!222 &1882815900
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882815897}
+  m_CullTransparentMesh: 0
 --- !u!1 &1885007593
 GameObject:
   m_ObjectHideFlags: 0

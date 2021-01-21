@@ -8,11 +8,13 @@ public class PickUpGoldTutorial : MonoBehaviour
     public GoldManager theGM;
     private Transform target;
     public float speed;
+    public AudioSource mon;
 
     // Start is called before the first frame update
     void Start()
     {
         theGM = FindObjectOfType<GoldManager>();
+        mon = GameObject.Find("Effects").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,7 +28,7 @@ public class PickUpGoldTutorial : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             theGM.AddMoney(value);
-            SoundsManager.PlaySound("coinSound");
+            mon.Play();
             Destroy(gameObject);
         }
     }

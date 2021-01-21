@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-9209062844401523976
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e9e3e53c59494104f9b23a2215a8feab
+  m_EffectName: Highpass Simple
+  m_MixLevel: 383f30b543d3aeb408669de0bed87546
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: e3ba1abba81b4b8439d16fcd6f31a0c0
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-7805798108812376410
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -124,6 +140,22 @@ AudioMixerSnapshotController:
     787e6aa6f64a32e4aab228060162157d: 0
     c35ef34845a85094b856d0e0dad60f3a: 0.10800299
   m_TransitionOverrides: {}
+--- !u!244 &2007494223912102372
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 3f4679cdea3da6a49bdff274cbba3900
+  m_EffectName: Highpass Simple
+  m_MixLevel: 0855c6c389d2dc744ba723a73ca32eb4
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: 825fabbb7eaa64c4eab3c8292509c631
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &5296246491470657868
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -143,6 +175,22 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &6540459420753415546
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 7d7a25a619192264c938b45cc4732fec
+  m_EffectName: Highpass Simple
+  m_MixLevel: 5ecf372c0c9ad7e45b9fc8f91643a8b8
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: 1f837ada365957d4489be2f31f0d550b
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &8380550677733228933
 AudioMixerEffectController:
   m_ObjectHideFlags: 3

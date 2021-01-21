@@ -85,9 +85,14 @@ public class Debuffs : MonoBehaviour
         float timerKnock = 0;
         Vector2 force = knockDir.normalized * knockPow;
         rb.velocity = force;
+        
         yield return new WaitForSeconds(knockDur);
-
-        rb.velocity = new Vector2();
+        
+        EnemyHealthManager e = this.GetComponent<EnemyHealthManager>();
+        if(e.CurrentHealth > 0)
+        {
+            rb.velocity = new Vector2();
+        }
     }
 
     public IEnumerator KnockBack(float knockDur, float knockPow, Vector3 knockDir)

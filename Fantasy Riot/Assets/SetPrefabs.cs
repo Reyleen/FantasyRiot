@@ -12,7 +12,7 @@ public class SetPrefabs : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if (!PlayerPrefs.HasKey("SetPrefab"))
+        if (PlayerPrefs.GetInt("Joined")==1)
         {
             _player = GameObject.Find("PlayerThings/Player").GetComponent<Player>();
             arc.currentHp = _player.PlayerData.HPA;
@@ -34,7 +34,7 @@ public class SetPrefabs : MonoBehaviour
             lan.playerLevel = _player.PlayerData.lvlL;
             lan.maxHp = _player.PlayerData.HPL;
             lan.attack = _player.PlayerData.atkL;
-            PlayerPrefs.SetInt("SetPrefab", 1);
+            PlayerPrefs.SetInt("Joined", 0);
         }
     }
 }

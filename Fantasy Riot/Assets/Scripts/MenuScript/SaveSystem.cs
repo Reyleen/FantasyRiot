@@ -54,18 +54,16 @@ public class SaveSystem : MonoBehaviour
             var playerData = JsonUtility.FromJson<PlayerData>(json);
             LastPlayerData = playerData;
             OnPlayerUpdated.Invoke(playerData);
-            if (!PlayerPrefs.HasKey("FirstLogin"))
-            {
-                PlayerPrefs.SetInt("FirstLogin", 1);
-                SetPrefab();
-            }
+            SetPrefab();
             PlayerPrefs.SetInt("CurrentGems", LastPlayerData.Gemms);
             gemm.SetGems();
         }
     }
     private void SetPrefab()
     {
+        Debug.Log(LastPlayerData.lvlA);
         arc.playerLevel = LastPlayerData.lvlA;
+        Debug.Log(arc.playerLevel);
         arc.currentHp = LastPlayerData.HPA;
         arc.maxHp = LastPlayerData.HPA;
         arc.attack = LastPlayerData.atkA;

@@ -111,6 +111,8 @@ public class Player : MonoBehaviour
     }
     public void SetFirstPlayer()
     {
+        _playerData.User = "";
+        _playerData.Gemms = 0;
         _playerData.atkA = 5;
         _playerData.HPA = 35;
         _playerData.lvlA = 0;

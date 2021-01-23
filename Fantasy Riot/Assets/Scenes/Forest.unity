@@ -3678,6 +3678,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4197333271037279870, guid: 08a9cc5d188636141bfe3e581d4d441c,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 6354632771166086764, guid: 08a9cc5d188636141bfe3e581d4d441c,
         type: 3}
       propertyPath: m_Name
@@ -3694,6 +3699,11 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6792053160788394738, guid: 08a9cc5d188636141bfe3e581d4d441c,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7232200824688686933, guid: 08a9cc5d188636141bfe3e581d4d441c,
         type: 3}
       propertyPath: m_TagString
       value: NPC

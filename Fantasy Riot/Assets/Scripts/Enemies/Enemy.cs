@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
     public Infinitewaves wa1;
     public bool strada;
 
-    private Transform main;
+    public Transform main;
     // Start is called before the first frame update
     void Start()
     {

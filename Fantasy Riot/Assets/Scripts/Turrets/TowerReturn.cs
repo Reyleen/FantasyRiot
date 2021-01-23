@@ -48,7 +48,7 @@ public class TowerReturn : MonoBehaviour
     private CountTower nTower;
 
 
-    bool TowerClicked;
+    bool counted = false;
 
     Placement placement;
     
@@ -114,7 +114,11 @@ public class TowerReturn : MonoBehaviour
                             waterTw.Select();
                         }
 
-                        nTower.Count(1);
+                        if(counted == false)
+                        {
+                            nTower.Count(1);
+                            counted = true;
+                        }
                     }
                 }
                 

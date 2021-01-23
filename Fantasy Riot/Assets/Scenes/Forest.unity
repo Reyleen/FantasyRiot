@@ -3208,6 +3208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: arcPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4841506536352062766, guid: ffa25def036d8834ba38f99d04d820c6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa25def036d8834ba38f99d04d820c6, type: 3}
 --- !u!1 &1524914839

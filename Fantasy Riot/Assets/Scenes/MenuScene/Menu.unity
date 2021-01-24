@@ -1306,8 +1306,8 @@ RectTransform:
   m_Father: {fileID: 37089073}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.93651783}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2282,9 +2282,9 @@ RectTransform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &115846997
 MonoBehaviour:
@@ -2329,7 +2329,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 87806884}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.063482165
+  m_Size: 0.06328018
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4469,9 +4469,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &228499274
 MonoBehaviour:
@@ -9836,9 +9836,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &636036465
 MonoBehaviour:
@@ -11465,7 +11465,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4057.815}
+  m_SizeDelta: {x: 0, y: 4070.767}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &724100243
 MonoBehaviour:
@@ -11500,21 +11500,21 @@ MonoBehaviour:
     Daniel Eddeland, Joshua Taylor\r\n-Medieval buildings by Pixanna\n\r\nSprite
     and Image:\r\n-Marco L. (c.c. license) - Lightning sprite [source: opengameart.org]\r\n-ZaPaper
     - LPC set [source: opengameart.org] (cc by S.A. 3.0)\r\n-Heart_2 16x16 Nicole
-    Marie T [source: opengameart.org]\r\n-Minotaur\r\n:\r\nCredit Daniel Eddeland
-    for the cow's head sprite\r\n Dalonedrau and ElizaWy for the muscular body\r\n-Menu
-    Background: @SkittleFuck on twitter\r\n\r\nMusic:\r\n-Anime-esque Intro-Outro
-    Theme by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman\r\n-\u043C\u0438\u0441\u0442\u0438\u0447\u043D\u0430\u044F
-    \u0442\u0435\u043C\u0430\r\n by Alexandr Zhelanov, https://soundcloud.com/alexandr-zhelanov\r\n-EpicBattle
-    by PeriTune\r\n-Ominous3 active version by Peritune\r\n-Wonderland by Alexander
-    Nakarada\r\n-Clash by Of Far Different Nature\r\n\r\nEffects:\r\n-button click\r\n:
-    @listener4me \r\non Twitter\r\n\r\n-Super Dialogue Audio Pack V1\r\nProduced
-    by Dillon Becker (dillonbecker.com)\r\nCC BY 4.0\r\n-A Lotta Bones Sound FX From
-    Pathojen from Nerdzmasterz\r\n-Ice and Electricity Magic by Iwan 'qubodup' Gabovitch\r\n-Heal
-    Sound by p0ss\r\n-Fire Sound by Bart K.\r\n-Bow Sound by artisticdude\r\n-Swords
-    sounds by Socapex\r\n-Orcs, Lizards and Wolves sounds by artisticdude\r\n-Walking
-    sound by Jute\r\n-Voices in stories by Eugene Loza\r\nALL GET FROM https://opengameart.org\r\n-Mike
-    Koenig - Crumbling [source: SoundBible]\r\n-Luis Humanoice aka humanoide9000
-    - Victory fanfare [source: freesound.org]\r"
+    Marie T [source: opengameart.org]\r\n-Minotaur:\nCredit Daniel Eddeland for the
+    cow's head sprite\r\n Dalonedrau and ElizaWy for the muscular body\r\n-Menu Background:
+    @SkittleFuck on twitter\r\n\r\nMusic:\r\n-Anime-esque Intro-Outro Theme by Cleyton
+    Kauffman - https://soundcloud.com/cleytonkauffman\r\n-Tema mistico:\n by Alexandr
+    Zhelanov, https://soundcloud.com/alexandr-zhelanov\r\n-EpicBattle by PeriTune\r\n-Ominous3
+    active version by Peritune\r\n-Wonderland by Alexander Nakarada\r\n-Clash by
+    Of Far Different Nature\r\n\n\rEffects:\n-button click:\n@listener4me on Twitter\n-Super
+    Dialogue Audio Pack V1\r\nProduced by Dillon Becker (dillonbecker.com)\r\nCC
+    BY 4.0\r\n-A Lotta Bones Sound FX From Pathojen from Nerdzmasterz\r\n-Ice and
+    Electricity Magic by Iwan 'qubodup' Gabovitch\r\n-Heal Sound by p0ss\r\n-Fire
+    Sound by Bart K.\r\n-Bow Sound by artisticdude\r\n-Swords sounds by Socapex\r\n-Orcs,
+    Lizards and Wolves sounds by artisticdude\r\n-Walking sound by Jute\r\n-Voices
+    in stories by Eugene Loza\r\nALL GET FROM https://opengameart.org\r\n-Mike Koenig
+    - Crumbling [source: SoundBible]\r\n-Luis Humanoice aka humanoide9000 - Victory
+    fanfare [source: freesound.org]\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 7595d8b53a743ac4c9e01be3e469654f, type: 2}
@@ -12537,7 +12537,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -19317,7 +19317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1378695389
 RectTransform:
   m_ObjectHideFlags: 0

@@ -296,7 +296,7 @@ public class AuthManager : MonoBehaviour
     }
     private IEnumerator LoadScoreboardData()
     {
-        var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").LimitToLast(11).GetValueAsync();
+        var DBTask = FirebaseDatabase.DefaultInstance.GetReference("score").OrderByChild("UserScore").GetValueAsync();
 
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
@@ -318,17 +318,17 @@ public class AuthManager : MonoBehaviour
                 if (i <= 10)
                 {
                     string username = childSnapshot.Child("Username").Value.ToString();
-                    if (!_player.Username.Equals(""))
-                    {
-                        if (username == _player.Username)
-                        {
-                            top10 = true;
-                        }
-                    }
                     int score = int.Parse(childSnapshot.Child("UserScore").Value.ToString());
                     Debug.Log(int.Parse(childSnapshot.Child("UserScore").Value.ToString()));
                     GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContnent);
                     scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(i, username, score);
+                    if (!_player.Username.Equals(""))
+                    {
+                        if ((username == _player.Username) && (score == _player.UserScore))
+                        {
+                            top10 = true;
+                        }
+                    }
                     i++;
                 }
                 else if ((!top10) && (!_player.Username.Equals("")))

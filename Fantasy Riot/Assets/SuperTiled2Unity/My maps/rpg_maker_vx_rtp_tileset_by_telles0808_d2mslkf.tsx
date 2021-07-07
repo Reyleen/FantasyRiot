@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="rpg_maker_vx_rtp_tileset_by_telles0808_d2mslkf" tilewidth="16" tileheight="16" tilecount="8064" columns="64">
- <image source="rpg_maker_vx_rtp_tileset_by_telles0808_d2mslkf.png" width="1024" height="2016"/>
- <tile id="4351">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="0" width="15.9778" height="16.0222"/>
-  </objectgroup>
- </tile>
-</tileset>

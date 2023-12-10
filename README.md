@@ -1,6 +1,5 @@
 # FantasyRiot
 Mobile Game Fantasy Riot
 
-Software utiliuzzati: 
-*Unity
-*Visual Studio
+Software utilizzati: 
+Unity - Visual Studio
